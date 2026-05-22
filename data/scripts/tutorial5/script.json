@@ -1,0 +1,1410 @@
+{
+    "version": 1,
+    "default_attributes": {
+        "font_color": {
+            "r": 239,
+            "g": 237,
+            "b": 235,
+            "a": 255
+        },
+        "font_outline_color": {
+            "r": 50,
+            "g": 29,
+            "b": 25,
+            "a": 255
+        },
+        "font_highlight_color": {
+            "r": 18,
+            "g": 196,
+            "b": 131,
+            "a": 255
+        },
+        "font_highlight2_color": {
+            "r": 64,
+            "g": 192,
+            "b": 255,
+            "a": 255
+        }
+    },
+    "script_entries": {
+        "tutorial5a": {
+            "sign": [
+                "Двери, мебель и",
+                "сундуки могут преграждать путь.",
+                "Атаки ближнего боя могут уничтожить",
+                "их так же хорошо, как",
+                "огненные шары, враги",
+                "и валуны."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [3],
+                    [0],
+                    []
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial5/furniture.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial5b": {
+            "sign": [
+                "С активными заклинаниями,",
+                "экипированными книгами заклинаний и",
+                "магическими посохами вы можете",
+                "получить быстрый доступ",
+                "к разнообразным заклинаниям.",
+                "",
+                "$ $ $"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [1,2],
+                    [0,1],
+                    [0],
+                    [],
+                    [1]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#items/images/SpellbookGreen.png",
+                    "sizex": 36,
+                    "sizey": 36
+                },
+                {
+                    "type": "image",
+                    "value": "*#items/images/spells/forcebolt.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#items/images/RedMysticStaff.png",
+                    "sizex": 36,
+                    "sizey": 36
+                }
+            ]
+        },
+        "tutorial5c": {
+            "sign": [
+                "Используйте свои знания",
+                "магии, чтобы очистить эту",
+                "комнату от нежити."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [2,3],
+                    [0,1,2,3]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial5d": {
+            "sign": [
+                "Вы можете автоматически",
+                "экипировать сложные книги заклинаний,",
+                "используя их с",
+                "панели быстрого доступа.",
+                "",
+                "Чтобы экипировать книгу заклинаний",
+                "с панели быстрого доступа без",
+                "попытки выучить,",
+                "удерживайте$ перед использованием."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [0,1,2],
+                    [],
+                    [1],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [0]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [3],
+                    [2]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/Glyphs/KeyboardGlyphs/Rendered/NamedKeys/Unpressed_Text_Alt_00.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5d_gamepad": {
+            "sign": [
+                "Вы можете экипировать",
+                "сложные книги заклинаний или",
+                "ранее выученные",
+                "книги, используя их",
+                "с панели быстрого доступа.",
+                "",
+                "Некоторые заклинания мощнее,",
+                "если их читать из",
+                "экипированной книги заклинаний."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [2],
+                    [],
+                    [],
+                    [2],
+                    [1,2]
+                ],
+                "word_highlights2": [
+                    [],
+                    [0,1]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial5e": {
+            "sign": [
+                "Эти свитки снимают",
+                "проклятия с предметов.",
+                "Используйте их из",
+                "инвентаря с помощью$.",
+                "$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [0],
+                    [0,1]
+                ],
+                "word_highlights2": [
+                    [2],
+                    [0]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "MenuRightClick"
+                },
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial5/sign_cursed.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5e_gamepad": {
+            "sign": [
+                "Эти свитки снимают",
+                "проклятия с предметов.",
+                "Используйте их из",
+                "инвентаря с помощью$.",
+                "$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [0],
+                    [0,1]
+                ],
+                "word_highlights2": [
+                    [2],
+                    [0]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                },
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial5/sign_cursed.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5f": {
+            "sign": [
+                "Низкие магические навыки могут",
+                "привести к осечке заклинаний.",
+                "",
+                "$",
+                "",
+                "Просто попробуйте снова!",
+                "Практика ведет к совершенству."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [0]
+                ],
+                "word_highlights2": [
+                    [1,2],
+                    [2],
+                    [],
+                    [],
+                    [],
+                    [1,2]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial5/fizzle.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/SkillSheet/Icons/Casting02_32.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5g": {
+            "sign": [
+                "Подземелье хранит много",
+                "секретов. Некоторые требуют",
+                "способностей для доступа.",
+                "",
+                "Часто они скрывают",
+                "великие награды."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [0,2],
+                    [],
+                    [2],
+                    [],
+                    [0,1]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial5h": {
+            "sign": [
+                "Книги заклинаний, выученные",
+                "заклинания, свитки и",
+                "магические посохи дают множество",
+                "способов для заклинателей",
+                "выжить и покорить",
+                "подземелье."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [2]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial5i": {
+            "sign": [
+                "Книги заклинаний позволяют вам",
+                "выучить заклинания.",
+                "",
+                "$",
+                "",
+                "Используйте книги заклинаний в",
+                "инвентаре с помощью$ и [Читать],",
+                "чтобы выучить заклинание."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [0,1],
+                    [0,1,3],
+                    [1]
+                ],
+                "word_highlights2": [
+                    [0],
+                    [1,2]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/SkillSheet/Icons/Magic02_32.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuRightClick"
+                }
+            ]
+        },
+        "tutorial5i_gamepad": {
+            "sign": [
+                "Книги заклинаний позволяют вам",
+                "выучить заклинания.",
+                "",
+                "$",
+                "",
+                "Используйте книги заклинаний в",
+                "инвентаре с помощью$ и [Читать],",
+                "чтобы выучить заклинание."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [0,1],
+                    [0,1,3],
+                    [1]
+                ],
+                "word_highlights2": [
+                    [0],
+                    [1,2]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/SkillSheet/Icons/Magic02_32.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                }
+            ]
+        },
+        "tutorial5j": {
+            "sign": [
+                "$",
+                "Магические посохи заряжены",
+                "одним видом",
+                "заклинания, которое может использовать",
+                "любой искатель приключений. Экипируйте их и",
+                "читайте из них с помощью$."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [0,3]
+                ],
+                "word_highlights2": [
+                    [],
+                    [0,2],
+                    [],
+                    [2,3]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial5/sign_firestaff.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Attack"
+                }
+            ]
+        },
+        "tutorial5k": {
+            "sign": [
+                "Искателям приключений нужно",
+                "понимать магию, чтобы",
+                "выживать в",
+                "подземельях."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [1]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial5l": {
+            "sign": [
+                "Некоторые заклинания требуют",
+                "больше ИНТ или магического",
+                "навыка для изучения.",
+                "",
+                "$ $",
+                "",
+                "Вы все еще можете читать эти",
+                "заклинания, экипировав",
+                "книгу."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [2]
+                ],
+                "word_highlights2": [
+                    [2],
+                    [1],
+                    [2],
+                    [],
+                    [],
+                    [],
+                    [3]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/CharSheet/HUD_CharSheet_INT_00.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#images/ui/SkillSheet/Icons/Magic01.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5m": {
+            "sign": [
+                "Выученные заклинания появляются",
+                "в вашем списке магии и могут",
+                "быть помещены на панель быстрого доступа.",
+                "$",
+                "Быстрый доступ к",
+                "списку с помощью$ и подготовьте",
+                "заклинание с помощью$."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [1],
+                    [1,3],
+                    [1,2]
+                ],
+                "word_highlights2": [
+                    [0,1],
+                    [2,3],
+                    [],
+                    [3]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial5/magiclist_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial5/sign_readyspell.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Spell List"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuRightClick"
+                }
+            ]
+        },
+        "tutorial5m_gamepad": {
+            "sign": [
+                "Выученные заклинания появляются",
+                "в вашем списке магии и",
+                "могут быть помещены для быстрого",
+                "использования на панель быстрого доступа.",
+                "$",
+                "Откройте список из",
+                "инвентаря с помощью$ и подготовьте",
+                "заклинание с помощью$."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [2],
+                    [1,3],
+                    [1,2]
+                ],
+                "word_highlights2": [
+                    [0,1],
+                    [2,3],
+                    [],
+                    [3]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial5/magiclist_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial5/sign_readyspell.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuPageLeftAlt"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                }
+            ]
+        },
+        "tutorial5n": {
+            "sign": [
+                "Читайте подготовленное",
+                "заклинание с помощью$.",
+                "",
+                "Чтение消耗ляет МР",
+                "в зависимости от заклинания."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [0],
+                    [1]
+                ],
+                "word_highlights2": [
+                    [2],
+                    [],
+                    [],
+                    [1,2]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial5/cast_memorized.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Cast Spell"
+                }
+            ]
+        },
+        "tutorial5o": {
+            "sign": [
+                "Нажмите$ на книги заклинаний",
+                "в вашем инвентаре",
+                "и выберите [Экипировать], чтобы",
+                "экипировать их.",
+                "",
+                "Читайте из экипированных",
+                "книг с помощью$."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [0,2],
+                    [],
+                    [1,2],
+                    [0],
+                    [],
+                    [0,2],
+                    [1]
+                ],
+                "word_highlights2": []
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "MenuRightClick"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Defend"
+                }
+            ]
+        },
+        "tutorial5o_gamepad": {
+            "sign": [
+                "Нажмите$ на книги заклинаний",
+                "в вашем инвентаре",
+                "и выберите [Экипировать], чтобы",
+                "экипировать их.",
+                "",
+                "Читайте из экипированных",
+                "книг с помощью$."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [0,2],
+                    [],
+                    [1,2],
+                    [0],
+                    [],
+                    [0,2],
+                    [1]
+                ],
+                "word_highlights2": []
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Defend"
+                }
+            ]
+        },
+        "tutorial5p": {
+            "sign": [
+                "$",
+                "Свитки могут содержать",
+                "особую магию, которую",
+                "можно использовать только",
+                "один раз."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [0],
+                    [],
+                    [3],
+                    [1]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial4/sign_scroll.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5q": {
+            "sign": [
+                "Эти врата можно открыть",
+                "только заклинанием",
+                "из экипированной книги.",
+                "",
+                "$ $"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [3],
+                    [],
+                    [2,3]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial5/open_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Defend"
+                },
+                {
+                    "type": "image",
+                    "value": "*#items/images/spells/opening.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5q_gamepad": {
+            "sign": [
+                "Эти врата можно открыть",
+                "только заклинанием",
+                "из экипированной книги.",
+                "",
+                "$ $"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [3],
+                    [],
+                    [2,3]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial5/open_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Defend"
+                },
+                {
+                    "type": "image",
+                    "value": "*#items/images/spells/opening.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5r": {
+            "sign": [
+                "Вам нужно будет",
+                "быстро соображать, чтобы",
+                "выжать максимум из",
+                "вашей магии.",
+                "",
+                "Убедитесь, что вы готовы."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [0,1]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial5s": {
+            "sign": [
+                "Активируйте этот магический",
+                "портал с помощью$, когда",
+                "будете готовы к испытанию."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [0],
+                    [1]
+                ],
+                "word_highlights2": []
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Use"
+                }
+            ]
+        },
+        "tutorial5t": {
+            "sign": [
+                "Шляпы волшебников могут увеличить",
+                "ваш ИНТ, что улучшает",
+                "ваши магические способности.",
+                "$",
+                "Благословенная шляпа волшебника",
+                "увеличит ИНТ еще больше."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [1],
+                    [1,2],
+                    [],
+                    [1],
+                    [4,5]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial5/sign_wizardhat.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5u": {
+            "sign": [
+                "Левитация",
+                "",
+                "$ ",
+                "",
+                "Позволяет искателям приключений",
+                "свободно пересекать жидкость",
+                "и ямы"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [1,2],
+                    [1,2]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#items/images/spells/levitation.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5v": {
+            "sign": [
+                "Свиток Перезарядки",
+                "$ ",
+                "Магические посохи можно",
+                "перезаряжать этим",
+                "свитком."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [0],
+                    [1],
+                    []
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial5/sign_recharge.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5w": {
+            "sign": [
+                "Поддерживаемые заклинания остаются",
+                "активными после прочтения и",
+                "продолжают тратить МР.",
+                "",
+                "$",
+                "",
+                "Перечитайте поддерживаемые заклинания,",
+                "чтобы деактивировать их."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [0],
+                    [0,1]
+                ],
+                "word_highlights2": [
+                    [0,1],
+                    [0],
+                    [2,3]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial5/sustained.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#items/images/spells/light.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5x": {
+            "sign": [
+                "Сон",
+                "",
+                "$ ",
+                "",
+                "Заставляет цель",
+                "погрузиться в краткий сон.",
+                "Спящие цели",
+                "проснутся, если им навредить."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [2],
+                    [4],
+                    [],
+                    [2]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial5/sleep.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#items/images/spells/sleep.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5y": {
+            "sign": [
+                "$$",
+                "МР медленно восстанавливается",
+                "со временем (РГН), или вы",
+                "можете найти зелья",
+                "восстановления магии, чтобы",
+                "мгновенно восстановить МР."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [0,1],
+                    [2],
+                    [],
+                    [0,1],
+                    [0,1,2]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial5/sign_restoremp.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#images/ui/CharSheet/HUD_CharSheet_REGEN_00.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5z": {
+            "sign": [
+                "Холод",
+                "",
+                "$ ",
+                "",
+                "Наносит урон и",
+                "замедляет цели"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [0],
+                    [0]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial5/cold.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#items/images/spells/cold.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5aa": {
+            "sign": [
+                "$ $ $",
+                "Колдовство, Тауматургия",
+                "и Мистицизм — это",
+                "три школы, которые",
+                "управляют магическим Навыком.",
+                "",
+                "У каждой есть свой",
+                "набор Заклинаний",
+                "и Магических Предметов."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [0,1],
+                    [1],
+                    [],
+                    [2],
+                    [],
+                    [],
+                    [2],
+                    [1,2]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial5/sign_sorcery.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial5/sign_thaumaturgy.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial5/sign_mysticism.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial5ab": {
+            "sign": [
+                "$",
+                "Заклинания отмечены, чтобы",
+                "показать, может ли заклинатель",
+                "получить от них Навык.",
+                "",
+                "Читайте практические заклинания,",
+                "которые бросают вызов вашим",
+                "Навыкам для продвижения."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [2],
+                    [],
+                    [],
+                    [],
+                    [1,2],
+                    [],
+                    [2]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial5/sign_spell_training.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        }
+    }
+}

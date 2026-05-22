@@ -1,0 +1,520 @@
+{
+	"version": 1,
+	"world": {
+		"minehead": {
+			"lore_points": 1,
+			"event_lookup": 0,
+			"img": "*images/ui/Main Menus/AdventureArchives/Subjects/C_Subject_WMinehead_00.png",
+			"events": ["MINEHEAD_ENTER", "TOTAL_TIME_SPENT", "LEVELS_EXITED", "LEVELS_TIME_SPENT", "LEVELS_MIN_COMPLETION", "LEVELS_MAX_COMPLETION", "LEVELS_DEATHS", "LEVELS_DEATHS_FASTEST", "LEVELS_DEATHS_SLOWEST", "MINEHEAD_ENTER_SOLO", "MINEHEAD_ENTER_ONLINE_MP", "MINEHEAD_ENTER_LAN_MP", "MINEHEAD_TOTAL_PLAYTIME", "MINEHEAD_ENTER_SPLIT_MP"],
+			"events_display": ["CUSTOM_MINEHEAD_GAMES", "CUSTOM_LEVEL_DEATHS", "CUSTOM_MINEHEAD_COMPLETIONS", "CUSTOM_MINEHEAD_PLAYTIME"],
+			"custom_events_display": ["CUSTOM_MINEHEAD_GAMES", "CUSTOM_MINEHEAD_PLAYTIME", "CUSTOM_MINEHEAD_COMPLETIONS", "CUSTOM_LEVEL_DEATHS"]
+		  },
+		  "portcullis": {
+			"lore_points": 1,
+			"event_lookup": 1,
+			"img": "",
+			"models": ["gate", "gate_swamp", "gate_labyrinth", "gate_ruins",
+						"gate_underworld","gate_hell","gate_caves", "gate_citadel"],
+			"events": ["GATE_OPENED_SPELL", "GATE_MINOTAUR"],
+			"events_display": ["GATE_OPENED_SPELL", "GATE_MINOTAUR"]
+		  },
+		  "lever": {
+			"lore_points": 1,
+			"event_lookup": 2,
+			"img": "",
+			"models": ["lever"],
+			"events": ["LEVER_PULLED", "LEVER_FOLLOWER_PULLED"],
+			"events_display": ["LEVER_PULLED", "LEVER_FOLLOWER_PULLED"]
+		  },
+		  "door": {
+			"lore_points": 1,
+			"event_lookup": 3,
+			"img": "",
+			"models": ["door", "door_swamp", "door_labyrinth", "door_ruins",
+						"door_underworld","door_hell","door_caves", "door_citadel"],
+			"events": ["DOOR_BROKEN", "DOOR_OPENED", "DOOR_UNLOCKED", "DOOR_CLOSED"],
+			"events_display": ["DOOR_OPENED", "DOOR_CLOSED", "DOOR_UNLOCKED", "DOOR_BROKEN"]
+		  },
+		  "mines": {
+			"lore_points": 2,
+			"event_lookup": 4,
+			"img": "*images/ui/Main Menus/AdventureArchives/Subjects/C_Subject_WMines_00.png",
+			"details_line_highlights": [
+				{"color": {"r": 198,"g": 190,"b": 179}},
+				{"color": {"r": 157,"g": 129,"b": 93}},
+				{"color": {"r": 157,"g": 129,"b": 93}},
+				{},
+				{"color": {"r": 198,"g": 190,"b": 179}},
+				{"color": {"r": 157,"g": 129,"b": 93}}
+			],
+			"events": ["LEVELS_ENTERED", "LEVELS_EXITED", "LEVELS_TIME_SPENT", "LEVELS_MAX_LVL", "LEVELS_MAX_GOLD", "LEVELS_BIOME_CLEAR", "BIOMES_MIN_COMPLETION", "BIOMES_MAX_COMPLETION", "LEVELS_DEATHS", "LEVELS_DEATHS_FASTEST", "LEVELS_DEATHS_SLOWEST", "LEVELS_MIN_LVL"],
+			"events_display": ["CUSTOM_BIOME_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_BIOME_PLAYTIME", "CUSTOM_LEVEL_STATS"],
+			"custom_events_display": ["CUSTOM_BIOME_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_BIOME_PLAYTIME", "CUSTOM_LEVEL_STATS"]
+		  },
+		  "sink": {
+			"lore_points": 2,
+			"event_lookup": 5,
+			"img": "",
+			"models": ["sink"],
+			"details_line_highlights": [
+				{"color": {"r": 198,"g": 190,"b": 179}},
+				{"color": {"r": 157,"g": 129,"b": 93}},
+				{"color": {"r": 157,"g": 129,"b": 93}},
+				{"color": {"r": 157,"g": 129,"b": 93}},
+				{"color": {"r": 157,"g": 129,"b": 93}}
+			],
+			"events": ["SINKS_USED", "SINKS_RINGS", "SINKS_SLIMES", "SINKS_HEALTH_RESTORED"],
+			"events_display": ["SINKS_USED", "SINKS_RINGS", "SINKS_SLIMES", "SINKS_HEALTH_RESTORED"]
+		  },
+		  "fountain": {
+			"lore_points": 2,
+			"event_lookup": 6,
+			"img": "",
+			"models": ["fountain"],
+			"events": ["FOUNTAIN_FOOCUBI", "FOUNTAIN_DRUNK", "FOUNTAIN_BLESS", "FOUNTAIN_BLESS_ALL", "FOUNTAIN_USED"],
+			"events_display": ["FOUNTAIN_USED", "FOUNTAIN_FOOCUBI", "FOUNTAIN_BLESS", "FOUNTAIN_BLESS_ALL"]
+		  },
+		  "chest": {
+			"lore_points": 2,
+			"event_lookup": 7,
+			"img": "",
+			"models": ["chest"],
+			"events": ["CHESTS_OPENED", "CHESTS_MIMICS_AWAKENED", "CHESTS_UNLOCKED", "CHESTS_DESTROYED", "CHESTS_MIMICS_AWAKENED1ST"],
+			"events_display": ["CHESTS_OPENED", "CHESTS_UNLOCKED", "CHESTS_DESTROYED", "CHESTS_MIMICS_AWAKENED1ST"]
+		  },
+		  "gravestone": {
+			"lore_points": 2,
+			"event_lookup": 8,
+			"img": "",
+			"models": ["grave"],
+			"events": ["GRAVE_GHOULS", "GRAVE_EPITAPHS_READ", "GRAVE_EPITAPHS_PERCENT", "GRAVE_GHOULS_ENSLAVED"],
+			"events_display": ["GRAVE_EPITAPHS_READ", "GRAVE_EPITAPHS_PERCENT", "GRAVE_GHOULS", "GRAVE_GHOULS_ENSLAVED"]
+		  },
+		  "breakable barriers": {
+			"lore_points": 1,
+			"event_lookup": 9,
+			"img": "",
+			"models": ["barrier_wood", "barrier_mines", "barrier_labyrinth", "barrier_web", "barrier_thicket", "barrier_ruin"],
+			"details_line_highlights": [
+				{"color": {"r": 198,"g": 190,"b": 179}},
+				{"color": {"r": 198,"g": 190,"b": 179}},
+				{"color": {"r": 157,"g": 129,"b": 93}},
+				{"color": {"r": 157,"g": 129,"b": 93}},
+				{"color": {"r": 198,"g": 190,"b": 179}},
+				{"color": {"r": 157,"g": 129,"b": 93}},
+				{"color": {"r": 198,"g": 190,"b": 179}},
+				{"color": {"r": 157,"g": 129,"b": 93}},
+				{"color": {"r": 157,"g": 129,"b": 93}}
+			],
+			"events": ["BARRIER_DESTROYED"],
+			"events_display": ["BARRIER_DESTROYED"]
+		  },
+		  "gnomish mines": {
+			"lore_points": 2,
+			"event_lookup": 10,
+			"img": "*images/ui/Main Menus/AdventureArchives/Subjects/C_Subject_WGnomeMines_00.png",
+			"events": ["LEVELS_ENTERED", "LEVELS_EXITED", "LEVELS_TIME_SPENT", "LEVELS_MAX_LVL", "LEVELS_MAX_GOLD", "LEVELS_MIN_COMPLETION", "LEVELS_MAX_COMPLETION", "LEVELS_DEATHS", "LEVELS_DEATHS_FASTEST", "LEVELS_DEATHS_SLOWEST", "LEVELS_MIN_LVL"],
+			"events_display": ["CUSTOM_LEVEL_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_LEVEL_PLAYTIME", "CUSTOM_LEVEL_STATS"],
+			"custom_events_display": ["CUSTOM_LEVEL_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_LEVEL_PLAYTIME", "CUSTOM_LEVEL_STATS"]
+		  },
+		  "minetown": {
+			"lore_points": 1,
+			"event_lookup": 11,
+			"img": "*images/ui/Main Menus/AdventureArchives/Subjects/C_Subject_WMinetown_00.png",
+			"details_line_highlights": [
+				{"color": {"r": 198,"g": 190,"b": 179}},
+				{"color": {"r": 157,"g": 129,"b": 93}},
+				{"color": {"r": 157,"g": 129,"b": 93}},
+				{"color": {"r": 157,"g": 129,"b": 93}}
+			],
+			"events": ["LEVELS_ENTERED", "LEVELS_EXITED", "LEVELS_TIME_SPENT", "LEVELS_MAX_LVL", "LEVELS_MAX_GOLD", "LEVELS_MIN_COMPLETION", "LEVELS_MAX_COMPLETION", "LEVELS_DEATHS", "LEVELS_DEATHS_FASTEST", "LEVELS_DEATHS_SLOWEST", "LEVELS_MIN_LVL"],
+			"events_display": ["CUSTOM_LEVEL_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_LEVEL_PLAYTIME", "CUSTOM_LEVEL_STATS"],
+			"custom_events_display": ["CUSTOM_LEVEL_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_LEVEL_PLAYTIME", "CUSTOM_LEVEL_STATS"]
+		  },
+		  "transition floor": {
+			"lore_points": 1,
+			"event_lookup": 12,
+			"img": "*images/ui/Main Menus/AdventureArchives/Subjects/C_Subject_WTransition_00.png",
+			"events": ["LEVELS_ENTERED", "LEVELS_EXITED", "LEVELS_TIME_SPENT", "LEVELS_MIN_COMPLETION", "LEVELS_MAX_COMPLETION", "LEVELS_DEATHS", "LEVELS_DEATHS_FASTEST", "LEVELS_DEATHS_SLOWEST"],
+			"events_display": ["LEVELS_ENTERED", "CUSTOM_MINEHEAD_PLAYTIME", "CUSTOM_LEVEL_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_LEVEL_PLAYTIME"],
+			"custom_events_display": ["LEVELS_ENTERED", "CUSTOM_MINEHEAD_PLAYTIME", "CUSTOM_LEVEL_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_LEVEL_PLAYTIME"]
+		  },
+		  "shop": {
+			"lore_points": 1,
+			"event_lookup": 13,
+			"img": "*images/ui/Main Menus/AdventureArchives/Subjects/C_Subject_WShop_00.png",
+		"feature_img": "*#images/ui/Main Menus/AdventureArchives/Subjects/shoptypes.png",
+			"events": ["SHOP_BOUGHT", "SHOP_SOLD", "SHOP_GOLD_EARNED", "SHOP_SPENT"],
+			"events_display": ["SHOP_BOUGHT", "SHOP_SPENT", "SHOP_SOLD", "SHOP_GOLD_EARNED"]
+		  },
+		  "boulder trap": {
+			"lore_points": 2,
+			"event_lookup": 14,
+			"img": "",
+			"models": ["boulder"],
+			"events": ["TRAP_KILLED_BY", "TRAP_DAMAGE", "TRAP_FOLLOWERS_KILLED", "BOULDERS_PUSHED"],
+			"events_display": ["TRAP_KILLED_BY", "TRAP_DAMAGE", "TRAP_FOLLOWERS_KILLED", "BOULDERS_PUSHED"]
+		  },
+		  "arrow trap": {
+			"lore_points": 1,
+			"event_lookup": 15,
+			"img": "",
+			"models": ["arrowtrap"],
+			"events": ["TRAP_KILLED_BY", "TRAP_DAMAGE", "TRAP_FOLLOWERS_KILLED", "ARROWS_PILFERED"],
+			"events_display": ["TRAP_KILLED_BY", "TRAP_DAMAGE", "TRAP_FOLLOWERS_KILLED", "ARROWS_PILFERED"]
+		  },
+		  "swamps": {
+			"lore_points": 2,
+			"event_lookup": 16,
+			"img": "*images/ui/Main Menus/AdventureArchives/Subjects/C_Subject_WSwamp_00.png",
+			"events": ["LEVELS_ENTERED", "LEVELS_EXITED", "LEVELS_TIME_SPENT", "LEVELS_MAX_LVL", "LEVELS_MAX_GOLD", "LEVELS_BIOME_CLEAR", "BIOMES_MIN_COMPLETION", "BIOMES_MAX_COMPLETION", "LEVELS_DEATHS", "LEVELS_DEATHS_FASTEST", "LEVELS_DEATHS_SLOWEST", "LEVELS_MIN_LVL"],
+			"events_display": ["CUSTOM_BIOME_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_BIOME_PLAYTIME", "CUSTOM_LEVEL_STATS"],
+			"custom_events_display": ["CUSTOM_BIOME_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_BIOME_PLAYTIME", "CUSTOM_LEVEL_STATS"]
+		  },
+		  "murky water": {
+			"lore_points": 1,
+  			"models": ["murky_water"],
+			"event_lookup": 17,
+			"img": "",
+			"events": ["SWIM_TIME", "SWIM_KILLED_WHILE", "SWIM_BURN_CURED"],
+			"events_display": ["SWIM_TIME", "SWIM_KILLED_WHILE", "SWIM_BURN_CURED"]
+		  },
+		  "temple": {
+			"lore_points": 2,
+			"event_lookup": 18,
+			"img": "*images/ui/Main Menus/AdventureArchives/Subjects/C_Subject_WTemple_00.png",
+			"events": ["LEVELS_ENTERED", "LEVELS_EXITED", "LEVELS_TIME_SPENT", "LEVELS_MAX_LVL", "LEVELS_MAX_GOLD", "LEVELS_MIN_COMPLETION", "LEVELS_MAX_COMPLETION", "LEVELS_DEATHS", "LEVELS_DEATHS_FASTEST", "LEVELS_DEATHS_SLOWEST", "LEVELS_MIN_LVL"],
+			"events_display": ["CUSTOM_LEVEL_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_LEVEL_PLAYTIME", "CUSTOM_LEVEL_STATS"],
+			"custom_events_display": ["CUSTOM_LEVEL_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_LEVEL_PLAYTIME", "CUSTOM_LEVEL_STATS"]
+		  },
+		  "haunted castle": {
+			"lore_points": 1,
+			"event_lookup": 19,
+			"img": "*images/ui/Main Menus/AdventureArchives/Subjects/C_Subject_WCastle_00.png",
+			"events": ["LEVELS_ENTERED", "LEVELS_EXITED", "LEVELS_TIME_SPENT", "LEVELS_MAX_LVL", "LEVELS_MAX_GOLD", "LEVELS_MIN_COMPLETION", "LEVELS_MAX_COMPLETION", "LEVELS_DEATHS", "LEVELS_DEATHS_FASTEST", "LEVELS_DEATHS_SLOWEST", "LEVELS_MIN_LVL"],
+			"events_display": ["CUSTOM_LEVEL_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_LEVEL_PLAYTIME", "CUSTOM_LEVEL_STATS"],
+			"custom_events_display": ["CUSTOM_LEVEL_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_LEVEL_PLAYTIME", "CUSTOM_LEVEL_STATS"]
+		  },
+		  "labyrinth": {
+			"lore_points": 2,
+			"event_lookup": 20,
+			"img": "*images/ui/Main Menus/AdventureArchives/Subjects/C_Subject_WLabyrinth_00.png",
+			"events": ["LEVELS_ENTERED", "LEVELS_EXITED", "LEVELS_TIME_SPENT", "LEVELS_MAX_LVL", "LEVELS_MAX_GOLD", "LEVELS_BIOME_CLEAR", "BIOMES_MIN_COMPLETION", "BIOMES_MAX_COMPLETION", "LEVELS_DEATHS", "LEVELS_DEATHS_FASTEST", "LEVELS_DEATHS_SLOWEST", "LEVELS_MIN_LVL"],
+			"events_display": ["CUSTOM_BIOME_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_BIOME_PLAYTIME", "CUSTOM_LEVEL_STATS"],
+			"custom_events_display": ["CUSTOM_BIOME_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_BIOME_PLAYTIME", "CUSTOM_LEVEL_STATS"]
+		  },
+		  "spike trap": {
+			"lore_points": 2,
+			"event_lookup": 21,
+			"img": "",
+			"models": ["spikes"],
+			"events": ["TRAP_KILLED_BY", "TRAP_DAMAGE", "TRAP_FOLLOWERS_KILLED"],
+			"events_display": ["TRAP_KILLED_BY", "TRAP_DAMAGE", "TRAP_FOLLOWERS_KILLED"]
+		  },
+		  "lava": {
+			"lore_points": 1,
+			"event_lookup": 22,
+			"img": "",
+			"models": ["lava"],
+			"events": ["SWIM_TIME", "SWIM_KILLED_WHILE", "LAVA_DAMAGE", "LAVA_ITEMS_BURNT"],
+			"events_display": ["SWIM_TIME", "SWIM_KILLED_WHILE", "LAVA_DAMAGE", "LAVA_ITEMS_BURNT"]
+		  },
+		  "pits": {
+			"lore_points": 1,
+			"event_lookup": 46,
+			"models": ["pits"],
+			"img": "",
+			"events": ["PITS_ITEMS_LOST", "PITS_LEVITATED", "PITS_DEATHS", "PITS_ITEMS_VALUE_LOST"],
+			"events_display": ["PITS_ITEMS_LOST", "PITS_ITEMS_VALUE_LOST", "PITS_LEVITATED", "PITS_DEATHS"]
+		  },
+		  "sokoban": {
+			"lore_points": 1,
+			"event_lookup": 23,
+			"img": "*images/ui/Main Menus/AdventureArchives/Subjects/C_Subject_WSokoban_00.png",
+			"events": ["LEVELS_ENTERED", "LEVELS_EXITED", "LEVELS_TIME_SPENT", "LEVELS_MAX_LVL", "LEVELS_MAX_GOLD", "LEVELS_MIN_COMPLETION", "LEVELS_MAX_COMPLETION", "LEVELS_DEATHS", "LEVELS_DEATHS_FASTEST", "LEVELS_DEATHS_SLOWEST", "LEVELS_MIN_LVL", "SOKOBAN_SOLVES", "SOKOBAN_FASTEST_SOLVE", "SOKOBAN_PERFECT_SOLVES"],
+			"events_display": ["CUSTOM_LEVEL_COMPLETIONS", "CUSTOM_SOKOBAN", "CUSTOM_LEVEL_PLAYTIME", "CUSTOM_LEVEL_STATS"],
+			"custom_events_display": ["CUSTOM_LEVEL_COMPLETIONS", "CUSTOM_SOKOBAN", "CUSTOM_LEVEL_PLAYTIME", "CUSTOM_LEVEL_STATS"]
+		  },
+		  "minotaur maze": {
+			"lore_points": 2,
+			"event_lookup": 24,
+			"img": "*images/ui/Main Menus/AdventureArchives/Subjects/C_Subject_WMinotaur_00.png",
+			"events": ["LEVELS_ENTERED", "LEVELS_EXITED", "LEVELS_TIME_SPENT", "LEVELS_MAX_LVL", "LEVELS_MAX_GOLD", "LEVELS_MIN_COMPLETION", "LEVELS_MAX_COMPLETION", "LEVELS_DEATHS", "LEVELS_DEATHS_FASTEST", "LEVELS_DEATHS_SLOWEST", "LEVELS_MIN_LVL"],
+			"events_display": ["CUSTOM_LEVEL_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_LEVEL_PLAYTIME", "CUSTOM_LEVEL_STATS"],
+			"custom_events_display": ["CUSTOM_LEVEL_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_LEVEL_PLAYTIME", "CUSTOM_LEVEL_STATS"]
+		  },
+		  "ruins": {
+			"lore_points": 2,
+			"event_lookup": 25,
+			"img": "*images/ui/Main Menus/AdventureArchives/Subjects/C_Subject_WRuins_00.png",
+			"events": ["LEVELS_ENTERED", "LEVELS_EXITED", "LEVELS_TIME_SPENT", "LEVELS_MAX_LVL", "LEVELS_MAX_GOLD", "LEVELS_BIOME_CLEAR", "BIOMES_MIN_COMPLETION", "BIOMES_MAX_COMPLETION", "LEVELS_DEATHS", "LEVELS_DEATHS_FASTEST", "LEVELS_DEATHS_SLOWEST", "LEVELS_MIN_LVL"],
+			"events_display": ["CUSTOM_BIOME_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_BIOME_PLAYTIME", "CUSTOM_LEVEL_STATS"],
+			"custom_events_display": ["CUSTOM_BIOME_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_BIOME_PLAYTIME", "CUSTOM_LEVEL_STATS"]
+		  },
+		  "magic trap": {
+			"lore_points": 2,
+			"event_lookup": 26,
+			"img": "",
+			"models": ["magictrap"],
+			"events": ["TRAP_KILLED_BY", "TRAP_DAMAGE", "TRAP_FOLLOWERS_KILLED", "TRAP_MAGIC_STATUSED"],
+			"events_display": ["TRAP_KILLED_BY", "TRAP_DAMAGE", "TRAP_FOLLOWERS_KILLED", "TRAP_MAGIC_STATUSED"]
+		  },
+		  "mystic library": {
+			"lore_points": 2,
+			"event_lookup": 27,
+			"img": "*images/ui/Main Menus/AdventureArchives/Subjects/C_Subject_WLibrary_00.png",
+			"details_line_highlights": [
+				{"color": {"r": 198,"g": 190,"b": 179}},
+				{"color": {"r": 157,"g": 129,"b": 93}},
+				{"color": {"r": 157,"g": 129,"b": 93}},
+				{"color": {"r": 157,"g": 129,"b": 93}}
+			],
+			"events": ["LEVELS_ENTERED", "LEVELS_EXITED", "LEVELS_TIME_SPENT", "LEVELS_MAX_LVL", "LEVELS_MAX_GOLD", "LEVELS_MIN_COMPLETION", "LEVELS_MAX_COMPLETION", "LEVELS_DEATHS", "LEVELS_DEATHS_FASTEST", "LEVELS_DEATHS_SLOWEST", "LEVELS_MIN_LVL"],
+			"events_display": ["CUSTOM_LEVEL_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_LEVEL_PLAYTIME", "CUSTOM_LEVEL_STATS"],
+			"custom_events_display": ["CUSTOM_LEVEL_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_LEVEL_PLAYTIME", "CUSTOM_LEVEL_STATS"]
+		  },
+		  "herx lair": {
+			"lore_points": 1,
+			"event_lookup": 45,
+			"img": "*images/ui/Main Menus/AdventureArchives/Subjects/C_Subject_WBastion_00.png",
+			"events": ["LEVELS_ENTERED", "LEVELS_EXITED", "LEVELS_TIME_SPENT", "LEVELS_MAX_LVL", "LEVELS_MAX_GOLD", "LEVELS_MIN_COMPLETION", "LEVELS_MAX_COMPLETION", "LEVELS_DEATHS", "LEVELS_DEATHS_FASTEST", "LEVELS_DEATHS_SLOWEST", "LEVELS_MIN_LVL"],
+			"events_display": ["CUSTOM_LEVEL_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_LEVEL_PLAYTIME", "CUSTOM_LEVEL_STATS"],
+			"custom_events_display": ["CUSTOM_LEVEL_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_LEVEL_PLAYTIME", "CUSTOM_LEVEL_STATS"]
+		  },
+		  "underworld": {
+			"lore_points": 2,
+			"event_lookup": 28,
+			"img": "*images/ui/Main Menus/AdventureArchives/Subjects/C_Subject_WUnderworld_00.png",
+			"events": ["LEVELS_ENTERED", "LEVELS_EXITED", "LEVELS_TIME_SPENT", "LEVELS_MAX_LVL", "LEVELS_MAX_GOLD", "LEVELS_MIN_COMPLETION", "LEVELS_MAX_COMPLETION", "LEVELS_DEATHS", "LEVELS_DEATHS_FASTEST", "LEVELS_DEATHS_SLOWEST", "LEVELS_MIN_LVL"],
+			"events_display": ["CUSTOM_LEVEL_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_LEVEL_PLAYTIME", "CUSTOM_LEVEL_STATS"],
+			"custom_events_display": ["CUSTOM_LEVEL_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_LEVEL_PLAYTIME", "CUSTOM_LEVEL_STATS"]
+		  },
+		  "obelisk": {
+			"lore_points": 1,
+			"models": ["obelisk"],
+			"event_lookup": 29,
+			"img": "",
+			"events": ["OBELISK_USES", "OBELISK_FOLLOWER_USES"],
+			"events_display": ["OBELISK_USES", "OBELISK_FOLLOWER_USES"]
+		  },
+		  "hell": {
+			"lore_points": 2,
+			"event_lookup": 30,
+			"img": "*images/ui/Main Menus/AdventureArchives/Subjects/C_Subject_WHell_00.png",
+			"events": ["LEVELS_ENTERED", "LEVELS_EXITED", "LEVELS_TIME_SPENT", "LEVELS_MAX_LVL", "LEVELS_MAX_GOLD", "LEVELS_BIOME_CLEAR", "BIOMES_MIN_COMPLETION", "BIOMES_MAX_COMPLETION", "LEVELS_DEATHS", "LEVELS_DEATHS_FASTEST", "LEVELS_DEATHS_SLOWEST", "LEVELS_MIN_LVL"],
+			"events_display": ["CUSTOM_BIOME_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_BIOME_PLAYTIME", "CUSTOM_LEVEL_STATS"],
+			"custom_events_display": ["CUSTOM_BIOME_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_BIOME_PLAYTIME", "CUSTOM_LEVEL_STATS"]
+		  },
+		  "summoning trap": {
+			"lore_points": 1,
+			"event_lookup": 48,
+			"img": "",
+			"models": ["spawntrap"],
+			"events": ["TRAP_SUMMONED_MONSTERS"],
+			"events_display": ["TRAP_SUMMONED_MONSTERS"]
+		  },
+		  "brimstone boulder": {
+			"lore_points": 1,
+			"models": ["brimstone"],
+			"event_lookup": 31,
+			"img": "",
+			"events": ["TRAP_KILLED_BY", "TRAP_DAMAGE", "TRAP_FOLLOWERS_KILLED"],
+			"events_display": ["TRAP_KILLED_BY", "TRAP_DAMAGE", "TRAP_FOLLOWERS_KILLED"]
+		  },
+		  "molten throne": {
+			"lore_points": 1,
+			"event_lookup": 47,
+			"img": "*images/ui/Main Menus/AdventureArchives/Subjects/C_Subject_WBaphomet_00.png",
+			"events": ["LEVELS_ENTERED", "LEVELS_EXITED", "LEVELS_TIME_SPENT", "LEVELS_MAX_LVL", "LEVELS_MAX_GOLD", "LEVELS_MIN_COMPLETION", "LEVELS_MAX_COMPLETION", "LEVELS_DEATHS", "LEVELS_DEATHS_FASTEST", "LEVELS_DEATHS_SLOWEST", "LEVELS_MIN_LVL"],
+			"events_display": ["CUSTOM_LEVEL_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_LEVEL_PLAYTIME", "CUSTOM_LEVEL_STATS"],
+			"custom_events_display": ["CUSTOM_LEVEL_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_LEVEL_PLAYTIME", "CUSTOM_LEVEL_STATS"]
+		  },
+		  "hamlet": {
+			"lore_points": 1,
+			"event_lookup": 32,
+			"img": "*images/ui/Main Menus/AdventureArchives/Subjects/C_Subject_WHamlet_00.png",
+			"events": ["LEVELS_ENTERED", "LEVELS_EXITED", "LEVELS_TIME_SPENT", "LEVELS_MAX_LVL", "LEVELS_MAX_GOLD", "LEVELS_MIN_COMPLETION", "LEVELS_MAX_COMPLETION", "LEVELS_DEATHS", "LEVELS_DEATHS_FASTEST", "LEVELS_DEATHS_SLOWEST", "LEVELS_MIN_LVL"],
+			"events_display": ["CUSTOM_LEVEL_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_LEVEL_PLAYTIME", "CUSTOM_LEVEL_STATS"],
+			"custom_events_display": ["CUSTOM_LEVEL_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_LEVEL_PLAYTIME", "CUSTOM_LEVEL_STATS"]
+		  },
+		  "hall of trials": {
+			"lore_points": 1,
+			"event_lookup": 33,
+			"img": "*images/ui/Main Menus/AdventureArchives/Subjects/C_Subject_WHallofTrials_00.png",
+			"events": ["TRIALS_ATTEMPTS", "TRIALS_PASSED", "LEVELS_TIME_SPENT", "LEVELS_DEATHS", "LEVELS_DEATHS_FASTEST", "LEVELS_DEATHS_SLOWEST"],
+			"events_display": ["TRIALS_ATTEMPTS", "TRIALS_PASSED", "CUSTOM_LEVEL_DEATHS", "CUSTOM_HALLOFTRIALS_TIME"],
+			"custom_events_display": ["TRIALS_ATTEMPTS", "TRIALS_PASSED", "CUSTOM_LEVEL_DEATHS", "CUSTOM_HALLOFTRIALS_TIME"]
+		  },
+		  "merchants guild": {
+			"lore_points": 1,
+			"event_lookup": 34,
+			"img": "*images/ui/Main Menus/AdventureArchives/Subjects/C_Subject_WGuildMerchants_00.png",
+			"events": ["GOLD_LEFT_BEHIND", "ITEMS_LEFT_BEHIND", "ITEM_VALUE_LEFT_BEHIND"],
+			"events_display": ["CUSTOM_SALESMEN_NOVICES", "CUSTOM_CRAFTSMEN_NOVICES", "GOLD_LEFT_BEHIND", "ITEM_VALUE_LEFT_BEHIND"],
+			"custom_events_display": ["CUSTOM_SALESMEN_NOVICES", "CUSTOM_CRAFTSMEN_NOVICES", "GOLD_LEFT_BEHIND", "ITEM_VALUE_LEFT_BEHIND"]
+		  },
+		  "magicians guild": {
+			"lore_points": 1,
+			"event_lookup": 35,
+			"img": "*images/ui/Main Menus/AdventureArchives/Subjects/C_Subject_WGuildMagicians_00.png",
+			"events": ["MERLINS", "RITUALS_COMPLETED", "SPELLS_LEARNED"],
+			"events_display": ["CUSTOM_MAGIC_NOVICES", "SPELLS_LEARNED", "MERLINS", "RITUALS_COMPLETED"],
+			"custom_events_display": ["CUSTOM_MAGIC_NOVICES", "SPELLS_LEARNED", "MERLINS", "RITUALS_COMPLETED"]
+		  },
+		  "hunters guild": {
+			"lore_points": 1,
+			"event_lookup": 36,
+			"img": "*images/ui/Main Menus/AdventureArchives/Subjects/C_Subject_WGuildHunters_00.png",
+			"events": [],
+			"events_display": ["CUSTOM_STEALTH_NOVICES", "CUSTOM_RANGED_NOVICES", "CUSTOM_UNDEAD_KILLED", "CUSTOM_BEASTS_KILLED"],
+			"custom_events_display": ["CUSTOM_STEALTH_NOVICES", "CUSTOM_RANGED_NOVICES", "CUSTOM_UNDEAD_KILLED", "CUSTOM_BEASTS_KILLED"]
+		  },
+		  "the church": {
+			"lore_points": 1,
+			"event_lookup": 37,
+			"img": "*images/ui/Main Menus/AdventureArchives/Subjects/C_Subject_WGuildChurch_00.png",
+			"events": ["ALLIES_FED", "HUMANS_SAVED", "MONSTERS_LEFT_BEHIND"],
+			"events_display": ["CUSTOM_DEMONS_KILLED", "ALLIES_FED", "HUMANS_SAVED", "MONSTERS_LEFT_BEHIND"],
+			"custom_events_display": ["CUSTOM_DEMONS_KILLED", "ALLIES_FED", "HUMANS_SAVED", "MONSTERS_LEFT_BEHIND"]
+		  },
+		  "masons guild": {
+			"lore_points": 1,
+			"event_lookup": 38,
+			"img": "*images/ui/Main Menus/AdventureArchives/Subjects/C_Subject_WGuildMasons_00.png",
+			"events": ["COMBAT_MASONRY_BOULDERS", "COMBAT_MASONRY_GEMS", "COMBAT_MASONRY_ROCKS", "FOLLOWER_KILLS"],
+			"events_display": ["CUSTOM_LEADER_NOVICES", "CUSTOM_COMBAT_NOVICES", "FOLLOWER_KILLS", "CUSTOM_COMBAT_MASONRY"],
+			"custom_events_display": ["CUSTOM_LEADER_NOVICES", "CUSTOM_COMBAT_NOVICES", "FOLLOWER_KILLS", "CUSTOM_COMBAT_MASONRY"]
+		  },
+		  "crystal caves": {
+			"lore_points": 2,
+			"event_lookup": 39,
+			"img": "*images/ui/Main Menus/AdventureArchives/Subjects/C_Subject_WCaves_00.png",
+			"events": ["LEVELS_ENTERED", "LEVELS_EXITED", "LEVELS_TIME_SPENT", "LEVELS_MAX_LVL", "LEVELS_MAX_GOLD", "LEVELS_BIOME_CLEAR", "BIOMES_MIN_COMPLETION", "BIOMES_MAX_COMPLETION", "LEVELS_DEATHS", "LEVELS_DEATHS_FASTEST", "LEVELS_DEATHS_SLOWEST", "LEVELS_MIN_LVL"],
+			"events_display": ["CUSTOM_BIOME_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_BIOME_PLAYTIME", "CUSTOM_LEVEL_STATS"],
+			"custom_events_display": ["CUSTOM_BIOME_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_BIOME_PLAYTIME", "CUSTOM_LEVEL_STATS"]
+		  },
+		  "ceiling trap": {
+			"lore_points": 2,
+			"event_lookup": 40,
+			"models": ["magictrap_vertical"],
+			"img": "",
+			"events": ["TRAP_KILLED_BY", "TRAP_DAMAGE", "TRAP_FOLLOWERS_KILLED", "TRAP_MAGIC_STATUSED"],
+			"events_display": ["TRAP_KILLED_BY", "TRAP_DAMAGE", "TRAP_FOLLOWERS_KILLED", "TRAP_MAGIC_STATUSED"]
+		  },
+		  "cockatrice lair": {
+			"lore_points": 1,
+			"event_lookup": 41,
+			"img": "*images/ui/Main Menus/AdventureArchives/Subjects/C_Subject_WCockatrice_00.png",
+			"details_line_highlights": [
+				{"color": {"r": 198,"g": 190,"b": 179}},
+				{"color": {"r": 157,"g": 129,"b": 93}}
+			],
+			"events": ["LEVELS_ENTERED", "LEVELS_EXITED", "LEVELS_TIME_SPENT", "LEVELS_MAX_LVL", "LEVELS_MAX_GOLD", "LEVELS_MIN_COMPLETION", "LEVELS_MAX_COMPLETION", "LEVELS_DEATHS", "LEVELS_DEATHS_FASTEST", "LEVELS_DEATHS_SLOWEST", "LEVELS_MIN_LVL"],
+			"events_display": ["CUSTOM_LEVEL_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_LEVEL_PLAYTIME", "CUSTOM_LEVEL_STATS"],
+			"custom_events_display": ["CUSTOM_LEVEL_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_LEVEL_PLAYTIME", "CUSTOM_LEVEL_STATS"]
+		  },
+		  "arcane citadel": {
+			"lore_points": 2,
+			"event_lookup": 42,
+			"img": "*images/ui/Main Menus/AdventureArchives/Subjects/C_Subject_WCitadel_00.png",
+			"events": ["LEVELS_ENTERED", "LEVELS_EXITED", "LEVELS_TIME_SPENT", "LEVELS_MAX_LVL", "LEVELS_MAX_GOLD", "LEVELS_BIOME_CLEAR", "BIOMES_MIN_COMPLETION", "BIOMES_MAX_COMPLETION", "LEVELS_DEATHS", "LEVELS_DEATHS_FASTEST", "LEVELS_DEATHS_SLOWEST", "LEVELS_MIN_LVL"],
+			"events_display": ["CUSTOM_BIOME_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_BIOME_PLAYTIME", "CUSTOM_LEVEL_STATS"],
+			"custom_events_display": ["CUSTOM_BIOME_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_BIOME_PLAYTIME", "CUSTOM_LEVEL_STATS"]
+		  },
+		  "brams castle": {
+			"lore_points": 1,
+			"event_lookup": 43,
+			"img": "*images/ui/Main Menus/AdventureArchives/Subjects/C_Subject_WBramsCastle_00.png",
+			"details_line_highlights": [
+				{"color": {"r": 198,"g": 190,"b": 179}},
+				{"color": {"r": 157,"g": 129,"b": 93}}
+			],
+			"events": ["LEVELS_ENTERED", "LEVELS_EXITED", "LEVELS_TIME_SPENT", "LEVELS_MAX_LVL", "LEVELS_MAX_GOLD", "LEVELS_MIN_COMPLETION", "LEVELS_MAX_COMPLETION", "LEVELS_DEATHS", "LEVELS_DEATHS_FASTEST", "LEVELS_DEATHS_SLOWEST", "LEVELS_MIN_LVL"],
+			"events_display": ["CUSTOM_LEVEL_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_LEVEL_PLAYTIME", "CUSTOM_LEVEL_STATS"],
+			"custom_events_display": ["CUSTOM_LEVEL_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_LEVEL_PLAYTIME", "CUSTOM_LEVEL_STATS"]
+		  },
+		  "citadel sanctum": {
+			"lore_points": 1,
+			"event_lookup": 44,
+			"img": "*images/ui/Main Menus/AdventureArchives/Subjects/C_Subject_WSanctum_00.png",
+			"events": ["LEVELS_ENTERED", "LEVELS_EXITED", "LEVELS_TIME_SPENT", "LEVELS_MAX_LVL", "LEVELS_MAX_GOLD", "LEVELS_MIN_COMPLETION", "LEVELS_MAX_COMPLETION", "LEVELS_DEATHS", "LEVELS_DEATHS_FASTEST", "LEVELS_DEATHS_SLOWEST", "LEVELS_MIN_LVL"],
+			"events_display": ["CUSTOM_LEVEL_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_LEVEL_PLAYTIME", "CUSTOM_LEVEL_STATS"],
+			"custom_events_display": ["CUSTOM_LEVEL_COMPLETIONS", "CUSTOM_LEVEL_DEATHS", "CUSTOM_LEVEL_PLAYTIME", "CUSTOM_LEVEL_STATS"]
+		  },
+		  "bell": {
+			"lore_points": 2,
+			"event_lookup": 49,
+			"img": "",
+			"models": ["bell"],
+			"events": ["BELL_RUNG_TIMES", "BELL_LOOT_ITEMS", "BELL_LOOT_GOLD", "BELL_LOOT_BATS", "BELL_BUFFS_AGILITY", "BELL_BUFFS_STAMINA", "BELL_BUFFS_STRENGTH", "BELL_BUFFS_MENTALITY", "BELL_BUFFS_HEALS", "BELL_BROKEN", "BELL_CLAPPER_BROKEN", "TRAP_KILLED_BY", "TRAP_DAMAGE"],
+			"events_display": ["BELL_RUNG_TIMES", "CUSTOM_BELL_LOOT", "CUSTOM_BELL_BUFFS", "CUSTOM_BELL_BROKEN"],
+			"custom_events_display": ["BELL_RUNG_TIMES", "CUSTOM_BELL_LOOT", "CUSTOM_BELL_BUFFS", "CUSTOM_BELL_BROKEN"]
+		  },
+		  "daedalus": {
+			"lore_points": 2,
+			"event_lookup": 50,
+			"img": "",
+			"models": ["daedalus"],
+			"events": ["DAED_USES", "DAED_EXIT_REVEALS", "DAED_SPEED_BUFFS", "DAED_KILLED_MINO"],
+			"events_display": ["DAED_USES", "DAED_EXIT_REVEALS", "DAED_SPEED_BUFFS"]
+		  },
+		  "containers": {
+			"lore_points": 1,
+			"event_lookup": 51,
+			"img": "",
+			"models": ["container_mines", "container_swamps", "container_labyrinth", "container_ruins", "container_underworld", "container_hell", "container_caves", "container_citadel"],
+			"events": ["CONTAINER_BROKEN", "CONTAINER_ITEMS", "CONTAINER_GOLD", "CONTAINER_MONSTERS"],
+			"events_display": ["CONTAINER_BROKEN", "CONTAINER_ITEMS", "CONTAINER_GOLD", "CONTAINER_MONSTERS"]
+		  },
+		  "cauldron": {
+			"lore_points": 1,
+			"event_lookup": 52,
+			"img": "",
+			"models": ["cauldron"],
+			"events": ["CAULDRON_INTERACTS", "COOK_MEALS", "COOK_FLAVORED_MEALS", "COOK_SLOP_BALLS", "COOK_GREASE_BALLS", "CAULDRON_SKILLUPS", "ALEMBIC_BREWED", "ALEMBIC_DECANTED", "ALEMBIC_DUPLICATED", "ALEMBIC_DUPLICATION_FAIL", "ALEMBIC_EXPLOSIONS"],
+			"events_display": ["CUSTOM_ALEMBIC_BREWED", "CUSTOM_ALEMBIC_DUPLICATED", "CUSTOM_COOK_MEALS", "CAULDRON_SKILLUPS"],
+			"custom_events_display": ["CUSTOM_ALEMBIC_BREWED", "CUSTOM_ALEMBIC_DUPLICATED", "CUSTOM_COOK_MEALS", "CAULDRON_SKILLUPS"]
+		  },
+		  "workbench": {
+			"lore_points": 1,
+			"event_lookup": 53,
+			"img": "",
+			"models": ["workbench"],
+			"events": ["WORKBENCH_INTERACTS", "WORKBENCH_SALVAGE", "WORKBENCH_CRAFTS", "WORKBENCH_REPAIRED", "WORKBENCH_SKILLUPS"],
+			"events_display": ["WORKBENCH_SALVAGE", "WORKBENCH_CRAFTS", "WORKBENCH_REPAIRED", "WORKBENCH_SKILLUPS"]
+		  },
+		  "button": {
+			"lore_points": 1,
+			"event_lookup": 54,
+			"img": "",
+			"models": ["button"],
+			"events": ["BUTTON_PRESSED", "BUTTON_SHOT", "BUTTON_FOLLOWER_PRESSED"],
+			"events_display": ["BUTTON_PRESSED", "BUTTON_SHOT", "BUTTON_FOLLOWER_PRESSED"]
+		  },
+		  "wall locks": {
+			"lore_points": 1,
+			"event_lookup": 55,
+			"img": "",
+			"models": ["walllock", "walllock_swamp", "walllock_labyrinth", "walllock_ruins"],
+			"events": ["KEYLOCK_UNLOCKED_KEY", "KEYLOCK_PICKED", "KEYLOCK_SKELETON_KEY", "KEYLOCK_UNLOCKED_KEY_IRON", "KEYLOCK_UNLOCKED_KEY_BRONZE", "KEYLOCK_UNLOCKED_KEY_SILVER", "KEYLOCK_UNLOCKED_KEY_GOLD"],
+			"events_display": ["CUSTOM_KEYLOCK_ALLKEYS", "KEYLOCK_PICKED", "KEYLOCK_SKELETON_KEY"],
+			"custom_events_display": ["CUSTOM_KEYLOCK_ALLKEYS", "KEYLOCK_PICKED", "KEYLOCK_SKELETON_KEY"]
+		  },
+		  "arcane boulder": {
+			"lore_points": 1,
+			"event_lookup": 56,
+			"img": "",
+			"models": ["arcane_boulder"],
+			"events": ["TRAP_KILLED_BY", "TRAP_DAMAGE", "TRAP_FOLLOWERS_KILLED", "BOULDERS_PUSHED"],
+			"events_display": ["TRAP_KILLED_BY", "TRAP_DAMAGE", "TRAP_FOLLOWERS_KILLED", "BOULDERS_PUSHED"]
+		  },
+		  "assist shrine": {
+			"lore_points": 1,
+			"event_lookup": 57,
+			"img": "",
+			"models": ["assist_shrine"],
+			"events": ["ASSIST_INTERACTS", "ASSIST_MASKS", "ASSIST_CLOAKS", "ASSIST_AMULETS", "ASSIST_RINGS"],
+			"events_display": ["ASSIST_MASKS", "ASSIST_CLOAKS", "ASSIST_AMULETS", "ASSIST_RINGS"]
+		  }
+	}
+}

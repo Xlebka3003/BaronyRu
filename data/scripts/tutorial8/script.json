@@ -1,0 +1,2348 @@
+{
+    "version": 1,
+	"default_attributes": {
+		"font_color": {
+			"r": 239,
+			"g": 237,
+			"b": 235,
+			"a": 255
+		},
+		"font_outline_color": {
+			"r": 50,
+			"g": 29,
+			"b": 25,
+			"a": 255
+		},
+		"font_highlight_color": {
+			"r": 18,
+			"g": 196,
+			"b": 131,
+			"a": 255
+		},
+		"font_highlight2_color": {
+			"r": 64,
+			"g": 192,
+			"b": 255,
+			"a": 255
+		}
+	},	
+    "script_entries": {
+        "tutorial8a": {
+            "sign": [
+				"$ ",
+				"",
+                "Ваше здоровье низко из-за",
+				"отравления.",
+                "Зелье Усиленного Лечения",
+				"поможет."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},				
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[3],
+					[3]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[1],
+					[],
+					[],
+					[1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/extrahealing_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#items/images/spells/extrahealing.png",
+				"sizex": 32,
+				"sizey": 32
+				}			
+			]
+        },
+        "tutorial8a_gamepad": {
+            "sign": [
+				"$ ",
+				"",
+                "Ваше здоровье низко из-за",
+				"отравления.",
+                "Зелье Усиленного Лечения",
+				"поможет."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},				
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[3],
+					[3]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[1],
+					[],
+					[],
+					[1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/extrahealing_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#items/images/spells/extrahealing.png",
+				"sizex": 32,
+				"sizey": 32
+				}			
+			]
+        },		
+        "tutorial8b": {
+            "sign": [
+                "Чтобы смешивать зелья, используйте",
+				"Аламбик с помощью$, затем",
+                "выберите два разных",
+				"зелья с помощью$.",
+				"",
+				"Затем выберите результат",
+                "в нижнем слоте",
+                "с помощью$, чтобы сварить его."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[0,1,2],
+					[],
+					[1],
+					[],
+					[],
+					[2,3],
+					[2,3]
+				],
+                "word_highlights2": [
+					[1,2]
+				]
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "MenuRightClick"
+				},
+				{
+					"type": "input_glyph",
+					"value": "MenuRightClick"
+				},				
+				{
+					"type": "input_glyph",
+					"value": "MenuRightClick"
+				}				
+			]
+        },
+        "tutorial8b_gamepad": {
+            "sign": [
+                "Чтобы смешивать зелья, используйте",
+				"Аламбик с помощью$, затем",
+                "выберите два разных",
+				"зелья с помощью$.",
+				"",
+				"Затем выберите [Сварить] с помощью$",
+                "или заберите результат",
+                "из нижнего слота."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[0,1,2],
+					[],
+					[1],
+					[],
+					[2],
+					[],
+					[2,3]
+				],
+                "word_highlights2": [
+					[1,2]
+				]
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "MenuConfirm"
+				},
+				{
+					"type": "input_glyph",
+					"value": "MenuConfirm"
+				},				
+				{
+					"type": "input_glyph",
+					"value": "MenuAlt2"
+				}				
+			]
+        },		
+        "tutorial8c": {
+            "sign": [
+                "Зелья могут быть",
+				"ценными помощниками для",
+				"искателей приключений и",
+				"мощным оружием",
+				"против их врагов.",
+				"",
+                "Те, кто овладеет",
+				"их использованием, смогут покорить",
+				"подземелье."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[0,1],
+					[],
+					[0,1]
+				]
+            },
+            "variables": []
+        },
+        "tutorial8d": {
+            "sign": [
+                "Благословенные аламбики могут",
+				"давать благословенные зелья.",
+				"$",
+                "Благословенная вода и сок",
+                "обладают большой целебной силой."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[0,1],
+					[1,2],
+					[],
+					[],
+					[2]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial8/sign_blessedalembic.png",
+				"sizex": 0,
+				"sizey": 0
+				}			
+			]
+        },
+        "tutorial8e": {
+            "sign": [
+                "Проклятые аламбики могут",
+				"давать проклятые зелья.",
+				"$",
+                "Это портит их и",
+				"может нанести больше урона.",
+                "Проклятая вода может",
+				"проклясть предмет."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},	
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0,1],
+					[],
+					[],
+					[],
+					[],
+					[0,1]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[2,3]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial8/sign_cursedalembic.png",
+				"sizex": 0,
+				"sizey": 0
+				}		
+			]
+        },
+        "tutorial8f": {
+            "sign": [
+                "Вы должны использовать то,",
+				"чему научились, и",
+				"свой запас зелий,",
+				"чтобы преуспеть. Убедитесь, что вы",
+				"готовы.",
+				"",
+                "Сейчас вы будете проверены.",
+				"Очистите местность от",
+				"нежити."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[1,2,3]
+				]
+            },
+            "variables": []
+        },
+        "tutorial8g": {
+            "sign": [
+                "Опытные алхимики имеют",
+				"больше шансов на",
+				"дублирование с водой.",
+				"",
+                "Неудача приведет к",
+				"потере зелья."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2,3]
+				],
+                "word_highlights2": [
+					[0]
+				]
+            },
+            "variables": []
+        },		
+        "tutorial8h": {
+            "sign": [
+                "Чтобы увидеть шансы на",
+				"дублирование, наведите курсор на",
+				"нижний слот Аламбика, когда",
+				"ваше зелье и вода будут",
+				"готовы к варке."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[1],
+					[],
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[1]
+				]
+            },
+            "variables": []
+        },
+        "tutorial8i": {
+            "sign": [
+                "Вы можете улучшить",
+				"свой Навык Алхимии,",
+				"выпивая зелья",
+				"в первый раз.",
+				"",
+				"$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[0,1]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#images/ui/SkillSheet/Icons/Alchemy02_32.png",
+				"sizex": 32,
+				"sizey": 32
+				}				
+			]
+        },
+        "tutorial8j": {
+            "sign": [
+                "Перед вами",
+				"Аламбик, который можно",
+				"использовать для варки зелий.",
+				"$",
+                "Смешивайте новые зелья из",
+				"двух разных бутылок."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[0],
+					[],
+					[],
+					[],
+					[0,1]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial8/sign_alembic.png",
+				"sizex": 0,
+				"sizey": 0
+				}				
+			]
+        },
+        "tutorial8k": {
+            "sign": [
+                "Остерегайтесь смертельного врага",
+				"за этой дверью.",
+				"",
+                "Было бы мудро",
+				"держать эти ворота закрытыми."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[2,3]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[3]
+				]
+            },
+            "variables": []
+        },
+        "tutorial8l": {
+            "sign": [
+                "Рычаг к этим воротам",
+				"находится за пауком",
+				"в другой комнате."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[1,2,3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/spiderlever.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial8m": {
+            "sign": [
+                "Зелье Паралича",
+				"",
+				"$ ",
+				"",
+				"Вызывает Паралич,",
+				"останавливая движение и",
+				"атаки. Вы можете пить",
+				"зелья, будучи парализованным."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#images/ui/HUD/statusfx/paralyze.png",
+				"sizex": 32,
+				"sizey": 32
+				}					
+			]
+        },
+        "tutorial8n": {
+            "sign": [
+                "Иногда бросить",
+				"полезное зелье —",
+				"лучший способ",
+				"помочь союзникам."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[0],
+					[],
+					[0,1]
+				]
+            },
+            "variables": []
+        },
+        "tutorial8o": {
+            "sign": [
+                "Зелье Лечения Недугов",
+				"$",
+                "При питье снимает",
+				"большинство эффектов,",
+				"включая положительные."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[1,2]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial8/sign_cure.png",
+				"sizex": 0,
+				"sizey": 0
+				}				
+			]
+        },
+        "tutorial8p": {
+            "sign": [
+                "Зелья с полезными",
+				"эффектами потребляются как",
+                "действие по умолчанию, в то время как",
+				"вредные зелья",
+                "экипируются, чтобы",
+				"их можно было бросить с помощью$."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[1,2],
+					[],
+					[],
+					[1]
+				],
+                "word_highlights2": [
+					[],
+					[2],
+					[],
+					[],
+					[0]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/potionoffense_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Attack"
+				}				
+			]
+        },
+        "tutorial8p_gamepad": {
+            "sign": [
+                "Зелья с полезными",
+				"эффектами потребляются как",
+                "действие по умолчанию, в то время как",
+				"вредные зелья",
+                "экипируются, чтобы",
+				"их можно было бросить с помощью$."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[1,2],
+					[],
+					[],
+					[1]
+				],
+                "word_highlights2": [
+					[],
+					[2],
+					[],
+					[],
+					[0]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/potionoffense_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Attack"
+				}				
+			]
+        },		
+        "tutorial8q": {
+            "sign": [
+				"Зелья можно",
+				"бросать или пить.",
+				"",
+                "Если зелье",
+				"опознано, его",
+				"поведение по умолчанию$ и на панели быстрого доступа",
+				"соответствует его",
+				"эффекту."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,2]
+				],
+                "word_highlights2": [
+					[],
+					[0,2],
+					[],
+					[],
+					[0],
+					[],
+					[],
+					[2]
+				]
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "MenuRightClick"
+				}			
+			]
+        },
+		"tutorial8q_gamepad": {
+            "sign": [
+				"Зелья можно",
+				"бросать или пить.",
+				"",
+                "Если зелье",
+				"опознано, его",
+				"поведение по умолчанию$ и на панели быстрого доступа",
+				"соответствует его",
+				"эффекту."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,2]
+				],
+                "word_highlights2": [
+					[],
+					[0,2],
+					[],
+					[],
+					[0],
+					[],
+					[],
+					[2]
+				]
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "MenuConfirm"
+				}			
+			]
+        },
+        "tutorial8r": {
+            "sign": [
+                "Вы отравлены.",
+				"",
+				"$ ",
+				"",
+                "Выпейте это из своего",
+				"инвентаря с помощью$."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight2_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},	
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[1]
+				],
+                "word_highlights2": [
+					[2]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#items/images/spells/cureailment.png",
+				"sizex": 32,
+				"sizey": 32
+				},
+				{
+					"type": "input_glyph",
+					"value": "MenuRightClick"
+				}					
+			]
+        },
+		"tutorial8r_gamepad": {
+            "sign": [
+                "Вы отравлены.",
+				"",
+				"$ ",
+				"",
+                "Выпейте это из своего",
+				"инвентаря с помощью$."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight2_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},	
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[1]
+				],
+                "word_highlights2": [
+					[2]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#items/images/spells/cureailment.png",
+				"sizex": 32,
+				"sizey": 32
+				},
+				{
+					"type": "input_glyph",
+					"value": "MenuConfirm"
+				}					
+			]
+        },
+        "tutorial8s": {
+            "sign": [
+                "Каждый тип зелья",
+				"бывает в определенном",
+				"диапазоне цветов,",
+                "и может быть полезным",
+				"или вредным."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[0,1,2]
+				]
+            },
+            "variables": []
+        },
+        "tutorial8t": {
+            "sign": [
+                "Чтобы экипировать неопознанные",
+				"или полезные зелья",
+				"с панели быстрого доступа,",
+				"удерживайте$, нажимая",
+				"назначенную клавишу панели."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[1],
+					[],
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+				[],
+				[],
+				[0,1,2]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#images/ui/Glyphs/KeyboardGlyphs/Rendered/NamedKeys/Unpressed_Text_Alt_00.png",
+				"sizex": 0,
+				"sizey": 0
+				}	
+			]
+        },
+        "tutorial8t_gamepad": {
+            "sign": [
+                "Чтобы экипировать неопознанные",
+				"или полезные зелья,",
+				"нажмите$ на зелье в",
+				"своем инвентаре и",
+				"выберите [Экипировать] из",
+				"выпадающего списка."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[1],
+					[],
+					[0],
+					[],
+					[1]
+				],
+                "word_highlights2": []
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "MenuConfirm"
+				}				
+			]
+        },	
+        "tutorial8u": {
+            "sign": [
+                "Зелье Тошноты",
+				"",
+				"$ ",
+				"",
+				"Бросьте во врага,",
+				"чтобы отравить его.",
+				"Уничтожьте манекен",
+				"и продолжайте."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[0]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/potionthrow.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#images/ui/HUD/statusfx/poisoned.png",
+				"sizex": 32,
+				"sizey": 32
+				}					
+			]
+        },
+        "tutorial8v": {
+            "sign": [
+                "Используйте зелья, чтобы",
+				"стражник победил",
+				"скелета.",
+				"Стражник ранен",
+				"и не справится без",
+				"помощи.",
+				"",
+				"Дерните рычаг,",
+				"чтобы начать."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[1,2]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[0,1,2],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/healsentry.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial8w": {
+            "sign": [
+                "У всех хороших рецептов",
+				"есть базовый ингредиент.",
+				"Плохие смеси приводят к",
+				"зелью тошноты.",
+				"",
+                "Смешайте фруктовый сок и",
+				"выпивку в аламбике",
+				"для неудачного рецепта."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},	
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[1,2,3],
+					[],
+					[],
+					[],
+					[2,3]
+				],
+                "word_highlights2": [
+					[],
+					[2,3]					
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/sickbrew_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial8w_gamepad": {
+            "sign": [
+                "У всех хороших рецептов",
+				"есть базовый ингредиент.",
+				"Плохие смеси приводят к",
+				"зелью тошноты.",
+				"",
+                "Смешайте фруктовый сок и",
+				"выпивку в аламбике",
+				"для неудачного рецепта."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},	
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[1,2,3],
+					[],
+					[],
+					[],
+					[2,3]
+				],
+                "word_highlights2": [
+					[],
+					[2,3]					
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/sickbrew_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },		
+        "tutorial8x": {
+            "sign": [
+                "Кислота",
+				"$",
+                "Используется для создания смертоносных",
+                "Нестабильных Зелий, сила",
+				"которых зависит от",
+				"алхимика."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[0,1],
+					[0,1,2]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial8/sign_acid.png",
+				"sizex": 0,
+				"sizey": 0
+				}				
+			]
+        },
+        "tutorial8y": {
+            "sign": [
+                "В следующем зале",
+				"вы найдете",
+				"разнообразие зелий",
+				"для экспериментов.",
+				"",
+                "Когда вы создадите",
+                "удачную смесь, ее",
+				"рецепт будет добавлен во",
+				"вкладку Рецептов Аламбика."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[2,3]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[1],
+					[],
+					[],
+					[1,2]
+				]
+            },
+            "variables": []
+        },
+        "tutorial8z": {
+            "sign": [
+                "Блага и проклятия,",
+				"предлагаемые фонтанами,",
+                "слишком заманчивы,",
+				"чтобы их могли игнорировать искатели приключений.",
+                "Особенно для",
+				"тех, кто ищет зелья."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},	
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[1]
+				],
+                "word_highlights2": [
+					[3],
+					[],
+					[],
+					[],
+					[],
+					[1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/fountains.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial8ab": {
+            "sign": [
+                "Зелье Восстановления Магии",
+				"$",
+                "Полезно для заклинателей.",
+                "Смешайте с Фруктовым Соком,",
+                "чтобы создать Зелья Лечения."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[2],
+					[],
+					[1,2,3]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial5/sign_restoremp.png",
+				"sizex": 0,
+				"sizey": 0
+				}					
+			]
+        },
+        "tutorial8ac": {
+            "sign": [
+                "Зелье Слепоты",
+				"",
+				"$",
+				"",
+                "Пораженные им",
+				"плохо видят.",
+                "Смешайте с Фруктовым Соком,",
+                "чтобы завершить рецепт",
+				"Лечения Недугов."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],				
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#images/ui/HUD/statusfx/blind.png",
+				"sizex": 32,
+				"sizey": 32
+				}	
+			]
+        },
+        "tutorial8ad": {
+            "sign": [
+                "Зелье Замешательства",
+				"$ ",
+                "Смешайте Выпивку с",
+				"Зельями Замешательства,",
+                "чтобы получить больше Кислоты.",
+				"",
+                "Замешательство также превращает",
+                "Фруктовый Сок в Выпивку",
+                "и Кислоту во Фруктовый Сок."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[0,1,2],
+					[],
+					[],
+					[],
+					[3],
+					[3,4]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#items/images/spells/confuse.png",
+				"sizex": 32,
+				"sizey": 32
+				}			
+			]
+        },
+        "tutorial8ae": {
+            "sign": [
+                "Зелье Невидимости",
+				"",
+				"$",
+				"",
+                "Дарует Невидимость.",
+                "Смешайте с Восстановлением Магии,",
+				"чтобы создать мощные",
+				"зелья Усиленного Лечения."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[2,3]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#items/images/spells/invisible.png",
+				"sizex": 32,
+				"sizey": 32
+				}				
+			]
+        },
+        "tutorial8af": {
+            "sign": [
+                "Алхимия может",
+				"быть требовательной к",
+				"вашему инвентарю.",
+				"",
+                "Удерживайте$ и нажимайте$",
+				"на предметах в инвентаре, чтобы",
+				"быстро выбрасывать их.",
+				"Автосортировка с помощью$."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[0,2],
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[0,1]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#images/ui/Glyphs/KeyboardGlyphs/Rendered/NamedKeys/Unpressed_Text_Shift_00.png",
+				"sizex": 0,
+				"sizey": 0
+				},
+				{
+					"type": "input_glyph",
+					"value": "Attack"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Autosort Inventory"
+				}						
+			]
+        },
+        "tutorial8af_gamepad": {
+            "sign": [
+                "Алхимия может",
+				"быть требовательной к",
+				"вашему инвентарю.",
+				"",
+                "Регулярно удаляйте ненужные",
+				"предметы с помощью$,",
+				"и автосортируйте с помощью$."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[3],
+					[1,2]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[0,1]
+				]
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "MenuAlt2"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Autosort Inventory"
+				}						
+			]
+        },		
+        "tutorial8ag": {
+            "sign": [
+				"$",
+                "Питье или",
+				"смешивание зелий иногда",
+				"может дать пустую",
+				"бутылку, которую алхимики",
+				"могут использовать повторно."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[1,2]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial8/sign_bottle.png",
+				"sizex": 0,
+				"sizey": 0
+				}					
+			]
+        },
+        "tutorial8ah": {
+            "sign": [
+                "Питье или попадание под",
+				"брошенную Выпивку",
+				"вызывает опьянение.",
+				"",
+				"$",
+				"",
+                "Опьянение влияет на ваши",
+				"характеристики и сбивает",
+				"прицел на время."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},	
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[1]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[1],
+					[],
+					[],
+					[],
+					[],
+					[0]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#images/system/drunk.png",
+				"sizex": 0,
+				"sizey": 0
+				}				
+			]
+        },
+        "tutorial8ai": {
+            "sign": [
+                "Бутылки с Выпивкой",
+				"и Фруктовым Соком обычно",
+				"не лечат так же,",
+                "как Лечебные Зелья,",
+				"но они более",
+				"распространены."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[2],
+					[1,2],
+					[],
+					[],
+					[],
+					[0,1]
+				]
+            },
+            "variables": []
+        },
+        "tutorial8aj": {
+            "sign": [
+                "Бутилированная Вода",
+				"$",
+				"Смешивайте воду с другими",
+				"зельями, чтобы дублировать их.",
+				"Может немного утолить голод.",
+				"Святая вода смертельна",
+				"для некоторых монстров."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[2],
+					[],
+					[],
+					[1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/duplicate_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial8/sign_water.png",
+				"sizex": 0,
+				"sizey": 0
+				}					
+			]
+        },
+        "tutorial8aj_gamepad": {
+            "sign": [
+                "Бутилированная Вода",
+				"$",
+				"Смешивайте воду с другими",
+				"зельями, чтобы дублировать их.",
+				"Может немного утолить голод.",
+				"Святая вода смертельна",
+				"для некоторых монстров."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[2],
+					[],
+					[],
+					[1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/duplicate_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial8/sign_water.png",
+				"sizex": 0,
+				"sizey": 0
+				}					
+			]
+        },		
+        "tutorial8ak": {
+            "sign": [
+				"$",
+                "Сварите Зелье Скорости,",
+                "соединив Выпивку с",
+				"Зельем Лечения Недугов."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[2,3,4]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#items/images/spells/speed.png",
+				"sizex": 32,
+				"sizey": 32
+				}				
+			]
+        },
+        "tutorial8al": {
+            "sign": [
+				"$ ",
+                "Сварите",
+				"Зелье Левитации,",
+                "смешав Лечение Недугов",
+				"с Невидимостью."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[0,1,2]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#items/images/spells/levitation.png",
+				"sizex": 32,
+				"sizey": 32
+				}					
+			]
+        },
+        "tutorial8am": {
+            "sign": [
+				"$ ",
+				"",
+                "Зелья Грозы",
+                "можно надежно сварить,",
+				"смешав Кислоту и Скорость",
+				"вместе."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[0,1,2],
+					[],
+					[2,4]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/thunderstorm_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#items/images/spells/stoneblood.png",
+				"sizex": 32,
+				"sizey": 32
+				}					
+			]
+        },
+        "tutorial8am_gamepad": {
+            "sign": [
+				"$ ",
+				"",
+                "Зелья Грозы",
+                "можно надежно сварить,",
+				"смешав Кислоту и Скорость",
+				"вместе."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[0,1,2],
+					[],
+					[2,4]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/thunderstorm_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#items/images/spells/stoneblood.png",
+				"sizex": 32,
+				"sizey": 32
+				}					
+			]
+        },		
+        "tutorial8pm": {
+            "sign": [
+                "ОСТОРОЖНО:",
+				"Неверный рецепт",
+				"с использованием Кислоты приведет",
+				"к смертельному взрыву.",
+				"$ ",
+				"Если вы стремитесь узнать",
+				"более мощные рецепты",
+				"с кислотой, приготовьте",
+				"лечение и исцеление."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},	
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0],
+					[],
+					[],
+					[2,3]
+				],
+                "word_highlights2": [
+					[],
+					[1],
+					[],
+					[],
+					[],
+					[],
+					[1,2],
+					[],
+					[0,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/splode_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#images/ui/HUD/statusfx/burning.png",
+				"sizex": 32,
+				"sizey": 32
+				}					
+			]
+        },
+        "tutorial8pm_gamepad": {
+            "sign": [
+                "ОСТОРОЖНО:",
+				"Неверный рецепт",
+				"с использованием Кислоты приведет",
+				"к смертельному взрыву.",
+				"$ ",
+				"Если вы стремитесь узнать",
+				"более мощные рецепты",
+				"с кислотой, приготовьте",
+				"лечение и исцеление."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},	
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0],
+					[],
+					[],
+					[2,3]
+				],
+                "word_highlights2": [
+					[],
+					[1],
+					[],
+					[],
+					[],
+					[],
+					[1,2],
+					[],
+					[0,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/splode_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#images/ui/HUD/statusfx/burning.png",
+				"sizex": 32,
+				"sizey": 32
+				}					
+			]
+        },			
+        "tutorial8an": {
+            "sign": [
+                "БЕРЕГИТЕСЬ:",
+				"Известно, что монстры",
+				"заражают водопровод.",
+				"",
+                "Убедитесь, что вы готовы",
+				"защитить себя, прежде чем",
+                "пытаться пить или",
+				"набирать воду из источников."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0],
+					[],
+					[1]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[3],
+					[],
+					[2],
+					[1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/watermonsters.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial8ao": {
+            "sign": [
+                "Экипируйте пустые бутылки,",
+				"чтобы набирать воду из раковин или",
+                "фонтанов с помощью$.",
+				"",
+                "Это наполнит вашу",
+                "бутылку водой",
+				"или другими зельями."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0],
+					[],
+					[1]
+				],
+                "word_highlights2": [
+					[],
+					[1],
+					[],
+					[],
+					[2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/tap_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Attack"
+				}			
+			]
+        },
+        "tutorial8ao_gamepad": {
+            "sign": [
+                "Экипируйте пустые бутылки,",
+				"чтобы набирать воду из раковин или",
+                "фонтанов с помощью$.",
+				"",
+                "Это наполнит вашу",
+                "бутылку водой",
+				"или другими зельями."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0],
+					[],
+					[1]
+				],
+                "word_highlights2": [
+					[],
+					[1],
+					[],
+					[],
+					[2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/tap_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Attack"
+				}			
+			]
+        },
+        "tutorial8aw": {
+            "sign": [
+                "Вода из подземелья слишком",
+				"грязная для варки.",
+				"Алхимики должны полагаться на",
+				"насосы с пресной водой, магазины",
+				"или фонтаны для припасов."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+					"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},	
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[0,1,2,3],
+					[1]
+				]
+            },
+            "variables": []
+        },		
+        "tutorial8az": {
+            "sign": [
+				"Перелив:",
+				"",
+                "Смешивание двух зелий",
+				"с одинаковым эффектом",
+				"в бутылки одного типа,",
+				"позволяя",
+				"организовать их",
+				"вместе."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/decanting_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial8az_gamepad": {
+            "sign": [
+				"Перелив:",
+				"",
+                "Смешивание двух зелий",
+				"с одинаковым эффектом",
+				"в бутылки одного типа,",
+				"позволяя",
+				"организовать их",
+				"вместе."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/decanting_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        }				
+    }
+}

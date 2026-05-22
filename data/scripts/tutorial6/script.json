@@ -1,0 +1,763 @@
+{
+    "version": 1,
+    "default_attributes": {
+        "font_color": {
+            "r": 239,
+            "g": 237,
+            "b": 235,
+            "a": 255
+        },
+        "font_outline_color": {
+            "r": 50,
+            "g": 29,
+            "b": 25,
+            "a": 255
+        },
+        "font_highlight_color": {
+            "r": 18,
+            "g": 196,
+            "b": 131,
+            "a": 255
+        },
+        "font_highlight2_color": {
+            "r": 64,
+            "g": 192,
+            "b": 255,
+            "a": 255
+        }
+    },
+    "script_entries": {
+        "tutorial6a": {
+            "sign": [
+                "Будучи невидимым,",
+                "враги все еще могут",
+                "обнаружить вас, если вы",
+                "очень близко, особенно",
+                "если вы атакуете.",
+                "",
+                "$ "
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [0,1],
+                    [],
+                    [2]
+                ],
+                "word_highlights2": [
+                    [1]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#items/images/spells/invisible.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial6b": {
+            "sign": [
+                "Уничтожьте скелетов",
+                "во дворе",
+                "справа от вас.",
+                "",
+                "Ворота слева от вас",
+                "затем",
+                "откроются."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [2],
+                    [],
+                    [],
+                    [0],
+                    []
+                ]
+            },
+            "variables": []
+        },
+        "tutorial6c": {
+            "sign": [
+                "Помните о слабостях",
+                "типов оружия при",
+                "атаке из скрытности.",
+                "$",
+                "Будьте готовы ударить снова",
+                "после нанесения",
+                "первого удара!"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [0,1,2],
+                    [],
+                    [3,4],
+                    [],
+                    [0,1]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial6/swordmace.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial6/sign_ironmace.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial6d": {
+            "sign": [
+                "Следите за направлением,",
+                "в которое смотрят враги, и",
+                "рассчитывайте время атаки, чтобы",
+                "гарантировать удар в спину.",
+                "",
+                "Вам не нужно",
+                "красться, когда ваш враг",
+                "повернулся спиной!"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [2],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [0,1,2]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial6/backturned.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial6do": {
+            "sign": [
+                "Кристаллические осколки",
+                "— это тусклые факелы,",
+                "которые никогда не гаснут,",
+                "но очень хрупкие.",
+                "",
+                "Штраф к видимости",
+                "от кристаллических факелов",
+                "вдвое меньше, чем у",
+                "обычных факелов."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [2,3],
+                    [],
+                    [1,2]
+                ],
+                "word_highlights2": [
+                    [0,1],
+                    [1],
+                    [2,3],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [1]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial6e": {
+            "sign": [
+                "Искателям приключений",
+                "может понадобиться использовать скрытность",
+                "для своего преимущества, чтобы",
+                "выжить в подземелье."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [3],
+                    [2]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial6f": {
+            "sign": [
+                "Когда враг занят",
+                "другим противником, вы",
+                "можете увеличить урон",
+                "атаками с фланга.",
+                "",
+                "Не подходите слишком близко,",
+                "иначе они переключат свое",
+                "внимание на вас!"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [2,3],
+                    [],
+                    [0,1,2]
+                ],
+                "word_highlights2": [
+                    [4],
+                    [],
+                    [1,2],
+                    [1,2]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial6/flanking.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial6g": {
+            "sign": [
+                "Знать, как сражаться,",
+                "это хорошо, но подход",
+                "к бою с преимуществом",
+                "может гарантировать победу."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [1,2]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial6h": {
+            "sign": [
+                "$",
+                "Врагам сложнее",
+                "обнаружить вас",
+                "в темноте.",
+                "Держа факел, вас",
+                "гораздо легче заметить."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [1,2,3,4]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [2],
+                    [],
+                    [2]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial6/sneaklight.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial1/sign_torch.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial6i": {
+            "sign": [
+                "$",
+                "",
+                "Не имея предмета",
+                "в другой руке,",
+                "удерживайте$, чтобы красться."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [0,2]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [1,2],
+                    []
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/SkillSheet/Icons/Stealth02_32.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Defend"
+                }
+            ]
+        },
+        "tutorial6j": {
+            "sign": [
+                "Как и при защите,",
+                "крадучись, вы двигаетесь",
+                "медленнее.",
+                "",
+                "Это также делает вас",
+                "менее заметным и",
+                "позволяет лучше видеть",
+                "в темноте."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [0],
+                    [2],
+                    [],
+                    [],
+                    [0,1,2],
+                    [3,4],
+                    [2]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial6k": {
+            "sign": [
+                "Враги, которые",
+                "не подозревают о вас,",
+                "получают бонусный урон",
+                "от удара в спину при атаке",
+                "сзади."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [1,2],
+                    [],
+                    [0,1]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial6l": {
+            "sign": [
+                "Удерживайте$, чтобы зарядить",
+                "критический удар и",
+                "максимизировать урон",
+                "первой атаки при",
+                "нанесении ударов в спину врагам."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [0],
+                    [2,3],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [3]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [0,1],
+                    [],
+                    [],
+                    [],
+                    [1,2,3]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial6/followstrike.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Attack"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Attack"
+                }
+            ]
+        },
+        "tutorial6m": {
+            "sign": [
+                "Ваше мастерство скрытности",
+                "сейчас будет проверено.",
+                "",
+                "Убейте лидера гоблинов",
+                "и спаситесь бегством.",
+                "Избегайте или убейте остальных!"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [0,1,2,3]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial6n": {
+            "sign": [
+                "Атаки с фланга, скрытность,",
+                "удары в спину и управление",
+                "светом помогут искателям приключений",
+                "выжить в подземелье."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial6no": {
+            "sign": [
+                "Поздравляем!",
+                "Это последнее из",
+                "шести базовых испытаний.",
+                "Герои совершают великие дела,",
+                "усвоив эти уроки.",
+                "",
+                "Испытания 7–10 дают",
+                "специализированные уроки.",
+                "Овладейте ими, если",
+                "желаете большего мастерства."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [0,1]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [0,1,2,3],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [1,2]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial6o": {
+            "sign": [
+                "Эти ворота открываются только",
+                "когда лидер гоблинов",
+                "будет убит."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [2,3],
+                    []
+                ]
+            },
+            "variables": []
+        },
+        "tutorial6p": {
+            "sign": [
+                "Собирайте факелы, чтобы",
+                "затемнять области и делать",
+                "скрытность более легкой."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [0],
+                    []
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial6/darken.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial6pa": {
+            "sign": [
+                "После обнаружения",
+                "ловкие искатели приключений могут",
+                "убежать и попытаться",
+                "снова подкрасться к",
+                "цели."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [1,2]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [0],
+                    [],
+                    []
+                ]
+            },
+            "variables": []
+        },
+        "tutorial6q": {
+            "sign": [
+                "Тролли почти слепы.",
+                "Более perceptive враги",
+                "могут обнаружить вас с",
+                "большего расстояния.",
+                "",
+                "$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [0],
+                    [1],
+                    [1],
+                    []
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/CharSheet/HUD_CharSheet_PER_00.png",
+                    "sizex": 48,
+                    "sizey": 48
+                }
+            ]
+        }
+    }
+}

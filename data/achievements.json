@@ -1,0 +1,2560 @@
+{
+  "achievements": {
+    "BARONY_ACH_ENTER_THE_DUNGEON": {
+      "name": "Войти в подземелье",
+      "description": "Спуститесь на 1-й уровень подземелья.",
+      "lore_points": 10,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_ENTER_THE_DUNGEON_l.png",
+      "icon_unlocked": "BARONY_ACH_ENTER_THE_DUNGEON.png"
+    },
+	"BARONY_ACH_5000_SECOND_RULE": {
+      "name": "Правило 5000 секунд",
+      "description": "Подберите 50 обнаруженных продуктов питания в виде Крысы за несколько прохождений.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_5000_SECOND_RULE_l.png",
+      "icon_unlocked": "BARONY_ACH_5000_SECOND_RULE.png"
+    },
+    "BARONY_ACH_ALL_IN_REFLEXES": {
+      "name": "Все дело в рефлексах",
+      "description": "Поймайте метательное оружие Инсектоида или Козлоподобного.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_ALL_IN_REFLEXES_l.png",
+      "icon_unlocked": "BARONY_ACH_ALL_IN_REFLEXES.png"
+    },
+    "BARONY_ACH_ALWAYS_WAITING": {
+      "name": "...Будет ждать вечно",
+      "description": "Покончите с проблемами архимагов.",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_ALWAYS_WAITING_l.png",
+      "icon_unlocked": "BARONY_ACH_ALWAYS_WAITING.png",
+      "hidden": true
+    },
+    "BARONY_ACH_ANGEL_OF_DEATH": {
+      "name": "Ангел смерти",
+      "description": "Совершите смертельную скрытую атаку на врага, атакующего другого игрока или союзного НПС.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_ANGEL_OF_DEATH_l.png",
+      "icon_unlocked": "BARONY_ACH_ANGEL_OF_DEATH.png"
+    },
+    "BARONY_ACH_ARCANE_LINK": {
+      "name": "Мистическая связь",
+      "description": "Получите дополнительное восстановление маны из двух источников одновременно.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_ARCANE_LINK_l.png",
+      "icon_unlocked": "BARONY_ACH_ARCANE_LINK.png"
+    },
+    "BARONY_ACH_ARSENAL": {
+      "name": "Арсенал",
+      "description": "Имейте при себе арбалет, лук и все типы боеприпасов в инвентаре одновременно в роли Охотника.",
+      "lore_points": 2,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_ARSENAL_l.png",
+      "icon_unlocked": "BARONY_ACH_ARSENAL.png"
+    },
+    "BARONY_ACH_BACK_TO_BASICS": {
+      "name": "Возврат к основам",
+      "description": "Завершите Испытание после того, как встретили лича.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BACK_TO_BASICS_l.png",
+      "icon_unlocked": "BARONY_ACH_BACK_TO_BASICS.png",
+      "hidden": true
+    },
+    "BARONY_ACH_BAD_BEAUTIFUL": {
+      "name": "Плохое и прекрасное",
+      "description": "Экипируйте 4 проклятых предмета одновременно, будучи истинным Инкубом или Суккубом.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BAD_BEAUTIFUL_l.png",
+      "icon_unlocked": "BARONY_ACH_BAD_BEAUTIFUL.png"
+    },
+    "BARONY_ACH_BAD_BLOOD": {
+      "name": "Плохая кровь",
+      "description": "Высосите 500 HP с помощью убийств скрытой атакой без оружия в роли Проклятого истинного Вампира.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BAD_BLOOD_l.png",
+      "icon_unlocked": "BARONY_ACH_BAD_BLOOD.png"
+    },
+    "BARONY_ACH_BAD_BOY_BARON": {
+      "name": "Барон-плохиш",
+      "description": "Сбегите из Цитадели в роли истинного Инкуба.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BAD_BOY_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BAD_BOY_BARON.png"
+    },
+    "BARONY_ACH_BAD_REVIEW": {
+      "name": "Негативный отзыв для MLP",
+      "description": "Оскверните конную фреску.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BAD_REVIEW_l.png",
+      "icon_unlocked": "BARONY_ACH_BAD_REVIEW.png",
+      "hidden": true
+    },
+    "BARONY_ACH_BAD_ROMANCE": {
+      "name": "Плохая романтика",
+      "description": "Завербуйте двух инкубов или суккубов одновременно в роли истинного Суккуба.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BAD_ROMANCE_l.png",
+      "icon_unlocked": "BARONY_ACH_BAD_ROMANCE.png"
+    },
+    "BARONY_ACH_BAIT_AND_SWITCH": {
+      "name": "Приманка и подмена",
+      "description": "Телепортируйтесь, пока враг атакует вас в ближнем бою, в роли истинного Суккуба.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BAIT_AND_SWITCH_l.png",
+      "icon_unlocked": "BARONY_ACH_BAIT_AND_SWITCH.png"
+    },
+    "BARONY_ACH_BARFIGHT_CHAMP": {
+      "name": "Чемпион по барам",
+      "description": "Забейте до смерти кулаками 50 врагов в состоянии алкогольного опьянения в роли истинного Козлоподобного.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BARFIGHT_CHAMP_l.png",
+      "icon_unlocked": "BARONY_ACH_BARFIGHT_CHAMP.png"
+    },
+    "BARONY_ACH_BAYOU_BARON": {
+      "name": "Болотный барон",
+      "description": "Сбегите из Цитадели в роли истинного Гоблина.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BAYOU_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BAYOU_BARON.png"
+    },
+    "BARONY_ACH_BLEATING_BARON": {
+      "name": "Блеющий барон",
+      "description": "Сбегите из Цитадели, играя за истинного Козлоподобного любого класса.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BLEATING_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BLEATING_BARON.png"
+    },
+    "BARONY_ACH_BLESSED": {
+      "name": "#Благословлен",
+      "description": "Имейте оружие +10.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BLESSED_l.png",
+      "icon_unlocked": "BARONY_ACH_BLESSED.png"
+    },
+    "BARONY_ACH_BLOOD_BOIL": {
+      "name": "От крови кипит",
+      "description": "Узнайте последствия воды для истинного Вампира.",
+      "lore_points": 1,
+      "category": "joker",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BLOOD_BOIL_l.png",
+      "icon_unlocked": "BARONY_ACH_BLOOD_BOIL.png"
+    },
+    "BARONY_ACH_BLOOD_IS_THE_LIFE": {
+      "name": "Кровь это жизнь",
+      "description": "Сбегите из Цитадели в роли класса Проклятый без лечения и с включенным голодом.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BLOOD_IS_THE_LIFE_l.png",
+      "icon_unlocked": "BARONY_ACH_BLOOD_IS_THE_LIFE.png"
+    },
+    "BARONY_ACH_BLOOD_RUNS_CLEAR": {
+      "name": "Кровь стынет",
+      "description": "Достигните легендарной Скрытности, играя за класс Проклятый.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BLOOD_RUNS_CLEAR_l.png",
+      "icon_unlocked": "BARONY_ACH_BLOOD_RUNS_CLEAR.png"
+    },
+    "BARONY_ACH_BLOOD_SPORT": {
+      "name": "Кровавый спорт",
+      "description": "Устраните 50 целей, будучи невидимым, в роли истинного Вампира.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BLOOD_SPORT_l.png",
+      "icon_unlocked": "BARONY_ACH_BLOOD_SPORT.png"
+    },
+    "BARONY_ACH_BLOOD_VESSELS": {
+      "name": "Кровеносные сосуды",
+      "description": "Накопите 20 флаконов крови одновременно в роли истинного Вампира.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BLOOD_VESSELS_l.png",
+      "icon_unlocked": "BARONY_ACH_BLOOD_VESSELS.png"
+    },
+    "BARONY_ACH_BODYGUARDS": {
+      "name": "Телохранители",
+      "description": "Имейте 2 подчиненных вам Кристаллических големов.",
+      "lore_points": 3,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BODYGUARDS_l.png",
+      "icon_unlocked": "BARONY_ACH_BODYGUARDS.png"
+    },
+    "BARONY_ACH_BOILERPLATE_BARON": {
+      "name": "Жестяной барон",
+      "description": "Сбегите из Цитадели в роли истинного Автоматона.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BOILERPLATE_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BOILERPLATE_BARON.png"
+    },
+    "BARONY_ACH_BOMBARDIER": {
+      "name": "Бомбардир",
+      "description": "Убейте 50 врагов брошенными зельями.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BOMBARDIER_l.png",
+      "icon_unlocked": "BARONY_ACH_BOMBARDIER.png"
+    },
+    "BARONY_ACH_BOMBSHELL_BARON": {
+      "name": "Сногсшибательный барон",
+      "description": "Сбегите из Цитадели, играя за истинного Суккуба любого класса.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BOMBSHELL_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BOMBSHELL_BARON.png"
+    },
+    "BARONY_ACH_BOMBTRACK": {
+      "name": "Бомбовая дорожка",
+      "description": "Заставьте одного врага активировать 5 бомб за 5 секунд.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BOMBTRACK_l.png",
+      "icon_unlocked": "BARONY_ACH_BOMBTRACK.png"
+    },
+    "BARONY_ACH_BOMB_SQUAD": {
+      "name": "Отряд подрывников",
+      "description": "Успешно обезвредьте 5 Автоматонов с помощью Взлома замков.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BOMB_SQUAD_l.png",
+      "icon_unlocked": "BARONY_ACH_BOMB_SQUAD.png"
+    },
+    "BARONY_ACH_BONEHEADED": {
+      "name": "Тупая кость",
+      "description": "Съешьте еду в роли скелета.",
+      "lore_points": 1,
+      "category": "joker",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BONEHEADED_l.png",
+      "icon_unlocked": "BARONY_ACH_BONEHEADED.png",
+      "hidden": true
+    },
+    "BARONY_ACH_BONE_TO_PICK": {
+      "name": "Кость для перепалки",
+      "description": "Достигните 35 уровня призванным фамильяром.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BONE_TO_PICK_l.png",
+      "icon_unlocked": "BARONY_ACH_BONE_TO_PICK.png"
+    },
+    "BARONY_ACH_BONY_BARON": {
+      "name": "Костлявый барон",
+      "description": "Сбегите из Цитадели, играя за истинного Скелета любого класса.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BONY_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BONY_BARON.png"
+    },
+    "BARONY_ACH_BOOKWORM": {
+      "name": "Книжный червь",
+      "description": "Получите 50 уровней магии от чтения или колдовства из книг заклинаний в роли истинного Инсектоида за несколько прохождений.",
+      "lore_points": 3,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BOOKWORM_l.png",
+      "icon_unlocked": "BARONY_ACH_BOOKWORM.png"
+    },
+    "BARONY_ACH_BOOTS_OF_SPEED": {
+      "name": "Сапоги скорости",
+      "description": "Победите барона Херкса или Бафомета за 20 минут или меньше.",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BOOTS_OF_SPEED_l.png",
+      "icon_unlocked": "BARONY_ACH_BOOTS_OF_SPEED.png"
+    },
+    "BARONY_ACH_BORN_AGAIN": {
+      "name": "Рожденный заново",
+      "description": "Переживите мгновенную смерть с амулетом спасения жизни.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BOTTLE_NOSED": {
+      "name": "Бутылочный нос",
+      "description": "Найдите дополнительные зелья в фонтанах 20 раз в роли истинного Козлоподобного.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BOTTLE_NOSED_l.png",
+      "icon_unlocked": "BARONY_ACH_BOTTLE_NOSED.png"
+    },
+    "BARONY_ACH_BRAWLER": {
+      "name": "Драчун",
+      "description": "Одержите победу в Цитадели, атакуя только кулаками и брошенными зельями с начала игры.",
+      "lore_points": 5,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BRAWLER_l.png",
+      "icon_unlocked": "BARONY_ACH_BRAWLER.png"
+    },
+    "BARONY_ACH_BRING_A_TOWEL": {
+      "name": "Не забудьте полотенце!",
+      "description": "Используйте полотенце, чтобы остановить кровотечение, смыть пирог с лица и вытереть жир с рук.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BRING_A_TOWEL_l.png",
+      "icon_unlocked": "BARONY_ACH_BRING_A_TOWEL.png"
+    },
+    "BARONY_ACH_BUCKTOOTH_BARON": {
+      "name": "Зубастый барон",
+      "description": "Сбегите из Цитадели, играя за истинного Вампира любого класса.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BUCKTOOTH_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BUCKTOOTH_BARON.png"
+    },
+    "BARONY_ACH_BUGGAR_BARON": {
+      "name": "Барон-букашка",
+      "description": "Сбегите из Цитадели в роли истинного Инсектоида.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BUGGAR_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BUGGAR_BARON.png"
+    },
+    "BARONY_ACH_BUT_A_SCRATCH": {
+      "name": "Это всего лишь царапина!",
+      "description": "Победите могущественного врага, имея не более 5 очков здоровья.",
+      "lore_points": 3,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BUT_A_SCRATCH_l.png",
+      "icon_unlocked": "BARONY_ACH_BUT_A_SCRATCH.png"
+    },
+    "BARONY_ACH_CALM_LIKE_A_BOMB": {
+      "name": "Спокойный как бомба",
+      "description": "Бросьте наносящую урон бомбу во врага, усыпленного сонной бомбой.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_CALM_LIKE_A_BOMB_l.png",
+      "icon_unlocked": "BARONY_ACH_CALM_LIKE_A_BOMB.png"
+    },
+    "BARONY_ACH_CAUGHT_IN_A_MOSH": {
+      "name": "Попал в мотню",
+      "description": "Заставьте как минимум 4 турели нацелиться на одного монстра одновременно.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_CAUGHT_IN_A_MOSH_l.png",
+      "icon_unlocked": "BARONY_ACH_CAUGHT_IN_A_MOSH.png"
+    },
+    "BARONY_ACH_CHEERS": {
+      "name": "Ваше здоровье!",
+      "description": "Бросьте выпивку в другого персонажа, находясь под ее эффектом.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_CHEERS_l.png",
+      "icon_unlocked": "BARONY_ACH_CHEERS.png"
+    },
+    "BARONY_ACH_CHOPPING_BLOCK": {
+      "name": "Разделочная доска",
+      "description": "Убейте 50 врагов, обездвиженных замедлением, сном или параличом, топором в роли Карателя за несколько прохождений.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_CHOPPING_BLOCK_l.png",
+      "icon_unlocked": "BARONY_ACH_CHOPPING_BLOCK.png"
+    },
+    "BARONY_ACH_CHOSEN_ONE": {
+      "name": "Ты был избранным!",
+      "description": "Умрите, будучи экипированным легендарным предметом.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_CHOSEN_ONE_l.png",
+      "icon_unlocked": "BARONY_ACH_CHOSEN_ONE.png"
+    },
+    "BARONY_ACH_COCK_BLOCK": {
+      "name": "Петушиный блок",
+      "description": "Заблокируйте и не получите урона от рукопашной атаки Кокатриса.",
+      "lore_points": 3,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_COCK_BLOCK_l.png",
+      "icon_unlocked": "BARONY_ACH_COCK_BLOCK.png"
+    },
+    "BARONY_ACH_COLD_BLOODED": {
+      "name": "Хладнокровный",
+      "description": "Сбегите из Шахт в кооперативной игре, где в отряде есть истинный Вампир и Инсектоид.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_COLD_BLOODED_l.png",
+      "icon_unlocked": "BARONY_ACH_COLD_BLOODED.png"
+    },
+    "BARONY_ACH_COMEDIAN": {
+      "name": "Комик",
+      "description": "Экипируйте оружие и плащ Funny Bones без другого снаряжения в роли скелета.",
+      "lore_points": 2,
+      "category": "joker",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_COMEDIAN_l.png",
+      "icon_unlocked": "BARONY_ACH_COMEDIAN.png"
+    },
+    "BARONY_ACH_COMMANDER_CHIEF": {
+      "name": "Главнокомандующий",
+      "description": "Сбегите из Цитадели, играя за класс Мезмер любой расы.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_COMMANDER_CHIEF_l.png",
+      "icon_unlocked": "BARONY_ACH_COMMANDER_CHIEF.png"
+    },
+    "BARONY_ACH_CONFESSOR": {
+      "name": "Духовник",
+      "description": "Подчините НПС, который уже является вашим союзником.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_CONFESSOR_l.png",
+      "icon_unlocked": "BARONY_ACH_CONFESSOR.png"
+    },
+    "BARONY_ACH_COWBOY_FROM_HELL": {
+      "name": "Ковбой из ада",
+      "description": "Убейте 50 врагов хлыстом вскоре после их телепортации за несколько прохождений.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_COWBOY_FROM_HELL_l.png",
+      "icon_unlocked": "BARONY_ACH_COWBOY_FROM_HELL.png"
+    },
+    "BARONY_ACH_CULT_FOLLOWING": {
+      "name": "Культ последователей",
+      "description": "Выйдите из Логова Кокатриса.",
+      "lore_points": 3,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_CULT_FOLLOWING_l.png",
+      "icon_unlocked": "BARONY_ACH_CULT_FOLLOWING.png"
+    },
+    "BARONY_ACH_DESPAIR_CALMS": {
+      "name": "У отчаяния есть свой покой",
+      "description": "Выйдите из Замка Брама.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_DESPAIR_CALMS_l.png",
+      "icon_unlocked": "BARONY_ACH_DESPAIR_CALMS.png"
+    },
+    "BARONY_ACH_DIPLOMA": {
+      "name": "Диплом",
+      "description": "Пройдите все Испытания в Зале Испытаний.",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_DIPLOMA_l.png",
+      "icon_unlocked": "BARONY_ACH_DIPLOMA.png"
+    },
+    "BARONY_ACH_DRUNK_POWER": {
+      "name": "Власть во хмелю",
+      "description": "Сбегите из Цитадели, играя за класс Варвар любой расы.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_DRUNK_POWER_l.png",
+      "icon_unlocked": "BARONY_ACH_DRUNK_POWER.png"
+    },
+    "BARONY_ACH_DYSLEXIA": {
+      "name": "Дислексия",
+      "description": "Сожгите 50 книг заклинаний в пепел в роли Гоблина за несколько прохождений.",
+      "lore_points": 3,
+      "category": "joker",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_DYSLEXIA_l.png",
+      "icon_unlocked": "BARONY_ACH_DYSLEXIA.png"
+    },
+    "BARONY_ACH_EARN_THIS": {
+      "name": "Заслужи это",
+      "description": "Отдайте легендарный предмет союзному НПС.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_EARN_THIS_l.png",
+      "icon_unlocked": "BARONY_ACH_EARN_THIS.png"
+    },
+    "BARONY_ACH_ESCORT": {
+      "name": "Эскорт",
+      "description": "Вернитесь в Хэмлет с союзником-человеком.",
+      "lore_points": 3,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_ESCORT_l.png",
+      "icon_unlocked": "BARONY_ACH_ESCORT.png"
+    },
+    "BARONY_ACH_EVIL_INCARNATE": {
+      "name": "Воплощение зла",
+      "description": "Найдите и победите Бафомета.",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_EVIL_INCARNATE_l.png",
+      "icon_unlocked": "BARONY_ACH_EVIL_INCARNATE.png"
+    },
+    "BARONY_ACH_EXPELLED": {
+      "name": "Исключен",
+      "description": "Умрите в хабе Зала Испытаний.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_EXPELLED_l.png",
+      "icon_unlocked": "BARONY_ACH_EXPELLED.png",
+      "hidden": true
+    },
+    "BARONY_ACH_EXTERNAL_BATTERY": {
+      "name": "Внешняя батарея",
+      "description": "Откажитесь от души призванного фамильяра, когда у вас 0 MP.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_EXTERNAL_BATTERY_l.png",
+      "icon_unlocked": "BARONY_ACH_EXTERNAL_BATTERY.png"
+    },
+    "BARONY_ACH_EXTRA_CREDIT": {
+      "name": "Дополнительный кредит",
+      "description": "Найдите секретную область в каждом из 10 Испытаний в Зале Испытаний.",
+      "lore_points": 4,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_EXTRA_CREDIT_l.png",
+      "icon_unlocked": "BARONY_ACH_EXTRA_CREDIT.png"
+    },
+    "BARONY_ACH_FACES_OF_DEATH": {
+      "name": "Лики смерти",
+      "description": "Сбегите из Шахт в кооперативной игре, где в отряде есть Шаман и Заклинатель.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_FACES_OF_DEATH_l.png",
+      "icon_unlocked": "BARONY_ACH_FACES_OF_DEATH.png"
+    },
+    "BARONY_ACH_FAMILY_REUNION": {
+      "name": "Семейное воссоединение",
+      "description": "Завербуйте трех союзников-козлоподобных в роли истинного козлоподобного.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_FAMILY_REUNION_l.png",
+      "icon_unlocked": "BARONY_ACH_FAMILY_REUNION.png"
+    },
+    "BARONY_ACH_FASCIST": {
+      "name": "Фашист",
+      "description": "Поглотите 50 немагических книг или свитков в роли истинного Автоматона за несколько прохождений.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_FASCIST_l.png",
+      "icon_unlocked": "BARONY_ACH_FASCIST.png"
+    },
+    "BARONY_ACH_FAST_LEARNER": {
+      "name": "Способный ученик",
+      "description": "Пройдите все Испытания с общим временем менее 20 минут.",
+      "lore_points": 4,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_FAST_LEARNER_l.png",
+      "icon_unlocked": "BARONY_ACH_FAST_LEARNER.png"
+    },
+    "BARONY_ACH_FELL_BEAST": {
+      "name": "Лютый зверь",
+      "description": "Нанесите огромный урон врагу из дальнобойного оружия одним выстрелом.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_FELL_BEAST_l.png",
+      "icon_unlocked": "BARONY_ACH_FELL_BEAST.png"
+    },
+    "BARONY_ACH_FILTHY_RICH": {
+      "name": "Богатенький",
+      "description": "Получите 10,000 золота.",
+      "lore_points": 1,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_FILTHY_RICH_l.png",
+      "icon_unlocked": "BARONY_ACH_FILTHY_RICH.png"
+    },
+    "BARONY_ACH_FIRE_MAYBE_DIFFERENT": {
+      "name": "Может быть, в этот раз будет иначе",
+      "description": "Прочитайте два свитка огня.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_FIRE_MAYBE_DIFFERENT_l.png",
+      "icon_unlocked": "BARONY_ACH_FIRE_MAYBE_DIFFERENT.png",
+      "hidden": true
+    },
+    "BARONY_ACH_FIXER_UPPPER": {
+      "name": "Любитель починить",
+      "description": "Почините или утилизируйте 100 самодельных ловушек и союзников-машин.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_FIXER_UPPER_l.png",
+      "icon_unlocked": "BARONY_ACH_FIXER_UPPER.png"
+    },
+    "BARONY_ACH_FLUTTERSHY": {
+      "name": "Бабочка-робость",
+      "description": "Получите доступ к недоступной иным способом области уровня, используя Парение.",
+      "lore_points": 1,
+      "category": "technique",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_FLUTTERSHY_l.png",
+      "icon_unlocked": "BARONY_ACH_FLUTTERSHY.png"
+    },
+    "BARONY_ACH_FOODLESS_CONDUCT": {
+      "name": "Обет без еды",
+      "description": "Выиграйте в игру, не съев никакой еды.",
+      "lore_points": 4,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_FOODLESS_CONDUCT_l.png",
+      "icon_unlocked": "BARONY_ACH_FOODLESS_CONDUCT.png"
+    },
+    "BARONY_ACH_FORUM_TROLL": {
+      "name": "Форумный тролль",
+      "description": "Завербуйте 3 союзников-троллей, сломайте 3 стены и напугайте 3 персонажей заклинанием Страх в роли Тролля за одно прохождение.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_FORUM_TROLL_l.png",
+      "icon_unlocked": "BARONY_ACH_FORUM_TROLL.png"
+    },
+    "BARONY_ACH_FREE_REFILLS": {
+      "name": "Бесплатные доливы",
+      "description": "Наполните 50 пустых бутылок из раковин или фонтанов.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_FREE_REFILLS_l.png",
+      "icon_unlocked": "BARONY_ACH_FREE_REFILLS.png"
+    },
+    "BARONY_ACH_FUNCTIONAL": {
+      "name": "Функциональный",
+      "description": "Вылечите свое похмелье 10 раз за одно прохождение в роли истинного Козлоподобного.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_FUNCTIONAL_l.png",
+      "icon_unlocked": "BARONY_ACH_FUNCTIONAL.png"
+    },
+    "BARONY_ACH_GASTRIC_BYPASS": {
+      "name": "Гастрошунт",
+      "description": "Убейте врага заклинанием, которое оставляет вас с 5 или менее Энергии в роли истинного Инсектоида.",
+      "lore_points": 2,
+      "category": "joker",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_GASTRIC_BYPASS_l.png",
+      "icon_unlocked": "BARONY_ACH_GASTRIC_BYPASS.png"
+    },
+    "BARONY_ACH_GIFTS_ETERNALS": {
+      "name": "Дары Вечных",
+      "description": "Получите и наденьте полный комплект Артефактной брони.",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_GIFTS_ETERNALS_l.png",
+      "icon_unlocked": "BARONY_ACH_GIFTS_ETERNALS.png"
+    },
+    "BARONY_ACH_GILDED": {
+      "name": "Золоченый",
+      "description": "Получите 100,000 золота.",
+      "lore_points": 4,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_GILDED_l.png",
+      "icon_unlocked": "BARONY_ACH_GILDED.png"
+    },
+    "BARONY_ACH_GOODNIGHT_SWEET_PRINCE": {
+      "name": "Спокойной ночи, сладкий принц",
+      "description": "Увидите, как вашего Гиробота раздавит валун.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_GOODNIGHT_SWEET_PRINCE_l.png",
+      "icon_unlocked": "BARONY_ACH_GOODNIGHT_SWEET_PRINCE.png",
+      "hidden": true
+    },
+    "BARONY_ACH_GUDIPARIAN_BAZI": {
+      "name": "Гудипариан бази",
+      "description": "Сбегите из Цитадели, ни разу не ударив врага рукопашным оружием в роли Охотника с начала игры.",
+      "lore_points": 5,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_GUDIPARIAN_BAZI_l.png",
+      "icon_unlocked": "BARONY_ACH_GUDIPARIAN_BAZI.png"
+    },
+    "BARONY_ACH_GUERILLA_RADIO": {
+      "name": "Герилья радио",
+      "description": "Убейте 20 врагов, привлеченных Шумогенератором.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_GUERILLA_RADIO_l.png",
+      "icon_unlocked": "BARONY_ACH_GUERILLA_RADIO.png"
+    },
+    "BARONY_ACH_HARDCORE": {
+      "name": "Классический хардкор",
+      "description": "Пройдите игру от начала до конца с включенными режимами Классика и Хардкор.",
+      "lore_points": 4,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_HARDCORE_l.png",
+      "icon_unlocked": "BARONY_ACH_HARDCORE.png"
+    },
+    "BARONY_ACH_HEAL_BOT": {
+      "name": "Хил-бот",
+      "description": "Вылечите 1000 очков здоровья игроков или союзных НПС за одно прохождение.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_HEAL_BOT_l.png",
+      "icon_unlocked": "BARONY_ACH_HEAL_BOT.png"
+    },
+    "BARONY_ACH_HOMICIDAL_MANIAC": {
+      "name": "Человек-убийца",
+      "description": "Убейте как минимум 10 людей за одну игру.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_HOMICIDAL_MANIAC_l.png",
+      "icon_unlocked": "BARONY_ACH_HOMICIDAL_MANIAC.png"
+    },
+    "BARONY_ACH_HOT_SHOWER": {
+      "name": "Горячий душ",
+      "description": "Используйте раковину или фонтан, чтобы потушить пламя.",
+      "lore_points": 1,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_HOT_SHOWER_l.png",
+      "icon_unlocked": "BARONY_ACH_HOT_SHOWER.png"
+    },
+    "BARONY_ACH_HOT_TUB": {
+      "name": "Машина времени в горячей ванне",
+      "description": "Получите 50+ уровней Плавания с выключенным Голодом, как будто этот навык существует.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_HOT_TUB_l.png",
+      "icon_unlocked": "BARONY_ACH_HOT_TUB.png"
+    },
+    "BARONY_ACH_IF_YOU_LOVE_SOMETHING": {
+      "name": "Если ты что-то любишь",
+      "description": "Заставьте Бумеранг вернуться к вам 100 раз после попадания во врага за несколько прохождений.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_IF_YOU_LOVE_SOMETHING_l.png",
+      "icon_unlocked": "BARONY_ACH_IF_YOU_LOVE_SOMETHING.png"
+    },
+    "BARONY_ACH_ILLITERATE_CONDUCT": {
+      "name": "Обет без грамоты",
+      "description": "Выиграйте в игру, не прочитав ни одной книги, свитка или книги заклинаний.",
+      "lore_points": 3,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_ILLITERATE_CONDUCT_l.png",
+      "icon_unlocked": "BARONY_ACH_ILLITERATE_CONDUCT.png"
+    },
+    "BARONY_ACH_IN_GREATER_NUMBERS": {
+      "name": "В большем количестве",
+      "description": "Выиграйте в игру как минимум с двумя живыми игроками.",
+      "lore_points": 5,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_IN_GREATER_NUMBERS_l.png",
+      "icon_unlocked": "BARONY_ACH_IN_GREATER_NUMBERS.png"
+    },
+    "BARONY_ACH_IN_THE_MIX": {
+      "name": "В замесе",
+      "description": "Сварите 50 зелий с помощью Аламбика.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_IN_THE_MIX_l.png",
+      "icon_unlocked": "BARONY_ACH_IN_THE_MIX.png"
+    },
+    "BARONY_ACH_IRONIC_PUNISHMENT": {
+      "name": "Отдел ироничных наказаний",
+      "description": "Используйте хлыст, чтобы обезоружить цель, поднимите оружие и убейте им ту же цель.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_IRONIC_PUNISHMENT_l.png",
+      "icon_unlocked": "BARONY_ACH_IRONIC_PUNISHMENT.png"
+    },
+    "BARONY_ACH_IRON_GUT": {
+      "name": "Железный желудок",
+      "description": "Съешьте 20 жестяных банок в роли истинного козлоподобного.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_IRON_GUT_l.png",
+      "icon_unlocked": "BARONY_ACH_IRON_GUT.png"
+    },
+    "BARONY_ACH_ITS_A_LIVING": {
+      "name": "Ради хлеба насущного",
+      "description": "Нанесите кровотечение 50 врагам в капюшоне палача за несколько прохождений.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_ITS_A_LIVING_l.png",
+      "icon_unlocked": "BARONY_ACH_ITS_A_LIVING.png"
+    },
+    "BARONY_ACH_I_WANT_IT_ALL": {
+      "name": "Хочу все и сразу",
+      "description": "Сыграйте за каждый DLC-класс и расу.",
+      "lore_points": 3,
+      "category": "experience",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_I_WANT_IT_ALL_l.png",
+      "icon_unlocked": "BARONY_ACH_I_WANT_IT_ALL.png"
+    },
+    "BARONY_ACH_JUNGLE_FEVER": {
+      "name": "Джунгли лихорадят",
+      "description": "Сбегите из болота.",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_JUNGLE_FEVER_l.png",
+      "icon_unlocked": "BARONY_ACH_JUNGLE_FEVER.png"
+    },
+    "BARONY_ACH_KILL_COMMAND": {
+      "name": "Команда на убийство",
+      "description": "Заставьте ваших очарованных союзников убить 50 врагов.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_KILL_COMMAND_l.png",
+      "icon_unlocked": "BARONY_ACH_KILL_COMMAND.png"
+    },
+    "BARONY_ACH_KING_ARTHURS_BLADE": {
+      "name": "Меч короля Артура",
+      "description": "Найдите мистический меч короля Артура, Дирнуин.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_KING_ARTHURS_BLADE_l.png",
+      "icon_unlocked": "BARONY_ACH_KING_ARTHURS_BLADE.png"
+    },
+    "BARONY_ACH_KNOW_THYSELF": {
+      "name": "Познай себя",
+      "description": "Убейте Тень, которая имитирует вашу личность.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_KNOW_THYSELF_l.png",
+      "icon_unlocked": "BARONY_ACH_KNOW_THYSELF.png"
+    },
+    "BARONY_ACH_LAST_RESORT": {
+      "name": "Последнее средство",
+      "description": "Уничтожьте валун киркой, когда он катится на вас.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_LAST_RESORT_l.png",
+      "icon_unlocked": "BARONY_ACH_LAST_RESORT.png"
+    },
+    "BARONY_ACH_LEVITANT_LACKEY": {
+      "name": "Левитирующий прислужник",
+      "description": "Прикажите Гироботу взять предмет или взаимодействовать с переключателем, до которого иначе не добраться.",
+      "lore_points": 1,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_LEVITANT_LACKEY_l.png",
+      "icon_unlocked": "BARONY_ACH_LEVITANT_LACKEY.png"
+    },
+    "BARONY_ACH_LICH_HUNTER": {
+      "name": "Охотник на личей",
+      "description": "Найдите и победите барона Херкса в его логове.",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_LICH_HUNTER_l.png",
+      "icon_unlocked": "BARONY_ACH_LICH_HUNTER.png"
+    },
+    "BARONY_ACH_LIFE_FOR_A_LIFE": {
+      "name": "Жизнь за жизнь",
+      "description": "Пожертвуйте всем запасом здоровья, чтобы Подчинить врага, и выживите.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_LIFE_FOR_A_LIFE_l.png",
+      "icon_unlocked": "BARONY_ACH_LIFE_FOR_A_LIFE.png"
+    },
+    "BARONY_ACH_LIKE_CLOCKWORK": {
+      "name": "Как часовой механизм",
+      "description": "Сбегите из Цитадели в роли Механиста любой расы.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_LIKE_CLOCKWORK_l.png",
+      "icon_unlocked": "BARONY_ACH_LIKE_CLOCKWORK.png"
+    },
+    "BARONY_ACH_LOCAL_CUSTOMS": {
+      "name": "Местные обычаи",
+      "description": "Начните игру с загруженным локальным мод-файлом.",
+      "lore_points": 3,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_LOCAL_CUSTOMS_l.png",
+      "icon_unlocked": "BARONY_ACH_LOCAL_CUSTOMS.png"
+    },
+    "BARONY_ACH_MACHINE_HEAD": {
+      "name": "Механическая голова",
+      "description": "Имейте одновременно активными турель с арбалетом, магическую турель и гирокоптер.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_MACHINE_HEAD_l.png",
+      "icon_unlocked": "BARONY_ACH_MACHINE_HEAD.png"
+    },
+    "BARONY_ACH_MAGIC_MASTERY": {
+      "name": "Мастер магии",
+      "description": "Выучите 20 заклинаний.",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_MAGIC_MASTERY_l.png",
+      "icon_unlocked": "BARONY_ACH_MAGIC_MASTERY.png"
+    },
+    "BARONY_ACH_MANAGEMENT_TEAM": {
+      "name": "Управленческая команда",
+      "description": "Сбегите из Шахт в кооперативной игре, где в отряде есть Механист и Мезмер.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_MANAGEMENT_TEAM_l.png",
+      "icon_unlocked": "BARONY_ACH_MANAGEMENT_TEAM.png"
+    },
+    "BARONY_ACH_MANY_PEDI_PALP": {
+      "name": "Многолап",
+      "description": "Убейте 50 опутанных паутиной врагов в роли Паука за несколько прохождений.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_MANY_PEDI_PALP_l.png",
+      "icon_unlocked": "BARONY_ACH_MANY_PEDI_PALP.png"
+    },
+    "BARONY_ACH_MASTER": {
+      "name": "Мастер",
+      "description": "Найдите Крыло Мастера в хабе Зала Испытаний.",
+      "lore_points": 4,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_MASTER_l.png",
+      "icon_unlocked": "BARONY_ACH_MASTER.png",
+      "hidden": true
+    },
+    "BARONY_ACH_MIXOLOGIST": {
+      "name": "Миксолог-профи",
+      "description": "Узнайте все базовые и вторичные алхимические ингредиенты.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_MIXOLOGIST_l.png",
+      "icon_unlocked": "BARONY_ACH_MIXOLOGIST.png"
+    },
+    "BARONY_ACH_MONARCH": {
+      "name": "Монарх",
+      "description": "Заставьте союзников-инсектоидов убить 20 врагов за вас в роли истинного инсектоида.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_MONARCH_l.png",
+      "icon_unlocked": "BARONY_ACH_MONARCH.png"
+    },
+    "BARONY_ACH_MONSTER_SQUAD": {
+      "name": "Отряд монстров",
+      "description": "Сыграйте в игру с 3 или более игроками, где все являются монстрами.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_MONSTER_SQUAD_l.png",
+      "icon_unlocked": "BARONY_ACH_MONSTER_SQUAD.png"
+    },
+    "BARONY_ACH_MOVED_ITSELF": {
+      "name": "Этот валун сам сдвинулся!",
+      "description": "Убейте союзного игрока толкнутым валуном.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_MOVED_ITSELF_l.png",
+      "icon_unlocked": "BARONY_ACH_MOVED_ITSELF.png"
+    },
+    "BARONY_ACH_MUSCLE_MEMORY": {
+      "name": "Мышечная память",
+      "description": "Съешьте еду, будучи полиморфным в человека, в роли истинного Скелета.",
+      "lore_points": 1,
+      "category": "joker",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_MUSCLE_MEMORY_l.png",
+      "icon_unlocked": "BARONY_ACH_MUSCLE_MEMORY.png"
+    },
+    "BARONY_ACH_MY_FINAL_FORM": {
+      "name": "Моя финальная форма",
+      "description": "Сбегите из Цитадели в роли Шамана любой расы.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_MY_FINAL_FORM_l.png",
+      "icon_unlocked": "BARONY_ACH_MY_FINAL_FORM.png"
+    },
+    "BARONY_ACH_NARCISSIST": {
+      "name": "Нарцисс",
+      "description": "Убейте врага с помощью Зеркального щита, используя его же отраженное заклинание.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_NARCISSIST_l.png",
+      "icon_unlocked": "BARONY_ACH_NARCISSIST.png"
+    },
+    "BARONY_ACH_NATURAL_BORN_LEADER": {
+      "name": "Прирожденный лидер",
+      "description": "Убедите как минимум трех НПС следовать за вами одновременно.",
+      "lore_points": 1,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_NATURAL_BORN_LEADER_l.png",
+      "icon_unlocked": "BARONY_ACH_NATURAL_BORN_LEADER.png"
+    },
+    "BARONY_ACH_NOT_A_TEAM_PLAYER": {
+      "name": "Не командный игрок",
+      "description": "Убейте другого игрока.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_NOT_A_TEAM_PLAYER_l.png",
+      "icon_unlocked": "BARONY_ACH_NOT_A_TEAM_PLAYER.png"
+    },
+    "BARONY_ACH_OFF_LIMITS": {
+      "name": "Игра вне правил",
+      "description": "Попытайтесь очаровать монстра, которого нельзя приручить.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_OFF_LIMITS_l.png",
+      "icon_unlocked": "BARONY_ACH_OFF_LIMITS.png"
+    },
+    "BARONY_ACH_OHAI_MARK": {
+      "name": "ОХАЙ МАРК",
+      "description": "Телепортируйтесь и уничтожьте 20 отмеченных врагов за одно прохождение.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_OHAI_MARK_l.png",
+      "icon_unlocked": "BARONY_ACH_OHAI_MARK.png"
+    },
+    "BARONY_ACH_ONE_MANS_TRASH": {
+      "name": "Что для одного мусор",
+      "description": "Используйте Проклятый магический посох, пока он не сломается.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_ONE_MANS_TRASH_l.png",
+      "icon_unlocked": "BARONY_ACH_ONE_MANS_TRASH.png",
+      "hidden": true
+    },
+    "BARONY_ACH_ONE_PUNCH_MAN": {
+      "name": "Человек-кулак",
+      "description": "Парализуйте монстра с легендарным навыком Без оружия.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_ONE_PUNCH_MAN_l.png",
+      "icon_unlocked": "BARONY_ACH_ONE_PUNCH_MAN.png"
+    },
+    "BARONY_ACH_ONE_WHO_KNOCKS": {
+      "name": "Я тот, кто стучится",
+      "description": "Выдержите атаку минотавра, не получив от нее урона без блока.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_ONE_WHO_KNOCKS_l.png",
+      "icon_unlocked": "BARONY_ACH_ONE_WHO_KNOCKS.png"
+    },
+    "BARONY_ACH_OVERCLOCKED": {
+      "name": "Разогнан",
+      "description": "Накопите 10 минут игрового времени с перегретым котлом в роли истинного Автоматона.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_OVERCLOCKED_l.png",
+      "icon_unlocked": "BARONY_ACH_OVERCLOCKED.png"
+    },
+    "BARONY_ACH_OWN_WORST_ENEMY": {
+      "name": "Сам себе злейший враг",
+      "description": "Добейтесь, чтобы лич был убит своим же призванным миньоном.",
+      "lore_points": 3,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_OWN_WORST_ENEMY_l.png",
+      "icon_unlocked": "BARONY_ACH_OWN_WORST_ENEMY.png",
+      "hidden": true
+    },
+    "BARONY_ACH_PENNILESS_CONDUCT": {
+      "name": "Обет без гроша",
+      "description": "Выиграйте в игру, не собрав ни одного золота.",
+      "lore_points": 4,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_PENNILESS_CONDUCT_l.png",
+      "icon_unlocked": "BARONY_ACH_PENNILESS_CONDUCT.png"
+    },
+    "BARONY_ACH_PIMPIN": {
+      "name": "Сутенерство нелегкое дело",
+      "description": "Завербуйте в сумме 6 Суккубов, Инкубов или Людей в роли истинного Инкуба или Суккуба.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_PIMPIN_l.png",
+      "icon_unlocked": "BARONY_ACH_PIMPIN.png"
+    },
+    "BARONY_ACH_PITY_FRIEND": {
+      "name": "Жалкий друг",
+      "description": "Завербуйте союзника-человека в роли монстра.",
+      "lore_points": 1,
+      "category": "teamwork",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_PITY_FRIEND_l.png",
+      "icon_unlocked": "BARONY_ACH_PITY_FRIEND.png"
+    },
+    "BARONY_ACH_PLEASE_HOLD": {
+      "name": "Пожалуйста, подождите",
+      "description": "Попадите во врага Охотничьими или Огненными стрелами, а затем задержите его Пружинными стрелами.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_PLEASE_HOLD_l.png",
+      "icon_unlocked": "BARONY_ACH_PLEASE_HOLD.png"
+    },
+    "BARONY_ACH_PLUS_BOOTS_OF_SPEED": {
+      "name": "Благословенные сапоги скорости",
+      "description": "Достигните финальной стадии за 45 минут или меньше и выиграйте игру.",
+      "lore_points": 5,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_PLUS_BOOTS_OF_SPEED_l.png",
+      "icon_unlocked": "BARONY_ACH_PLUS_BOOTS_OF_SPEED.png"
+    },
+    "BARONY_ACH_POP_QUIZ": {
+      "name": "Внезапный опрос",
+      "description": "Примените 20 различных заклинаний из книг заклинаний в роли истинного Гоблина за одно прохождение.",
+      "lore_points": 3,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_POP_QUIZ_l.png",
+      "icon_unlocked": "BARONY_ACH_POP_QUIZ.png"
+    },
+    "BARONY_ACH_POST_HARDCORE": {
+      "name": "Постмодернистский хардкор",
+      "description": "Пройдите игру от начала до конца с включенным режимом Хардкор и выключенной Классикой.",
+      "lore_points": 5,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_POST_HARDCORE_l.png",
+      "icon_unlocked": "BARONY_ACH_POST_HARDCORE.png"
+    },
+    "BARONY_ACH_POTION_PREPARATION": {
+      "name": "Зелейная подготовка",
+      "description": "Имейте в инвентаре 16 различных зелий или разлитых жидкостей, которые не нужно варить.",
+      "lore_points": 3,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_POTION_PREPARATION_l.png",
+      "icon_unlocked": "BARONY_ACH_POTION_PREPARATION.png"
+    },
+    "BARONY_ACH_POWER_HUNGRY": {
+      "name": "Жаждущий власти",
+      "description": "Сбегите из Цитадели, играя за класс Проклятый любой расы.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_POWER_HUNGRY_l.png",
+      "icon_unlocked": "BARONY_ACH_POWER_HUNGRY.png"
+    },
+    "BARONY_ACH_PROFESSIONAL_BURGLAR": {
+      "name": "Профессиональный взломщик",
+      "description": "Убейте как минимум 3 лавочников за одну игру.",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_PROFESSIONAL_BURGLAR_l.png",
+      "icon_unlocked": "BARONY_ACH_PROFESSIONAL_BURGLAR.png"
+    },
+    "BARONY_ACH_PUZZLE_MASTER": {
+      "name": "Мастер головоломок",
+      "description": "Разгадайте тайну Сокобана.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_PUZZLE_MASTER_l.png",
+      "icon_unlocked": "BARONY_ACH_PUZZLE_MASTER.png"
+    },
+    "BARONY_ACH_RAGE_AGAINST": {
+      "name": "Ярость против машин",
+      "description": "Убейте 20 врагов, пока они атакуют Ботов-приманок, за несколько прохождений.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_RAGE_AGAINST_l.png",
+      "icon_unlocked": "BARONY_ACH_RAGE_AGAINST.png"
+    },
+    "BARONY_ACH_RANGER_DANGER": {
+      "name": "Опасность рейнджера",
+      "description": "Сбегите из Цитадели в роли Охотника любой расы.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_RANGER_DANGER_l.png",
+      "icon_unlocked": "BARONY_ACH_RANGER_DANGER.png"
+    },
+    "BARONY_ACH_REAL_BOY": {
+      "name": "Я настоящий мальчик",
+      "description": "Завербуйте союзника-человека и торгуйте с торговцем под эффектом полиморфа в роли истинного Автоматона.",
+      "lore_points": 2,
+      "category": "joker",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_REAL_BOY_l.png",
+      "icon_unlocked": "BARONY_ACH_REAL_BOY.png"
+    },
+    "BARONY_ACH_RECYCLER": {
+      "name": "Переработчик",
+      "description": "Дайте предмет союзному Автоматону на переработку.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_RECYCLER_l.png",
+      "icon_unlocked": "BARONY_ACH_RECYCLER.png"
+    },
+    "BARONY_ACH_REPOSSESSION": {
+      "name": "Возврат владения",
+      "description": "Подберите предмет, который Инкуб или Суккуб украли у вас.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_REPOSSESSION_l.png",
+      "icon_unlocked": "BARONY_ACH_REPOSSESSION.png"
+    },
+    "BARONY_ACH_REUNITED": {
+      "name": "Воссоединение",
+      "description": "Убейте Минотавра после встречи с Херксом.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_REUNITED_l.png",
+      "icon_unlocked": "BARONY_ACH_REUNITED.png"
+    },
+    "BARONY_ACH_REVERSE_THIS_CURSE": {
+      "name": "Сними это проклятие",
+      "description": "Найдите лекарство для класса Проклятый.",
+      "lore_points": 2,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_REVERSE_THIS_CURSE_l.png",
+      "icon_unlocked": "BARONY_ACH_REVERSE_THIS_CURSE.png"
+    },
+    "BARONY_ACH_RHINESTONE_COWBOY": {
+      "name": "Ковбой в стразах",
+      "description": "Опознайте 50 кусков Бесполезного стекла за несколько прохождений.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_RHINESTONE_COWBOY_l.png",
+      "icon_unlocked": "BARONY_ACH_RHINESTONE_COWBOY.png"
+    },
+    "BARONY_ACH_RHYTHM_OF_THE_KNIGHT": {
+      "name": "Ритм рыцаря",
+      "description": "Проведите чередование Блок-Атака 3 раза против одного врага, не получив ни одного неблокированного удара.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_RHYTHM_OF_THE_KNIGHT_l.png",
+      "icon_unlocked": "BARONY_ACH_RHYTHM_OF_THE_KNIGHT.png"
+    },
+    "BARONY_ACH_RICH_ALTER_EGO": {
+      "name": "Мое богатое альтер эго",
+      "description": "Будучи монстром, торгуйте на сумму 50,000 золота под действием Полиморфа за все игры.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_RICH_ALTER_EGO_l.png",
+      "icon_unlocked": "BARONY_ACH_RICH_ALTER_EGO.png"
+    },
+    "BARONY_ACH_RIGHT_TO_REFUSE": {
+      "name": "Право отказа",
+      "description": "Вас выгнали из магазина, потому что вы монстр.",
+      "lore_points": 1,
+      "category": "joker",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_RIGHT_TO_REFUSE_l.png",
+      "icon_unlocked": "BARONY_ACH_RIGHT_TO_REFUSE.png"
+    },
+    "BARONY_ACH_ROBBING_THE_CRADLE": {
+      "name": "Обворовывая колыбель",
+      "description": "Разграбьте Охотничий замок и унесите ноги.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_ROBBING_THE_CRADLE_l.png",
+      "icon_unlocked": "BARONY_ACH_ROBBING_THE_CRADLE.png"
+    },
+    "BARONY_ACH_ROLL_THE_BONES": {
+      "name": "Бросаем кости",
+      "description": "Напишите 50 свитков с помощью Магического пера в роли Шамана за несколько прохождений.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_ROLL_THE_BONES_l.png",
+      "icon_unlocked": "BARONY_ACH_ROLL_THE_BONES.png"
+    },
+    "BARONY_ACH_RUST_IN_PEACE": {
+      "name": "Покойся в ржавчине",
+      "description": "Умрите от последствий холодного котла в роли истинного Автоматона.",
+      "lore_points": 1,
+      "category": "joker",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_RUST_IN_PEACE_l.png",
+      "icon_unlocked": "BARONY_ACH_RUST_IN_PEACE.png",
+      "hidden": true
+    },
+    "BARONY_ACH_SANDMAN": {
+      "name": "Сандман",
+      "description": "Сбегите из песчаного лабиринта.",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_SANDMAN_l.png",
+      "icon_unlocked": "BARONY_ACH_SANDMAN.png"
+    },
+    "BARONY_ACH_SAVAGE": {
+      "name": "Дикарь",
+      "description": "Достигните легендарного навыка с любым рукопашным оружием в роли истинного Гоблина.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_SAVAGE_l.png",
+      "icon_unlocked": "BARONY_ACH_SAVAGE.png"
+    },
+    "BARONY_ACH_SCALES_IN_FAVOR": {
+      "name": "Весы на вашей стороне",
+      "description": "Устраните Кокатриса.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_SCALES_IN_FAVOR_l.png",
+      "icon_unlocked": "BARONY_ACH_SCALES_IN_FAVOR.png"
+    },
+    "BARONY_ACH_SECOND_CHANCE": {
+      "name": "Второй шанс",
+      "description": "Возродитесь, потратив ману, в роли скелета.",
+      "lore_points": 2,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_SECOND_CHANCE_l.png",
+      "icon_unlocked": "BARONY_ACH_SECOND_CHANCE.png"
+    },
+    "BARONY_ACH_SECRET_WEAPON": {
+      "name": "Секретное оружие",
+      "description": "Убейте лича брошенным зельем.",
+      "lore_points": 3,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_SECRET_WEAPON_l.png",
+      "icon_unlocked": "BARONY_ACH_SECRET_WEAPON.png"
+    },
+    "BARONY_ACH_SEE_THAT": {
+      "name": "Ты это видел?!",
+      "description": "Убейте монстра сюрикеном, который дважды отскочил от стены.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_SEE_THAT_l.png",
+      "icon_unlocked": "BARONY_ACH_SEE_THAT.png"
+    },
+    "BARONY_ACH_SELF_FLAGELLATION": {
+      "name": "Самобичевание",
+      "description": "Заставьте 30 врагов убить себя возмездием от Внутреннего демона за несколько прохождений.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_SELF_FLAGELLATION_l.png",
+      "icon_unlocked": "BARONY_ACH_SELF_FLAGELLATION.png"
+    },
+    "BARONY_ACH_SERIAL_THRILLA": {
+      "name": "Сериал-триллер",
+      "description": "Получите 100 маны от Амулетов удушения в роли истинного Инкуба или Суккуба.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_SERIAL_THRILLA_l.png",
+      "icon_unlocked": "BARONY_ACH_SERIAL_THRILLA.png"
+    },
+    "BARONY_ACH_SITTING_DUCK": {
+      "name": "Легкая мишень",
+      "description": "Убейте 10 врагов, пока они парализованы или опутаны, за одно прохождение.",
+      "lore_points": 1,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_SITTING_DUCK_l.png",
+      "icon_unlocked": "BARONY_ACH_SITTING_DUCK.png"
+    },
+    "BARONY_ACH_SKELETON_CREW": {
+      "name": "Скелетная команда",
+      "description": "Призовите двух Скелетов-фамильяров одновременно.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_SKELETON_CREW_l.png",
+      "icon_unlocked": "BARONY_ACH_SKELETON_CREW.png"
+    },
+    "BARONY_ACH_SOCIAL_BUTTERFLY": {
+      "name": "Социальная бабочка",
+      "description": "Завербуйте 50 союзников в форме Смены облика или Полиморфа в роли Шамана за несколько прохождений.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_SOCIAL_BUTTERFLY_l.png",
+      "icon_unlocked": "BARONY_ACH_SOCIAL_BUTTERFLY.png"
+    },
+    "BARONY_ACH_SOCIOPATHS": {
+      "name": "Социопаты",
+      "description": "Сбегите из Шахт в кооперативной игре, где в отряде есть Проклятый и Каратель.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_SOCIOPATHS_l.png",
+      "icon_unlocked": "BARONY_ACH_SOCIOPATHS.png"
+    },
+    "BARONY_ACH_SOULLESS": {
+      "name": "Бездушные",
+      "description": "Сбегите из Шахт в кооперативной игре, где в отряде есть истинный Автоматон и Скелет.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_SOULLESS_l.png",
+      "icon_unlocked": "BARONY_ACH_SOULLESS.png"
+    },
+    "BARONY_ACH_SPEAR_OF_DESTINY": {
+      "name": "Копье судьбы",
+      "description": "Найдите легендарное копье Одина, Гунгнир.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_SPEAR_OF_DESTINY_l.png",
+      "icon_unlocked": "BARONY_ACH_SPEAR_OF_DESTINY.png"
+    },
+    "BARONY_ACH_SPELUNKY": {
+      "name": "Спелеолог!",
+      "description": "Сбегите из Пещер.",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_SPELUNKY_l.png",
+      "icon_unlocked": "BARONY_ACH_SPELUNKY.png"
+    },
+    "BARONY_ACH_SPICE_OF_LIFE": {
+      "name": "Острота жизни",
+      "description": "Начните хотя бы одну игру за каждый класс.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_SPICE_OF_LIFE_l.png",
+      "icon_unlocked": "BARONY_ACH_SPICE_OF_LIFE.png"
+    },
+    "BARONY_ACH_SPICY": {
+      "name": "Остренько!",
+      "description": "Поглотите 10 Свитков огня в роли истинного Автоматона.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_SPICY_l.png",
+      "icon_unlocked": "BARONY_ACH_SPICY.png"
+    },
+    "BARONY_ACH_SPONGE": {
+      "name": "Губка",
+      "description": "Выживите, получив 150 или более урона от одной атаки.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_SPONGE_l.png",
+      "icon_unlocked": "BARONY_ACH_SPONGE.png"
+    },
+    "BARONY_ACH_SPUD_LORD": {
+      "name": "Картофельный лорд",
+      "description": "Найдите мистическую говорящую булаву, Шарур.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_SPUD_LORD_l.png",
+      "icon_unlocked": "BARONY_ACH_SPUD_LORD.png"
+    },
+    "BARONY_ACH_SQUAD_GHOULS": {
+      "name": "Отряд упырей",
+      "description": "Завербуйте четырех упырей одновременно в роли скелета.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_SQUAD_GHOULS_l.png",
+      "icon_unlocked": "BARONY_ACH_SQUAD_GHOULS.png"
+    },
+    "BARONY_ACH_STFU": {
+      "name": "ЗАТКНИСЬ",
+      "description": "Бросьте Шарур в яму.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_STFU_l.png",
+      "icon_unlocked": "BARONY_ACH_STFU.png"
+    },
+    "BARONY_ACH_STROBE": {
+      "name": "Да будет стробоскоп",
+      "description": "Используйте заклинание Свет 20 раз за одну минуту.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_STROBE_l.png",
+      "icon_unlocked": "BARONY_ACH_STROBE.png"
+    },
+    "BARONY_ACH_STRUNG_OUT": {
+      "name": "На нервах",
+      "description": "Используйте быстрые боеприпасы с составным луком, чтобы нанести 10 попаданий по врагам за короткое время.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_STRUNG_OUT_l.png",
+      "icon_unlocked": "BARONY_ACH_STRUNG_OUT.png"
+    },
+    "BARONY_ACH_STUCK_ON_YOU": {
+      "name": "Прилип к тебе",
+      "description": "Фонтан благословит ваше снаряжение в роли истинного Суккуба.",
+      "lore_points": 2,
+      "category": "joker",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_STUCK_ON_YOU_l.png",
+      "icon_unlocked": "BARONY_ACH_STUCK_ON_YOU.png"
+    },
+    "BARONY_ACH_SUPER_SHREDDER": {
+      "name": "Супер-шредер",
+      "description": "Переработайте предметы в 1000 единиц Лома и Эссенции с помощью Наборов для починки.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_SUPER_SHREDDER_l.png",
+      "icon_unlocked": "BARONY_ACH_SUPER_SHREDDER.png"
+    },
+    "BARONY_ACH_SURROGATES": {
+      "name": "Суррогаты",
+      "description": "Позвольте 50 очарованным союзникам умереть на вашей службе в роли Мезмера.",
+      "lore_points": 3,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_SURROGATES_l.png",
+      "icon_unlocked": "BARONY_ACH_SURROGATES.png"
+    },
+    "BARONY_ACH_SURVIVALISTS": {
+      "name": "Выживальщики",
+      "description": "Сбегите из Шахт в кооперативной игре, где в отряде есть Охотник и Варвар.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_SURVIVALISTS_l.png",
+      "icon_unlocked": "BARONY_ACH_SURVIVALISTS.png"
+    },
+    "BARONY_ACH_SWINGERS": {
+      "name": "Свингеры",
+      "description": "Сбегите из Шахт в кооперативной игре, где в отряде есть истинный Инкуб и Суккуб.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_SWINGERS_l.png",
+      "icon_unlocked": "BARONY_ACH_SWINGERS.png"
+    },
+    "BARONY_ACH_TAKE_THIS_OUTSIDE": {
+      "name": "Выйдем наружу",
+      "description": "Отбросьте 10 монстров в двери.",
+      "lore_points": 3,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_TAKE_THIS_OUTSIDE_l.png",
+      "icon_unlocked": "BARONY_ACH_TAKE_THIS_OUTSIDE.png"
+    },
+    "BARONY_ACH_TAKING_WITH": {
+      "name": "Я утащу тебя с собой",
+      "description": "Убейте врага после вашей смерти с помощью яда, огня или брошенных самодельных ловушек.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_TAKING_WITH_l.png",
+      "icon_unlocked": "BARONY_ACH_TAKING_WITH.png"
+    },
+    "BARONY_ACH_TEACHABLE_MOMENT": {
+      "name": "Поучительный момент",
+      "description": "Умрите во время любого Испытания в Зале Испытаний.",
+      "lore_points": 5,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_TEACHABLE_MOMENT_l.png",
+      "icon_unlocked": "BARONY_ACH_TEACHABLE_MOMENT.png",
+      "hidden": true
+    },
+    "BARONY_ACH_TELEFRAG": {
+      "name": "Телефраг",
+      "description": "Убейте врага в течение 1 секунды после его телепортации.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_TELEFRAG_l.png",
+      "icon_unlocked": "BARONY_ACH_TELEFRAG.png"
+    },
+    "BARONY_ACH_TEMPTRESS": {
+      "name": "Искусительница",
+      "description": "Завербуйте сбитого с толку или пьяного человека в роли истинного Суккуба.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_TEMPTRESS_l.png",
+      "icon_unlocked": "BARONY_ACH_TEMPTRESS.png"
+    },
+    "BARONY_ACH_TEMPT_FATE": {
+      "name": "Испытать судьбу",
+      "description": "Съешьте Томалей вскоре после рвоты.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_TEMPT_FATE_l.png",
+      "icon_unlocked": "BARONY_ACH_TEMPT_FATE.png"
+    },
+    "BARONY_ACH_THANKS_MR_SKELTAL": {
+      "name": "Спасибо, мистер Скелетон",
+      "description": "Найдите мистический топор, Парашу.",
+      "lore_points": 5,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_THANKS_MR_SKELTAL_l.png",
+      "icon_unlocked": "BARONY_ACH_THANKS_MR_SKELTAL.png"
+    },
+    "BARONY_ACH_THANK_ME_LATER": {
+      "name": "Поблагодаришь меня позже",
+      "description": "Бросьте зелье Лечения или Сильного лечения в другого игрока или союзного НПС.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_THANK_ME_LATER_l.png",
+      "icon_unlocked": "BARONY_ACH_THANK_ME_LATER.png"
+    },
+    "BARONY_ACH_THANK_THE_TANK": {
+      "name": "Спасибо танку",
+      "description": "Союзный игрок или НПС убивает врага, которого вы блокируете.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_THANK_THE_TANK_l.png",
+      "icon_unlocked": "BARONY_ACH_THANK_THE_TANK.png"
+    },
+    "BARONY_ACH_THESEUS_LEGACY": {
+      "name": "Наследие Тесея",
+      "description": "Сбегите из Лабиринта Минотавра.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_THESEUS_LEGACY_l.png",
+      "icon_unlocked": "BARONY_ACH_THESEUS_LEGACY.png"
+    },
+    "BARONY_ACH_THE_WAY_YOU_LIKE_IT": {
+      "name": "Как ты любишь",
+      "description": "Прокляните благословенное оружие в роли истинного Суккуба.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_THE_WAY_YOU_LIKE_IT_l.png",
+      "icon_unlocked": "BARONY_ACH_THE_WAY_YOU_LIKE_IT.png"
+    },
+    "BARONY_ACH_THICK_SKULL": {
+      "name": "Толстый череп",
+      "description": "Убейте Скарабея магическим заклинанием.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_THICK_SKULL_l.png",
+      "icon_unlocked": "BARONY_ACH_THICK_SKULL.png"
+    },
+    "BARONY_ACH_THROW_ME_THE_WHIP": {
+      "name": "Брось мне хлыст!",
+      "description": "Будьте раздавлены валуном.",
+      "lore_points": 5,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_THROW_ME_THE_WHIP_l.png",
+      "icon_unlocked": "BARONY_ACH_THROW_ME_THE_WHIP.png"
+    },
+    "BARONY_ACH_THUNDERGNOME": {
+      "name": "Громогном",
+      "description": "Сбегите из Гномьих Шахт.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_THUNDERGNOME_l.png",
+      "icon_unlocked": "BARONY_ACH_THUNDERGNOME.png"
+    },
+    "BARONY_ACH_TIME_TO_PLAN": {
+      "name": "Будь достаточно времени на планирование",
+      "description": "Нанесите смертельный удар минотавру с помощью машин и/или ловушек.",
+      "lore_points": 3,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_TIME_TO_PLAN_l.png",
+      "icon_unlocked": "BARONY_ACH_TIME_TO_PLAN.png"
+    },
+    "BARONY_ACH_TIME_TO_SUFFER": {
+      "name": "Время страдать",
+      "description": "Сбегите из Цитадели в роли Карателя любой расы.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_TIME_TO_SUFFER_l.png",
+      "icon_unlocked": "BARONY_ACH_TIME_TO_SUFFER.png"
+    },
+    "BARONY_ACH_TORCHERER": {
+      "name": "Пылатель",
+      "description": "Получите 100 Лома от утилизации факелов.",
+      "lore_points": 1,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_TORCHERER_l.png",
+      "icon_unlocked": "BARONY_ACH_TORCHERER.png"
+    },
+    "BARONY_ACH_TOUGH_AS_NAILS": {
+      "name": "Крепкий орешек",
+      "description": "Заставьте 50 врагов сломать об вас оружие за несколько прохождений.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_TOUGH_AS_NAILS_l.png",
+      "icon_unlocked": "BARONY_ACH_TOUGH_AS_NAILS.png"
+    },
+    "BARONY_ACH_TRADITION": {
+      "name": "Это традиция",
+      "description": "Убейте 20 врагов, находящихся рядом с фонтаном, в роли истинного Инкуба.",
+      "lore_points": 2,
+      "category": "joker",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_TRADITION_l.png",
+      "icon_unlocked": "BARONY_ACH_TRADITION.png"
+    },
+    "BARONY_ACH_TRASH_COMPACTOR": {
+      "name": "Мусорный пресс",
+      "description": "Поглотите 100 Лома в роли истинного Автоматона.",
+      "lore_points": 1,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_TRASH_COMPACTOR_l.png",
+      "icon_unlocked": "BARONY_ACH_TRASH_COMPACTOR.png"
+    },
+    "BARONY_ACH_TRIBAL": {
+      "name": "Племенной",
+      "description": "Сбегите из Шахт в кооперативной игре, где в отряде есть истинный Козлоподобный и Гоблин.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_TRIBAL_L.png",
+      "icon_unlocked": "BARONY_ACH_TRIBAL.png"
+    },
+    "BARONY_ACH_TRIBE_SUBSCRIBE": {
+      "name": "Племя и подписка",
+      "description": "Завербуйте 4 Гоблинов в роли истинного Гоблина.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_TRIBE_SUBSCRIBE_l.png",
+      "icon_unlocked": "BARONY_ACH_TRIBE_SUBSCRIBE.png"
+    },
+    "BARONY_ACH_TRICKS_AND_TRAPS": {
+      "name": "Трюки и ловушки",
+      "description": "Обнаружьте Храм, полный ловушек, на болоте.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_TRICKS_AND_TRAPS_l.png",
+      "icon_unlocked": "BARONY_ACH_TRICKS_AND_TRAPS.png"
+    },
+    "BARONY_ACH_TROLLS_BLOOD": {
+      "name": "Кровь тролля",
+      "description": "Получите дополнительное восстановление здоровья из двух источников одновременно.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_TROLLS_BLOOD_l.png",
+      "icon_unlocked": "BARONY_ACH_TROLLS_BLOOD.png"
+    },
+    "BARONY_ACH_TURN_UNDEAD": {
+      "name": "Изгнание нежити",
+      "description": "Сбегите из Цитадели, играя за класс Заклинатель любой расы.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_TURN_UNDEAD_l.png",
+      "icon_unlocked": "BARONY_ACH_TURN_UNDEAD.png"
+    },
+    "BARONY_ACH_TWISTY_PASSAGES": {
+      "name": "Извилистые проходы",
+      "description": "Сбегите из шахт.",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_TWISTY_PASSAGES_l.png",
+      "icon_unlocked": "BARONY_ACH_TWISTY_PASSAGES.png"
+    },
+    "BARONY_ACH_UNSTOPPABLE_FORCE": {
+      "name": "Неудержимая сила",
+      "description": "Сломайте 50 единиц вражеской брони за несколько прохождений.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_UNSTOPPABLE_FORCE_l.png",
+      "icon_unlocked": "BARONY_ACH_UNSTOPPABLE_FORCE.png"
+    },
+    "BARONY_ACH_UTILITY_BELT": {
+      "name": "Многоцелевой пояс",
+      "description": "Имейте в инвентаре по одному каждому виду созданных самодельных предметов.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_UTILITY_BELT_l.png",
+      "icon_unlocked": "BARONY_ACH_UTILITY_BELT.png"
+    },
+    "BARONY_ACH_VEGETARIAN_CONDUCT": {
+      "name": "Вегетарианский обет",
+      "description": "Выиграйте в игру, не съев ни одной консервы, мяса или рыбы.",
+      "lore_points": 3,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_VEGETARIAN_CONDUCT_l.png",
+      "icon_unlocked": "BARONY_ACH_VEGETARIAN_CONDUCT.png"
+    },
+    "BARONY_ACH_VOLATILE": {
+      "name": "Нестабильный",
+      "description": "Повредите нескольких врагов одним сваренным нестабильным зельем 20 раз.",
+      "lore_points": 3,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_VOLATILE_l.png",
+      "icon_unlocked": "BARONY_ACH_VOLATILE.png"
+    },
+    "BARONY_ACH_WELL_PREPARED": {
+      "name": "Хорошо подготовлен",
+      "description": "Имейте одновременно активными 3 эффекта Мистической сферы.",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_WELL_PREPARED_l.png",
+      "icon_unlocked": "BARONY_ACH_WELL_PREPARED.png"
+    },
+    "BARONY_ACH_WELL_READ": {
+      "name": "Начитанный",
+      "description": "Найдите и прочитайте все книги.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_WELL_READ_l.png",
+      "icon_unlocked": "BARONY_ACH_WELL_READ.png"
+    },
+    "BARONY_ACH_WHAT_NOW": {
+      "name": "Э-э... И что теперь?",
+      "description": "Сломайте Магический посох Очарования, пока вы не знаете заклинание Очарования в роли Мезмера.",
+      "lore_points": 1,
+      "category": "joker",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_WHAT_NOW_l.png",
+      "icon_unlocked": "BARONY_ACH_WHAT_NOW.png",
+      "hidden": true
+    },
+    "BARONY_ACH_WONDERFUL_TOYS": {
+      "name": "Чудесные игрушки",
+      "description": "Используйте Ловушку телепортации, чтобы отправиться в недоступную иным способом часть уровня.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_WONDERFUL_TOYS_l.png",
+      "icon_unlocked": "BARONY_ACH_WONDERFUL_TOYS.png"
+    },
+    "BARONY_ACH_YES_WE_CAN": {
+      "name": "Да, мы можем!",
+      "description": "Съешьте 10 консервов с едой за одно прохождение.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_YES_WE_CAN_l.png",
+      "icon_unlocked": "BARONY_ACH_YES_WE_CAN.png"
+    },
+    "BARONY_ACH_YOUNG_BLOOD": {
+      "name": "Молодая кровь",
+      "description": "Завербуйте Молодого Вампира в роли вампира.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_YOUNG_BLOOD_l.png",
+      "icon_unlocked": "BARONY_ACH_YOUNG_BLOOD.png"
+    },
+    "BARONY_ACH_DAPPER": {
+      "name": "Щеголь",
+      "description": "Наденьте 30 разных предметов для головы и лица за несколько прохождений, исключая стартовые предметы класса.",
+      "lore_points": 4,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_DAPPER_l.png",
+      "icon_unlocked": "BARONY_ACH_DAPPER.png"
+    },
+    "BARONY_ACH_BY_EXAMPLE": {
+      "name": "Личным примером",
+      "description": "Помогите последователям получить целый уровень только за счет бонусного опыта от Вдохновения.",
+      "lore_points": 3,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BY_EXAMPLE_l.png",
+      "icon_unlocked": "BARONY_ACH_BY_EXAMPLE.png"
+    },
+    "BARONY_ACH_CRUMPLE_ZONES": {
+      "name": "Зоны смятия",
+      "description": "Выживите, будучи раздавленными валуном, только потому что на вас Цилиндр или Шахтерская каска.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_CRUMPLE_ZONES_l.png",
+      "icon_unlocked": "BARONY_ACH_CRUMPLE_ZONES.png"
+    },
+    "BARONY_ACH_ETERNAL_REWARD": {
+      "name": "Ваша вечная награда",
+      "description": "Будьте убиты Мимиком.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_ETERNAL_REWARD_l.png",
+      "icon_unlocked": "BARONY_ACH_ETERNAL_REWARD.png",
+      "hidden": true
+    },
+    "BARONY_ACH_I_NEEDED_THAT": {
+      "name": "Мне это было нужно!",
+      "description": "10 ваших предметов снаряжения украдены Мимиком за несколько прохождений.",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_I_NEEDED_THAT_l.png",
+      "icon_unlocked": "BARONY_ACH_I_NEEDED_THAT.png"
+    },
+    "BARONY_ACH_LOCKJAW": {
+      "name": "Сведение челюсти",
+      "description": "Убейте Мимика уроном от заклинания Замок.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_LOCKJAW_l.png",
+      "icon_unlocked": "BARONY_ACH_LOCKJAW.png",
+      "hidden": true
+    },
+    "BARONY_ACH_MON_PETIT": {
+      "name": "Моя маленькая капуста",
+      "description": "Обхаживайте Инкуба или Суккуба романтическим жестом.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_MON_PETIT_l.png",
+      "icon_unlocked": "BARONY_ACH_MON_PETIT.png"
+    },
+    "BARONY_ACH_PET_DA_DOG": {
+      "name": "Можно погладить собаку",
+      "description": "Экипируйте благословенный Волчий капюшон.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_PET_DA_DOG_l.png",
+      "icon_unlocked": "BARONY_ACH_PET_DA_DOG.png"
+    },
+    "BARONY_ACH_SMOKIN": {
+      "name": "Курим",
+      "description": "Получите урон от отрицательной регенерации здоровья, вызванной Трубкой.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_SMOKIN_l.png",
+      "icon_unlocked": "BARONY_ACH_SMOKIN.png"
+    },
+    "BARONY_ACH_SSSMOKIN": {
+      "name": "КУРИИИИМ",
+      "description": "Завербуйте НПС противоположного пола, надев полноценную лицевую маску.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_SSSMOKIN_l.png",
+      "icon_unlocked": "BARONY_ACH_SSSMOKIN.png"
+    },
+    "BARONY_ACH_DUNGEONSEED": {
+      "name": "Джонни Подземельное семя",
+      "description": "Сбегите из Шахт с первой попытки в Таблицах лидеров для 12 разных Событий семян.",
+      "lore_points": 5,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_DUNGEONSEED_l.png",
+      "icon_unlocked": "BARONY_ACH_DUNGEONSEED.png"
+    },
+    "BARONY_ACH_REAP_SOW": {
+      "name": "Что посеешь, то пожнешь",
+      "description": "Победите в любом Событии семян.",
+      "lore_points": 4,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_REAP_SOW_l.png",
+      "icon_unlocked": "BARONY_ACH_REAP_SOW.png"
+    },
+    "BARONY_ACH_GROWTH_MINDSET": {
+      "name": "Мышление роста",
+      "description": "Перепройдите Событие семян и отправьте лучший результат после побега из Шахт.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_GROWTH_MINDSET_l.png",
+      "icon_unlocked": "BARONY_ACH_GROWTH_MINDSET.png"
+    },
+    "BARONY_ACH_SPROUTS": {
+      "name": "Ростки",
+      "description": "Достигните Болот в Событии семян с другим игроком в кооперативной игре.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_SPROUTS_l.png",
+      "icon_unlocked": "BARONY_ACH_SPROUTS.png"
+    },
+    "BARONY_ACH_BLOOM_PLANTED": {
+      "name": "Цвести там, где посажен",
+      "description": "Убейте лича или дьявола в Событии семян, где ваш Класс или Раса предопределены.",
+      "lore_points": 4,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BLOOM_PLANTED_l.png",
+      "icon_unlocked": "BARONY_ACH_BLOOM_PLANTED.png"
+    },
+    "BARONY_ACH_CARTOGRAPHER": {
+      "name": "Картограф",
+      "description": "Запустите редактор уровней Barony.",
+      "lore_points": 4,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_CARTOGRAPHER_l.png",
+      "icon_unlocked": "BARONY_ACH_CARTOGRAPHER.png"
+    },
+    "BARONY_ACH_BAT1000": {
+      "name": "Идеальный питч",
+      "description": "Промахнитесь 81 раз атакой ближнего боя по Летучим мышам за несколько прохождений.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BAT1000_l.png",
+      "icon_unlocked": "BARONY_ACH_BAT1000.png",
+      "hidden": true
+    },
+    "BARONY_ACH_BEAR_WITH_ME": {
+      "name": "Медведи потерпите",
+      "description": "Уничтожьте Скутум Бугбера, пока он защищается.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BEAR_WITH_ME_l.png",
+      "icon_unlocked": "BARONY_ACH_BEAR_WITH_ME.png"
+    },
+    "BARONY_ACH_BULL_RUSH": {
+      "name": "Бычий рывок",
+      "description": "Получите эффект Скорости после прикосновения к Святилищу Дедала.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BULL_RUSH_l.png",
+      "icon_unlocked": "BARONY_ACH_BULL_RUSH.png"
+    },
+    "BARONY_ACH_BY_THE_BOOK": {
+      "name": "По книге",
+      "description": "Смешайте рецепт зелья из карты Алхимии в Компендиуме в течение 10 секунд после открытия страницы.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BY_THE_BOOK_l.png",
+      "icon_unlocked": "BARONY_ACH_BY_THE_BOOK.png",
+      "hidden": true
+    },
+    "BARONY_ACH_CURIOSITY": {
+      "name": "Любопытство",
+      "description": "Изучите любую запись в Компендиуме.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_CURIOSITY_l.png",
+      "icon_unlocked": "BARONY_ACH_CURIOSITY.png"
+    },
+    "BARONY_ACH_ISEENTIT": {
+      "name": "Я видел это!",
+      "description": "Обнаружьте каждую запись во вкладке Мир Компендиума.",
+      "lore_points": 5,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_ISEENTIT_l.png",
+      "icon_unlocked": "BARONY_ACH_ISEENTIT.png"
+    },
+    "BARONY_ACH_JUBBAITED": {
+      "name": "Заменили на колокол",
+      "description": "Убейте Гнома, уронив на него колокол.",
+      "lore_points": 3,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_JUBBAITED_l.png",
+      "icon_unlocked": "BARONY_ACH_JUBBAITED.png"
+    },
+    "BARONY_ACH_RUNG_OUT": {
+      "name": "Выбитый из строя",
+      "description": "Сломайте 20 колоколов за несколько прохождений.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_RUNG_OUT_l.png",
+      "icon_unlocked": "BARONY_ACH_RUNG_OUT.png"
+    },
+    "BARONY_ACH_SMASH_MELEE": {
+      "name": "Ближний бой",
+      "description": "Уничтожьте 500 разрушаемых контейнеров рукопашными атаками за несколько прохождений.",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_SMASH_MELEE_l.png",
+      "icon_unlocked": "BARONY_ACH_SMASH_MELEE.png"
+    },
+    "BARONY_ACH_JANITOR": {
+      "name": "Уборщик",
+      "description": "Имейте при себе 4 или более разных видов ключей одновременно.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_JANITOR_l.png",
+      "icon_unlocked": "BARONY_ACH_JANITOR.png"
+    },
+    "BARONY_ACH_CALL_LOCKSMITH": {
+      "name": "Вызовите слесаря",
+      "description": "Вскройте 20 Железных, Бронзовых или Серебряных замков за несколько прохождений.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_CALL_LOCKSMITH_l.png",
+      "icon_unlocked": "BARONY_ACH_CALL_LOCKSMITH.png"
+    },
+    "BARONY_ACH_PREMIUM_LOOTBOX": {
+      "name": "Премиум-лутбокс",
+      "description": "Используйте Бронзовые, Серебряные и Золотые ключи для доступа к 20 сокровищницам за несколько прохождений.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_PREMIUM_LOOTBOX_l.png",
+      "icon_unlocked": "BARONY_ACH_PREMIUM_LOOTBOX.png"
+    },
+    "BARONY_ACH_WITCHES_BREW": {
+      "name": "Ведьмино зелье",
+      "description": "Сварите или приготовьте 50 предметов в Котле за несколько прохождений.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_WITCHES_BREW_l.png",
+      "icon_unlocked": "BARONY_ACH_WITCHES_BREW.png"
+    },
+    "BARONY_ACH_HOBBYIST": {
+      "name": "Любитель",
+      "description": "Создайте 50 предметов на Верстаке за несколько прохождений.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_HOBBYIST_l.png",
+      "icon_unlocked": "BARONY_ACH_HOBBYIST.png"
+    },
+    "BARONY_ACH_POWER_BALLAD": {
+      "name": "Мощная баллада",
+      "description": "Имейте одновременно активными 4 или более эффектов Бардовской песни 4 уровня от Бардовских инструментов.",
+      "lore_points": 3,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_POWER_BALLAD_l.png",
+      "icon_unlocked": "BARONY_ACH_POWER_BALLAD.png"
+    },
+    "BARONY_ACH_BLESSED_ADDITION": {
+      "name": "Благословенное дополнение",
+      "description": "Убейте 50 врагов под действием Святого символа за несколько прохождений.",
+      "lore_points": 2,
+      "category": "experience",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BLESSED_ADDITION_l.png",
+      "icon_unlocked": "BARONY_ACH_BLESSED_ADDITION.png"
+    },
+    "BARONY_ACH_BARDIC_INSPIRATION": {
+      "name": "Бардовское вдохновение",
+      "description": "Получите 10 последовательных уровней с активной Бардовской песней за одно прохождение.",
+      "lore_points": 2,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BARDIC_INSPIRATION_l.png",
+      "icon_unlocked": "BARONY_ACH_BARDIC_INSPIRATION.png"
+    },
+    "BARONY_ACH_FIGHT_FIRE_WITH": {
+      "name": "Клин клином",
+      "description": "Убейте огненное существо, используя Огненное дыхание в роли истинного Саламандра.",
+      "lore_points": 2,
+      "category": "joker",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_FIGHT_FIRE_WITH_l.png",
+      "icon_unlocked": "BARONY_ACH_FIGHT_FIRE_WITH.png"
+    },
+    "BARONY_ACH_MAKE_SMOKEY_PROUD": {
+      "name": "Заставьте Смоуки гордиться",
+      "description": "Потушите себя, когда вы в огне, в роли истинной Дриады, используя Прорастание.",
+      "lore_points": 2,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_MAKE_SMOKEY_PROUD_l.png",
+      "icon_unlocked": "BARONY_ACH_MAKE_SMOKEY_PROUD.png"
+    },
+    "BARONY_ACH_THATS_A_WRAP": {
+      "name": "Конец истории",
+      "description": "Убейте 50 врагов Цепом, пока они опутаны Боласами, за несколько прохождений.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_THATS_A_WRAP_l.png",
+      "icon_unlocked": "BARONY_ACH_THATS_A_WRAP.png"
+    },
+    "BARONY_ACH_SKID_ROW": {
+      "name": "Бедняцкий квартал",
+      "description": "Отбросьте 50 Скользких врагов за одно прохождение.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_SKID_ROW_l.png",
+      "icon_unlocked": "BARONY_ACH_SKID_ROW.png"
+    },
+    "BARONY_ACH_LET_HIM_COOK": {
+      "name": "Дайте ему приготовить",
+      "description": "Приготовьте 100 пайков за несколько прохождений.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_LET_HIM_COOK_l.png",
+      "icon_unlocked": "BARONY_ACH_LET_HIM_COOK.png"
+    },
+    "BARONY_ACH_FLAVORTOWN": {
+      "name": "Вкусняшкино",
+      "description": "Употребите по одному пайку каждого вкуса за одно прохождение.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_FLAVORTOWN_l.png",
+      "icon_unlocked": "BARONY_ACH_FLAVORTOWN.png"
+    },
+    "BARONY_ACH_HELLS_KITCHEN": {
+      "name": "Адская кухня",
+      "description": "Имейте 25 активных возгораний жира одновременно.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_HELLS_KITCHEN_l.png",
+      "icon_unlocked": "BARONY_ACH_HELLS_KITCHEN.png"
+    },
+    "BARONY_ACH_FOOD_FIGHT": {
+      "name": "БИТВА С ЕДОЙ!!!",
+      "description": "Ослепите 4 разных целей за 5 секунд с помощью Шариков помоей.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_FOOD_FIGHT_l.png",
+      "icon_unlocked": "BARONY_ACH_FOOD_FIGHT.png"
+    },
+    "BARONY_ACH_SECOND_BREAKFAST": {
+      "name": "Второй завтрак",
+      "description": "Подберите Пайки, предоставленные другим игроком, когда вы голодны.",
+      "lore_points": 1,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_SECOND_BREAKFAST_l.png",
+      "icon_unlocked": "BARONY_ACH_SECOND_BREAKFAST.png"
+    },
+    "BARONY_ACH_HAUNTED": {
+      "name": "Одержимый",
+      "description": "Будьте убиты Тенью, чью могилу вы осквернили заклинанием Надругательства.",
+      "lore_points": 2,
+      "category": "joker",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_HAUNTED_l.png",
+      "icon_unlocked": "BARONY_ACH_HAUNTED.png",
+	  "hidden": true
+    },
+    "BARONY_ACH_WRECKING_CREW": {
+      "name": "Сносная команда",
+      "description": "Используйте заклинание Надругательства на 20 объектах за одно прохождение.",
+      "lore_points": 2,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_WRECKING_CREW_l.png",
+      "icon_unlocked": "BARONY_ACH_WRECKING_CREW.png"
+    },
+    "BARONY_ACH_FAVORITE_BOOK": {
+      "name": "Любимая книга",
+      "description": "Переучите и забудьте одно и то же заклинание 5 раз с помощью скипетра Отпрыска.",
+      "lore_points": 1,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_FAVORITE_BOOK_l.png",
+      "icon_unlocked": "BARONY_ACH_FAVORITE_BOOK.png"
+    },
+    "BARONY_ACH_BONK": {
+      "name": "ТЮК.",
+      "description": "Убейте врагов Дубовой дубинкой, пока на них 3 или более отрицательных эффекта, 20 раз за одно прохождение.",
+      "lore_points": 2,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BONK_l.png",
+      "icon_unlocked": "BARONY_ACH_BONK.png"
+    },
+    "BARONY_ACH_RIGHTEOUS_FURY": {
+      "name": "Праведный гнев",
+      "description": "Используйте Божественное рвение, чтобы убить 50 нежити или демонических врагов за одно прохождение.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_RIGHTEOUS_FURY_l.png",
+      "icon_unlocked": "BARONY_ACH_RIGHTEOUS_FURY.png"
+    },
+    "BARONY_ACH_PARRY_TANK": {
+      "name": "Пари-танк",
+      "description": "Парируйте 20 атак подряд, не получив никакого рукопашного урона за эту серию, за одно прохождение.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_PARRY_TANK_l.png",
+      "icon_unlocked": "BARONY_ACH_PARRY_TANK.png"
+    },
+    "BARONY_ACH_TOUCHE": {
+      "name": "Туше",
+      "description": "Нанесите 1000 урона ответным ударом рапиры за несколько прохождений.",
+      "lore_points": 3,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_TOUCHE_l.png",
+      "icon_unlocked": "BARONY_ACH_TOUCHE.png"
+    },
+    "BARONY_ACH_MERCENARY_ARMY": {
+      "name": "Наемная армия",
+      "description": "Используйте Самоцветы, чтобы нанять союзников 20 раз в роли истинного Гнома за несколько прохождений.",
+      "lore_points": 2,
+      "category": "teamwork",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_MERCENARY_ARMY_l.png",
+      "icon_unlocked": "BARONY_ACH_MERCENARY_ARMY.png"
+    },
+    "BARONY_ACH_COLONIST": {
+      "name": "Колонист",
+      "description": "Используйте Прорастание 50 раз за несколько прохождений в роли истинной Дриады или Миконида.",
+      "lore_points": 2,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_COLONIST_l.png",
+      "icon_unlocked": "BARONY_ACH_COLONIST.png"
+    },
+    "BARONY_ACH_EAT_ME": {
+      "name": "Съешь меня",
+      "description": "Соберите 50 Грибов Миконида или Орехов Дриады с помощью Прорастания за одно прохождение.",
+      "lore_points": 1,
+      "category": "teamwork",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_EAT_ME_l.png",
+      "icon_unlocked": "BARONY_ACH_EAT_ME.png"
+    },
+    "BARONY_ACH_CULINARY_AMBASSADOR": {
+      "name": "Кулинарный посол",
+      "description": "Приготовьте блюдо, которое вы не можете есть.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_CULINARY_AMBASSADOR_l.png",
+      "icon_unlocked": "BARONY_ACH_CULINARY_AMBASSADOR.png",
+	  "hidden": true
+    },
+    "BARONY_ACH_NO_CAP": {
+      "name": "Кепка не нужна",
+      "description": "Носите шлем, который мешает росту вашей листвы, как минимум 5 этажей подземелья в роли истинного Миконида.",
+      "lore_points": 1,
+      "category": "joker",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_NO_CAP_l.png",
+      "icon_unlocked": "BARONY_ACH_NO_CAP.png"
+    },
+    "BARONY_ACH_PRICKLY_PERSONALITY": {
+      "name": "Колючая личность",
+      "description": "Убейте 20 врагов уроном от Шипов в роли истинной Дриады за несколько прохождений.",
+      "lore_points": 1,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_PRICKLY_PERSONALITY_l.png",
+      "icon_unlocked": "BARONY_ACH_PRICKLY_PERSONALITY.png"
+    },
+    "BARONY_ACH_DONT_TOUCH_HAIR": {
+      "name": "Не трогайте прическу",
+      "description": "Пройдите 25 этажей подземелья и никогда не теряйте свою листву в роли истинной Дриады или Миконида.",
+      "lore_points": 3,
+      "category": "joker",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_DONT_TOUCH_HAIR_l.png",
+      "icon_unlocked": "BARONY_ACH_DONT_TOUCH_HAIR.png"
+    },
+    "BARONY_ACH_FIRE_FIGHTER": {
+      "name": "Пожарный борец",
+      "description": "Поддерживайте статус Раскаленности на протяжении 5 этажей подземелья в роли истинного Саламандра.",
+      "lore_points": 2,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_FIRE_FIGHTER_l.png",
+      "icon_unlocked": "BARONY_ACH_FIRE_FIGHTER.png"
+    },
+    "BARONY_ACH_GARGOYLES_QUEST": {
+      "name": "Горгулий квест",
+      "description": "Поддерживайте статус Окаменелости на протяжении 10 этажей подземелья в роли истинного Саламандра.",
+      "lore_points": 2,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_GARGOYLES_QUEST_l.png",
+      "icon_unlocked": "BARONY_ACH_GARGOYLES_QUEST.png"
+    },
+    "BARONY_ACH_DISCIPLINE": {
+      "name": "Дисциплина",
+      "description": "Пройдите 25 этажей подземелья в роли истинного Саламандра, не входя в формы Раскаленности или Камня.",
+      "lore_points": 3,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_DISCIPLINE_l.png",
+      "icon_unlocked": "BARONY_ACH_DISCIPLINE.png"
+    },
+    "BARONY_ACH_MASTER_MAGIC": {
+      "name": "Мастер магии",
+      "description": "Достигните легендарного навыка во всех трех школах магии.",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_MASTER_MAGIC_l.png",
+      "icon_unlocked": "BARONY_ACH_MASTER_MAGIC.png"
+    },
+    "BARONY_ACH_QUACKERY": {
+      "name": "Шарлатанство",
+      "description": "Используйте Утиный дух в течение 5 минут за одно прохождение.",
+      "lore_points": 1,
+      "category": "joker",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_QUACKERY_l.png",
+      "icon_unlocked": "BARONY_ACH_QUACKERY.png"
+    },
+    "BARONY_ACH_DISTRACTED": {
+      "name": "Отвлечен",
+      "description": "Получите урон, прерывающий использование Утиного духа.",
+      "lore_points": 1,
+      "category": "joker",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_DISTRACTED_l.png",
+      "icon_unlocked": "BARONY_ACH_DISTRACTED.png",
+	  "hidden": true
+    },
+    "BARONY_ACH_BOOM_DYNAMITE": {
+      "name": "Бум-динамит",
+      "description": "Убейте 50 врагов взрывами Ловушек-сюрпризов за несколько прохождений.",
+      "lore_points": 2,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BOOM_DYNAMITE_l.png",
+      "icon_unlocked": "BARONY_ACH_BOOM_DYNAMITE.png"
+    },
+    "BARONY_ACH_PAY_TO_WIN": {
+      "name": "Плати и побеждай",
+      "description": "Потратьте 5000 золота, необходимых для магических эффектов, за несколько прохождений.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_PAY_TO_WIN_l.png",
+      "icon_unlocked": "BARONY_ACH_PAY_TO_WIN.png"
+    },
+    "BARONY_ACH_BOLDER_BOULDER": {
+      "name": "Валунистый валун",
+      "description": "Убейте врага, закатив в него Земляного духа с помощью Телекинеза.",
+      "lore_points": 1,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BOLDER_BOULDER_l.png",
+      "icon_unlocked": "BARONY_ACH_BOLDER_BOULDER.png"
+    },
+    "BARONY_ACH_DOESNT_COUNT": {
+      "name": "Не считается",
+      "description": "Отклоните 50 ударов с помощью Магического пузыря за несколько прохождений.",
+      "lore_points": 1,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_DOESNT_COUNT_l.png",
+      "icon_unlocked": "BARONY_ACH_DOESNT_COUNT.png"
+    },
+    "BARONY_ACH_THATS_CHEATING": {
+      "name": "Это жульничество!",
+      "description": "Предотвратите 10 заклинаний лича с помощью заклинаний Обнуления.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_THATS_CHEATING_l.png",
+      "icon_unlocked": "BARONY_ACH_THATS_CHEATING.png"
+    },
+    "BARONY_ACH_APPRENTICES": {
+      "name": "Ученики",
+      "description": "Сбегите из Шахт в кооперативной игре с Отпрыском плюс Волшебником, Целителем или Арканистом.",
+      "lore_points": 2,
+      "category": "teamwork",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_APPRENTICES_l.png",
+      "icon_unlocked": "BARONY_ACH_APPRENTICES.png"
+    },
+    "BARONY_ACH_SHORT_SHORTS": {
+      "name": "Короткие шорты",
+      "description": "Сбегите из Шахт в кооперативной игре с 3+ игроками, где каждый персонаж низкого роста в своей истинной расе.",
+      "lore_points": 2,
+      "category": "teamwork",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_SHORT_SHORTS_l.png",
+      "icon_unlocked": "BARONY_ACH_SHORT_SHORTS.png"
+    },
+    "BARONY_ACH_HOLY_ORDER": {
+      "name": "Святой орден",
+      "description": "Сбегите из Шахт в кооперативной игре с Паладином плюс Монахом, Ризничим или Священником.",
+      "lore_points": 2,
+      "category": "teamwork",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_HOLY_ORDER_l.png",
+      "icon_unlocked": "BARONY_ACH_HOLY_ORDER.png"
+    },
+    "BARONY_ACH_CONSCRIPTED": {
+      "name": "Призывник",
+      "description": "Сбегите из Шахт в кооперативной игре с Сапером плюс Воином или Варваром.",
+      "lore_points": 2,
+      "category": "teamwork",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_CONSCRIPTED_l.png",
+      "icon_unlocked": "BARONY_ACH_CONSCRIPTED.png"
+    },
+    "BARONY_ACH_LONER_LEAGUE": {
+      "name": "Лига одиночек",
+      "description": "Сбегите из Шахт в кооперативной игре с Отшельником плюс Странником или Ниндзя.",
+      "lore_points": 2,
+      "category": "teamwork",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_LONER_LEAGUE_l.png",
+      "icon_unlocked": "BARONY_ACH_LONER_LEAGUE.png"
+    },
+    "BARONY_ACH_RIZZLERS": {
+      "name": "Риззлеры",
+      "description": "Сбегите из Шахт в кооперативной игре с Бардом плюс Торговцем, Шутником или Разбойником.",
+      "lore_points": 2,
+      "category": "teamwork",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_RIZZLERS_l.png",
+      "icon_unlocked": "BARONY_ACH_RIZZLERS.png"
+    },
+    "BARONY_ACH_FOREIGN_EXCHANGE": {
+      "name": "Иностранный обмен",
+      "description": "Сбегите из Шахт в кооперативной игре с 3+ игроками, как минимум с одной расой из каждого DLC.",
+      "lore_points": 2,
+      "category": "teamwork",
+	  "dlc": ["myths_outcasts", "legends_pariahs", "deserters_disciples"],
+      "icon_locked": "BARONY_ACH_FOREIGN_EXCHANGE_l.png",
+      "icon_unlocked": "BARONY_ACH_FOREIGN_EXCHANGE.png"
+    },
+    "BARONY_ACH_STUDY_ABROAD": {
+      "name": "Учеба за границей",
+      "description": "Сбегите из Шахт в кооперативной игре с 3+ игроками, как минимум с одним классом из каждого DLC.",
+      "lore_points": 2,
+      "category": "teamwork",
+	  "dlc": ["myths_outcasts", "legends_pariahs", "deserters_disciples"],
+      "icon_locked": "BARONY_ACH_STUDY_ABROAD_l.png",
+      "icon_unlocked": "BARONY_ACH_STUDY_ABROAD.png"
+    },
+    "BARONY_ACH_SOURCE_ENGINE": {
+      "name": "Движок источника",
+      "description": "Потратьте 1000 магических очков с помощью Фокусов колдовства за несколько прохождений.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_SOURCE_ENGINE_l.png",
+      "icon_unlocked": "BARONY_ACH_SOURCE_ENGINE.png"
+    },
+    "BARONY_ACH_SWAN_SONG": {
+      "name": "Лебединая песня",
+      "description": "Сбегите из Цитадели в роли Барда любой расы.",
+      "lore_points": 5,
+      "category": "adventure",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_SWAN_SONG_l.png",
+      "icon_unlocked": "BARONY_ACH_SWAN_SONG.png"
+    },
+    "BARONY_ACH_MISSION_GOD": {
+      "name": "Миссия от Бога",
+      "description": "Сбегите из Цитадели в роли Паладина любой расы.",
+      "lore_points": 5,
+      "category": "adventure",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_MISSION_GOD_l.png",
+      "icon_unlocked": "BARONY_ACH_MISSION_GOD.png"
+    },
+    "BARONY_ACH_NEPO_BABY": {
+      "name": "Непо-бэби",
+      "description": "Сбегите из Цитадели в роли Отпрыска любой расы.",
+      "lore_points": 5,
+      "category": "adventure",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_NEPO_BABY_l.png",
+      "icon_unlocked": "BARONY_ACH_NEPO_BABY.png"
+    },
+    "BARONY_ACH_REINTEGRATED": {
+      "name": "Реинтегрирован",
+      "description": "Сбегите из Цитадели в роли Отшельника любой расы.",
+      "lore_points": 5,
+      "category": "adventure",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_REINTEGRATED_l.png",
+      "icon_unlocked": "BARONY_ACH_REINTEGRATED.png"
+    },
+    "BARONY_ACH_DUNGEON_SEIGE": {
+      "name": "Осада подземелья",
+      "description": "Сбегите из Цитадели в роли Сапера любой расы.",
+      "lore_points": 5,
+      "category": "adventure",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_DUNGEON_SEIGE_l.png",
+      "icon_unlocked": "BARONY_ACH_DUNGEON_SEIGE.png"
+    },
+    "BARONY_ACH_BURNINATION_BARON": {
+      "name": "Выжигающий барон",
+      "description": "Сбегите из Цитадели в роли истинного Саламандра.",
+      "lore_points": 5,
+      "category": "adventure",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BURNINATION_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BURNINATION_BARON.png"
+    },
+    "BARONY_ACH_BOLETE_BARON": {
+      "name": "Болетовый барон",
+      "description": "Сбегите из Цитадели в роли истинного Миконида.",
+      "lore_points": 5,
+      "category": "adventure",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BOLETE_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BOLETE_BARON.png"
+    },
+    "BARONY_ACH_BARKSKIN_BARON": {
+      "name": "Короедный барон",
+      "description": "Сбегите из Цитадели в роли истинной Дриады.",
+      "lore_points": 5,
+      "category": "adventure",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BARKSKIN_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BARKSKIN_BARON.png"
+    },
+    "BARONY_ACH_BONKERS_BARON": {
+      "name": "Чокнутый барон",
+      "description": "Сбегите из Цитадели в роли истинного Гремлина.",
+      "lore_points": 5,
+      "category": "adventure",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BONKERS_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BONKERS_BARON.png"
+    },
+    "BARONY_ACH_BITTY_BARON": {
+      "name": "Крошечный барон",
+      "description": "Сбегите из Цитадели в роли истинного Гнома.",
+      "lore_points": 5,
+      "category": "adventure",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BITTY_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BITTY_BARON.png"
+    }
+  }
+}

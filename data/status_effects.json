@@ -1,0 +1,1506 @@
+{
+	"version": 1,
+	"colors": {
+		"notification_text": {
+			"r": 255,
+			"g": 255,
+			"b": 255,
+			"a": 255
+		},
+		"tooltip_heading_text": {
+			"r": 67,
+			"g": 195,
+			"b": 157,
+			"a": 255
+		},
+		"tooltip_desc_text": {
+			"r": 188,
+			"g": 154,
+			"b": 114,
+			"a": 255
+		}
+	},
+	"notification_font": "fonts/pixelmix.ttf#16#2",
+	"default_tooltip_width": 200,
+	"sustained_effects": {
+		"SUSTAIN_LIGHT": {
+			"id": -1,
+			"spell_id": 7,
+			"internal_name": "SUSTAIN_LIGHT",
+			"name": "Свет",
+			"desc": "Поддержание магического источника света",
+			"img_path": "",
+			"img_from_spell_id": 7
+		},
+		"SUSTAIN_SHADE": {
+			"id": -1,
+			"spell_id": 127,
+			"internal_name": "SUSTAIN_SHADE",
+			"name": "Глубокая Тень",
+			"desc": "Поддержание магического источника тени",
+			"img_path": "",
+			"img_from_spell_id": 127
+		},
+		"EFF_SHADOW_TAGGED": {
+			"id": 34,
+			"spell_id": 45,
+			"internal_name": "EFF_SHADOW_TAGGED",
+			"name": ["Магическая Метка\n(Активно на %s)", "Магическая Метка (Активно на %s)", "Магическая Метка (Неизвестная цель)"],
+			"desc": "Аннулирует расовые сопротивления/уязвимости цели\nЗаклинания телепортации перенаправляются на цель",
+			"img_path": "",
+			"img_from_spell_id": 45
+		}
+	},
+	"effects": {
+		"EFF_HUNGER": {
+			"id": -2,
+			"internal_name": "EFF_HUNGER",
+			"name": ["Объелся!", "Голоден", "Очень Голоден", "Умирает с Голоду!"],
+			"desc": [
+			"Страдает от переедания:\n- Сила\n- Ловкость", 
+			"Необходимость поесть, иначе появятся негативные эффекты", 
+			"Страдает от нехватки еды:\n- Сила\n- Ловкость", 
+			"Страдает от нехватки еды:\n- Регенерация ОЗ отключена\n- Получение урона % от макс. ОЗ со временем\n- Сила\n- Ловкость\n- Интеллект\n- Восприятие"],
+			"img_path": ["*images/ui/HUD/HUD_Hunger_01A.png", "*images/ui/HUD/HUD_Hunger_01B.png", "*images/ui/HUD/HUD_Hunger_01C.png", "*images/ui/HUD/HUD_Hunger_01D.png"],
+			"img_from_spell_id": -1,
+			"tooltip_width": 250
+		},
+		"EFF_BLOOD_HUNGER": {
+			"id": -3,
+			"internal_name": "EFF_HUNGER",
+			"name": ["Объелся!", "Голоден", "Очень Голоден", "Умирает с Голоду!"],
+			"desc": ["Страдает от переедания:\n- Сила\n- Ловкость", "Необходимость поесть, иначе появятся негативные эффекты", "Страдает от нехватки еды:\n- Сила\n- Ловкость", "Страдает от нехватки еды, получение урона со временем:\n- Сила\n- Ловкость\n- Интеллект\n- Восприятие"],
+			"img_path": ["*images/ui/HUD/HUD_Hunger_Blood_00A.png", "*images/ui/HUD/HUD_Hunger_Blood_00B.png", "*images/ui/HUD/HUD_Hunger_Blood_00C.png", "*images/ui/HUD/HUD_Hunger_Blood_00D.png"],
+			"img_from_spell_id": -1
+		},
+		"EFF_AUTOMATON_HUNGER": {
+			"id": -4,
+			"internal_name": "EFF_AUTOMATON_HUNGER",
+			"name": ["Статус Котла:\nПЕРЕГРЕТ", "Статус Котла:\nНОРМАЛЬНЫЙ", "Статус Котла:\nКРИТИЧЕСКИ НИЗКИЙ", "Статус Котла: ПЕРЕГРЕТ", "Статус Котла: НОРМАЛЬНЫЙ", "Статус Котла: КРИТИЧЕСКИ НИЗКИЙ"],
+			"desc": ["Производит ТП с норм. скоростью 200%, до 400% когда ТП ниже 50% емкости\nСнижена Ловкость, когда ТП менее 25% емкости", "Производит ТП стабильно\nСнижена Ловкость, когда ТП менее 25% емкости", "Быстрая потеря ТП из-за пустого котла, при 0 ТП возможна неисправность\nСнижена Ловкость, когда ТП менее 25% емкости\n- Сила\n- Восприятие", "Быстрая потеря ТП из-за пустого котла, при 0 ТП возможна неисправность\nСнижена Ловкость, когда ТП менее 25% емкости"],
+			"img_path": ["*images/system/Hunger_boiler.png", "*images/system/Hunger_boiler.png", "*images/system/Hunger_boiler.png"],
+			"img_from_spell_id": -1
+		},
+		"EFF_WANTED": {
+			"id": -5,
+			"internal_name": "EFF_WANTED",
+			"name": "В Розыске!",
+			"desc": ["Объявлен врагом Гильдии Торговцев за ваши %s преступления:","Убийство", "Подстрекательство к насилию", "Соучастие в насилии", "Запрещенный головной убор"],
+			"img_path": "*images/ui/HUD/statusfx/redhanded.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 270
+		},
+		"EFF_WANTED_IN_SHOP": {
+			"id": -6,
+			"internal_name": "EFF_WANTED",
+			"name": "В Розыске!\n(Нарушение границ)",
+			"desc": ["Объявлен врагом Гильдии Торговцев за ваши %s преступления:","Убийство", "Подстрекательство к насилию", "Соучастие в насилии", "Запрещенный головной убор"],
+			"img_path": "*images/ui/HUD/statusfx/redhanded.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 270
+		},
+		"EFF_BURNING": {
+			"id": -7,
+			"internal_name": "EFF_BURNING",
+			"name": "Горит",
+			"desc": "Получение урона со временем",
+			"img_path": "*images/ui/HUD/statusfx/burning.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_FREEACTION": {
+			"id": -8,
+			"internal_name": "EFF_FREEACTION",
+			"name": "Свобода Действий",
+			"desc": "Лечит [Сон], [Замедление], [Паралич]",
+			"img_path": "*images/ui/HUD/statusfx/freeaction.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 200
+		},
+		"EFF_LESSERWARNING": {
+			"id": -9,
+			"internal_name": "EFF_LESSERWARNING",
+			"name": "Малый Сигнал",
+			"desc": "Показывает местоположение движущихся монстров на карте",
+			"img_path": "*images/ui/HUD/statusfx/lesserwarning.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 240
+		},
+		"EFF_HPOFF": {
+			"id": -10,
+			"internal_name": "EFF_HPOFF",
+			"name": "Дегенерация",
+			"desc": [
+			"Базовая регенерация ОЗ отключена",
+			"Базовая регенерация ОЗ отключена, так как Голод выключен в Настройках Игры\nВосстанавливайте ОЗ, потребляя еду и используя зелья/заклинания"],
+			"img_path": "*images/ui/HUD/statusfx/regen_hpoff.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 260
+		},
+		"EFF_RESISTFIRE": {
+			"id": -11,
+			"internal_name": "EFF_RESISTFIRE",
+			"name": "Сопротивление Огню",
+			"desc": "Иммунитет к [Горению]",
+			"img_path": "*images/ui/HUD/statusfx/resist_fire.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 200
+		},
+		"EFF_RESISTPOISON": {
+			"id": -12,
+			"internal_name": "EFF_RESISTPOISON",
+			"name": "Сопротивление Яду",
+			"desc": "Лечит [Отравление]\nСопротивление Яду, Кислотным заклинаниям",
+			"img_path": "*images/ui/HUD/statusfx/resist_poison.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 220
+		},
+		"EFF_SLOWDIGESTION": {
+			"id": -13,
+			"internal_name": "EFF_SLOWDIGESTION",
+			"name": "Медленное Пищеварение",
+			"desc": "Увеличивает насыщение едой и отодвигает голод",
+			"img_path": "*images/ui/HUD/statusfx/slowdigestion.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 230
+		},
+		"EFF_STRANGULATION": {
+			"id": -14,
+			"internal_name": "EFF_STRANGULATION",
+			"name": "Удушение!",
+			"desc": "Получение урона со временем\nНевозможно пить или есть",
+			"img_path": "*images/ui/HUD/statusfx/strangulation.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 220
+		},
+		"EFF_WARNING": {
+			"id": -15,
+			"internal_name": "EFF_WARNING",
+			"name": "Сигнал",
+			"desc": "Показывает местоположение монстров на карте",
+			"img_path": "*images/ui/HUD/statusfx/warning.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 200
+		},
+		"EFF_WATERBREATHING": {
+			"id": -16,
+			"internal_name": "EFF_WATERBREATHING",
+			"name": "Подводное Дыхание",
+			"desc": "Неограниченная скорость передвижения при плавании",
+			"img_path": "*images/ui/HUD/statusfx/waterbreathing.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 200
+		},
+		"EFF_CONFLICT": {
+			"id": -17,
+			"internal_name": "EFF_CONFLICT",
+			"name": "Конфликт",
+			"desc": "Провоцирует ближайших монстров атаковать все, что видят",
+			"img_path": "*images/ui/HUD/statusfx/conflict.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 240
+		},
+		"EFF_WATERWALKING": {
+			"id": -18,
+			"internal_name": "EFF_WATERWALKING",
+			"name": "Хождение по Воде",
+			"desc": "Парение над водой и лавой",
+			"img_path": "*images/ui/HUD/statusfx/waterwalking.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 200
+		},
+		"EFF_LIFESAVING": {
+			"id": -19,
+			"internal_name": "EFF_LIFESAVING",
+			"name": "Спасение Жизни",
+			"desc": "Возрождение при смерти",
+			"img_path": "*images/ui/HUD/statusfx/lifesaving.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 160
+		},
+		"EFF_PUSH": {
+			"id": -20,
+			"internal_name": "EFF_PUSH",
+			"name": "Толкание",
+			"desc": "Способность двигать валуны",
+			"img_path": "*images/ui/HUD/statusfx/push.png",
+			"tooltip_width": 232,
+			"img_from_spell_id": -1
+		},
+		"EFF_SNEAK": {
+			"id": -21,
+			"internal_name": "EFF_SNEAK",
+			"name": "Крадучись",
+			"desc": "Сниженная дистанция обнаружения",
+			"img_path": "*images/ui/HUD/statusfx/sneak.png",
+			"tooltip_width": 200,
+			"img_from_spell_id": -1
+		},
+		"EFF_DRUNK_GOATMAN": {
+			"id": -22,
+			"internal_name": "EFF_DRUNK_GOATMAN",
+			"name": "Пьян (Козлоподобный)",
+			"desc": "+ Сила\n+ Телосложение\n+ 20% Сопротивление Урону\n- Ловкость\n- Интеллект",
+			"img_path": "*images/ui/HUD/statusfx/drunk.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 212
+		},
+		"EFF_BOUNTY_TARGET": {
+			"id": -23,
+			"internal_name": "EFF_BOUNTY_TARGET",
+			"name": ["Цель Награды\n(Активно)", "Цель Награды (Активно)"],
+			"desc": "Получите бонусное золото, убив отмеченную цель",
+			"img_path": "*images/ui/HUD/statusfx/targeting.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 212
+		},
+		"EFF_INSPIRATION": {
+			"id": -24,
+			"internal_name": "EFF_INSPIRATION",
+			"name": "Вдохновение",
+			"desc": "Игроки-союзники и последователи получают больше опыта, если их уровень ниже вашего",
+			"img_path": "*images/ui/HUD/statusfx/inspiration.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 250
+		},
+		"EFF_RELATIATION": {
+			"id": -25,
+			"internal_name": "EFF_RELATIATION",
+			"name": "Возмездие",
+			"desc": "Нанесение урона атакующим в ближнем бою при получении урона",
+			"img_path": "*images/ui/HUD/statusfx/thorns.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 260
+		},
+		"EFF_ASSISTANCE": {
+			"id": -26,
+			"internal_name": "EFF_ASSISTANCE",
+			"name": "Помощь",
+			"desc": [
+				"Получен один или несколько Предметов Помощи", 
+				"%d Очков Помощи (Себе)",
+				"%d Очков Помощи (Всего в группе)",
+				"%d%% Штраф к Очкам"
+			],
+			"img_path": "*images/ui/HUD/statusfx/assistance.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 300
+		},
+		"EFF_STABILITY": {
+			"id": -27,
+			"internal_name": "EFF_STABILITY",
+			"name": "Стабильность",
+			"desc": "Уменьшены эффекты отбрасывания и скользкой поверхности",
+			"img_path": "*images/ui/HUD/statusfx/stability.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 260
+		},
+		"EFF_VANDALISE": {
+			"id": -28,
+			"internal_name": "EFF_VANDALISE",
+			"name": ["Вандал", "Вандал (Ур. I)", "Вандал (Ур. II)", "Вандал (Ур. III)", "Вандал (Ур. IV)"],
+			"desc": ["Эффекты усиливаются по мере разрушения объектов\nЭффекты сбрасываются на каждом этаже\nПолучение уровня дает бонус МР",
+					 "%+d Урона в ближнем бою по объектам",
+					 "%+d%% Скорости Передвижения",
+					 "%+d%% Скорости Чтения"],
+			"img_path": "*images/ui/HUD/statusfx/vandal.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 320
+		},
+		"EFF_OVERCHARGE_COUNT": {
+			"id": -29,
+			"internal_name": "EFF_OVERCHARGE_COUNT",
+			"name": "Перезарядка",
+			"desc": "Следующее произнесенное заученное заклинание останется заряженным для нескольких последующих прочтений\nПоследующие прочтения будут тратить ОЗ при отсутствии МР\nОтмена заряженного заклинания рассеивает эффект",
+			"img_path": "",
+			"img_from_spell_id": 100,
+			"tooltip_width": 260
+		},
+		"EFF_WEALTH": {
+			"id": -30,
+			"internal_name": "EFF_WEALTH",
+			"name": ["Богатство", "Богатство (Ур. I)", "Богатство (Ур. II)", "Богатство (Ур. III)", "Богатство (Ур. IV)"],
+			"desc": [
+				"+%d%% шанс получить +1 МР при регенерации МР", 
+				"Эффект усиливается с количеством переносимого золота"],
+			"img_path": ["*images/ui/HUD/statusfx/wealth.png", "*images/ui/HUD/statusfx/wealth2.png", "*images/ui/HUD/statusfx/wealth3.png", "*images/ui/HUD/statusfx/wealth4.png"],
+			"img_from_spell_id": -1,
+			"tooltip_width": 240
+		},
+		"EFF_ASLEEP": {
+			"id": 0,
+			"internal_name": "EFF_ASLEEP",
+			"name": "Спит",
+			"desc": "Невозможно двигаться или видеть",
+			"img_path": "",
+			"img_from_spell_id": 10
+		},
+		"EFF_POISONED": {
+			"id": 1,
+			"internal_name": "EFF_POISONED",
+			"name": "Отравлен",
+			"desc": "Получение урона со временем",
+			"img_path": "*images/ui/HUD/statusfx/poisoned.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_STUNNED": {
+			"id": 2,
+			"internal_name": "EFF_STUNNED",
+			"name": "",
+			"desc": "",
+			"img_path": "",
+			"img_from_spell_id": -1,
+			"never_display": true
+		},
+		"EFF_CONFUSED": {
+			"id": 3,
+			"internal_name": "EFF_CONFUSED",
+			"name": "Растерян",
+			"desc": "Движение инвертировано",
+			"img_path": "",
+			"img_from_spell_id": 11
+		},
+		"EFF_DRUNK": {
+			"id": 4,
+			"internal_name": "EFF_DRUNK",
+			"name": "Пьян",
+			"desc": "+ Сила\n- Ловкость",
+			"img_path": "*images/ui/HUD/statusfx/drunk.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_INVISIBLE": {
+			"id": 5,
+			"internal_name": "EFF_INVISIBLE",
+			"name": "Невидим",
+			"desc": "Не может быть обнаружен врагами вне зоны ближнего боя",
+			"img_path": "",
+			"img_from_spell_id": 16,
+			"use_entry_for_sustained_spell": 16
+		},
+		"EFF_BLIND": {
+			"id": 6,
+			"internal_name": "EFF_BLIND",
+			"name": "Ослеплен",
+			"desc": "Невозможно видеть",
+			"img_path": "*images/ui/HUD/statusfx/blind.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_GREASY": {
+			"id": 7,
+			"internal_name": "EFF_GREASY",
+			"name": "Жирный",
+			"desc": "Держимое оружие может выскользнуть из рук",
+			"img_path": "*images/ui/HUD/statusfx/grease.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_MESSY": {
+			"id": 8,
+			"internal_name": "EFF_MESSY",
+			"name": "Перепачкан",
+			"desc": "Невозможно видеть",
+			"img_path": "*images/ui/HUD/statusfx/messypie.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_FAST": {
+			"id": 9,
+			"internal_name": "EFF_FAST",
+			"name": "Скорость",
+			"desc": "Увеличенная Ловкость и скорость передвижения",
+			"img_path": "",
+			"img_from_spell_id": 39
+		},
+		"EFF_PARALYZED": {
+			"id": 10,
+			"internal_name": "EFF_PARALYZED",
+			"name": "Парализован",
+			"desc": "Невозможно двигаться или действовать",
+			"img_path": "*images/ui/HUD/statusfx/paralyze.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_LEVITATING": {
+			"id": 11,
+			"internal_name": "EFF_LEVITATING",
+			"name": "Левитация",
+			"desc": "Парение над пропастями, водой и лавой",
+			"img_path": "",
+			"img_from_spell_id": 15,
+			"use_entry_for_sustained_spell": 15
+		},
+		"EFF_TELEPATH": {
+			"id": 12,
+			"internal_name": "EFF_TELEPATH",
+			"name": "Телепатия",
+			"desc": "Видеть монстров сквозь стены",
+			"img_path": "*images/ui/HUD/statusfx/telepathy.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_VOMITING": {
+			"id": 13,
+			"internal_name": "EFF_VOMITING",
+			"name": "Рвота!",
+			"desc": "Страдает от расстройства желудка",
+			"img_path": "",
+			"img_from_spell_id": -1,
+			"never_display": true
+		},
+		"EFF_BLEEDING": {
+			"id": 14,
+			"internal_name": "EFF_BLEEDING",
+			"name": "Кровотечение",
+			"desc": "Получение урона со временем",
+			"img_path": "*images/ui/HUD/statusfx/bleed.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_SLOW": {
+			"id": 15,
+			"internal_name": "EFF_SLOW",
+			"name": "Замедлен",
+			"desc": "Сниженная скорость передвижения",
+			"img_path": "",
+			"img_from_spell_id": 12
+		},
+		"EFF_MAGICRESIST": {
+			"id": 16,
+			"internal_name": "EFF_MAGICRESIST",
+			"name": "Сопротивление Магии",
+			"desc": "+1 Сопротивление Магии",
+			"img_path": "*images/ui/HUD/statusfx/resist_magic.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_MAGICREFLECT": {
+			"id": 17,
+			"internal_name": "EFF_MAGICREFLECT",
+			"name": "Отражение Магии",
+			"desc": "Отражение вражеских заклинаний",
+			"img_path": "",
+			"img_from_spell_id": 26,
+			"use_entry_for_sustained_spell": 26,
+			"tooltip_width": 220
+		},
+		"EFF_VAMPIRICAURA": {
+			"id": 18,
+			"internal_name": "EFF_VAMPIRICAURA",
+			"name": ["Проклятие Вампира", "Аура Вампира"],
+			"desc": ["+ Сила и Ловкость\nУвеличенная скорость голода\nПовышенный шанс вызвать [кровотечение] без оружия\nШанс вампиризма при летальном скрытном ударе без оружия", "+ Сила и Ловкость\nУвеличенная скорость голода\nПовышенный шанс вызвать [кровотечение] без оружия\nШанс вампиризма при всех атаках без оружия\nЕстественная регенерация ОЗ отключена"],
+			"img_path": "*images/ui/HUD/statusfx/bloodlust.png",
+			"img_from_spell_id": 30,
+			"use_entry_for_sustained_spell": 30,
+			"tooltip_width": 270
+		},
+		"EFF_SHRINE_RED_BUFF": {
+			"id": 19,
+			"internal_name": "EFF_SHRINE_RED_BUFF",
+			"name": "Бафф Красного Алтаря",
+			"desc": "+ Сила\n+ Телосложение",
+			"img_path": "*images/ui/HUD/statusfx/orb_red.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_SHRINE_GREEN_BUFF": {
+			"id": 20,
+			"internal_name": "EFF_SHRINE_GREEN_BUFF",
+			"name": "Бафф Зеленого Алтаря",
+			"desc": "+ Ловкость\n+ Восприятие",
+			"img_path": "*images/ui/HUD/statusfx/orb_green.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_SHRINE_BLUE_BUFF": {
+			"id": 21,
+			"internal_name": "EFF_SHRINE_BLUE_BUFF",
+			"name": "Бафф Синего Алтаря",
+			"desc": "+ Интеллект\n+1 Сопротивление Магии",
+			"img_path": "*images/ui/HUD/statusfx/orb_blue.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_HP_REGEN": {
+			"id": 22,
+			"internal_name": "EFF_HP_REGEN",
+			"name": "Регенерация Здоровья",
+			"desc": "+2 [Реген ОЗ]",
+			"img_path": "*images/ui/HUD/statusfx/regen_hp.png",
+			"img_from_spell_id": 48
+		},
+		"EFF_MP_REGEN": {
+			"id": 23,
+			"internal_name": "EFF_MP_REGEN",
+			"name": "Регенерация Маны",
+			"desc": "+2 [Реген МР]",
+			"img_path": "*images/ui/HUD/statusfx/regen_mp.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_PACIFY": {
+			"id": 24,
+			"internal_name": "EFF_PACIFY",
+			"name": "Умиротворен",
+			"desc": "Невозможно атаковать или добровольно двигаться",
+			"img_path": "",
+			"img_from_spell_id": 31
+		},
+		"EFF_POLYMORPH": {
+			"id": 25,
+			"internal_name": "EFF_POLYMORPH",
+			"name": "Полиморф",
+			"desc": "Замаскирован под другого монстра",
+			"img_path": "",
+			"img_from_spell_id": 52
+		},
+		"EFF_KNOCKBACK": {
+			"id": 26,
+			"internal_name": "EFF_KNOCKBACK",
+			"name": "",
+			"desc": "",
+			"img_path": "",
+			"img_from_spell_id": -1,
+			"never_display": true
+		},
+		"EFF_WITHDRAWAL": {
+			"id": 27,
+			"internal_name": "EFF_WITHDRAWAL",
+			"name": "Похмелье",
+			"desc": "- Ловкость\nЛечится опьянением",
+			"img_path": "*images/ui/HUD/statusfx/hungover.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_POTION_STR": {
+			"id": 28,
+			"internal_name": "EFF_POTION_STR",
+			"name": "Сила",
+			"desc": "+ Сила\n- Восприятие",
+			"img_path": "*images/ui/HUD/statusfx/strengthbuff.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_SHAPESHIFT": {
+			"id": 29,
+			"internal_name": "EFF_SHAPESHIFT",
+			"name": ["Форма Крысы", "Форма Членистоногого", "Форма Тролля", "Форма Беса"],
+			"desc": ["+ ЛОВ/ИНТ/ВОС\nБыстрее плавает\nВыше шанс получить ЛОВ/ИНТ при уровне\n(Только класс Шаман) Доступ к заклинаниям [Поиск Еды] и [Скорость]", "+ ВОС/СИЛ/ТЕЛ\nВыше шанс получить ВОС/ТЕЛ при уровне\n(Только класс Шаман) Доступ к заклинаниям [Паутина] и [Яд]", "+ СИЛ/ТЕЛ\n- ЛОВ\nВыше шанс получить СИЛ/ТЕЛ при уровне\n(Только класс Шаман) Доступ к заклинаниям [Силовой Удар], [Страх] и [Кровь Тролля]", "Дает левитацию\n+ ИНТ/ВОС\nВыше шанс получить ХАР/ИНТ при уровне\n(Только класс Шаман) Доступ к заклинаниям [Молния], [Замешательство] и [Фокус Стихий]"],
+			"img_path": "",
+			"img_from_spell_id": [33,34,35,36]
+		},
+		"EFF_WEBBED": {
+			"id": 30,
+			"internal_name": "EFF_WEBBED",
+			"name": "В Паутине",
+			"desc": "Сниженная скорость передвижения\nОтбрасывание при получении ударов в ближнем бою",
+			"img_path": "",
+			"img_from_spell_id": 37
+		},
+		"EFF_FEAR": {
+			"id": 31,
+			"internal_name": "EFF_FEAR",
+			"name": "Страх",
+			"desc": "Невозможно атаковать или добровольно двигаться",
+			"img_path": "",
+			"img_from_spell_id": 40
+		},
+		"EFF_MAGICAMPLIFY": {
+			"id": 32,
+			"internal_name": "EFF_MAGICAMPLIFY",
+			"name": "Фокус Стихий",
+			"desc": "Увеличенный урон и меньшая дальность при произнесении заклинаний [Огонь], [Холод], [Молния] или [Магическая Стрела]",
+			"img_path": "",
+			"img_from_spell_id": 44,
+			"tooltip_width": 300,
+			"use_entry_for_sustained_spell": 44
+		},
+		"EFF_DISORIENTED": {
+			"id": 33,
+			"internal_name": "EFF_DISORIENTED",
+			"name": "",
+			"desc": "",
+			"img_path": "",
+			"img_from_spell_id": -1,
+			"never_display": true
+		},
+		"EFF_SHADOW_TAGGED": {
+			"id": 34,
+			"internal_name": "EFF_SHADOW_TAGGED",
+			"name": "Магическая Метка",
+			"desc": "Расовые сопротивления/уязвимости к урону на себе аннулированы",
+			"img_path": "",
+			"img_from_spell_id": 45,
+			"tooltip_width": 210
+		},
+		"EFF_TROLLS_BLOOD": {
+			"id": 35,
+			"internal_name": "EFF_TROLLS_BLOOD",
+			"name": "Кровь Тролля",
+			"desc": "+1 [Реген ОЗ]",
+			"img_path": "",
+			"img_from_spell_id": 48
+		},
+		"EFF_FLUTTER": {
+			"id": 36,
+			"internal_name": "EFF_FLUTTER",
+			"name": "Парение",
+			"desc": "Левитация на короткое время",
+			"img_path": "",
+			"img_from_spell_id": 50
+		},
+		"EFF_DASH": {
+			"id": 37,
+			"internal_name": "EFF_DASH",
+			"name": "",
+			"desc": "",
+			"img_path": "",
+			"img_from_spell_id": -1,
+			"never_display": true
+		},
+		"EFF_DISTRACTED_COOLDOWN": {
+			"id": 38,
+			"internal_name": "EFF_DISTRACTED_COOLDOWN",
+			"name": "",
+			"desc": "",
+			"img_path": "",
+			"img_from_spell_id": -1,
+			"never_display": true
+		},
+		"EFF_MIMIC_LOCKED": {
+			"id": 39,
+			"internal_name": "EFF_MIMIC_LOCKED",
+			"name": "",
+			"desc": "",
+			"img_path": "",
+			"img_from_spell_id": -1,
+			"never_display": true
+		},
+		"EFF_ROOTED": {
+			"id": 40,
+			"internal_name": "EFF_ROOTED",
+			"name": "Укоренен",
+			"desc": "Невозможно двигаться",
+			"img_path": "*images/ui/HUD/statusfx/rooted.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_NAUSEA_PROTECTION": {
+			"id": 41,
+			"internal_name": "EFF_NAUSEA_PROTECTION",
+			"name": "Сопротивление Тошноте",
+			"desc": "Иммунитет к событиям, вызывающим рвоту, таким как несварение, охотничьи стрелы или опьянение",
+			"img_path": "*images/ui/HUD/statusfx/resist_nausea.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 280
+		},
+		"EFF_CON_BONUS": {
+			"id": 42,
+			"internal_name": "EFF_CON_BONUS",
+			"name": "Выносливость",
+			"desc": "+ Телосложение\nЭффект усиливается с уменьшением оставшихся ОЗ",
+			"img_path": "*images/ui/HUD/statusfx/defensebuff.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_PWR": {
+			"id": 43,
+			"internal_name": "EFF_PWR",
+			"name": "Ментальность",
+			"desc": "+ Сила Заклинаний\nЭффект усиливается с уменьшением оставшихся МР",
+			"img_path": "*images/ui/HUD/statusfx/powerbuff.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_AGILITY": {
+			"id": 44,
+			"internal_name": "EFF_AGILITY",
+			"name": "Проворство",
+			"desc": "+ Ловкость\n+30% Шанс уклониться от физ. и маг. атак",
+			"img_path": "*images/ui/HUD/statusfx/dexbuff.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_RALLY": {
+			"id": 45,
+			"internal_name": "EFF_RALLY",
+			"name": "Сбор",
+			"desc": "+ Сбор",
+			"img_path": "*images/ui/HUD/statusfx/rooted.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_MARIGOLD": {
+			"id": 46,
+			"internal_name": "EFF_MARIGOLD",
+			"name": "Лечение Календулой",
+			"desc": "+ Восстановление ОЗ со временем",
+			"img_path": "*images/ui/HUD/statusfx/growth.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 240
+		},
+		"EFF_ENSEMBLE_FLUTE": {
+			"id": 47,
+			"internal_name": "EFF_ENSEMBLE_FLUTE",
+			"name": ["Флейта (Ур. I)", "Флейта (Ур. II)", "Флейта (Ур. III)", "Флейта (Ур. IV)"],
+			"desc": [
+				"%+d ЛОВ", 
+				"%+d%% Скорость Крит. Заряда"
+			],
+			"img_path": "*images/ui/HUD/statusfx/ensemble_flute.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 260
+		},
+		"EFF_ENSEMBLE_LYRE": {
+			"id": 48,
+			"internal_name": "EFF_ENSEMBLE_LYRE",
+			"name": ["Лира (Ур. I)", "Лира (Ур. II)", "Лира (Ур. III)", "Лира (Ур. IV)"],
+			"desc": [
+				"%+d ВОС", 
+				"%+d%% Сопротивление Урону"
+			],
+			"img_path": "*images/ui/HUD/statusfx/ensemble_lyre.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 240
+		},
+		"EFF_ENSEMBLE_DRUM": {
+			"id": 49,
+			"internal_name": "EFF_ENSEMBLE_DRUM",
+			"name": ["Барабан (Ур. I)", "Барабан (Ур. II)", "Барабан (Ур. III)", "Барабан (Ур. IV)"],
+			"desc": [
+				"%+d СИЛ", 
+				"%+d%% шанс Игнорирования Брони при атаках в ближнем бою"
+			],
+			"img_path": "*images/ui/HUD/statusfx/ensemble_drum.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 240
+		},
+		"EFF_ENSEMBLE_LUTE": {
+			"id": 50,
+			"internal_name": "EFF_ENSEMBLE_LUTE",
+			"name": ["Лютня (Ур. I)", "Лютня (Ур. II)", "Лютня (Ур. III)", "Лютня (Ур. IV)"],
+			"desc": [
+				"%+d%% СИЛ Закл", 
+				"%+d%% Уклонение"
+			],
+			"img_path": "*images/ui/HUD/statusfx/ensemble_lute.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 240
+		},
+		"EFF_ENSEMBLE_HORN": {
+			"id": 51,
+			"internal_name": "EFF_ENSEMBLE_HORN",
+			"name": ["Рог (Ур. I)", "Рог (Ур. II)", "Рог (Ур. III)", "Рог (Ур. IV)"],
+			"desc": [
+				"%+d ТЕЛ", 
+				"%+d Урона Возмездия атакующим в ближнем бою"
+			],
+			"img_path": "*images/ui/HUD/statusfx/ensemble_horn.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 240
+		},
+		"EFF_LIFT": {
+			"id": 52,
+			"internal_name": "EFF_LIFT",
+			"name": "Поднят",
+			"desc": "Предотвращает движение.\nПолучение урона в конце\nэффекта на основе ТЕЛ",
+			"img_path": "",
+			"img_from_spell_id": 185
+		},
+		"EFF_GUARD_SPIRIT": {
+			"id": 53,
+			"internal_name": "EFF_GUARD_SPIRIT",
+			"name": "Дух-Защитник",
+			"desc": "+СПР\nНакопляет заряды, пока активен.\nАтаки расходуют заряды.",
+			"img_path": "",
+			"img_from_spell_id": 71,
+			"use_entry_for_sustained_spell": 71
+		},
+		"EFF_GUARD_BODY": {
+			"id": 54,
+			"internal_name": "EFF_GUARD_BODY",
+			"name": "Тело-Защитник",
+			"desc": "+КБ\nНакопляет заряды, пока активен\nАтаки расходуют заряды",
+			"img_path": "",
+			"img_from_spell_id": 70,
+			"use_entry_for_sustained_spell": 70
+		},
+		"EFF_DIVINE_GUARD": {
+			"id": 55,
+			"internal_name": "EFF_DIVINE_GUARD",
+			"name": "Божественная Защита",
+			"desc": "+КБ\n+СПР\nНакопляет заряды, пока активен.\nАтаки расходуют заряды.",
+			"img_path": "",
+			"img_from_spell_id": 72,
+			"use_entry_for_sustained_spell": 72
+		},
+		"EFF_NIMBLENESS": {
+			"id": 56,
+			"internal_name": "EFF_NIMBLENESS",
+			"name": "Проворство",
+			"desc": "+ЛОВ",
+			"img_path": "",
+			"img_from_spell_id": 73
+		},
+		"EFF_GREATER_MIGHT": {
+			"id": 57,
+			"internal_name": "EFF_GREATER_MIGHT",
+			"name": "Великая Сила",
+			"desc": "+СИЛ\n+Толкание",
+			"img_path": "",
+			"img_from_spell_id": 74
+		},
+		"EFF_COUNSEL": {
+			"id": 58,
+			"internal_name": "EFF_COUNSEL",
+			"name": "Совет",
+			"desc": "+ИНТ",
+			"img_path": "",
+			"img_from_spell_id": 75
+		},
+		"EFF_STURDINESS": {
+			"id": 59,
+			"internal_name": "EFF_STURDINESS",
+			"name": "Крепость",
+			"desc": "+ТЕЛ",
+			"img_path": "",
+			"img_from_spell_id": 76
+		},
+		"EFF_BLESS_FOOD": {
+			"id": 60,
+			"internal_name": "EFF_BLESS_FOOD",
+			"name": "Благословенная Еда",
+			"desc": "Дает [Насыщение]\nпри употреблении неиспорченной еды",
+			"img_path": "",
+			"img_from_spell_id": 77
+		},
+		"EFF_PINPOINT": {
+			"id": 61,
+			"internal_name": "EFF_PINPOINT",
+			"name": "Прицельно",
+			"desc": "Получает доп. урон\nпри атаке заклинателем.",
+			"img_path": "",
+			"img_from_spell_id": 78
+		},
+		"EFF_PENANCE": {
+			"id": 62,
+			"internal_name": "EFF_PENANCE",
+			"name": "Епитимья",
+			"desc": "Дружественен к заклинателю.",
+			"img_path": "",
+			"img_from_spell_id": 84
+		},
+		"EFF_SACRED_PATH": {
+			"id": 63,
+			"internal_name": "EFF_SACRED_PATH",
+			"name": "Защита от Ловушек",
+			"desc": "Уменьшенный урон от ловушек.",
+			"img_path": "",
+			"img_from_spell_id": 86
+		},
+		"EFF_DETECT_ENEMY": {
+			"id": 64,
+			"internal_name": "EFF_DETECT_ENEMY",
+			"name": "Обнаружить Врага",
+			"desc": "Обнаружен враждебным заклинателем.",
+			"img_path": "",
+			"img_from_spell_id": 88,
+			"never_display": true
+		},
+		"EFF_BLOOD_WARD": {
+			"id": 65,
+			"internal_name": "EFF_BLOOD_WARD",
+			"name": "Кровавый Оберег",
+			"desc": "Уменьшенный урон от ядовитых\nсуществ и стихийных заклинаний\nИммунитет к [Яду / Кровотечению]",
+			"img_path": "",
+			"img_from_spell_id": 92,
+			"use_entry_for_sustained_spell": 92
+		},
+		"EFF_TRUE_BLOOD": {
+			"id": 66,
+			"internal_name": "EFF_TRUE_BLOOD",
+			"name": "Истинная Кровь",
+			"desc": "Уменьшает урон от укусов.\nИммунитет к:\n-Замедлению\n-Параличу\n-Яду\n-Кровотечению",
+			"img_path": "",
+			"img_from_spell_id": 93
+		},
+		"EFF_DIVINE_ZEAL": {
+			"id": 67,
+			"internal_name": "EFF_DIVINE_ZEAL",
+			"name": "Божественное Рвение",
+			"desc": "Физ. атаки наносят доп. урон Кара уязвимым врагам",
+			"img_path": "",
+			"img_from_spell_id": 94,
+			"use_entry_for_sustained_spell": 94
+		},
+		"EFF_MAXIMISE": {
+			"id": 68,
+			"internal_name": "EFF_MAXIMISE",
+			"name": "Максимизация",
+			"desc": "+СИЛ\n+ТЕЛ\n-ЛОВ\nУвеличивает получаемый опыт",
+			"img_path": "",
+			"img_from_spell_id": 96
+		},
+		"EFF_MINIMISE": {
+			"id": 69,
+			"internal_name": "EFF_MINIMISE",
+			"name": "Минимизация",
+			"desc": "+ЛОВ\n-СИЛ\n-ТЕЛ\nУменьшает получаемый опыт",
+			"img_path": "",
+			"img_from_spell_id": 97
+		},
+		"EFF_WEAKNESS": {
+			"id": 70,
+			"internal_name": "EFF_WEAKNESS",
+			"name": "Слабость",
+			"desc": "АТК в ближнем бою снижена",
+			"img_path": "",
+			"img_from_spell_id": 43
+		},
+		"EFF_INCOHERENCE": {
+			"id": 71,
+			"internal_name": "EFF_INCOHERENCE",
+			"name": "Бессвязность",
+			"desc": "СИЛ Закл снижена",
+			"img_path": "",
+			"img_from_spell_id": 99
+		},
+		"EFF_OVERCHARGE": {
+			"id": 72,
+			"internal_name": "EFF_OVERCHARGE",
+			"name": "Перегрузка",
+			"desc": "Дает +СИЛ Закл:\n-Магическим Посохам\n-Книгам во второй руке\n-Магическим Фокусам",
+			"img_path": "",
+			"img_from_spell_id": 100,
+			"use_entry_for_sustained_spell": 100
+		},
+		"EFF_ENVENOM_WEAPON": {
+			"id": 73,
+			"internal_name": "EFF_ENVENOM_WEAPON",
+			"name": "Отравленное Оружие",
+			"desc": "Атаки оружием имеют шанс\nнанести доп. урон ядом",
+			"img_path": "",
+			"img_from_spell_id": 101,
+			"use_entry_for_sustained_spell": 101
+		},
+		"EFF_MAGIC_GREASE": {
+			"id": 74,
+			"internal_name": "EFF_MAGIC_GREASE",
+			"name": "Скользкий",
+			"desc": "Снижен контроль движения",
+			"img_path": "",
+			"img_from_spell_id": 104
+		},
+		"EFF_COMMAND": {
+			"id": 75,
+			"internal_name": "EFF_COMMAND",
+			"name": "Принуждение",
+			"desc": "Вынужден выполнить одну команду",
+			"img_path": "",
+			"img_from_spell_id": 107
+		},
+		"EFF_MIMIC_VOID": {
+			"id": 76,
+			"internal_name": "EFF_MIMIC_VOID",
+			"name": "EFF_MIMIC_VOID",
+			"desc": "EFF_MIMIC_VOID",
+			"img_path": "",
+			"img_from_spell_id": 115
+		},
+		"EFF_CURSE_FLESH": {
+			"id": 77,
+			"internal_name": "EFF_CURSE_FLESH",
+			"name": "Проклятая Плоть",
+			"desc": "При смерти призывает Череп Ревенанта.",
+			"img_path": "",
+			"img_from_spell_id": 121
+		},
+		"EFF_NUMBING_BOLT": {
+			"id": 78,
+			"internal_name": "EFF_NUMBING_BOLT",
+			"name": "Онемение",
+			"desc": "Не чувствует следующего полученного удара.",
+			"img_path": "",
+			"img_from_spell_id": 119
+		},
+		"EFF_DELAY_PAIN": {
+			"id": 79,
+			"internal_name": "EFF_DELAY_PAIN",
+			"name": "Неумирающий",
+			"desc": "Отсрочка получаемого урона",
+			"img_path": "",
+			"img_from_spell_id": 120
+		},
+		"EFF_SEEK_CREATURE": {
+			"id": 80,
+			"internal_name": "EFF_SEEK_CREATURE",
+			"name": "Искать Другого",
+			"desc": "Вынужден искать\nдругое существо",
+			"img_path": "",
+			"img_from_spell_id": 126
+		},
+		"EFF_TABOO": {
+			"id": 81,
+			"internal_name": "EFF_TABOO",
+			"name": "Козел Отпущения",
+			"desc": "Делает всех существ\nвраждебными к вам",
+			"img_path": "",
+			"img_from_spell_id": 131
+		},
+		"EFF_COURAGE": {
+			"id": 82,
+			"internal_name": "EFF_COURAGE",
+			"name": "Мужество",
+			"desc": "+СИЛ\n+ТЕЛ",
+			"img_path": "",
+			"img_from_spell_id": 124
+		},
+		"EFF_COWARDICE": {
+			"id": 83,
+			"internal_name": "EFF_COWARDICE",
+			"name": "Трусость",
+			"desc": "-ТЕЛ\n-СИЛ",
+			"img_path": "",
+			"img_from_spell_id": 123
+		},
+		"EFF_SPORES": {
+			"id": 84,
+			"internal_name": "EFF_SPORES",
+			"name": "Споры",
+			"desc": "Выпускает облака спор при ударе,\n-Наносит [Яд / Замедление]",
+			"img_path": "",
+			"img_from_spell_id": 133,
+			"use_entry_for_sustained_spell": 133
+		},
+		"EFF_ABUNDANCE": {
+			"id": 85,
+			"internal_name": "EFF_ABUNDANCE",
+			"name": "Изобилие",
+			"desc": "У еды есть шанс не\nисчезать при употреблении",
+			"img_path": "",
+			"img_from_spell_id": 141,
+			"use_entry_for_sustained_spell": 141
+		},
+		"EFF_GREATER_ABUNDANCE": {
+			"id": 86,
+			"internal_name": "EFF_GREATER_ABUNDANCE",
+			"name": "Великое Изобилие",
+			"desc": "У еды и зелий есть шанс\nне исчезать при употреблении",
+			"img_path": "",
+			"img_from_spell_id": 142,
+			"use_entry_for_sustained_spell": 142
+		},
+		"EFF_PRESERVE": {
+			"id": 87,
+			"internal_name": "EFF_PRESERVE",
+			"name": "Сохранение",
+			"desc": "Предотвращает износ снаряжения\nценой МР",
+			"img_path": "",
+			"img_from_spell_id": 143,
+			"use_entry_for_sustained_spell": 143
+		},
+		"EFF_MIST_FORM": {
+			"id": 88,
+			"internal_name": "EFF_MIST_FORM",
+			"name": "Форма Тумана",
+			"desc": "Уклонение от атак ценой МР.",
+			"img_path": "",
+			"img_from_spell_id": 147,
+			"use_entry_for_sustained_spell": 147
+		},
+		"EFF_FORCE_SHIELD": {
+			"id": 89,
+			"internal_name": "EFF_FORCE_SHIELD",
+			"name": "Силовой Щит",
+			"desc": "Дает КБ предметам во второй руке",
+			"img_path": "",
+			"img_from_spell_id": 149,
+			"use_entry_for_sustained_spell": 149
+		},
+		"EFF_LIGHTEN_LOAD": {
+			"id": 90,
+			"internal_name": "EFF_LIGHTEN_LOAD",
+			"name": "Облегчение Ноши",
+			"desc": "Уменьшает штраф к СКР\nот веса инвентаря",
+			"img_path": "",
+			"img_from_spell_id": 152,
+			"use_entry_for_sustained_spell": 152
+		},
+		"EFF_ATTRACT_ITEMS": {
+			"id": 91,
+			"internal_name": "EFF_ATTRACT_ITEMS",
+			"name": "Притяжение",
+			"desc": "Поднимает и притягивает\nблизлежащие предметы.",
+			"img_path": "",
+			"img_from_spell_id": 153,
+			"use_entry_for_sustained_spell": 153
+		},
+		"EFF_RETURN_ITEM": {
+			"id": 92,
+			"internal_name": "EFF_RETURN_ITEM",
+			"name": "Возврат",
+			"desc": "Метательное оружие возвращается с\nпола ценой МР.",
+			"img_path": "",
+			"img_from_spell_id": 154,
+			"use_entry_for_sustained_spell": 154
+		},
+		"EFF_DEMESNE_DOOR": {
+			"id": 93,
+			"internal_name": "EFF_DEMESNE_DOOR",
+			"name": "Врата Владений",
+			"desc": "+КБ\n+АТК\n+СИЛ Закл",
+			"img_path": "",
+			"img_from_spell_id": 159,
+			"use_entry_for_sustained_spell": 159
+		},
+		"EFF_REFLECTOR_SHIELD": {
+			"id": 94,
+			"internal_name": "EFF_REFLECTOR_SHIELD",
+			"name": "Отражатель",
+			"desc": "Предметы во второй руке отражают\nмагические снаряды при защите.",
+			"img_path": "",
+			"img_from_spell_id": 150,
+			"use_entry_for_sustained_spell": 150
+		},
+		"EFF_DIZZY": {
+			"id": 95,
+			"internal_name": "EFF_DIZZY",
+			"name": "Головокружение",
+			"desc": "Неконтролируемое вращение",
+			"img_path": "",
+			"img_from_spell_id": 150,
+			"use_entry_for_sustained_spell": 150
+		},
+		"EFF_SPIN": {
+			"id": 96,
+			"internal_name": "EFF_SPIN",
+			"name": "Вращение",
+			"desc": "Заставляет вас поворачиваться в обратную сторону.",
+			"img_path": "",
+			"img_from_spell_id": 150,
+			"use_entry_for_sustained_spell": 150
+		},
+		"EFF_CRITICAL_SPELL": {
+			"id": 97,
+			"internal_name": "EFF_CRITICAL_SPELL",
+			"name": "Критическое Заклинание",
+			"desc": "Следующее прочитанное заклинание остается подготовленным со сниженной стоимостью МР",
+			"img_path": "",
+			"img_from_spell_id": 176,
+			"use_entry_for_sustained_spell": 176
+		},
+		"EFF_MAGIC_WELL": {
+			"id": 98,
+			"internal_name": "EFF_MAGIC_WELL",
+			"name": "Магический Колодец",
+			"desc": "Увеличивает СИЛ Закл за каждую потраченную МР во время действия эффекта.",
+			"img_path": "",
+			"img_from_spell_id": 177,
+			"use_entry_for_sustained_spell": 177
+		},
+		"EFF_STATIC": {
+			"id": 99,
+			"internal_name": "EFF_STATIC",
+			"name": "Статика",
+			"desc": "Получает увеличенный урон от заклинаний стихии молнии",
+			"img_path": "*images/ui/HUD/statusfx/static.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_ABSORB_MAGIC": {
+			"id": 100,
+			"internal_name": "EFF_ABSORB_MAGIC",
+			"name": "Поглощение Магии",
+			"desc": "Отрицает входящие магические снаряды\nКаждое поглощенное заклинание увеличивает СИЛ Закл следующего произнесенного",
+			"img_path": "",
+			"img_from_spell_id": 155,
+			"use_entry_for_sustained_spell": 155
+		},
+		"EFF_FLAME_CLOAK": {
+			"id": 101,
+			"internal_name": "EFF_FLAME_CLOAK",
+			"name": "Пламенный Плащ",
+			"desc": "Аннулирует урон от [Горения]\nЗагорается рядом с источниками огня\nПоджигает врагов при контакте",
+			"img_path": "",
+			"img_from_spell_id": 175,
+			"use_entry_for_sustained_spell": 175
+		},
+		"EFF_DUSTED": {
+			"id": 102,
+			"internal_name": "EFF_DUSTED",
+			"name": "В Пыли",
+			"desc": "Более заметен для врагов\n- Восприятие",
+			"img_path": "",
+			"img_from_spell_id": 198
+		},
+		"EFF_NOISE_VISIBILITY": {
+			"id": 103,
+			"internal_name": "EFF_NOISE_VISIBILITY",
+			"name": "",
+			"desc": "",
+			"img_path": "",
+			"img_from_spell_id": -1,
+			"never_display": true
+		},
+		"EFF_RATION_SPICY": {
+			"id": 104,
+			"internal_name": "EFF_RATION_SPICY",
+			"name": "Пайок (Острый)",
+			"desc": "+4 Силы\n+4 Ловкости",
+			"img_path": "*images/ui/HUD/statusfx/Ration_spicy.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_RATION_SOUR": {
+			"id": 105,
+			"internal_name": "EFF_RATION_SOUR",
+			"name": "Пайок (Кислый)",
+			"desc": "+4 Интеллекта\n+25% Силы Заклинаний",
+			"img_path": "*images/ui/HUD/statusfx/Ration_sour.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_RATION_BITTER": {
+			"id": 106,
+			"internal_name": "EFF_RATION_BITTER",
+			"name": "Пайок (Горький)",
+			"desc": "+4 Телосложения\n+4 Восприятия",
+			"img_path": "*images/ui/HUD/statusfx/Ration_bitter.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_RATION_HEARTY": {
+			"id": 107,
+			"internal_name": "EFF_RATION_HEARTY",
+			"name": "Пайок (Сытный)",
+			"desc": "+4 Силы\n+4 Телосложения",
+			"img_path": "*images/ui/HUD/statusfx/Ration_hearty.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_RATION_HERBAL": {
+			"id": 108,
+			"internal_name": "EFF_RATION_HERBAL",
+			"name": "Пайок (Травяной)",
+			"desc": "+4 Харизмы\n+20% Сопротивления Магии",
+			"img_path": "*images/ui/HUD/statusfx/Ration_herbal.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_RATION_SWEET": {
+			"id": 109,
+			"internal_name": "EFF_RATION_SWEET",
+			"name": "Пайок (Сладкий)",
+			"desc": "+1 [Реген ОЗ]\n+1 [Реген МР]",
+			"img_path": "*images/ui/HUD/statusfx/Ration_sweet.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_GROWTH": {
+			"id": 110,
+			"internal_name": "EFF_GROWTH",
+			"name": ["Рост (Ур. I)", "Рост (Ур. II)", "Рост (Ур. III)"],
+			"desc": [
+				"Рост расцветает при получении уровней и с шансом % при поедании тухлой еды",
+				"Рост расцветает при получении уровней и с шансом % при питье воды",
+				"Скорость эффекта Спор улучшена",
+				"Споры также срабатывают при получении магического урона и дальних атак",
+				"%+d КБ / Урон Ядом",
+				"%+d%% Физ. Сопротивление",
+				"%+d%% СИЛ Закл",
+				"%+d%% РГН МР",
+				"%+d%% Скорость Передвижения",
+				"%+d%% Скорость накладываемого Яда",
+				"%+d%% Урон Прорастания",
+				"%+d%% Получаемый Урон от Огня"
+			],
+			"img_path": "*images/ui/HUD/statusfx/growth_dryad_green.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 320
+		},
+		"EFF_THORNS": {
+			"id": 111,
+			"internal_name": "EFF_THORNS",
+			"name": "Шипы",
+			"desc": "Наносит ответный урон атакующим в ближнем бою",
+			"img_path": "",
+			"img_from_spell_id": 201,
+			"use_entry_for_sustained_spell": 201
+		},
+		"EFF_BLADEVINES": {
+			"id": 112,
+			"internal_name": "EFF_BLADEVINES",
+			"name": "Остролианы",
+			"desc": "EFF_BLADEVINES",
+			"img_path": "",
+			"img_from_spell_id": 202,
+			"use_entry_for_sustained_spell": 202
+		},
+		"EFF_BASTION_MUSHROOM": {
+			"id": 113,
+			"internal_name": "EFF_BASTION_MUSHROOM",
+			"name": "Мицелий Бастиона",
+			"desc": "EFF_BASTION_MUSHROOM",
+			"img_path": "",
+			"img_from_spell_id": 203,
+			"use_entry_for_sustained_spell": 203
+		},
+		"EFF_BASTION_ROOTS": {
+			"id": 114,
+			"internal_name": "EFF_BASTION_ROOTS",
+			"name": "Корни Бастиона",
+			"desc": ["Замедлен", "Корни наследуют Шипы и Остролианы", "+10 к Силе Закл за уровень роста"],
+			"img_path": "",
+			"img_from_spell_id": 204,
+			"use_entry_for_sustained_spell": 204
+		},
+		"EFF_FOCI_LIGHT_PEACE": {
+			"id": 115,
+			"internal_name": "EFF_FOCI_LIGHT_PEACE",
+			"name": "Мир",
+			"desc": "Восстановление ОЗ со временем",
+			"img_path": "",
+			"img_from_spell_id": 210
+		},
+		"EFF_FOCI_LIGHT_JUSTICE": {
+			"id": 116,
+			"internal_name": "EFF_FOCI_LIGHT_JUSTICE",
+			"name": "Правосудие",
+			"desc": "Физ. атаки наносят дополнительный урон Кара.",
+			"img_path": "",
+			"img_from_spell_id": 211
+		},
+		"EFF_FOCI_LIGHT_PROVIDENCE": {
+			"id": 117,
+			"internal_name": "EFF_FOCI_LIGHT_PROVIDENCE",
+			"name": "Провидение",
+			"desc": "Замедляет голод",
+			"img_path": "",
+			"img_from_spell_id": 212
+		},
+		"EFF_FOCI_LIGHT_PURITY": {
+			"id": 118,
+			"internal_name": "EFF_FOCI_LIGHT_PURITY",
+			"name": "Чистота",
+			"desc": "Защищает от вредоносных эффектов.",
+			"img_path": "",
+			"img_from_spell_id": 213
+		},
+		"EFF_FOCI_LIGHT_SANCTUARY": {
+			"id": 119,
+			"internal_name": "EFF_FOCI_LIGHT_SANCTUARY",
+			"name": "Убежище",
+			"desc": "Улучшает КБ",
+			"img_path": "",
+			"img_from_spell_id": 214
+		},
+		"EFF_STASIS": {
+			"id": 120,
+			"internal_name": "EFF_STASIS",
+			"name": "Пустотный Стазис",
+			"desc": "Невозможно двигаться или действовать\nНевозможно получить урон",
+			"img_path": "",
+			"img_from_spell_id": 206
+		},
+		"EFF_HP_MP_REGEN": {
+			"id": 121,
+			"internal_name": "EFF_HP_MP_REGEN",
+			"name": "Насыщение",
+			"desc": "Восстановление ОЗ/МР каждые 5 сек. от благословенной еды\nЭффект теряется при несварении",
+			"img_path": "*images/ui/HUD/statusfx/nourished.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 260
+		},
+		"EFF_DISRUPTED": {
+			"id": 122,
+			"internal_name": "EFF_DISRUPTED",
+			"name": "Нарушение",
+			"desc": "Снижены движение и КБ",
+			"img_path": "",
+			"img_from_spell_id": 180
+		},
+		"EFF_FROST": {
+			"id": 123,
+			"internal_name": "EFF_FROST",
+			"name": "Обморожен",
+			"desc": "Снижено движение",
+			"img_path": "",
+			"img_from_spell_id": 68
+		},
+		"EFF_MAGICIANS_ARMOR": {
+			"id": 124,
+			"internal_name": "EFF_MAGICIANS_ARMOR",
+			"name": "Пузырь Мага",
+			"desc": "Перехватывает весь урон от врагов, пока есть заряды.",
+			"img_path": "",
+			"img_from_spell_id": 216
+		},
+		"EFF_PROJECT_SPIRIT": {
+			"id": 125,
+			"internal_name": "EFF_PROJECT_SPIRIT",
+			"name": "Дух Птицы",
+			"desc": "Вселение в форму призрачной утки",
+			"img_path": "",
+			"img_from_spell_id": 217
+		},
+		"EFF_DEFY_FLESH": {
+			"id": 126,
+			"internal_name": "EFF_DEFY_FLESH",
+			"name": "Попрать Плоть",
+			"desc": "Получение дополнительного магического урона при попадании",
+			"img_path": "",
+			"img_from_spell_id": 103
+		},
+		"EFF_PINPOINT_DAMAGE": {
+			"id": 127,
+			"internal_name": "EFF_PINPOINT_DAMAGE",
+			"name": "Прицельно",
+			"desc": "Получение доп. урона Кара при атаке заклинателем.",
+			"img_path": "",
+			"img_from_spell_id": 78,
+			"never_display": true
+		},
+		"EFF_RADIANT_HEART": {
+			"id": 128,
+			"internal_name": "EFF_RADIANT_HEART",
+			"name": ["Сияющее Сердце", "Сияющее Сердце", "Каменное Сердце", "Каменное Сердце"],
+			"desc": [
+			"Рассеивается ниже 60% Пыла (ПЛ)\nЛевитация\n+СИЛ Закл/-ТЕЛ от ХАР\n+25% Сопротивление Огню\nПЛ уменьшается со временем", 
+			"Рассеивается ниже 60% Пыла (ПЛ)\nЗаклинания с 0 МР\nУсиленные эффекты Огненного Дыхания\nЛевитация\n+СИЛ Закл/-ТЕЛ от ХАР\n+25% Сопротивление Огню\nПЛ уменьшается со временем", 
+			"Рассеивается выше 40% Пыла (ПЛ)\n+СИЛ/ТЕЛ от ХАР\n-ЛОВ от ХАР", 
+			"Рассеивается выше 40% Пыла (ПЛ)\nИммунитет к урону в ближнем бою\n+СИЛ/ТЕЛ от ХАР\n-ЛОВ от ХАР"],
+			"img_path": ["*images/ui/HUD/statusfx/heart_radiant.png", "*images/ui/HUD/statusfx/heart_radiant_bonus.png", "*images/ui/HUD/statusfx/heart_stone.png", "*images/ui/HUD/statusfx/heart_stone_bonus.png"],
+			"img_from_spell_id": -1,
+			"tooltip_width": 300
+		},
+		"EFF_DIVINE_FIRE": {
+			"id": 129,
+			"internal_name": "EFF_DIVINE_FIRE",
+			"name": "Святой Огонь",
+			"desc": "Получаемый урон увеличен",
+			"img_path": "",
+			"img_from_spell_id": 219,
+			"tooltip_width": 260
+		},
+		"EFF_HEALING_WORD": {
+			"id": 130,
+			"internal_name": "EFF_HEALING_WORD",
+			"name": "Слово Исцеления",
+			"desc": "Молитва об исцелении\nЭффект теряется при получении урона",
+			"img_path": "",
+			"img_from_spell_id": 220,
+			"tooltip_width": 260
+		},
+		"EFF_HOLY_FIRE": {
+			"id": 131,
+			"internal_name": "EFF_HOLY_FIRE",
+			"name": "Святой Огонь",
+			"desc": "Горение от сверхъестественного источника огня",
+			"img_path": "",
+			"img_from_spell_id": -1,
+			"tooltip_width": 260,
+			"never_display": true
+		},
+		"EFF_SIGIL": {
+			"id": 132,
+			"internal_name": "EFF_SIGIL",
+			"name": "Сигил",
+			"desc": "Получение доп. лечения\nВраги получают доп. урон Кара",
+			"img_path": "",
+			"img_from_spell_id": 222,
+			"tooltip_width": 260
+		},
+		"EFF_SANCTUARY": {
+			"id": 133,
+			"internal_name": "EFF_SANCTUARY",
+			"name": "Убежище",
+			"desc": "Сопротивление урону увеличено за уровень",
+			"img_path": "",
+			"img_from_spell_id": 223,
+			"tooltip_width": 260
+		},
+		"EFF_DUCKED": {
+			"id": 134,
+			"internal_name": "EFF_DUCKED",
+			"name": "EFF_DUCKED",
+			"desc": "EFF_DUCKED",
+			"img_path": "*images/ui/HUD/statusfx/ducked.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 260
+		}
+	}
+}

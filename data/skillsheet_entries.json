@@ -1,0 +1,865 @@
+{
+	"version": 1,
+	"colors": {
+		"default": {
+			"r": 201,
+			"g": 162,
+			"b": 100,
+			"a": 255
+		},
+		"novice": {
+			"r": 74,
+			"g": 196,
+			"b": 20,
+			"a": 255
+		},
+		"expert": {
+			"r": 55,
+			"g": 149,
+			"b": 215,
+			"a": 255
+		},
+		"legend": {
+			"r": 230,
+			"g": 183,
+			"b": 20,
+			"a": 255
+		}
+	},
+	"skill_background_icons" : {
+		"default": "#*images/ui/SkillSheet/UI_Skills_Icons_BG00_00.png",
+		"default_selected": "#*images/ui/SkillSheet/UI_Skills_Icons_BG00Select_00.png",
+		"novice": "#*images/ui/SkillSheet/UI_Skills_Icons_BG20_00.png",
+		"novice_selected": "#*images/ui/SkillSheet/UI_Skills_Icons_BG20Select_00.png",
+		"expert": "#*images/ui/SkillSheet/UI_Skills_Icons_BG60_00.png",
+		"expert_selected": "#*images/ui/SkillSheet/UI_Skills_Icons_BG60Select_00.png",
+		"legend": "#*images/ui/SkillSheet/UI_Skills_Icons_BG100_00.png",
+		"legend_selected": "#*images/ui/SkillSheet/UI_Skills_Icons_BG100Select_00.png"
+	},
+	"skill_select_images": {
+		"highlight_left": "#*images/ui/SkillSheet/UI_Skills_SkillSelector_01.png",
+		"selected_left": "#*images/ui/SkillSheet/UI_Skills_SkillUnselected100_01.png",
+		"highlight_right": "#*images/ui/SkillSheet/UI_Skills_SkillSelectorR_01.png",
+		"selected_right": "#*images/ui/SkillSheet/UI_Skills_SkillUnselected100R_01.png"
+	},
+	"window_scaling": {
+		"standard_scale_modifier_x": 2.0,
+		"standard_scale_modifier_y": 1.2,
+		"compact_scale_modifier_x": 0.5,
+		"compact_scale_modifier_y": 0.0
+	},
+	"alchemy_potion_names_to_filter": ["зелье ", "бутылка "],
+	"skills": [
+		{
+			"name": "Скрытность",
+			"id": 1,
+			"sfx": 549,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Stealth01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Stealth01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Stealth02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Stealth02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_DEX_00.png",
+			"description": "Уменьшает видимость для врагов, увеличивает урон скрытных атак в ближнем бою и даёт дополнительное зрение в режиме скрытности. Используйте команду Защита без щита, чтобы красться.",
+			"legend_text": "Скрытность даёт невидимость. Бонусный урон при атаке со спины удваивается.",
+			"effects_position": {
+				"effect_start_offset_x": 80,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 88
+			},
+			"effects": [
+				{
+					"tag": "STEALTH_VIS_REDUCTION",
+					"title": "Снижение видимости:",
+					"value": "%+d%%"
+				},
+				{
+					"tag": "STEALTH_SNEAK_VIS",
+					"title": "Бонус зрения в скрытности:",
+					"value": "%+d Ед. света"
+				},
+				{
+					"tag": "STEALTH_BACKSTAB",
+					"title": "Бонус урона со спины:",
+					"value": "%+d АТК",
+					"realtime_update": true
+				},
+				{
+					"tag": "STEALTH_CURRENT_VIS",
+					"title": "Текущая видимость:",
+					"value": "%d Клеток",
+					"realtime_update": true
+				}
+			]
+		},
+		{
+			"name": "Блокирование",
+			"id": 13,
+			"sfx": 599,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Blocking01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Blocking01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Blocking02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Blocking02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_CON_00.png",
+			"description": "Увеличивает бонус Класса Брони при защите. Даёт пассивный бонус Класса Брони для экипированных щитов. Повышает прочность предметов во второй руке в бою.",
+			"legend_text": "Щиты никогда не теряют прочность при попадании.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "BLOCK_AC_INCREASE",
+					"title": "Бонус КБ при защите:\n(Щиты)",
+					"value": "%+d КБ"
+				},
+				{
+					"tag": "BLOCK_AC_INCREASE_OFFHAND",
+					"title": "Бонус КБ при защите:\n(Не щиты)",
+					"value": "%+d КБ"
+				},
+				{
+					"tag": "PASSIVE_AC_INCREASE",
+					"title": "Пассивный бонус КБ:\n(Щиты)",
+					"value": "%+d КБ"
+				},
+				{
+					"tag": "BLOCK_DEGRADE_NORMAL_CHANCE",
+					"title": "Шанс потери прочности щита:\n(При получении урона)",
+					"value": "%.2f%%"
+				},
+				{
+					"tag": "BLOCK_DEGRADE_DEFENDING_CHANCE",
+					"title": "Шанс потери прочности щита:\n(Во время защиты)",
+					"value": "%.2f%%"
+				}
+			]
+		},
+		{
+			"name": "Стрельба",
+			"id": 8,
+			"sfx": 600,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Ranged01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Ranged01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Ranged02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Ranged02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_DEX_00.png",
+			"description": "Увеличивает урон дальних и метательных атак, а также повышает прочность соответствующего оружия.",
+			"legend_text": "Дальнобойное оружие никогда не теряет прочность при использовании.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "WEAPON_DMG_EFFECTIVENESS",
+					"title": "Разброс урона\n дальнобойного оружия:",
+					"value": "%d%% - %d%%",
+					"custom_value_width_offset": 32
+				},
+				{
+					"tag": "RANGED_DEGRADE_CHANCE",
+					"title": "Шанс потери прочности\n дальнобойного оружия:",
+					"value": "%.2f%%"
+				},
+				{
+					"tag": "RANGED_PIERCE_CHANCE",
+					"title": "Шанс бронебойной стрелы:\n(Зависит от Восприятия)",
+					"value": "%+d%%"
+				},
+				{
+					"tag": "RANGED_THROWN_DMG",
+					"title": "Урон метательного оружия:",
+					"value": "%+d%%"
+				}
+			]
+		},
+		{
+			"name": "Рукопашный бой",
+			"id": 14,
+			"sfx": 594,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Unarmed01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Unarmed01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Unarmed02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Unarmed02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+			"description": "Увеличивает урон голыми кулаками или кастетами. Повышает прочность кастетов и добавляет эффект отбрасывания при полностью заряженных ударах.",
+			"legend_text": "+5 АТК и наложение Паралича на 1 сек. при полностью заряженной скрытной атаке со спины.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "WEAPON_DMG_EFFECTIVENESS",
+					"title": "Разброс урона\n рукопашного боя:",
+					"value": "%d%% - %d%%",
+					"custom_value_width_offset": 32
+				},
+				{
+					"tag": "UNARMED_BONUS_DMG",
+					"title": "Бонусный урон врукопашную:",
+					"value": "%+d АТК"
+				},
+				{
+					"tag": "GLOVE_DEGRADE_CHANCE",
+					"title": "Шанс потери прочности кастетов:\n(Обычные удары)",
+					"value": "%.2f%%"
+				},
+				{
+					"tag": "GLOVE_DEGRADE0_CHANCE",
+					"title": "Шанс потери прочности кастетов:\n(При нанесении 0 урона)",
+					"value": "%.2f%%"
+				},
+				{
+					"tag": "UNARMED_KNOCKBACK_DIST",
+					"title": "Дальность отбрасывания\n кастетами:",
+					"value": "%+d%%"
+				}
+			]
+		},
+		{
+			"name": "Мечи",
+			"id": 9,
+			"sfx": 588,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Swords01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Swords01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Swords02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Swords02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+			"description": "Увеличивает урон и прочность мечей.",
+			"legend_text": "+5 АТК и наложение Кровотечения на 5 сек. при полностью заряженном ударе.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "WEAPON_DMG_EFFECTIVENESS",
+					"title": "Разброс урона мечей:",
+					"value": "%d%% - %d%%",
+					"custom_value_width_offset": 32
+				},
+				{
+					"tag": "SWORD_DEGRADE_CHANCE",
+					"title": "Шанс потери прочности:\n(Обычные удары)",
+					"value": "%.2f%%"
+				},
+				{
+					"tag": "SWORD_DEGRADE0_CHANCE",
+					"title": "Шанс потери прочности:\n(При нанесении 0 урона)",
+					"value": "%.2f%%"
+				}
+			]
+		},
+		{
+			"name": "Древковое оружие",
+			"id": 12,
+			"sfx": 578,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Polearms01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Polearms01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Polearms02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Polearms02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+			"description": "Увеличивает урон и прочность древкового оружия.",
+			"legend_text": "+5 АТК и эффект Отбрасывания при полностью заряженном ударе.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "WEAPON_DMG_EFFECTIVENESS",
+					"title": "Разброс урона\n древкового оружия:",
+					"value": "%d%% - %d%%",
+					"custom_value_width_offset": 32
+				},
+				{
+					"tag": "POLEARM_DEGRADE_CHANCE",
+					"title": "Шанс потери прочности:\n(Обычные удары)",
+					"value": "%.2f%%"
+				},
+				{
+					"tag": "POLEARM_DEGRADE0_CHANCE",
+					"title": "Шанс потери прочности:\n(При нанесении 0 урона)",
+					"value": "%.2f%%"
+				}
+			]
+		},
+		{
+			"name": "Топоры",
+			"id": 11,
+			"sfx": 570,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Axes01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Axes01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Axes02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Axes02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+			"description": "Увеличивает урон и прочность топоров.",
+			"legend_text": "+10 АТК и наложение Замедления на 3 сек. при полностью заряженном ударе.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "WEAPON_DMG_EFFECTIVENESS",
+					"title": "Разброс урона топоров:",
+					"value": "%d%% - %d%%",
+					"custom_value_width_offset": 32
+				},
+				{
+					"tag": "AXE_DEGRADE_CHANCE",
+					"title": "Шанс потери прочности:\n(Обычные удары)",
+					"value": "%.2f%%"
+				},
+				{
+					"tag": "AXE_DEGRADE0_CHANCE",
+					"title": "Шанс потери прочности:\n(При нанесении 0 урона)",
+					"value": "%.2f%%"
+				}
+			]
+		},
+		{
+			"name": "Булавы",
+			"id": 10,
+			"sfx": 575,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Maces01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Maces01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Maces02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Maces02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+			"description": "Увеличивает урон и прочность булав.",
+			"legend_text": "+5 АТК и 25% шанс наложить Паралич на 1.5 сек. при полностью заряженном ударе.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "WEAPON_DMG_EFFECTIVENESS",
+					"title": "Разброс урона булав:",
+					"value": "%d%% - %d%%",
+					"custom_value_width_offset": 32
+				},
+				{
+					"tag": "MACE_DEGRADE_CHANCE",
+					"title": "Шанс потери прочности:\n(Обычные удары)",
+					"value": "%.2f%%"
+				},
+				{
+					"tag": "MACE_DEGRADE0_CHANCE",
+					"title": "Шанс потери прочности:\n(При нанесении 0 урона)",
+					"value": "%.2f%%"
+				}
+			]
+		},
+		{
+			"name": "Лидерство",
+			"id": 5,
+			"sfx": 603,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Leadership01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Leadership01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Leadership02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Leadership02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_CHA_00.png",
+			"description": "Увеличивает максимальное число нанимаемых последователей-неписе и открывает новые команды для взаимодействия с ними.",
+			"legend_text": "Позволяет нанимать гоблинов, козлоподобных и насекомых в дополнение к стандартным расовым союзникам.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "LEADER_MAX_FOLLOWERS",
+					"title": "Макс. число последователей:",
+					"value": "%d"
+				},
+				{
+					"tag": "LEADER_FOLLOWER_SPEED",
+					"title": "Бонус к скорости\n последователей:",
+					"value": "+%d ЛВК"
+				},
+				{
+					"tag": "LEADER_CHARM_MONSTER",
+					"title": "Базовый шанс чар\n Очарование монстра:\n(Навык + ХАР)",
+					"value": "+%d%%"
+				},
+				{
+					"tag": "LIST_LEADER_AVAILABLE_FOLLOWERS",
+					"title": "Доступные для найма\n расы союзников:",
+					"value": "%s",
+					"auto_resize_value": true
+				}
+			]
+		},
+		{
+			"name": "Торговля",
+			"id": 2,
+			"sfx": 552,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Trading01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Trading01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Trading02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Trading02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_CHA_00.png",
+			"description": "Снижает цены покупки и повышает цены продажи при торговле с лавочниками.",
+			"legend_text": "Позволяет продавать предметы любого типа любому лавочнику.",
+			"effects_position": {
+				"effect_start_offset_x": 102,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 110
+			},
+			"effects": [
+				{
+					"tag": "TRADING_BUY_PRICE",
+					"title": "Наценка при покупке\n в магазине:",
+					"value": "%+.f%% Золота"
+				},
+				{
+					"tag": "TRADING_SELL_PRICE",
+					"title": "Потеря при продаже\n в магазин:\n(Навык + ХАР)",
+					"value": "%.f%% Золота"
+				}
+			]
+		},
+		{
+			"name": "Знания",
+			"id": 3,
+			"sfx": 568,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Lore01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Lore01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Lore02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Lore02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_PER_00.png",
+			"description": "Увеличивает скорость опознавания и позволяет опознавать предметы большей стоимости. Высокое Восприятие улучшает способности к опознаванию.",
+			"legend_text": "+25% к скорости опознавания всех предметов. Неопознанные предметы показывают свою стоимость.",
+			"effects_position": {
+				"effect_start_offset_x": 88,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 96
+			},
+			"effects": [
+				{
+					"tag": "APPRAISE_GOLD_FAST",
+					"title": "Макс. цена для\n быстрого опознавания:",
+					"value": "%d Золота"
+				},
+				{
+					"tag": "APPRAISE_MAX_GOLD_VALUE",
+					"title": "Макс. цена для\n медленного опознавания:",
+					"value": "%d Золота"
+				},
+				{
+					"tag": "APPRAISE_SPEEDUP_CONSUMABLES",
+					"title": "Сокращение времени опознавания\n Еда/Свитки/Зелья:",
+					"value": "%.f%%"
+				},
+				{
+					"tag": "APPRAISE_SPEEDUP",
+					"title": "Сокращение времени опознавания\n Прочие предметы:\n(При навыке выше 50)",
+					"value": "%.f%%"
+				},
+				{
+					"tag": "APPRAISE_FLOOR_BONUS",
+					"title": "Сокращение времени опознавания\n всех предметов в инвентаре\n при переходе на следующий этаж:",
+					"value": "%.f%%"
+				},
+				{
+					"tag": "APPRAISE_WORTHLESS_GLASS",
+					"title": "Возможность опознать\n Бесполезное стекло:",
+					"value": "%s"
+				}
+			]
+		},
+		{
+			"name": "Механика",
+			"id": 0,
+			"sfx": 552,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Tinkering01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Tinkering01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Tinkering02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Tinkering02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_PER_00.png",
+			"description": "Улучшает работу с набором механики, увеличивая количество создаваемых предметов и развёртываемых механизмов. Повышает шанс взлома замков.",
+			"legend_text": "Позволяет чинить большинство оружия и брони с помощью набора механики и находить бонусные предметы или золото при взломе сундуков.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "TINKERING_LOCKPICK_CHESTS_DOORS",
+					"title": "Шанс взлома\n сундуков и дверей:",
+					"value": "%d%%"
+				},
+				{
+					"tag": "TINKERING_SCRAP_CHESTS",
+					"title": "Шанс получить металлолом\n при взломе сундуков:",
+					"value": "%d%%"
+				},
+				{
+					"tag": "TINKERING_SCRAP_AUTOMATONS",
+					"title": "Шанс получить металлолом\n при взломе Автоматонов:",
+					"value": "%d%%"
+				},
+				{
+					"tag": "TINKERING_DISARM_ARROWS",
+					"title": "Шанс обезвредить\n стрелковую ловушку:",
+					"value": "%d%%"
+				},
+				{
+					"tag": "TINKERING_KIT_SCRAP_BONUS",
+					"title": "Бонус к металлолому\n при разборе:\n(Навык + Восприятие)",
+					"value": "+%d%%"
+				},
+				{
+					"tag": "TINKERING_KIT_REPAIR_ITEM",
+					"title": "Макс. уровень металлич./магич.\n предмета для ремонта:\n(Навык + Восприятие)",
+					"value": "%s",
+					"auto_resize_value": true
+				},
+				{
+					"tag": "TINKERING_MAX_ALLIES",
+					"title": "Макс. развёртываемых\n механических союзников:",
+					"value": "%d"
+				}
+			]
+		},
+		{
+			"name": "Алхимия",
+			"id": 15,
+			"sfx": 552,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Alchemy01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Alchemy01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Alchemy02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Alchemy02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_PER_00.png",
+			"description": "Улучшает способность создавать зелья в аламбике и увеличивает урон брошенных атакующих зелий.\nПейте или создавайте зелья, чтобы изучать полезные алхимические ингредиенты.",
+			"legend_text": "Аламбики никогда не теряют прочность.\nСозданные зелья имеют +2 к благословению.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "ALCHEMY_POTION_EFFECT_DMG",
+					"title": "Урон эффекта зелья:",
+					"value": "+%d%%"
+				},
+				{
+					"tag": "ALCHEMY_THROWN_IMPACT_DMG",
+					"title": "Урон от удара\n брошенным зельем:",
+					"value": "+%d%%"
+				},
+				{
+					"tag": "ALCHEMY_DUPLICATION_CHANCE",
+					"title": "Шанс удвоения зелья\n с водой:",
+					"value": "%d%%"
+				},
+				{
+					"tag": "ALCHEMY_EMPTY_BOTTLE_CONSUME",
+					"title": "Шанс сохранить бутылку\n при выпивании зелья:",
+					"value": "%d%%"
+				},
+				{
+					"tag": "ALCHEMY_EMPTY_BOTTLE_BREW",
+					"title": "Шанс сохранить бутылку\n при создании зелья:",
+					"value": "%d%%"
+				},
+				{
+					"tag": "ALCHEMY_LEARNT_INGREDIENTS_BASE",
+					"title": "Изученные ингредиенты:\n(Основные)",
+					"value": "%s",
+					"custom_value_width_offset": 0,
+					"auto_resize_value": true,
+					"realtime_update": true
+				},
+				{
+					"tag": "ALCHEMY_LEARNT_INGREDIENTS_SECONDARY",
+					"title": "Изученные ингредиенты:\n(Вторичные)",
+					"value": "%s",
+					"custom_value_width_offset": 0,
+					"auto_resize_value": true,
+					"realtime_update": true
+				}
+			]
+		},
+		{
+			"name": "Чародейство",
+			"id": 7,
+			"sfx": 597,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Sorcery01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Sorcery01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Sorcery02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Sorcery02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_INT_00.png",
+			"description": "Позволяет изучать заклинания Чародейства более высоких уровней из книг заклинаний. Дополнительно увеличивает бонус к силе чародейских заклинаний от Интеллекта при уровне навыка выше Эксперта (60).",
+			"legend_text": "Заклинания Чародейства получают +40% к бонусу силы от Интеллекта и +100% к сокращению времени сотворения от Ловкости.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "MAGIC_SPELLPOWER_INT",
+					"title": "Базовый бонус силы чар:\n(Интеллект x2)",
+					"value": "%+d%%"
+				},
+				{
+					"tag": "MAGIC_CURRENT_TIER",
+					"title": "Макс. изучаемый уровень\n Чародейства:\n(Навык + Интеллект)",
+					"value": "%s"
+				},
+				{
+					"tag": "MAGIC_MEMORIZED_LEVEL_SPELLS",
+					"title": "Изученные заклинания,\n повышающие уровень\n Чародейства:",
+					"title_short": "Изученные\n заклинания для\n повышения\n Чародейства:",
+					"value": "%s",
+					"auto_resize_value": true
+				},
+				{
+					"tag": "MAGIC_CURRENT_TIER_SPELLS",
+					"title": "Заклинания текущего\n уровня Чародейства:",
+					"value": "%s",
+					"auto_resize_value": true
+				},
+				{
+					"tag": "CASTING_BEGINNER",
+					"title": "Возможна осечка при\n сотворении изученных чар:",
+					"value": "%s"
+				},
+				{
+					"tag": "CASTING_SPELLBOOK_FUMBLE",
+					"title": "Макс. уровень Чародейства\n для чтения из книги\n без осечек:\n(Навык + Интеллект)",
+					"value": "%s"
+				}
+			]
+		},
+		{
+			"name": "Мистицизм",
+			"id": 6,
+			"sfx": 596,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Mysticism01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Mysticism01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Mysticism02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Mysticism02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_INT_00.png",
+			"description": "Позволяет изучать заклинания Мистицизма более высоких уровней из книг. Дополнительно увеличивает бонус к силе мистических заклинаний от Интеллекта и Харизмы при уровне навыка выше Эксперта (60).",
+			"legend_text": "Заклинания Мистицизма получают +40% к бонусу силы от Интеллекта/Харизмы и +100% к сокращению времени сотворения от Ловкости.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "MAGIC_SPELLPOWER_INT",
+					"title": "Базовый бонус силы чар:\n(Интеллект + Харизма)",
+					"value": "%+d%%"
+				},
+				{
+					"tag": "MAGIC_CURRENT_TIER",
+					"title": "Макс. изучаемый уровень\n Мистицизма:\n(Навык + Интеллект)",
+					"value": "%s"
+				},
+				{
+					"tag": "MAGIC_MEMORIZED_LEVEL_SPELLS",
+					"title": "Изученные заклинания,\n повышающие уровень\n Мистицизма:",
+					"title_short": "Изученные\n заклинания для\n повышения\n Мистицизма:",
+					"value": "%s",
+					"auto_resize_value": true
+				},
+				{
+					"tag": "MAGIC_CURRENT_TIER_SPELLS",
+					"title": "Заклинания текущего\n уровня Мистицизма:",
+					"value": "%s",
+					"auto_resize_value": true
+				},
+				{
+					"tag": "CASTING_BEGINNER",
+					"title": "Возможна осечка при\n сотворении изученных чар:",
+					"value": "%s"
+				},
+				{
+					"tag": "CASTING_SPELLBOOK_FUMBLE",
+					"title": "Макс. уровень Мистицизма\n для чтения из книги\n без осечек:\n(Навык + Интеллект)",
+					"value": "%s"
+				}
+			]
+		},
+		{
+			"name": "Тауматургия",
+			"shortname": "Тауматургия",
+			"id": 4,
+			"sfx": 552,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Thaumaturgy01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Thaumaturgy01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Thaumaturgy02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Thaumaturgy02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_CON_00.png",
+			"description": "Позволяет изучать заклинания Тауматургии более высоких уровней из книг. Дополнительно увеличивает бонус к силе тауматургических заклинаний от Интеллекта и Телосложения при уровне навыка выше Эксперта (60).",
+			"legend_text": "Заклинания Тауматургии получают +40% к бонусу силы от Интеллекта/Телосложения и +100% к сокращению времени сотворения от Ловкости.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "MAGIC_SPELLPOWER_INT",
+					"title": "Базовый бонус силы чар:\n(Интеллект + Телосложение)",
+					"value": "%+d%%"
+				},
+				{
+					"tag": "MAGIC_CURRENT_TIER",
+					"title": "Макс. изучаемый уровень\n Тауматургии:\n(Навык + Интеллект)",
+					"value": "%s"
+				},
+				{
+					"tag": "MAGIC_MEMORIZED_LEVEL_SPELLS",
+					"title": "Изученные заклинания,\n повышающие уровень\n Тауматургии:",
+					"title_short": "Изученные\n заклинания для\n повышения\n Тауматургии:",
+					"value": "%s",
+					"auto_resize_value": true
+				},
+				{
+					"tag": "MAGIC_CURRENT_TIER_SPELLS",
+					"title": "Заклинания текущего\n уровня Тауматургии:",
+					"title_short": "Заклинания\n текущего уровня\n Тауматургии:",
+					"value": "%s",
+					"auto_resize_value": true
+				},
+				{
+					"tag": "CASTING_BEGINNER",
+					"title": "Возможна осечка при\n сотворении изученных чар:",
+					"value": "%s"
+				},
+				{
+					"tag": "CASTING_SPELLBOOK_FUMBLE",
+					"title": "Макс. уровень Тауматургии\n для чтения из книги\n без осечек:\n(Навык + Интеллект)",
+					"value": "%s"
+				}
+			]
+		},
+		{
+			"name": "Магия",
+			"id": 33,
+			"sfx": 597,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Magic01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Magic01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Magic02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Magic02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_INT_00.png",
+			"description": "Позволяет изучать заклинания более высоких уровней из книг заклинаний. Экипируйте заклинания через меню Магии и используйте команду Чтение, или держите книгу заклинаний и используйте команду Защита, чтобы колдовать.",
+			"legend_text": "Автоизучение заклинания Подчинение.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "MAGIC_SPELLPOWER_INT",
+					"title": "Базовый бонус силы чар:\n(Интеллект)",
+					"value": "%+d%%"
+				},
+				{
+					"tag": "MAGIC_CURRENT_TIER",
+					"title": "Макс. изучаемый уровень\n Магии:\n(Навык + Интеллект)",
+					"value": "%s"
+				},
+				{
+					"tag": "MAGIC_CURRENT_TIER_SPELLS",
+					"title": "Заклинания текущего\n уровня Магии:",
+					"value": "%s",
+					"auto_resize_value": true
+				}
+			]
+		},
+		{
+			"name": "Сотворение",
+			"id": 34,
+			"sfx": 596,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Casting01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Casting01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Casting02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Casting02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_INT_00.png",
+			"description": "Повышает надёжность сотворения заклинаний напрямую и из книг, снижая шанс осечки или излишней траты маны. Увеличивает пассивную регенерацию МР.",
+			"legend_text": "Автоизучение заклинания Силовая стрела со стоимостью (0) МР.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "CASTING_MP_REGEN_SKILL_MULTIPLIER",
+					"title": "Множитель регенерации МР\n от Интеллекта благодаря навыку:",
+					"value": "%dx ИНТ",
+					"auto_resize_value": true
+				},
+				{
+					"tag": "CASTING_MP_REGEN",
+					"title": "Базовая скорость регенерации МР:\n(До модификаторов от\n предметов/расы)",
+					"value": "1 МР каждые\n%.2f сек.",
+					"auto_resize_value": true
+				},
+				{
+					"tag": "CASTING_BEGINNER",
+					"title": "Возможна осечка при\n сотворении изученных чар:",
+					"value": "%s"
+				},
+				{
+					"tag": "CASTING_SPELLBOOK_FUMBLE",
+					"title": "Макс. уровень Магии\n для чтения из книги\n без осечек:\n(Навык + Интеллект)",
+					"value": "%s"
+				}
+			]
+		},
+		{
+			"name": "Плавание",
+			"id": 32,
+			"sfx": 552,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Swimming01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Swimming01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Swimming02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Swimming02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_CON_00.png",
+			"description": "Увеличивает скорость передвижения при плавании в жидкостях.",
+			"legend_text": "Постоянное хождение по воде и лаве.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "SWIM_SPEED_TOTAL",
+					"title": "Скорость вплавь:",
+					"value": "%d%%"
+				},
+				{
+					"tag": "SWIM_SPEED_BASE",
+					"title": "Базовый штраф скорости\n в жидкостях:",
+					"value": "%+d%%"
+				},
+				{
+					"tag": "SWIM_SPEED_BONUS",
+					"title": "Бонус скорости\n от навыка Плавания:",
+					"value": "+%d%%"
+				}
+			]
+		}
+	]
+}

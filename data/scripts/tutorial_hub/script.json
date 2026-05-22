@@ -1,0 +1,909 @@
+{
+    "version": 1,
+	"default_attributes": {
+		"font_color": {
+			"r": 239,
+			"g": 237,
+			"b": 235,
+			"a": 255
+		},
+		"font_outline_color": {
+			"r": 50,
+			"g": 29,
+			"b": 25,
+			"a": 255
+		},
+		"font_highlight_color": {
+			"r": 18,
+			"g": 196,
+			"b": 131,
+			"a": 255
+		},
+		"font_highlight2_color": {
+			"r": 64,
+			"g": 192,
+			"b": 255,
+			"a": 255
+		}
+	},
+    "script_entries": {
+        "tutorial_huba": {
+            "sign": [
+                "Книги заклинаний"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubb": {
+            "sign": [
+                "Магические",
+				"Предметы"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubc": {
+            "sign": [
+                "Дальнобойное",
+				"Оружие"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubd": {
+            "sign": [
+                "Броня"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hube": {
+            "sign": [
+                "Оружие",
+				"Ближнего боя"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubf": {
+            "sign": [
+                "Добро пожаловать",
+				"в",
+				"Крыло Мастера"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubg": {
+            "sign": [
+                "Испытание 2:",
+				"",
+				"Луки, Стрелы и",
+				"Метательное оружие"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubh": {
+            "sign": [
+                "Испытание 3:",
+				"",
+				"Ловушки подземелий,",
+				"Шипы и Валуны"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubi": {
+            "sign": [
+                "Испытание 4:",
+				"",
+				"Еда, Оценка",
+				"и Проклятия"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubj": {
+            "sign": [
+                "Испытание 1:",
+				"",
+				"Основы подземелий",
+				"и Бой в ближнем бою",
+				"",
+				"ВВОДНЫЙ УРОК"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[0,1,2,3,4,5]
+				]
+            },
+            "variables": []
+        },
+        "tutorial_hubk": {
+            "sign": [
+                "Вы находитесь в Западном Зале",
+				"напротив Внутреннего Двора",
+				"",
+                "Во Внутреннем Дворе находятся",
+				"Испытания 5 - 8"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubl": {
+            "sign": [
+                "Вход в Западный Зал",
+				"",
+                "В Западном Зале находятся",
+				"Испытания 1 - 4"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubm": {
+            "sign": [
+                "Вы можете пропустить или пройти",
+				"любое Испытание по желанию.",
+				"",
+                "Некоторые герои проходят",
+				"все Испытания."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubn": {
+            "sign": [
+                "Добро пожаловать в",
+				"Зал Испытаний",
+				"",
+				"Здесь вас будут",
+				"обучать и проверять"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubo": {
+            "sign": [
+                "Испытание 5:",
+				"",
+				"Магия, Книги заклинаний",
+				"и Колдовство"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubp": {
+            "sign": [
+                "Испытание 6:",
+				"",
+				"Стелс и",
+				"Скрытые атаки"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubq": {
+            "sign": [
+                "Испытание 7:",
+				"",
+				"Вербовка последователей",
+				"и Команды",
+				"",
+				"ПРОДВИНУТЫЙ УРОК"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2,3]
+				],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubr": {
+            "sign": [
+                "Испытание 8:",
+				"",
+				"Зелья и Алхимия",
+				"",
+                "ПРОДВИНУТЫЙ УРОК"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},							
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[0,1,2,3]
+				],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubs": {
+            "sign": [
+                "Приближение к Восточному Залу",
+				"",
+                "В Восточном Зале находятся",
+				"Испытания 9 и 10"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubt": {
+            "sign": [
+                "Испытание 9:",
+				"Мастерство",
+				"",
+                "ПРОДВИНУТЫЙ УРОК"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},						
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[0,1,2,3]
+				],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubu": {
+            "sign": [
+                "Испытание 10:",
+				"",
+				"Торговцы и Лавки",
+				"",
+                "ПРОДВИНУТЫЙ УРОК"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},						
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[0,1,2,3,4]
+				],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubv": {
+            "sign": [
+                "Дерните рычаг для призыва",
+				"Случайного Монстра",
+				"",
+                "ПРЕДУПРЕЖДЕНИЕ:",
+				"Используйте на свой страх и риск."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},						
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+				[],
+				[],
+				[],
+				[0]
+				],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubw": {
+            "sign": [
+                "Мастерская",
+				"Припасы"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubx": {
+            "sign": [
+                "Алхимия",
+				"Припасы"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_huby": {
+            "sign": [
+                "Костюмы"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubz": {
+            "sign": [
+                "Искатели приключений, которые отваживаются",
+				"ходить в подземелья, выбирают класс,",
+				"который определяет начальные",
+				"способности и снаряжение.",
+				"",
+                "$ $ $",
+				"Все классы могут извлечь пользу",
+				"из учений Испытаний."
+            ],
+            "attributes": {
+                "font": "fonts/pixel_maz_multiline.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[3],
+					[],
+					[0,2]
+					
+				]
+            },
+            "variables": [
+							{
+					"type": "image",
+					"value": "*#images/ui/Main Menus/Play/PlayerCreation/ClassSelection/ClassSelect_Icon_Warrior_00.png",
+					"sizex": 0,
+					"sizey": 0
+				},				
+				{
+					"type": "image",
+					"value": "*#images/ui/Main Menus/Play/PlayerCreation/ClassSelection/ClassSelect_Icon_Rogue_00.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "image",
+					"value": "*#images/ui/Main Menus/Play/PlayerCreation/ClassSelection/ClassSelect_Icon_Wizard_00.png",
+					"sizex": 0,
+					"sizey": 0
+				}
+			]
+        },
+        "tutorial_hubab": {
+            "sign": [
+                "Ваши характеристики служат основой для",
+                "многих действий и возможностей.",
+				"",
+				"$$$$$$",
+				"",
+                "Классы искателей приключений начинают с",
+                "разными значениями характеристик, и они",
+                "увеличиваются с разной скоростью."
+            ],
+            "attributes": {
+                "font": "fonts/pixel_maz_multiline.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[1],
+					[1,3],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2],
+					[0,2,3]
+				]
+            },
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "image",
+					"value": "*#images/ui/CharSheet/HUD_CharSheet_DEX_00.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "image",
+					"value": "*#images/ui/CharSheet/HUD_CharSheet_CON_00.png",
+					"sizex": 0,
+					"sizey": 0
+				},				
+				{
+					"type": "image",
+					"value": "*#images/ui/CharSheet/HUD_CharSheet_INT_00.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "image",
+					"value": "*#images/ui/CharSheet/HUD_CharSheet_PER_00.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "image",
+					"value": "*#images/ui/CharSheet/HUD_CharSheet_CHA_00.png",
+					"sizex": 0,
+					"sizey": 0
+				}
+			]
+        },
+        "tutorial_hubac": {
+            "sign": [
+                "Находясь в подземельях, искатели приключений",
+				"получают очки опыта (XP) за",
+				"свои деяния.",
+				"",
+				"После получения 100 XP, герои",
+				"повышают уровень, получая",
+				"более высокие характеристики, очки здоровья (HP)",
+				"и очки магии (MP)."
+            ],
+            "attributes": {
+                "font": "fonts/pixel_maz_multiline.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[1,2,3],
+					[],
+					[],
+					[2,3],
+					[2],
+					[1,2,3,4],
+					[1,2,3]
+				]
+            },
+            "variables": []
+        },
+        "tutorial_hubad": {
+            "sign": [
+                "При повышении уровня в",
+                "подземельях, искатели приключений получают",
+                "+1 к 3 разным характеристикам.",
+				"",
+				"Еще одно +1 дается",
+				"4-й характеристике, если искатель приключений",
+				"сосредоточился на тренировке навыков."
+            ],
+            "attributes": {
+                "font": "fonts/pixel_maz_multiline.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[2],
+					[],
+					[0,1,3,4,5],
+					[],
+					[1,2],
+					[1,2],
+					[1,3]
+				]
+            },
+            "variables": []
+        },
+        "tutorial_class": {
+            "sign": [
+				"Успешные ученики часто будут",
+				"объединяться в команды с другими выпускниками,",
+				"выбирая классы, чьи таланты",
+				"дополняют друг друга.",
+				"",
+				"Это повышает их шансы",
+				"на успех, когда они наконец",
+				"соберутся с духом, чтобы отправиться",
+				"в приключения в подземельях." 
+            ],
+            "attributes": {
+                "font": "fonts/pixel_maz_multiline.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[0,1],
+					[],
+					[0,1,2],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2,3]
+				]
+            },
+            "variables": []
+        },
+        "tutorial_garden": {
+            "sign": [
+				"Сад Искателей Приключений",
+				"",
+				"Испытаний дальше",
+				"нет."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",		
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[0,1]
+				]
+            },
+            "variables": []
+        },
+        "tutorial_cy": {
+            "sign": [
+				"Классовый Внутренний Двор",
+				"",
+				"Ищите мудрость",
+				"героев внутри."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",		
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[0,1]
+				]
+            },
+            "variables": []
+        },								
+        "tutorial_pupil": {
+            "sign": [
+				"Ученикам в Зале Испытаний",
+				"запрещено выбирать класс",
+				"искателя приключений во время обучения.",
+				"Их деяния здесь",
+				"будут забыты.",
+				"",
+				"Отправившись в приключения, выпускники",
+				"могут похвастаться титулом класса и",
+				"сделать себе имя в",
+				"Архивах Приключений."
+            ],
+            "attributes": {
+                "font": "fonts/pixel_maz_multiline.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},							
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[1],
+					[],
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[1,2]
+				]
+            },
+            "variables": []
+        },				
+        "tutorial_quit": {
+            "sign": [
+                "Вы всегда можете вернуться",
+				"в Зал Испытаний",
+				"чтобы продолжить уроки.",
+				"",
+				"Нажмите$ и",
+				"[ Выход в Главное Меню ]",
+				"если хотите отправиться",
+				"в приключения."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+				[],
+				[],
+				[],
+				[],
+				[0],
+				[1,2,3,4]
+				],
+                "word_highlights2": [
+					[3],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0]
+				]
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Pause Game"
+				}					
+			]
+        }		
+    }
+}

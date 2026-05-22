@@ -1,0 +1,1891 @@
+{
+    "version": 1,
+    "panel_center_x_offset": -62,
+    "panel_center_y_offset": -24,
+    "panel_radius": 94,
+    "panel_button_thickness": 52,
+    "panel_inner_circle_radius_offset": -6,
+    "colors": {
+        "title": {
+            "r": 210,
+            "g": 183,
+            "b": 76,
+            "a": 255
+        },
+        "title_creature_highlight": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+        },
+        "banner_default": {
+            "r": 201,
+            "g": 162,
+            "b": 100,
+            "a": 255
+        },
+        "banner_highlight_default": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+        }
+    },
+    "help_strings": {
+        "hungry": "Голоден",
+        "very_hungry": "Очень голоден",
+        "starving": "Умирает с голоду",
+        "hungry_blood": "Голоден",
+        "very_hungry_blood": "Очень голоден",
+        "starving_blood": "Умирает с голоду",
+        "healing": "Нужно исцеление",
+        "healing_urgent": "Нужно исцеление",
+        "low_steam": "Мало пара",
+        "empty_steam": "Пар кончился",
+        "ghost": "Мертв",
+        "separator": "/"
+    },
+    "world_icons": {
+        "tag_spot": {
+            "default": "tag_spot.png",
+            "0": "tagGold_spot.png",
+            "1": "tagGreen_spot.png",
+            "2": "tagRed_spot.png",
+            "3": "tagPink_spot.png",
+            "4": "tagWhite_spot.png"
+        },
+        "tag_spot-interact_me": {
+            "default": "tag_spot-interact_me.png",
+            "0": "tagGold_spot-interact_me.png",
+            "1": "tagGreen_spot-interact_me.png",
+            "2": "tagRed_spot-interact_me.png",
+            "3": "tagPink_spot-interact_me.png",
+            "4": "tagWhite_spot-interact_me.png"
+        },
+        "tag_self_player-wave": {
+            "default": "self_player-wave.png",
+            "0": "self_playerGold-wave.png",
+            "1": "self_playerGreen-wave.png",
+            "2": "self_playerRed-wave.png",
+            "3": "self_playerPink-wave.png",
+            "4": "self_playerWhite-wave.png"
+        },
+        "tag_self_player-wave_display_self": {
+            "default": "btn_locked_wave.png",
+            "0": "btn_playerGold_wave.png",
+            "1": "btn_playerGreen_wave.png",
+            "2": "btn_playerRed_wave.png",
+            "3": "btn_playerPink_wave.png",
+            "4": "btn_playerWhite_wave.png"
+        },
+        "tag_btn_player_wave_hover": {
+            "default": "",
+            "0": "btn_playerGold_wave_hover.png",
+            "1": "btn_playerGreen_wave_hover.png",
+            "2": "btn_playerRed_wave_hover.png",
+            "3": "btn_playerPink_wave_hover.png",
+            "4": "btn_playerWhite_wave_hover.png"
+        },
+        "tag_btn_player_wave": {
+            "default": "",
+            "0": "btn_playerGold_wave.png",
+            "1": "btn_playerGreen_wave.png",
+            "2": "btn_playerRed_wave.png",
+            "3": "btn_playerPink_wave.png",
+            "4": "btn_playerWhite_wave.png"
+        },
+        "tag_btn_player_wave_to_me": {
+            "default": "btn_locked_wave.png",
+            "0": "btn_playerGold_wave_to_me.png",
+            "1": "btn_playerGreen_wave_to_me.png",
+            "2": "btn_playerRed_wave_to_me.png",
+            "3": "btn_playerPink_wave_to_me.png",
+            "4": "btn_playerWhite_wave_to_me.png"
+        },
+        "tag_spot-item": {
+            "default": "tag_spot-item.png",
+            "0": "tagGold_spot-item.png",
+            "1": "tagGreen_spot-item.png",
+            "2": "tagRed_spot-item.png",
+            "3": "tagPink_spot-item.png",
+            "4": "tagWhite_spot-item.png"
+        },
+        "tag_spot-item_me": {
+            "default": "tag_spot-item_me.png",
+            "0": "tagGold_spot-item_me.png",
+            "1": "tagGreen_spot-item_me.png",
+            "2": "tagRed_spot-item_me.png",
+            "3": "tagPink_spot-item_me.png",
+            "4": "tagWhite_spot-item_me.png"
+        },
+        "tag_spot-trap": {
+            "default": "tag_spot-trap.png",
+            "0": "tagGold_spot-trap.png",
+            "1": "tagGreen_spot-trap.png",
+            "2": "tagRed_spot-trap.png",
+            "3": "tagPink_spot-trap.png",
+            "4": "tagWhite_spot-trap.png"
+        },
+        "tag_spot_me": {
+            "default": "tag_spot_me.png",
+            "0": "tagGold_spot_me.png",
+            "1": "tagGreen_spot_me.png",
+            "2": "tagRed_spot_me.png",
+            "3": "tagPink_spot_me.png",
+            "4": "tagWhite_spot_me.png"
+        },
+        "tag_good": {
+            "default": "tag_good.png",
+            "0": "tagGold_good.png",
+            "1": "tagGreen_good.png",
+            "2": "tagRed_good.png",
+            "3": "tagPink_good.png",
+            "4": "tagWhite_good.png"
+        },
+        "tag_good_display_self": {
+            "default": "btn_player_up.png",
+            "0": "btn_playerGold_up.png",
+            "1": "btn_playerGreen_up.png",
+            "2": "btn_playerRed_up.png",
+            "3": "btn_playerPink_up.png",
+            "4": "btn_playerWhite_up.png"
+        },
+        "tag_good-NPC": {
+            "default": "tag_good-NPC.png",
+            "0": "tagGold_good-NPC.png",
+            "1": "tagGreen_good-NPC.png",
+            "2": "tagRed_good-NPC.png",
+            "3": "tagPink_good-NPC.png",
+            "4": "tagWhite_good-NPC.png"
+        },
+        "tag_good-item": {
+            "default": "tag_good-item.png",
+            "0": "tagGold_good-item.png",
+            "1": "tagGreen_good-item.png",
+            "2": "tagRed_good-item.png",
+            "3": "tagPink_good-item.png",
+            "4": "tagWhite_good-item.png"
+        },
+        "tag_good-trap": {
+            "default": "tag_good-trap.png",
+            "0": "tagGold_good-trap.png",
+            "1": "tagGreen_good-trap.png",
+            "2": "tagRed_good-trap.png",
+            "3": "tagPink_good-trap.png",
+            "4": "tagWhite_good-trap.png"
+        },
+        "tag_good-interact": {
+            "default": "tag_good-interact.png",
+            "0": "tagGold_good-interact.png",
+            "1": "tagGreen_good-interact.png",
+            "2": "tagRed_good-interact.png",
+            "3": "tagPink_good-interact.png",
+            "4": "tagWhite_good-interact.png"
+        },
+        "tag_bad": {
+            "default": "tag_bad.png",
+            "0": "tagGold_bad.png",
+            "1": "tagGreen_bad.png",
+            "2": "tagRed_bad.png",
+            "3": "tagPink_bad.png",
+            "4": "tagWhite_bad.png"
+        },
+        "tag_bad_display_self": {
+            "default": "btn_player_down.png",
+            "0": "btn_playerGold_down.png",
+            "1": "btn_playerGreen_down.png",
+            "2": "btn_playerRed_down.png",
+            "3": "btn_playerPink_down.png",
+            "4": "btn_playerWhite_down.png"
+        },
+        "tag_bad-item": {
+            "default": "tag_bad-item.png",
+            "0": "tagGold_bad-item.png",
+            "1": "tagGreen_bad-item.png",
+            "2": "tagRed_bad-item.png",
+            "3": "tagPink_bad-item.png",
+            "4": "tagWhite_bad-item.png"
+        },
+        "tag_bad-trap": {
+            "default": "tag_bad-trap.png",
+            "0": "tagGold_bad-trap.png",
+            "1": "tagGreen_bad-trap.png",
+            "2": "tagRed_bad-trap.png",
+            "3": "tagPink_bad-trap.png",
+            "4": "tagWhite_bad-trap.png"
+        },
+        "tag_bad-interact": {
+            "default": "tag_bad-interact.png",
+            "0": "tagGold_bad-interact.png",
+            "1": "tagGreen_bad-interact.png",
+            "2": "tagRed_bad-interact.png",
+            "3": "tagPink_bad-interact.png",
+            "4": "tagWhite_bad-interact.png"
+        },
+        "tag_bad-NPC": {
+            "default": "tag_bad-NPC.png",
+            "0": "tagGold_bad-NPC.png",
+            "1": "tagGreen_bad-NPC.png",
+            "2": "tagRed_bad-NPC.png",
+            "3": "tagPink_bad-NPC.png",
+            "4": "tagWhite_bad-NPC.png"
+        },
+        "tag_help": {
+            "default": "tag_help.png",
+            "0": "tagGold_help.png",
+            "1": "tagGreen_help.png",
+            "2": "tagRed_help.png",
+            "3": "tagPink_help.png",
+            "4": "tagWhite_help.png"
+        },
+        "tag_help_display_self": {
+            "default": "btn_player_genhelp.png",
+            "0": "btn_playerGold_genhelp.png",
+            "1": "btn_playerGreen_genhelp.png",
+            "2": "btn_playerRed_genhelp.png",
+            "3": "btn_playerPink_genhelp.png",
+            "4": "btn_playerWhite_genhelp.png"
+        },
+        "tag_help-ghost": {
+            "default": "tag_help-ghost.png",
+            "0": "tagGold_help-ghost.png",
+            "1": "tagGreen_help-ghost.png",
+            "2": "tagRed_help-ghost.png",
+            "3": "tagPink_help-ghost.png",
+            "4": "tagWhite_help-ghost.png"
+        },
+        "tag_help-ghost_display_self": {
+            "default": "btn_player_help-ghost.png",
+            "0": "btn_playerGold_help-ghost.png",
+            "1": "btn_playerGreen_help-ghost.png",
+            "2": "btn_playerRed_help-ghost.png",
+            "3": "btn_playerPink_help-ghost.png",
+            "4": "btn_playerWhite_help-ghost.png"
+        },
+        "tag_help-cure": {
+            "default": "tag_help-cure.png",
+            "0": "tagGold_help-cure.png",
+            "1": "tagGreen_help-cure.png",
+            "2": "tagRed_help-cure.png",
+            "3": "tagPink_help-cure.png",
+            "4": "tagWhite_help-cure.png"
+        },
+        "tag_help-cure_display_self": {
+            "default": "btn_player_help-cure.png",
+            "0": "btn_playerGold_help-cure.png",
+            "1": "btn_playerGreen_help-cure.png",
+            "2": "btn_playerRed_help-cure.png",
+            "3": "btn_playerPink_help-cure.png",
+            "4": "btn_playerWhite_help-cure.png"
+        },
+        "tag_help-food": {
+            "default": "tag_help-food.png",
+            "0": "tagGold_help-food.png",
+            "1": "tagGreen_help-food.png",
+            "2": "tagRed_help-food.png",
+            "3": "tagPink_help-food.png",
+            "4": "tagWhite_help-food.png"
+        },
+        "tag_help-food_display_self": {
+            "default": "btn_player_help-food.png",
+            "0": "btn_playerGold_help-food.png",
+            "1": "btn_playerGreen_help-food.png",
+            "2": "btn_playerRed_help-food.png",
+            "3": "btn_playerPink_help-food.png",
+            "4": "btn_playerWhite_help-food.png"
+        },
+        "tag_help-hp": {
+            "default": "tag_help-hp.png",
+            "0": "tagGold_help-hp.png",
+            "1": "tagGreen_help-hp.png",
+            "2": "tagRed_help-hp.png",
+            "3": "tagPink_help-hp.png",
+            "4": "tagWhite_help-hp.png"
+        },
+        "tag_help-hp_display_self": {
+            "default": "btn_player_help-hp.png",
+            "0": "btn_playerGold_help-hp.png",
+            "1": "btn_playerGreen_help-hp.png",
+            "2": "btn_playerRed_help-hp.png",
+            "3": "btn_playerPink_help-hp.png",
+            "4": "btn_playerWhite_help-hp.png"
+        },
+        "tag_help-item": {
+            "default": "tag_help-item.png",
+            "0": "tagGold_help-item.png",
+            "1": "tagGreen_help-item.png",
+            "2": "tagRed_help-item.png",
+            "3": "tagPink_help-item.png",
+            "4": "tagWhite_help-item.png"
+        },
+        "tag_help-npc": {
+            "default": "tag_help-npc.png",
+            "0": "tagGold_help-npc.png",
+            "1": "tagGreen_help-npc.png",
+            "2": "tagRed_help-npc.png",
+            "3": "tagPink_help-npc.png",
+            "4": "tagWhite_help-npc.png"
+        },
+        "tag_move": {
+            "default": "tag_move.png",
+            "0": "tagGold_move.png",
+            "1": "tagGreen_move.png",
+            "2": "tagRed_move.png",
+            "3": "tagPink_move.png",
+            "4": "tagWhite_move.png"
+        },
+        "tag_move_display_self": {
+            "default": "btn_player_point.png",
+            "0": "btn_playerGold_point.png",
+            "1": "btn_playerGreen_point.png",
+            "2": "btn_playerRed_point.png",
+            "3": "btn_playerPink_point.png",
+            "4": "btn_playerWhite_point.png"
+        },
+        "tag_move-exit": {
+            "default": "tag_move-exit.png",
+            "0": "tagGold_move-exit.png",
+            "1": "tagGreen_move-exit.png",
+            "2": "tagRed_move-exit.png",
+            "3": "tagPink_move-exit.png",
+            "4": "tagWhite_move-exit.png"
+        },
+        "tag_move-NPC": {
+            "default": "tag_move-NPC.png",
+            "0": "tagGold_move-NPC.png",
+            "1": "tagGreen_move-NPC.png",
+            "2": "tagRed_move-NPC.png",
+            "3": "tagPink_move-NPC.png",
+            "4": "tagWhite_move-NPC.png"
+        },
+        "thanks": {
+            "default": "self_player-thanks.png",
+            "0": "self_playerGold-thanks.png",
+            "1": "self_playerGreen-thanks.png",
+            "2": "self_playerRed-thanks.png",
+            "3": "self_playerPink-thanks.png",
+            "4": "self_playerWhite-thanks.png"
+        },
+        "thanks_display_self": {
+            "default": "self_player_thanks.png",
+            "0": "btn_playerGold_thanks.png",
+            "1": "btn_playerGreen_thanks.png",
+            "2": "btn_playerRed_thanks.png",
+            "3": "btn_playerPink_thanks.png",
+            "4": "btn_playerWhite_thanks.png"
+        },
+        "mini_spot": {
+            "default": "mini_spot.png",
+            "0": "miniGold_spot.png",
+            "1": "miniGreen_spot.png",
+            "2": "miniRed_spot.png",
+            "3": "miniPink_spot.png",
+            "4": "miniWhite_spot.png"
+        },
+        "mini_no": {
+            "default": "mini_no.png",
+            "0": "miniGold_no.png",
+            "1": "miniGreen_no.png",
+            "2": "miniRed_no.png",
+            "3": "miniPink_no.png",
+            "4": "miniWhite_no.png"
+        },
+        "mini_yes": {
+            "default": "mini_yes.png",
+            "0": "miniGold_yes.png",
+            "1": "miniGreen_yes.png",
+            "2": "miniRed_yes.png",
+            "3": "miniPink_yes.png",
+            "4": "miniWhite_yes.png"
+        },
+        "mini_move": {
+            "default": "mini_move.png",
+            "0": "miniGold_move.png",
+            "1": "miniGreen_move.png",
+            "2": "miniRed_move.png",
+            "3": "miniPink_move.png",
+            "4": "miniWhite_move.png"
+        },
+        "mini_item": {
+            "default": "mini_item.png",
+            "0": "miniGold_item.png",
+            "1": "miniGreen_item.png",
+            "2": "miniRed_item.png",
+            "3": "miniPink_item.png",
+            "4": "miniWhite_item.png"
+        },
+        "mini_help": {
+            "default": "mini_help.png",
+            "0": "miniGold_help.png",
+            "1": "miniGreen_help.png",
+            "2": "miniRed_help.png",
+            "3": "miniPink_help.png",
+            "4": "miniWhite_help.png"
+        },
+        "mini_heal": {
+            "default": "mini_heal.png",
+            "0": "miniGold_heal.png",
+            "1": "miniGreen_heal.png",
+            "2": "miniRed_heal.png",
+            "3": "miniPink_heal.png",
+            "4": "miniWhite_heal.png"
+        },
+        "mini_danger": {
+            "default": "mini_danger.png",
+            "0": "miniGold_danger.png",
+            "1": "miniGreen_danger.png",
+            "2": "miniRed_danger.png",
+            "3": "miniPink_danger.png",
+            "4": "miniWhite_danger.png"
+        }
+    },
+    "panels": [
+        {
+            "direction": "north",
+            "x": -2,
+            "y": -126,
+            "icon_offset_x": 64,
+            "icon_offset_y": 52,
+            "path": "#*images/ui/CalloutWheel/panels/cmd_player_N.png",
+            "path_locked": "#*images/ui/CalloutWheel/panels/cmd_player_N_u.png",
+            "path_hover": "#*images/ui/CalloutWheel/panels/cmd_player_N_h.png",
+            "path_locked_hover": "#*images/ui/CalloutWheel/panels/cmd_player_N_uh.png"
+        },
+        {
+            "direction": "northwest",
+            "x": -76,
+            "y": -114,
+            "icon_offset_x": 68,
+            "icon_offset_y": 68,
+            "path": "#*images/ui/CalloutWheel/panels/cmd_player_NW.png",
+            "path_locked": "#*images/ui/CalloutWheel/panels/cmd_player_NW_u.png",
+            "path_hover": "#*images/ui/CalloutWheel/panels/cmd_player_NW_h.png",
+            "path_locked_hover": "#*images/ui/CalloutWheel/panels/cmd_player_NW_uh.png"
+        },
+        {
+            "direction": "west",
+            "x": -88,
+            "y": -38,
+            "icon_offset_x": 58,
+            "icon_offset_y": 64,
+            "path": "#*images/ui/CalloutWheel/panels/cmd_player_W.png",
+            "path_locked": "#*images/ui/CalloutWheel/panels/cmd_player_W_u.png",
+            "path_hover": "#*images/ui/CalloutWheel/panels/cmd_player_W_h.png",
+            "path_locked_hover": "#*images/ui/CalloutWheel/panels/cmd_player_W_uh.png"
+        },
+        {
+            "direction": "southwest",
+            "x": -76,
+            "y": 34,
+            "icon_offset_x": 72,
+            "icon_offset_y": 60,
+            "path": "#*images/ui/CalloutWheel/panels/cmd_player_SW.png",
+            "path_locked": "#*images/ui/CalloutWheel/panels/cmd_player_SW_u.png",
+            "path_hover": "#*images/ui/CalloutWheel/panels/cmd_player_SW_h.png",
+            "path_locked_hover": "#*images/ui/CalloutWheel/panels/cmd_player_SW_uh.png"
+        },
+        {
+            "direction": "south",
+            "x": -2,
+            "y": 48,
+            "icon_offset_x": 64,
+            "icon_offset_y": 72,
+            "path": "#*images/ui/CalloutWheel/panels/cmd_player_S.png",
+            "path_locked": "#*images/ui/CalloutWheel/panels/cmd_player_S_u.png",
+            "path_hover": "#*images/ui/CalloutWheel/panels/cmd_player_S_h.png",
+            "path_locked_hover": "#*images/ui/CalloutWheel/panels/cmd_player_S_uh.png"
+        },
+        {
+            "direction": "southeast",
+            "x": 74,
+            "y": 34,
+            "icon_offset_x": 58,
+            "icon_offset_y": 60,
+            "path": "#*images/ui/CalloutWheel/panels/cmd_player_SE.png",
+            "path_locked": "#*images/ui/CalloutWheel/panels/cmd_player_SE_u.png",
+            "path_hover": "#*images/ui/CalloutWheel/panels/cmd_player_SE_h.png",
+            "path_locked_hover": "#*images/ui/CalloutWheel/panels/cmd_player_SE_uh.png"
+        },
+        {
+            "direction": "east",
+            "x": 88,
+            "y": -40,
+            "icon_offset_x": 72,
+            "icon_offset_y": 64,
+            "path": "#*images/ui/CalloutWheel/panels/cmd_player_E.png",
+            "path_locked": "#*images/ui/CalloutWheel/panels/cmd_player_E_u.png",
+            "path_hover": "#*images/ui/CalloutWheel/panels/cmd_player_E_h.png",
+            "path_locked_hover": "#*images/ui/CalloutWheel/panels/cmd_player_E_uh.png"
+        },
+        {
+            "direction": "northeast",
+            "x": 74,
+            "y": -114,
+            "icon_offset_x": 60,
+            "icon_offset_y": 66,
+            "path": "#*images/ui/CalloutWheel/panels/cmd_player_NE.png",
+            "path_locked": "#*images/ui/CalloutWheel/panels/cmd_player_NE_u.png",
+            "path_hover": "#*images/ui/CalloutWheel/panels/cmd_player_NE_h.png",
+            "path_locked_hover": "#*images/ui/CalloutWheel/panels/cmd_player_NE_uh.png"
+        },
+        {
+            "direction": "center",
+            "x": -78,
+            "y": -118,
+            "icon_offset_x": 0,
+            "icon_offset_y": 0,
+            "path": "#*images/ui/CalloutWheel/panels/cmd_player_ctr.png",
+            "path_locked": "#*images/ui/CalloutWheel/panels/cmd_player_ctr.png",
+            "path_hover": "#*images/ui/CalloutWheel/panels/cmd_player_ctr_h.png",
+            "path_locked_hover": "#*images/ui/CalloutWheel/panels/cmd_player_ctr_u.png"
+        }
+    ],
+    "icons": [
+        {
+            "action": "look_at",
+            "id": 0,
+            "path": "#*images/ui/CalloutWheel/icons/btn_player_check.png",
+            "path_hover": "#*images/ui/CalloutWheel/icons/btn_player_check_hover.png",
+            "text_maps": [{
+                "default": {
+                    "text": "Посмотри сюда!",
+                    "word_highlights": [],
+                    "msg_says": "%s\"Посмотри сюда!\"",
+                    "world_icon": "tag_spot",
+                    "world_icon_small": "mini_spot"
+                },
+                "player_wave": {
+                    "text": "Помахать %s!",
+                    "word_highlights": [2],
+                    "msg_emote": "%s машет %s!",
+                    "msg_emote_you": "Вы машете %s!",
+                    "msg_emote_to_you": "%s машет вам!",
+                    "world_icon": "tag_self_player-wave",
+                    "world_icon_small": "mini_spot"
+                },
+                "location": {
+                    "text": "Указать на это место.",
+                    "word_highlights": [],
+                    "msg_emote": "%s указывает на место вон там.",
+                    "msg_emote_you": "Вы указываете на место вон там.",
+                    "world_icon": "tag_spot",
+                    "world_icon_small": "mini_spot"
+                },
+                "item": {
+                    "text": "Здесь есть %s.",
+                    "word_highlights": [2],
+                    "msg_says": "%s\"Здесь есть %s.\"",
+                    "world_icon": "tag_spot-item",
+                    "world_icon_small": "mini_item"
+                },
+                "item_an": {
+                    "text": "Здесь есть %s.",
+                    "word_highlights": [2],
+                    "msg_says": "%s\"Здесь есть %s.\"",
+                    "world_icon": "tag_spot-item",
+                    "world_icon_small": "mini_item"
+                },
+                "npc": {
+                    "text": "Здесь есть %s.",
+                    "word_highlights": [2],
+                    "msg_says": "%s\"Здесь есть %s.\"",
+                    "world_icon": "tag_spot",
+                    "world_icon_small": "mini_spot"
+                },
+                "npc_named": {
+                    "text": "%s здесь.",
+                    "word_highlights": [0],
+                    "msg_says": "%s\"%s здесь.\"",
+                    "world_icon": "tag_spot",
+                    "world_icon_small": "mini_spot"
+                },
+                "npc_an": {
+                    "text": "Здесь есть %s.",
+                    "word_highlights": [2],
+                    "msg_says": "%s\"Здесь есть %s.\"",
+                    "world_icon": "tag_spot",
+                    "world_icon_small": "mini_spot"
+                },
+                "npc_enemy_named": {
+                    "text": "Враг %s здесь!",
+                    "word_highlights": [2],
+                    "msg_says": "%s\"Враг %s здесь!\"",
+                    "world_icon": "tag_bad-NPC",
+                    "world_icon_small": "mini_spot"
+                },
+                "npc_enemy": {
+                    "text": "Враг %s здесь!",
+                    "word_highlights": [1],
+                    "msg_says": "%s\"Враг %s здесь!\"",
+                    "world_icon": "tag_bad-NPC",
+                    "world_icon_small": "mini_spot"
+                },
+                "npc_ally": {
+                    "text": "Наш союзник %s здесь.",
+                    "word_highlights": [2],
+                    "msg_says": "%s\"Наш союзник %s здесь.\"",
+                    "world_icon": "tag_spot",
+                    "world_icon_small": "mini_heal"
+                },
+                "player_look": {
+                    "text": "Наш союзник %s здесь.",
+                    "word_highlights": [2],
+                    "msg_says": "%s\"Наш союзник %s здесь.\"",
+                    "world_icon": "tag_spot",
+                    "world_icon_small": "mini_heal"
+                },
+                "chest": {
+                    "text": "Указать на сундук.",
+                    "word_highlights": [3],
+                    "msg_says": "%s\"Я нашел сундук!\"",
+                    "world_icon": "tag_spot-item",
+                    "world_icon_small": "mini_item"
+                },
+                "switch_on": {
+                    "text": "Указать на этот активный переключатель.",
+                    "word_highlights": [3, 4],
+                    "msg_says": "%s\"Вон тот переключатель уже активирован.\"",
+                    "world_icon": "tag_spot",
+                    "world_icon_small": "mini_spot"
+                },
+                "switch_off": {
+                    "text": "Указать на этот неактивный переключатель.",
+                    "word_highlights": [3, 4],
+                    "msg_says": "%s\"Вон тот переключатель еще не активирован.\"",
+                    "world_icon": "tag_spot",
+                    "world_icon_small": "mini_spot"
+                },
+                "wall_button_on": {
+                    "text": "Указать на эту активную кнопку.",
+                    "word_highlights": [3, 4],
+                    "msg_says": "%s\"Вон та кнопка уже нажата.\"",
+                    "world_icon": "tag_spot",
+                    "world_icon_small": "mini_spot"
+                },
+                "wall_button_off": {
+                    "text": "Указать на эту неактивную кнопку.",
+                    "word_highlights": [3, 4],
+                    "msg_says": "%s\"Вон та кнопка еще не нажата.\"",
+                    "world_icon": "tag_spot",
+                    "world_icon_small": "mini_spot"
+                },
+                "wall_lock_on": {
+                    "text": "Указать на этот активный %s ключ.",
+                    "word_highlights": [3, 4, 5],
+                    "msg_says": "%s\"Вон тот %s ключ уже активирован.\"",
+                    "world_icon": "tag_spot",
+                    "world_icon_small": "mini_spot"
+                },
+                "wall_lock_off": {
+                    "text": "Указать на этот неактивный %s ключ.",
+                    "word_highlights": [3, 4, 5],
+                    "msg_says": "%s\"Вон тот %s ключ еще не активирован.\"",
+                    "world_icon": "tag_spot",
+                    "world_icon_small": "mini_spot"
+                },
+                "wall_lock": {
+                    "text": "Указать на пустой %s замок.",
+                    "word_highlights": [4, 5],
+                    "msg_says": "%s\"Там пустой %s замок.\"",
+                    "world_icon": "tag_spot",
+                    "world_icon_small": "mini_spot"
+                },
+                "switch": {
+                    "text": "Указать на переключатель.",
+                    "word_highlights": [3],
+                    "msg_says": "%s\"Там есть переключатель.\"",
+                    "world_icon": "tag_spot",
+                    "world_icon_small": "mini_spot"
+                },
+                "boulder": {
+                    "text": "Указать на валун.",
+                    "word_highlights": [3],
+                    "msg_emote": "%s указывает на валун.",
+                    "msg_emote_you": "Вы указываете на валун.",
+                    "world_icon": "tag_spot",
+                    "world_icon_small": "mini_spot"
+                },
+                "trap": {
+                    "text": "Здесь есть %s.",
+                    "word_highlights": [2],
+                    "msg_says": "%s\"Здесь есть %s.\"",
+                    "world_icon": "tag_spot-trap",
+                    "world_icon_small": "mini_spot"
+                },
+                "generic_interactable": {
+                    "text": "Указать на %s.",
+                    "word_highlights": [3, 4],
+                    "msg_says": "%s\"Здесь есть %s.\"",
+                    "world_icon": "tag_spot",
+                    "world_icon_small": "mini_spot"
+                },
+                "shrine": {
+                    "text": "Указать на алтарь.",
+                    "word_highlights": [3],
+                    "msg_says": "%s\"Здесь есть алтарь.\"",
+                    "world_icon": "tag_spot",
+                    "world_icon_small": "mini_spot"
+                },
+                "bell": {
+                    "text": "Указать на колокол.",
+                    "word_highlights": [3],
+                    "msg_says": "%s\"Здесь есть колокол.\"",
+                    "world_icon": "tag_spot",
+                    "world_icon_small": "mini_spot"
+                },
+                "daedalus": {
+                    "text": "Указать на алтарь Дедала.",
+                    "word_highlights": [3, 4],
+                    "msg_says": "%s\"Здесь есть алтарь Дедала.\"",
+                    "world_icon": "tag_spot",
+                    "world_icon_small": "mini_spot"
+                },
+                "assist_shrine": {
+                    "text": "Указать на алтарь Помощи.",
+                    "word_highlights": [3, 4],
+                    "msg_says": "%s\"Здесь есть алтарь Помощи.\"",
+                    "world_icon": "tag_spot",
+                    "world_icon_small": "mini_spot"
+                },
+                "exit": {
+                    "text": "Указать на выход.",
+                    "word_highlights": [3],
+                    "msg_says": "%s\"Выход здесь.\"",
+                    "world_icon": "tag_spot",
+                    "world_icon_small": "mini_spot"
+                },
+                "secret_exit": {
+                    "text": "Указать на выход с секретного уровня.",
+                    "word_highlights": [3, 4, 5],
+                    "msg_emote": "%s указывает на выход с секретного уровня.",
+                    "msg_emote_you": "Вы указываете на выход с секретного уровня.",
+                    "world_icon": "tag_spot",
+                    "world_icon_small": "mini_spot"
+                },
+                "secret_entrance": {
+                    "text": "Указать на вход на секретный уровень.",
+                    "word_highlights": [3, 4, 5],
+                    "msg_emote": "%s указывает на вход в секретную зону.",
+                    "msg_emote_you": "Вы указываете на вход в секретную зону.",
+                    "world_icon": "tag_spot",
+                    "world_icon_small": "mini_spot"
+                },
+                "gold": {
+                    "text": "Указать на золото.",
+                    "word_highlights": [3],
+                    "msg_emote": "%s указывает на золото.",
+                    "msg_emote_you": "Вы указываете на золото.",
+                    "world_icon": "tag_spot-item",
+                    "world_icon_small": "mini_item"
+                },
+                "fountain": {
+                    "text": "Указать на фонтан.",
+                    "word_highlights": [3],
+                    "msg_emote": "%s указывает на фонтан.",
+                    "msg_emote_you": "Вы указываете на фонтан.",
+                    "world_icon": "tag_spot",
+                    "world_icon_small": "mini_spot"
+                },
+                "sink": {
+                    "text": "Указать на раковину.",
+                    "word_highlights": [3],
+                    "msg_emote": "%s указывает на раковину.",
+                    "msg_emote_you": "Вы указываете на раковину.",
+                    "world_icon": "tag_spot",
+                    "world_icon_small": "mini_spot"
+                },
+                "teleporter": {
+                    "text": "Указать на телепорт.",
+                    "word_highlights": [3],
+                    "msg_says": "%s\"Похоже, здесь телепорт.\"",
+                    "world_icon": "tag_spot",
+                    "world_icon_small": "mini_spot"
+                },
+                "teleporter_up": {
+                    "text": "Указать путь наверх.",
+                    "word_highlights": [3, 4],
+                    "msg_says": "%s\"Эта лестница ведет наверх.\"",
+                    "world_icon": "tag_spot",
+                    "world_icon_small": "mini_spot"
+                },
+                "teleporter_down": {
+                    "text": "Указать путь вниз.",
+                    "word_highlights": [3, 4],
+                    "msg_says": "%s\"Эта лестница ведет вниз.\"",
+                    "world_icon": "tag_spot",
+                    "world_icon_small": "mini_spot"
+                },
+                "bomb": {
+                    "text": "Указать на %s.",
+                    "word_highlights": [3],
+                    "msg_says": "%s\"Здесь заложен %s.\"",
+                    "world_icon": "tag_spot-trap",
+                    "world_icon_small": "mini_spot"
+                },
+                "collider": {
+                    "text": "Указать на разрушаемый %s.",
+                    "word_highlights": [4],
+                    "msg_says": "%s\"Мы можем пробить этот %s.\"",
+                    "world_icon": "tag_spot",
+                    "world_icon_small": "mini_spot"
+                }
+            }]
+        },
+        {
+            "action": "player_wave_1",
+            "id": 4,
+            "path": "#*images/ui/CalloutWheel/icons/btn_player_check.png",
+            "path_hover": "#*images/ui/CalloutWheel/icons/btn_player_check_hover.png",
+            "text_maps": [{
+                "player_wave": {
+                    "text": "Помахать %s!",
+                    "word_highlights": [2],
+                    "msg_emote": "%s машет %s!",
+                    "msg_emote_you": "Вы машете %s!",
+                    "msg_emote_to_you": "%s машет вам!",
+                    "world_icon": "tag_self_player-wave",
+                    "world_icon_small": "mini_spot"
+                },
+                "unavailable": {
+                    "text": "Игрок недоступен",
+                    "word_highlights": [0, 1, 2],
+                    "msg_emote": "",
+                    "msg_emote_you": "",
+                    "world_icon": "",
+                    "world_icon_small": ""
+                }
+            }]
+        },
+        {
+            "action": "player_wave_2",
+            "id": 6,
+            "path": "#*images/ui/CalloutWheel/icons/btn_player_check.png",
+            "path_hover": "#*images/ui/CalloutWheel/icons/btn_player_check_hover.png",
+            "text_maps": [{
+                "player_wave": {
+                    "text": "Помахать %s!",
+                    "word_highlights": [2],
+                    "msg_emote": "%s машет %s!",
+                    "msg_emote_you": "Вы машете %s!",
+                    "msg_emote_to_you": "%s машет вам!",
+                    "world_icon": "tag_self_player-wave",
+                    "world_icon_small": "mini_spot"
+                },
+                "unavailable": {
+                    "text": "Игрок недоступен",
+                    "word_highlights": [0, 1, 2],
+                    "msg_emote": "",
+                    "msg_emote_you": "",
+                    "world_icon": "",
+                    "world_icon_small": ""
+                }
+            }]
+        },
+        {
+            "action": "player_wave_3",
+            "id": 2,
+            "path": "#*images/ui/CalloutWheel/icons/btn_player_check.png",
+            "path_hover": "#*images/ui/CalloutWheel/icons/btn_player_check_hover.png",
+            "text_maps": [{
+                "player_wave": {
+                    "text": "Помахать %s!",
+                    "word_highlights": [2],
+                    "msg_emote": "%s машет %s!",
+                    "msg_emote_you": "Вы машете %s!",
+                    "msg_emote_to_you": "%s машет вам!",
+                    "world_icon": "tag_self_player-wave",
+                    "world_icon_small": "mini_spot"
+                },
+                "unavailable": {
+                    "text": "Игрок недоступен",
+                    "word_highlights": [0, 1, 2],
+                    "msg_emote": "",
+                    "msg_emote_you": "",
+                    "world_icon": "",
+                    "world_icon_small": ""
+                }
+            }]
+        },
+        {
+            "action": "help",
+            "id": 3,
+            "path": "#*images/ui/CalloutWheel/icons/btn_player_help.png",
+            "path_hover": "#*images/ui/CalloutWheel/icons/btn_player_help_hover.png",
+            "text_maps": [{
+                "default": {
+                    "text": "Позвать на помощь!",
+                    "word_highlights": [],
+                    "msg_emote": "%s зовет на помощь!",
+                    "msg_emote_you": "Вы зовете на помощь!",
+                    "world_icon": "tag_help",
+                    "world_icon_small": "mini_help"
+                },
+                "help_all_conditions": {
+                    "text": "Позвать на помощь! (%s)",
+                    "word_highlights": [],
+                    "msg_emote": "%s зовет на помощь!\n(%s)",
+                    "msg_emote_you": "Вы зовете на помощь!\n(%s)",
+                    "world_icon": "tag_help",
+                    "world_icon_small": "mini_help"
+                },
+                "help_deceased": {
+                    "text": "Позвать на помощь! (%s)",
+                    "word_highlights": [],
+                    "msg_emote": "%s зовет на помощь!\n(%s)",
+                    "msg_emote_you": "Вы зовете на помощь!\n(%s)",
+                    "world_icon": "tag_help-ghost",
+                    "world_icon_small": "mini_help"
+                },
+                "condition_food_hungry": {
+                    "text": "Мне нужна еда! (Голоден)",
+                    "word_highlights": [3],
+                    "msg_says": "%s\"Мне нужна еда! (Голоден)\"",
+                    "world_icon": "tag_help-food",
+                    "world_icon_small": "mini_help"
+                },
+                "condition_blood_hungry": {
+                    "text": "Мне нужна кровь! (Голоден)",
+                    "word_highlights": [],
+                    "msg_says": "%s\"Мне нужна кровь! (Голоден)\"",
+                    "world_icon": "tag_help-food",
+                    "world_icon_small": "mini_help"
+                },
+                "condition_food_weak": {
+                    "text": "Мне нужна еда! (Слабею)",
+                    "word_highlights": [],
+                    "msg_says": "%s\"Мне нужна еда! (Слабею)\"",
+                    "world_icon": "tag_help-food",
+                    "world_icon_small": "mini_help"
+                },
+                "condition_blood_weak": {
+                    "text": "Мне нужна кровь! (Слабею)",
+                    "word_highlights": [],
+                    "msg_says": "%s\"Мне нужна кровь! (Слабею)\"",
+                    "world_icon": "tag_help-food",
+                    "world_icon_small": "mini_help"
+                },
+                "condition_steam_empty": {
+                    "text": "Мой котел пуст!",
+                    "word_highlights": [],
+                    "msg_says": "%s\"Мой котел пуст!\"",
+                    "world_icon": "tag_help-food",
+                    "world_icon_small": "mini_help"
+                },
+                "condition_food_starving": {
+                    "text": "Я умираю с голоду!",
+                    "word_highlights": [],
+                    "msg_says": "%s\"Я умираю с голоду!\"",
+                    "world_icon": "tag_help-food",
+                    "world_icon_small": "mini_help"
+                },
+                "condition_blood_starving": {
+                    "text": "Я умираю с голоду! (Кровь)",
+                    "word_highlights": [],
+                    "msg_says": "%s\"Я умираю с голоду! (Кровь)\"",
+                    "world_icon": "tag_help-food",
+                    "world_icon_small": "mini_help"
+                },
+                "condition_heal": {
+                    "text": "Мне нужно исцеление!",
+                    "word_highlights": [],
+                    "msg_says": "%s\"Мне нужно исцеление!\"",
+                    "world_icon": "tag_help-hp",
+                    "world_icon_small": "mini_help"
+                },
+                "condition_heal_urgent": {
+                    "text": "У меня почти не осталось здоровья!",
+                    "word_highlights": [],
+                    "msg_says": "%s\"У меня почти не осталось здоровья!\"",
+                    "world_icon": "tag_help-hp",
+                    "world_icon_small": "mini_help"
+                },
+                "condition_cure_ailment": {
+                    "text": "Мне нужно лекарство!",
+                    "word_highlights": [],
+                    "msg_says": "%s\"Мне нужно лекарство!\"",
+                    "world_icon": "tag_help-cure",
+                    "world_icon_small": "mini_help"
+                },
+                "location": {
+                    "text": "Мне нужна помощь!",
+                    "word_highlights": [],
+                    "msg_emote": "%s нужна помощь!",
+                    "msg_emote_you": "Вы просите помощи!",
+                    "world_icon": "tag_help",
+                    "world_icon_small": "mini_help"
+                },
+                "item": {
+                    "text": "Мне нужна помощь с этим %s.",
+                    "word_highlights": [5],
+                    "msg_says": "%s\"Мне нужна помощь с этим %s.\"",
+                    "world_icon": "tag_help-item",
+                    "world_icon_small": "mini_help"
+                },
+                "item_an": {
+                    "text": "Мне нужна помощь с этим %s.",
+                    "word_highlights": [5],
+                    "msg_says": "%s\"Мне нужна помощь с этим %s.\"",
+                    "world_icon": "tag_help-item",
+                    "world_icon_small": "mini_help"
+                },
+                "npc": {
+                    "text": "Мне нужна помощь с этим %s!",
+                    "word_highlights": [5],
+                    "msg_says": "%s\"Мне нужна помощь с этим %s!\"",
+                    "world_icon": "tag_help-npc",
+                    "world_icon_small": "mini_help"
+                },
+                "npc_named": {
+                    "text": "Мне нужна помощь с %s!",
+                    "word_highlights": [4],
+                    "msg_says": "%s\"Мне нужна помощь с %s!\"",
+                    "world_icon": "tag_help-npc",
+                    "world_icon_small": "mini_help"
+                },
+                "npc_an": {
+                    "text": "Мне нужна помощь с этим %s!",
+                    "word_highlights": [5],
+                    "msg_says": "%s\"Мне нужна помощь с этим %s!\"",
+                    "world_icon": "tag_help-npc",
+                    "world_icon_small": "mini_help"
+                },
+                "npc_enemy_named": {
+                    "text": "Мне нужна помощь с %s!",
+                    "word_highlights": [4],
+                    "msg_says": "%s\"Мне нужна помощь с %s!\"",
+                    "world_icon": "tag_help-npc",
+                    "world_icon_small": "mini_help"
+                },
+                "npc_enemy": {
+                    "text": "Мне нужна помощь с этим %s!",
+                    "word_highlights": [5],
+                    "msg_says": "%s\"Мне нужна помощь с этим %s!\"",
+                    "world_icon": "tag_help-npc",
+                    "world_icon_small": "mini_help"
+                },
+                "npc_ally": {
+                    "text": "Нашему союзнику %s нужна помощь!",
+                    "word_highlights": [2],
+                    "msg_says": "%s\"Нашему союзнику %s нужна помощь!\"",
+                    "world_icon": "tag_help-npc",
+                    "world_icon_small": "mini_help"
+                },
+                "chest": {
+                    "text": "Мне нужна помощь с этим сундуком.",
+                    "word_highlights": [5],
+                    "msg_says": "%s\"Мне нужна помощь с этим сундуком.\"",
+                    "world_icon": "tag_help-item",
+                    "world_icon_small": "mini_help"
+                },
+                "switch_on": {
+                    "text": "Мне нужна помощь с этим переключателем.",
+                    "word_highlights": [5],
+                    "msg_says": "%s\"Мне нужна помощь с этим переключателем.\"",
+                    "world_icon": "tag_help",
+                    "world_icon_small": "mini_help"
+                },
+                "switch_off": {
+                    "text": "Мне нужна помощь с этим переключателем.",
+                    "word_highlights": [5],
+                    "msg_says": "%s\"Мне нужна помощь с этим переключателем.\"",
+                    "world_icon": "tag_help",
+                    "world_icon_small": "mini_help"
+                },
+                "wall_button_on": {
+                    "text": "Мне нужна помощь с этой кнопкой.",
+                    "word_highlights": [5],
+                    "msg_says": "%s\"Мне нужна помощь с этой кнопкой.\"",
+                    "world_icon": "tag_help",
+                    "world_icon_small": "mini_help"
+                },
+                "wall_button_off": {
+                    "text": "Мне нужна помощь с этой кнопкой.",
+                    "word_highlights": [5],
+                    "msg_says": "%s\"Мне нужна помощь с этой кнопкой.\"",
+                    "world_icon": "tag_help",
+                    "world_icon_small": "mini_help"
+                },
+                "wall_lock_on": {
+                    "text": "Мне нужна помощь с этим активным %s ключом.",
+                    "word_highlights": [5, 6, 7],
+                    "msg_says": "%s\"Мне нужна помощь с этим активным %s ключом.\"",
+                    "world_icon": "tag_help",
+                    "world_icon_small": "mini_help"
+                },
+                "wall_lock_off": {
+                    "text": "Мне нужна помощь с этим неактивным %s ключом.",
+                    "word_highlights": [5, 6, 7],
+                    "msg_says": "%s\"Мне нужна помощь с этим неактивным %s ключом.\"",
+                    "world_icon": "tag_help",
+                    "world_icon_small": "mini_help"
+                },
+                "wall_lock": {
+                    "text": "Мне нужна помощь с этим %s замком.",
+                    "word_highlights": [5, 6],
+                    "msg_says": "%s\"Мне нужна помощь с этим %s замком.\"",
+                    "world_icon": "tag_help",
+                    "world_icon_small": "mini_help"
+                },
+                "switch": {
+                    "text": "Мне нужна помощь с этим переключателем.",
+                    "word_highlights": [5],
+                    "msg_says": "%s\"Мне нужна помощь с этим переключателем.\"",
+                    "world_icon": "tag_help",
+                    "world_icon_small": "mini_help"
+                },
+                "boulder": {
+                    "text": "Мне нужна помощь с этим валуном.",
+                    "word_highlights": [5],
+                    "msg_says": "%s\"Мне нужна помощь с этим валуном.\"",
+                    "world_icon": "tag_help",
+                    "world_icon_small": "mini_help"
+                },
+                "trap": {
+                    "text": "Мне нужна помощь возле этой %s!",
+                    "word_highlights": [5],
+                    "msg_says": "%s\"Мне нужна помощь возле этой %s!\"",
+                    "world_icon": "tag_help",
+                    "world_icon_small": "mini_help"
+                },
+                "generic_interactable": {
+                    "text": "Мне нужна помощь возле этого %s!",
+                    "word_highlights": [5, 6],
+                    "msg_says": "%s\"Мне нужна помощь возле этого %s!\"",
+                    "world_icon": "tag_help",
+                    "world_icon_small": "mini_help"
+                },
+                "shrine": {
+                    "text": "Мне нужна помощь возле этого алтаря!",
+                    "word_highlights": [5],
+                    "msg_says": "%s\"Мне нужна помощь возле этого алтаря!\"",
+                    "world_icon": "tag_help",
+                    "world_icon_small": "mini_help"
+                },
+                "daedalus": {
+                    "text": "Мне нужна помощь возле этого алтаря Дедала!",
+                    "word_highlights": [5, 6],
+                    "msg_says": "%s\"Мне нужна помощь возле этого алтаря Дедала!\"",
+                    "world_icon": "tag_help",
+                    "world_icon_small": "mini_help"
+                },
+                "assist_shrine": {
+                    "text": "Я хотел бы использовать алтарь Помощи!",
+                    "word_highlights": [6, 7],
+                    "msg_says": "%s\"Я хотел бы использовать алтарь Помощи!\"",
+                    "world_icon": "tag_help",
+                    "world_icon_small": "mini_help"
+                },
+                "bell": {
+                    "text": "Мне нужна помощь возле этого колокола!",
+                    "word_highlights": [5],
+                    "msg_says": "%s\"Мне нужна помощь возле этого колокола!\"",
+                    "world_icon": "tag_help",
+                    "world_icon_small": "mini_help"
+                },
+                "exit": {
+                    "text": "Прошу помощи у выхода.",
+                    "word_highlights": [4],
+                    "msg_emote": "%s просит помощи у выхода!",
+                    "msg_emote_you": "Вы просите помощи у выхода!",
+                    "world_icon": "tag_help",
+                    "world_icon_small": "mini_help"
+                },
+                "secret_exit": {
+                    "text": "Прошу помощи у выхода с секретного уровня.",
+                    "word_highlights": [4, 5, 6],
+                    "msg_emote": "%s просит помощи у выхода с секретного уровня!",
+                    "msg_emote_you": "Вы просите помощи у выхода с секретного уровня!",
+                    "world_icon": "tag_help",
+                    "world_icon_small": "mini_help"
+                },
+                "secret_entrance": {
+                    "text": "Прошу помощи у входа на секретный уровень.",
+                    "word_highlights": [4, 5, 6],
+                    "msg_emote": "%s просит помощи у входа на секретный уровень!",
+                    "msg_emote_you": "Вы просите помощи у входа на секретный уровень!",
+                    "world_icon": "tag_help",
+                    "world_icon_small": "mini_help"
+                },
+                "gold": {
+                    "text": "Мне нужна помощь с переноской этого золота.",
+                    "word_highlights": [5],
+                    "msg_says": "%s\"Мне нужна помощь с переноской этого золота.\"",
+                    "world_icon": "tag_help-item",
+                    "world_icon_small": "mini_help"
+                },
+                "fountain": {
+                    "text": "Мне нужна помощь возле этого фонтана!",
+                    "word_highlights": [5],
+                    "msg_says": "%s\"Мне нужна помощь возле этого фонтана!\"",
+                    "world_icon": "tag_help",
+                    "world_icon_small": "mini_help"
+                },
+                "sink": {
+                    "text": "Мне нужна помощь возле этой раковины!",
+                    "word_highlights": [5],
+                    "msg_says": "%s\"Мне нужна помощь возле этой раковины!\"",
+                    "world_icon": "tag_help",
+                    "world_icon_small": "mini_help"
+                },
+                "teleporter": {
+                    "text": "Мне нужна помощь возле этого телепорта!",
+                    "word_highlights": [5],
+                    "msg_says": "%s\"Мне нужна помощь возле этого телепорта!\"",
+                    "world_icon": "tag_help",
+                    "world_icon_small": "mini_help"
+                },
+                "teleporter_up": {
+                    "text": "Мне нужна помощь возле этой лестницы!",
+                    "word_highlights": [5],
+                    "msg_says": "%s\"Мне нужна помощь возле этой лестницы!\"",
+                    "world_icon": "tag_help",
+                    "world_icon_small": "mini_help"
+                },
+                "teleporter_down": {
+                    "text": "Мне нужна помощь возле этой лестницы!",
+                    "word_highlights": [5],
+                    "msg_says": "%s\"Мне нужна помощь возле этой лестницы!\"",
+                    "world_icon": "tag_help",
+                    "world_icon_small": "mini_help"
+                },
+                "bomb": {
+                    "text": "Мне нужна помощь возле этой %s!",
+                    "word_highlights": [5],
+                    "msg_says": "%s\"Мне нужна помощь возле этой %s!\"",
+                    "world_icon": "tag_help",
+                    "world_icon_small": "mini_help"
+                },
+                "collider": {
+                    "text": "Мне нужна помощь с этим разрушаемым %s.",
+                    "word_highlights": [6],
+                    "msg_says": "%s\"Мне нужна помощь с этим разрушаемым %s.\"",
+                    "world_icon": "tag_help",
+                    "world_icon_small": "mini_help"
+                }
+            }]
+        },
+        {
+            "action": "move",
+            "id": 1,
+            "path": "#*images/ui/CalloutWheel/icons/btn_player_point.png",
+            "path_hover": "#*images/ui/CalloutWheel/icons/btn_player_point_hover.png",
+            "text_maps": [{
+                "default": {
+                    "text": "Давай двигаться сюда!",
+                    "word_highlights": [],
+                    "msg_says": "%s\"Давай двигаться сюда!\"",
+                    "world_icon": "tag_move",
+                    "world_icon_small": "mini_move"
+                }
+            }]
+        },
+        {
+            "action": "thanks",
+            "id": 11,
+            "path": "#*images/ui/CalloutWheel/icons/btn_player_up.png",
+            "path_hover": "#*images/ui/CalloutWheel/icons/btn_player_up_hover.png",
+            "text_maps": [{
+                "default": {
+                    "text": "Поблагодарить %s!",
+                    "word_highlights": [1],
+                    "msg_emote": "%s благодарит %s!",
+                    "msg_emote_you": "Вы благодарите %s!",
+                    "msg_emote_to_you": "%s благодарит вас!",
+                    "world_icon": "thanks",
+                    "world_icon_small": "mini_spot"
+                }
+            }]
+        },
+        {
+            "action": "affirmative",
+            "id": 7,
+            "path": "#*images/ui/CalloutWheel/icons/btn_player_up.png",
+            "path_hover": "#*images/ui/CalloutWheel/icons/btn_player_up_hover.png",
+            "text_maps": [{
+                "default": {
+                    "text": "Показать большой палец вверх.",
+                    "word_highlights": [],
+                    "msg_emote_you": "Вы показываете большой палец вверх!",
+                    "msg_emote": "%s показывает большой палец вверх!",
+                    "world_icon": "tag_good",
+                    "world_icon_small": "mini_yes"
+                },
+                "player_thanks": {
+                    "text": "Поблагодарить %s!",
+                    "word_highlights": [1],
+                    "msg_emote": "%s благодарит %s!",
+                    "msg_emote_you": "Вы благодарите %s!",
+                    "msg_emote_to_you": "%s благодарит вас!",
+                    "world_icon": "thanks",
+                    "world_icon_small": "mini_spot"
+                },
+                "location": {
+                    "text": "Показать большой палец вверх здесь.",
+                    "word_highlights": [],
+                    "msg_emote_you": "Вы показываете большой палец вверх здесь!",
+                    "msg_emote": "%s показывает большой палец вверх здесь!",
+                    "world_icon": "tag_good",
+                    "world_icon_small": "mini_yes"
+                },
+                "item": {
+                    "text": "Этот %s хорош.",
+                    "word_highlights": [1],
+                    "msg_says": "%s\"Этот %s хорош.\"",
+                    "world_icon": "tag_good-item",
+                    "world_icon_small": "mini_yes"
+                },
+                "item_an": {
+                    "text": "Этот %s хорош.",
+                    "word_highlights": [1],
+                    "msg_says": "%s\"Этот %s хорош.\"",
+                    "world_icon": "tag_good-item",
+                    "world_icon_small": "mini_yes"
+                },
+                "npc": {
+                    "text": "С этим %s нужно разобраться.",
+                    "word_highlights": [1],
+                    "msg_says": "%s\"С этим %s нужно разобраться.\"",
+                    "world_icon": "tag_good-NPC",
+                    "world_icon_small": "mini_move"
+                },
+                "npc_named": {
+                    "text": "С %s нужно разобраться.",
+                    "word_highlights": [0],
+                    "msg_says": "%s\"С %s нужно разобраться.\"",
+                    "world_icon": "tag_good-NPC",
+                    "world_icon_small": "mini_move"
+                },
+                "npc_an": {
+                    "text": "С этим %s нужно разобраться.",
+                    "word_highlights": [1],
+                    "msg_says": "%s\"С этим %s нужно разобраться.\"",
+                    "world_icon": "tag_good-NPC",
+                    "world_icon_small": "mini_move"
+                },
+                "npc_enemy_named": {
+                    "text": "Атаковать %s!",
+                    "word_highlights": [1],
+                    "msg_says": "%s\"Атаковать %s!\"",
+                    "world_icon": "tag_good-NPC",
+                    "world_icon_small": "mini_move"
+                },
+                "npc_enemy": {
+                    "text": "Атаковать %s!",
+                    "word_highlights": [2],
+                    "msg_says": "%s\"Атаковать %s!\"",
+                    "world_icon": "tag_good-NPC",
+                    "world_icon_small": "mini_move"
+                },
+                "npc_ally": {
+                    "text": "Наш союзник %s справится с задачей.",
+                    "word_highlights": [2],
+                    "msg_says": "%s\"Наш союзник %s справится с задачей.\"",
+                    "world_icon": "tag_good",
+                    "world_icon_small": "mini_yes"
+                },
+                "chest": {
+                    "text": "Я проверю сундук.",
+                    "word_highlights": [3],
+                    "msg_says": "%s\"Я проверю сундук.\"",
+                    "world_icon": "tag_good-item",
+                    "world_icon_small": "mini_yes"
+                },
+                "switch_on": {
+                    "text": "Выключи этот переключатель!",
+                    "word_highlights": [2, 3],
+                    "msg_says": "%s\"Выключи этот переключатель!\"",
+                    "world_icon": "tag_good-interact",
+                    "world_icon_small": "mini_yes"
+                },
+                "switch_off": {
+                    "text": "Включи этот переключатель!",
+                    "word_highlights": [2, 3],
+                    "msg_says": "%s\"Включи этот переключатель!\"",
+                    "world_icon": "tag_good-interact",
+                    "world_icon_small": "mini_yes"
+                },
+                "wall_button_on": {
+                    "text": "Эта кнопка нажата!",
+                    "word_highlights": [2, 3],
+                    "msg_says": "%s\"Эта кнопка нажата!\"",
+                    "world_icon": "tag_good-interact",
+                    "world_icon_small": "mini_yes"
+                },
+                "wall_button_off": {
+                    "text": "Нажми эту кнопку!",
+                    "word_highlights": [2],
+                    "msg_says": "%s\"Нажми эту кнопку!\"",
+                    "world_icon": "tag_good-interact",
+                    "world_icon_small": "mini_yes"
+                },
+                "wall_lock_on": {
+                    "text": "Сбрось этот %s ключ!",
+                    "word_highlights": [0, 2, 3],
+                    "msg_says": "%s\"Сбрось этот %s ключ!\"",
+                    "world_icon": "tag_good-interact",
+                    "world_icon_small": "mini_yes"
+                },
+                "wall_lock_off": {
+                    "text": "Активируй этот %s ключ!",
+                    "word_highlights": [2, 3, 4],
+                    "msg_says": "%s\"Активируй этот %s ключ!\"",
+                    "world_icon": "tag_good-interact",
+                    "world_icon_small": "mini_yes"
+                },
+                "wall_lock": {
+                    "text": "Давай, открой этот %s замок.",
+                    "word_highlights": [5, 6],
+                    "msg_says": "%s\"Давай, открой этот %s замок.\"",
+                    "world_icon": "tag_good-interact",
+                    "world_icon_small": "mini_yes"
+                },
+                "switch": {
+                    "text": "Давай, используй этот переключатель.",
+                    "word_highlights": [5],
+                    "msg_says": "%s\"Давай, используй этот переключатель.\"",
+                    "world_icon": "tag_good-interact",
+                    "world_icon_small": "mini_yes"
+                },
+                "boulder": {
+                    "text": "С этим валуном нужно разобраться.",
+                    "word_highlights": [1],
+                    "msg_says": "%s\"С этим валуном нужно разобраться.\"",
+                    "world_icon": "tag_good-interact",
+                    "world_icon_small": "mini_yes"
+                },
+                "trap": {
+                    "text": "Думаю, эта %s безопасна.",
+                    "word_highlights": [3],
+                    "msg_says": "%s\"Думаю, эта %s безопасна.\"",
+                    "world_icon": "tag_good-trap",
+                    "world_icon_small": "mini_yes"
+                },
+                "generic_interactable": {
+                    "text": "Этот %s готов к использованию.",
+                    "word_highlights": [1],
+                    "msg_says": "%s\"Этот %s готов к использованию.\"",
+                    "world_icon": "tag_good-interact",
+                    "world_icon_small": "mini_spot"
+                },
+                "shrine": {
+                    "text": "Я использую алтарь.",
+                    "word_highlights": [3],
+                    "msg_says": "%s\"Я использую алтарь.\"",
+                    "world_icon": "tag_good-interact",
+                    "world_icon_small": "mini_spot"
+                },
+                "daedalus": {
+                    "text": "Я использую алтарь Дедала.",
+                    "word_highlights": [3, 4],
+                    "msg_says": "%s\"Я использую алтарь Дедала.\"",
+                    "world_icon": "tag_good-interact",
+                    "world_icon_small": "mini_spot"
+                },
+                "assist_shrine": {
+                    "text": "Алтарь Помощи готов к использованию.",
+                    "word_highlights": [1, 2],
+                    "msg_says": "%s\"Алтарь Помощи готов к использованию.\"",
+                    "world_icon": "tag_good-interact",
+                    "world_icon_small": "mini_spot"
+                },
+                "bell": {
+                    "text": "Я позвоню в колокол.",
+                    "word_highlights": [3],
+                    "msg_says": "%s\"Я позвоню в колокол.\"",
+                    "world_icon": "tag_good-interact",
+                    "world_icon_small": "mini_spot"
+                },
+                "exit": {
+                    "text": "Я готов использовать выход.",
+                    "word_highlights": [5],
+                    "msg_says": "%s\"Я готов использовать выход.\"",
+                    "world_icon": "tag_move-exit",
+                    "world_icon_small": "mini_move"
+                },
+                "secret_exit": {
+                    "text": "Давай покинем секретный уровень.",
+                    "word_highlights": [3, 4],
+                    "msg_says": "%s\"Давай выбираться из этого места!\"",
+                    "world_icon": "tag_move-exit",
+                    "world_icon_small": "mini_move"
+                },
+                "secret_entrance": {
+                    "text": "Давай пойдем по секретному пути.",
+                    "word_highlights": [3, 4],
+                    "msg_says": "%s\"Давай пойдем по секретному пути.\"",
+                    "world_icon": "tag_spot",
+                    "world_icon_small": "mini_spot"
+                },
+                "gold": {
+                    "text": "Я понесу золото.",
+                    "word_highlights": [3],
+                    "msg_says": "%s\"Я понесу золото.\"",
+                    "world_icon": "tag_good-item",
+                    "world_icon_small": "mini_yes"
+                },
+                "fountain": {
+                    "text": "Я использую фонтан.",
+                    "word_highlights": [3],
+                    "msg_says": "%s\"Я использую фонтан.\"",
+                    "world_icon": "tag_good-interact",
+                    "world_icon_small": "mini_spot"
+                },
+                "sink": {
+                    "text": "Я использую раковину.",
+                    "word_highlights": [3],
+                    "msg_says": "%s\"Я использую раковину.\"",
+                    "world_icon": "tag_good-interact",
+                    "world_icon_small": "mini_spot"
+                },
+                "teleporter": {
+                    "text": "Я пройду через телепорт.",
+                    "word_highlights": [4],
+                    "msg_says": "%s\"Я пройду через телепорт.\"",
+                    "world_icon": "tag_move-exit",
+                    "world_icon_small": "mini_move"
+                },
+                "teleporter_up": {
+                    "text": "Я поднимаюсь по этой лестнице.",
+                    "word_highlights": [4],
+                    "msg_says": "%s\"Я поднимаюсь по этой лестнице.\"",
+                    "world_icon": "tag_move-exit",
+                    "world_icon_small": "mini_move"
+                },
+                "teleporter_down": {
+                    "text": "Я спускаюсь по этой лестнице.",
+                    "word_highlights": [4],
+                    "msg_says": "%s\"Я спускаюсь по этой лестнице.\"",
+                    "world_icon": "tag_move-exit",
+                    "world_icon_small": "mini_move"
+                },
+                "bomb": {
+                    "text": "Эта %s готова к использованию.",
+                    "word_highlights": [1],
+                    "msg_says": "%s\"Эта %s готова к использованию.\"",
+                    "world_icon": "tag_good-trap",
+                    "world_icon_small": "mini_yes"
+                },
+                "collider": {
+                    "text": "Давай пробьем этот %s.",
+                    "word_highlights": [4],
+                    "msg_says": "%s\"Давай пробьем этот %s.\"",
+                    "world_icon": "tag_good-NPC",
+                    "world_icon_small": "mini_help"
+                }
+            }]
+        },
+        {
+            "action": "negative",
+            "id": 5,
+            "path": "#*images/ui/CalloutWheel/icons/btn_player_down.png",
+            "path_hover": "#*images/ui/CalloutWheel/icons/btn_player_down_hover.png",
+            "text_maps": [{
+                "default": {
+                    "text": "Показать большой палец вниз.",
+                    "word_highlights": [],
+                    "msg_emote_you": "Вы показываете большой палец вниз.",
+                    "msg_emote": "%s показывает большой палец вниз.",
+                    "world_icon": "tag_bad",
+                    "world_icon_small": "mini_no"
+                },
+                "location": {
+                    "text": "Показать большой палец вниз здесь.",
+                    "word_highlights": [],
+                    "msg_emote_you": "Вы показываете большой палец вниз здесь.",
+                    "msg_emote": "%s показывает большой палец вниз здесь.",
+                    "world_icon": "tag_bad",
+                    "world_icon_small": "mini_no"
+                },
+                "item": {
+                    "text": "Этот %s мне не подходит.",
+                    "word_highlights": [1],
+                    "msg_says": "%s\"Этот %s мне не подходит.\"",
+                    "world_icon": "tag_bad-item",
+                    "world_icon_small": "mini_no"
+                },
+                "item_an": {
+                    "text": "Этот %s мне не подходит.",
+                    "word_highlights": [1],
+                    "msg_says": "%s\"Этот %s мне не подходит.\"",
+                    "world_icon": "tag_bad-item",
+                    "world_icon_small": "mini_no"
+                },
+                "npc": {
+                    "text": "Обойди этого %s!",
+                    "word_highlights": [2],
+                    "msg_says": "%s\"Обойди этого %s!\"",
+                    "world_icon": "tag_bad-NPC",
+                    "world_icon_small": "mini_no"
+                },
+                "npc_named": {
+                    "text": "Обойди %s!",
+                    "word_highlights": [1],
+                    "msg_says": "%s\"Обойди %s!\"",
+                    "world_icon": "tag_bad-NPC",
+                    "world_icon_small": "mini_no"
+                },
+                "npc_an": {
+                    "text": "Обойди этого %s!",
+                    "word_highlights": [2],
+                    "msg_says": "%s\"Обойди этого %s!\"",
+                    "world_icon": "tag_bad-NPC",
+                    "world_icon_small": "mini_no"
+                },
+                "npc_enemy_named": {
+                    "text": "Беги от %s!",
+                    "word_highlights": [2],
+                    "msg_says": "%s\"Беги от %s!\"",
+                    "world_icon": "tag_move-NPC",
+                    "world_icon_small": "mini_danger"
+                },
+                "npc_enemy": {
+                    "text": "Беги от %s!",
+                    "word_highlights": [3],
+                    "msg_says": "%s\"Беги от %s!\"",
+                    "world_icon": "tag_move-NPC",
+                    "world_icon_small": "mini_danger"
+                },
+                "npc_ally": {
+                    "text": "Наш союзник %s не справится с задачей.",
+                    "word_highlights": [2],
+                    "msg_says": "%s\"Наш союзник %s не справится с задачей.\"",
+                    "world_icon": "tag_bad",
+                    "world_icon_small": "mini_no"
+                },
+                "chest": {
+                    "text": "В этом сундуке ничего полезного.",
+                    "word_highlights": [2],
+                    "msg_says": "%s\"В этом сундуке ничего полезного.\"",
+                    "world_icon": "tag_bad-item",
+                    "world_icon_small": "mini_no"
+                },
+                "switch_on": {
+                    "text": "Оставь этот переключатель включенным!",
+                    "word_highlights": [2, 3],
+                    "msg_says": "%s\"Оставь этот переключатель включенным!\"",
+                    "world_icon": "tag_bad-interact",
+                    "world_icon_small": "mini_no"
+                },
+                "switch_off": {
+                    "text": "Оставь этот переключатель выключенным!",
+                    "word_highlights": [2, 3],
+                    "msg_says": "%s\"Оставь этот переключатель выключенным!\"",
+                    "world_icon": "tag_bad-interact",
+                    "world_icon_small": "mini_no"
+                },
+                "wall_button_on": {
+                    "text": "Оставь эту кнопку нажатой!",
+                    "word_highlights": [2, 3],
+                    "msg_says": "%s\"Оставь эту кнопку нажатой!\"",
+                    "world_icon": "tag_bad-interact",
+                    "world_icon_small": "mini_no"
+                },
+                "wall_button_off": {
+                    "text": "Не трогай эту кнопку!",
+                    "word_highlights": [2, 3],
+                    "msg_says": "%s\"Не трогай эту кнопку!\"",
+                    "world_icon": "tag_bad-interact",
+                    "world_icon_small": "mini_no"
+                },
+                "wall_lock_on": {
+                    "text": "Оставь этот %s ключ активированным!",
+                    "word_highlights": [2, 3, 4],
+                    "msg_says": "%s\"Оставь этот %s ключ активированным!\"",
+                    "world_icon": "tag_bad-interact",
+                    "world_icon_small": "mini_no"
+                },
+                "wall_lock_off": {
+                    "text": "Не трогай этот %s ключ!",
+                    "word_highlights": [2, 3, 4],
+                    "msg_says": "%s\"Не трогай этот %s ключ!\"",
+                    "world_icon": "tag_bad-interact",
+                    "world_icon_small": "mini_no"
+                },
+                "wall_lock": {
+                    "text": "Не открывай этот %s замок!",
+                    "word_highlights": [3, 4],
+                    "msg_says": "%s\"Не открывай этот %s замок!\"",
+                    "world_icon": "tag_bad-interact",
+                    "world_icon_small": "mini_no"
+                },
+                "switch": {
+                    "text": "Не трогай этот переключатель!",
+                    "word_highlights": [3],
+                    "msg_says": "%s\"Не трогай этот переключатель!\"",
+                    "world_icon": "tag_bad-interact",
+                    "world_icon_small": "mini_no"
+                },
+                "boulder": {
+                    "text": "Осторожно, этот валун!",
+                    "word_highlights": [4],
+                    "msg_says": "%s\"Осторожно, этот валун!\"",
+                    "world_icon": "tag_move-NPC",
+                    "world_icon_small": "mini_danger"
+                },
+                "trap": {
+                    "text": "Эта %s может быть опасна.",
+                    "word_highlights": [1],
+                    "msg_says": "%s\"Эта %s может быть опасна.\"",
+                    "world_icon": "tag_bad-trap",
+                    "world_icon_small": "mini_danger"
+                },
+                "generic_interactable": {
+                    "text": "Не используй этот %s.",
+                    "word_highlights": [3],
+                    "msg_says": "%s\"Не используй этот %s.\"",
+                    "world_icon": "tag_bad-interact",
+                    "world_icon_small": "mini_no"
+                },
+                "shrine": {
+                    "text": "Не используй этот алтарь.",
+                    "word_highlights": [3],
+                    "msg_says": "%s\"Не используй этот алтарь.\"",
+                    "world_icon": "tag_bad-interact",
+                    "world_icon_small": "mini_no"
+                },
+                "daedalus": {
+                    "text": "Не используй этот алтарь Дедала.",
+                    "word_highlights": [3, 4],
+                    "msg_says": "%s\"Не используй этот алтарь Дедала.\"",
+                    "world_icon": "tag_bad-interact",
+                    "world_icon_small": "mini_no"
+                },
+                "assist_shrine": {
+                    "text": "Не используй этот алтарь Помощи.",
+                    "word_highlights": [3, 4],
+                    "msg_says": "%s\"Не используй этот алтарь Помощи.\"",
+                    "world_icon": "tag_bad-interact",
+                    "world_icon_small": "mini_no"
+                },
+                "bell": {
+                    "text": "Не звони в этот колокол.",
+                    "word_highlights": [3],
+                    "msg_says": "%s\"Не звони в этот колокол.\"",
+                    "world_icon": "tag_bad-interact",
+                    "world_icon_small": "mini_no"
+                },
+                "exit": {
+                    "text": "Я еще не готов использовать выход.",
+                    "word_highlights": [6],
+                    "msg_says": "%s\"Я еще не готов уходить.\"",
+                    "world_icon": "tag_bad-interact",
+                    "world_icon_small": "mini_no"
+                },
+                "secret_exit": {
+                    "text": "Я еще не готов покинуть секретный уровень.",
+                    "word_highlights": [6, 7],
+                    "msg_says": "%s\"Я еще не готов покинуть это место.\"",
+                    "world_icon": "tag_bad-interact",
+                    "world_icon_small": "mini_no"
+                },
+                "secret_entrance": {
+                    "text": "Нам стоит избегать секретного пути.",
+                    "word_highlights": [4, 5],
+                    "msg_says": "%s\"Нам стоит избегать секретного пути.\"",
+                    "world_icon": "tag_bad-interact",
+                    "world_icon_small": "mini_no"
+                },
+                "gold": {
+                    "text": "Мне не нужно это золото.",
+                    "word_highlights": [4],
+                    "msg_says": "%s\"Мне не нужно это золото.\"",
+                    "world_icon": "tag_bad-item",
+                    "world_icon_small": "mini_no"
+                },
+                "fountain": {
+                    "text": "Этот фонтан мне не подходит.",
+                    "word_highlights": [1],
+                    "msg_says": "%s\"Этот фонтан мне не подходит.\"",
+                    "world_icon": "tag_bad-interact",
+                    "world_icon_small": "mini_no"
+                },
+                "sink": {
+                    "text": "Эта раковина мне не подходит.",
+                    "word_highlights": [1],
+                    "msg_says": "%s\"Эта раковина мне не подходит.\"",
+                    "world_icon": "tag_bad-interact",
+                    "world_icon_small": "mini_no"
+                },
+                "teleporter": {
+                    "text": "Я еще не готов использовать телепорт.",
+                    "word_highlights": [7],
+                    "msg_says": "%s\"Я еще не готов использовать телепорт.\"",
+                    "world_icon": "tag_bad-interact",
+                    "world_icon_small": "mini_no"
+                },
+                "teleporter_up": {
+                    "text": "Я еще не готов подниматься.",
+                    "word_highlights": [],
+                    "msg_says": "%s\"Я еще не готов подниматься.\"",
+                    "world_icon": "tag_bad-interact",
+                    "world_icon_small": "mini_no"
+                },
+                "teleporter_down": {
+                    "text": "Я еще не готов спускаться.",
+                    "word_highlights": [],
+                    "msg_says": "%s\"Я еще не готов спускаться.\"",
+                    "world_icon": "tag_bad-interact",
+                    "world_icon_small": "mini_no"
+                },
+                "bomb": {
+                    "text": "Не трогай эту %s.",
+                    "word_highlights": [2],
+                    "msg_says": "%s\"Не трогай эту %s.\"",
+                    "world_icon": "tag_bad-trap",
+                    "world_icon_small": "mini_no"
+                },
+                "collider": {
+                    "text": "Не трогай этот %s.",
+                    "word_highlights": [2],
+                    "msg_says": "%s\"Не трогай этот %s.\"",
+                    "world_icon": "tag_bad-interact",
+                    "world_icon_small": "mini_no"
+                }
+            }]
+        },
+        {
+            "action": "cancel",
+            "id": -1,
+            "path": "",
+            "path_hover": "",
+            "path_active": "",
+            "path_active_hover": "",
+            "text_maps": [{
+                "default": {
+                    "text": "Отмена",
+                    "word_highlights": [0]
+                }
+            }]
+        },
+        {
+            "action": "invalid_action",
+            "id": -1,
+            "path": "",
+            "path_hover": "",
+            "path_active": "",
+            "path_active_hover": "",
+            "text_maps": [{
+                "skill_missing_leader": {
+                    "text": "Не хватает навыков / характеристик: %d / %d",
+                    "word_highlights": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+                },
+                "skill_missing_tinker": {
+                    "text": "Не хватает навыков / характеристик: %d / %d",
+                    "word_highlights": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+                },
+                "command_unavailable": {
+                    "text": "Команда недоступна для %s",
+                    "word_highlights": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+                },
+                "rest_cooldown": {
+                    "text": "Вы можете использовать эту команду только раз на этаж",
+                    "word_highlights": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+                },
+                "tinker_quality_low": {
+                    "text": "Требуется %s более высокого качества",
+                    "word_highlights": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+                }
+            }]
+        }
+    ]
+}

@@ -1,0 +1,1250 @@
+{
+    "version": 1,
+    "default_attributes": {
+        "font_color": {
+            "r": 239,
+            "g": 237,
+            "b": 235,
+            "a": 255
+        },
+        "font_outline_color": {
+            "r": 50,
+            "g": 29,
+            "b": 25,
+            "a": 255
+        },
+        "font_highlight_color": {
+            "r": 18,
+            "g": 196,
+            "b": 131,
+            "a": 255
+        },
+        "font_highlight2_color": {
+            "r": 64,
+            "g": 192,
+            "b": 255,
+            "a": 255
+        }
+    },
+    "script_entries": {
+        "tutorial7a": {
+            "sign": [
+                "Какое прекрасное снаряжение.",
+                "Жаль, что вы не можете",
+                "использовать его сами.",
+                "",
+                "Хороший Лидер",
+                "должен использовать свои",
+                "ресурсы с умом."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [1,2],
+                    [],
+                    [0,1,2,3],
+                    [],
+                    [2],
+                    [1],
+                    [0,1]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial7/partyequip_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial7b": {
+            "sign": [
+                "Ваша способность",
+                "эффективно управлять",
+                "последователями",
+                "будет проверена."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial7c": {
+            "sign": [
+                "Свитки Призыва",
+                "могут предоставить союзников",
+                "в трудную минуту.",
+                "",
+                "Вам стоит приберечь этот",
+                "свиток для испытания",
+                "в конце",
+                "этого Урока."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [0,1,2],
+                    [1,2],
+                    [],
+                    [2],
+                    [3],
+                    [2,3],
+                    [1,2],
+                    [0,1]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial7d": {
+            "sign": [
+                "Прикажите последователям",
+                "[Ждать], чтобы убрать",
+                "их с пути.",
+                "$ $",
+                "В режиме [Следовать]",
+                "последователи будут пытаться",
+                "держаться рядом с вами."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [0],
+                    [0,1],
+                    [],
+                    [],
+                    [3]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [1,2,3,4],
+                    [],
+                    [],
+                    [],
+                    [1,2]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial7/sign_wait.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial7/sign_follow.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial7d_gamepad": {
+            "sign": [
+                "Прикажите последователям",
+                "[Ждать], чтобы убрать",
+                "их с пути.",
+                "$ $",
+                "В режиме [Следовать]",
+                "последователи будут пытаться",
+                "держаться рядом с вами."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [0],
+                    [0,1],
+                    [],
+                    [],
+                    [3]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [1,2,3,4],
+                    [],
+                    [],
+                    [],
+                    [1,2]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial7/sign_wait.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial7/sign_follow.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial7do": {
+            "sign": [
+                "Последователи всегда будут",
+                "атаковать врагов, которых заметят.",
+                "",
+                "Чтобы они не",
+                "начинали бой,",
+                "держите их",
+                "подальше,",
+                "пока вы не будете готовы."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [2],
+                    [0,1],
+                    [],
+                    [1],
+                    [0,1,2],
+                    [],
+                    [0,1,2,3]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial7/moveall_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial7do_gamepad": {
+            "sign": [
+                "Последователи всегда будут",
+                "атаковать врагов, которых заметят.",
+                "",
+                "Чтобы они не",
+                "начинали бой,",
+                "держите их",
+                "подальше,",
+                "пока вы не будете готовы."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [2],
+                    [0,1],
+                    [],
+                    [1],
+                    [0,1,2],
+                    [],
+                    [0,1,2,3]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial7/moveall_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial7e": {
+            "sign": [
+                "Вам нужно будет",
+                "разместить своего последователя",
+                "так, чтобы он мог расчистить",
+                "вам путь.",
+                "",
+                "Последователи могут быть",
+                "осторожны. Возможно, вам придется",
+                "приказать им [Двигаться]",
+                "дальше для лучшего результата."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [1,2,3,4],
+                    [0]
+                ],
+                "word_highlights2": [
+                    [],
+                    [0],
+                    [4],
+                    [0,1],
+                    [],
+                    [],
+                    [0],
+                    [],
+                    []
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial7/movefurther_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial7f": {
+            "sign": [
+                "Использование последователей",
+                "стратегически может помочь",
+                "вам выжить и покорить",
+                "подземелье."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [0]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial7g": {
+            "sign": [
+                "Если вы прикажете",
+                "последователю [Двигаться],",
+                "он будет ждать там",
+                "вашего следующего приказа.",
+                "$",
+                "Используйте$, чтобы отдать другой",
+                "приказ из любой точки."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [2],
+                    [0,2],
+                    [],
+                    [],
+                    [],
+                    [0,2,3],
+                    [0,2]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [0,1,2],
+                    [1,2,3],
+                    [],
+                    []
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial7/sign_moveto.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Show NPC Commands"
+                }
+            ]
+        },
+        "tutorial7h": {
+            "sign": [
+                "Вы можете приказать",
+                "союзникам подбирать",
+                "и использовать снаряжение",
+                "командой [Взаимодействовать].",
+                "",
+                "Они будут использовать предметы,",
+                "стараясь помочь",
+                "вам."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [2],
+                    [],
+                    [1,2],
+                    [1]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [2,3]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial7/lantern_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial7i": {
+            "sign": [
+                "Вы можете управлять своим",
+                "последователем на любом расстоянии,",
+                "нажимая$."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [2],
+                    [],
+                    [1]
+                ],
+                "word_highlights2": [
+                    [],
+                    [2,3]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Show NPC Commands"
+                }
+            ]
+        },
+        "tutorial7j": {
+            "sign": [
+                "Вам понадобится помощь",
+                "союзника, чтобы открыть",
+                "эти врата.",
+                "$",
+                "Прикажите союзнику",
+                "[Взаимодействовать] с",
+                "рычагом, до которого вы не можете дотянуться."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [0,2],
+                    [1]
+                ],
+                "word_highlights2": [
+                    [],
+                    [0,1,3],
+                    [1],
+                    [],
+                    [],
+                    [],
+                    [0]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial7/interactgate_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial7/sign_interact.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial7j_gamepad": {
+            "sign": [
+                "Вам понадобится помощь",
+                "союзника, чтобы открыть",
+                "эти врата.",
+                "$",
+                "Прикажите союзнику",
+                "[Взаимодействовать] с",
+                "рычагом, до которого вы не можете дотянуться."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [0,2],
+                    [1]
+                ],
+                "word_highlights2": [
+                    [],
+                    [0,1,3],
+                    [1],
+                    [],
+                    [],
+                    [],
+                    [0]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial7/interactgate_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial7/sign_interact.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial7k": {
+            "sign": [
+                "Вы можете положиться",
+                "на помощь последователей",
+                "для поддержки.",
+                "",
+                "Нажмите$, чтобы нанять",
+                "человека по ту",
+                "сторону пропасти."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [0,1,2]
+                ],
+                "word_highlights2": [
+                    [],
+                    [1,2,3],
+                    [],
+                    [],
+                    [],
+                    [1],
+                    []
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial7/recruit.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Use"
+                }
+            ]
+        },
+        "tutorial7kb": {
+            "sign": [
+                "Количество последователей,",
+                "которое может быть у вас одновременно,",
+                "и доступные вам команды",
+                "зависят от вашего",
+                "Навыка Лидерства.",
+                "",
+                "$ "
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [1,2,3],
+                    [],
+                    [2,3,4],
+                    [],
+                    [0],
+                    [0,1]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/SkillSheet/Icons/Leadership02_32.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial7l": {
+            "sign": [
+                "Будьте осторожны в том,",
+                "как вы управляете",
+                "своими союзниками.",
+                "",
+                "Они не герои,",
+                "как вы, но заботьтесь",
+                "о них, и они будут",
+                "хорошо служить вам."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial7m": {
+            "sign": [
+                "Люди-последователи",
+                "искусны в обращении с большинством",
+                "видов оружия и снаряжения.",
+                "",
+                "$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [0,1],
+                    [0],
+                    [0,1,2]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial7/bowman_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial2/sign_shortbow.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial7n": {
+            "sign": [
+                "ПРЕДУПРЕЖДЕНИЕ:",
+                "Этот рычаг открывает",
+                "ворота.",
+                "",
+                "Дружеское общение с",
+                "костяными стражами",
+                "не рекомендуется."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [0],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [0,1]
+                ],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial7o": {
+            "sign": [
+                "Вы можете нанять",
+                "Келли через ворота.",
+                "",
+                "Дерните этот рычаг,",
+                "когда будете готовы освободить",
+                "своего нового последователя."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [0,1,2]
+                ],
+                "word_highlights2": [
+                    [1,2],
+                    [1,2,3],
+                    [],
+                    [],
+                    [2,3,4]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial7op": {
+            "sign": [
+                "Помощь прицеливания",
+                "помогает взаимодействовать с",
+                "близлежащими объектами без",
+                "необходимости целиться.",
+                "",
+                "Используйте$, чтобы переключаться",
+                "между несколькими доступными действиями."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [0,1,2]
+                ],
+                "word_highlights2": [
+                    [0,1,2],
+                    [],
+                    [0,1],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [1,2]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial7/tooltipoff_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Interact Tooltip Next"
+                }
+            ]
+        },
+        "tutorial7p": {
+            "sign": [
+                "Используйте$, чтобы отдавать",
+                "одну и ту же команду повторно,",
+                "не открывая",
+                "колесо команд."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [0,1,2],
+                    [0,1,2]
+                ],
+                "word_highlights2": []
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Command NPC"
+                }
+            ]
+        },
+        "tutorial7q": {
+            "sign": [
+                "Вы были лишены",
+                "возможности сражаться",
+                "самостоятельно.",
+                "",
+                "Трое людей",
+                "готовы помочь вам.",
+                "Наймите и подготовьте",
+                "их к бою."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [0,1,2],
+                    [],
+                    [],
+                    [0,1],
+                    [],
+                    [0,2],
+                    [0,1,2]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial7/partyrecruit.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial7r": {
+            "sign": [
+                "Смотрите статус последователей",
+                "в правом верхнем углу",
+                "экрана. Последний",
+                "активный последователь",
+                "выделен.",
+                "",
+                "Переключайтесь на следующего",
+                "последователя с помощью$."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [0],
+                    [1]
+                ],
+                "word_highlights2": [
+                    [1,2],
+                    [],
+                    [],
+                    [0,1],
+                    [0]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Cycle NPCs"
+                }
+            ]
+        },
+        "tutorial7s": {
+            "sign": [
+                "Нажимайте$, чтобы быстро переключаться",
+                "между последователями,",
+                "позволяя отдавать",
+                "команды каждому из них,",
+                "используя$и$."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [0,2,3],
+                    [2],
+                    [3],
+                    [0],
+                    [0]
+                ],
+                "word_highlights2": []
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Cycle NPCs"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Show NPC Commands"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Command NPC"
+                }
+            ]
+        },
+        "tutorial7t": {
+            "sign": [
+                "БЕРЕГИТЕСЬ:",
+                "",
+                "Вы должны управлять",
+                "своими последователями",
+                "осторожно, чтобы их",
+                "не раздавила",
+                "ловушка с валуном",
+                "на пути впереди."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [0]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [2],
+                    [1],
+                    [],
+                    [1,2],
+                    [1]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial7/bouldermove.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial7z": {
+            "sign": [
+                "Приказывайте последователям",
+                "[Отдыхать] раз на этаж,",
+                "это восстанавливает ОЗ.",
+                "$",
+                "Они также могут восстановиться,",
+                "если приказать им",
+                "[Взаимодействовать] с едой."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [0],
+                    [0],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [0,1,2]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [1,2],
+                    [],
+                    [3]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial7/foodgive.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial7/sign_rest.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial7u": {
+            "sign": [
+                "Разумно приказывать",
+                "последователям [Ждать],",
+                "пока вы разведываете путь.",
+                "",
+                "Удерживайте$, отдавая",
+                "некоторые команды, чтобы управлять",
+                "всеми последователями",
+                "одним приказом."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [4],
+                    [2],
+                    [],
+                    [],
+                    [0,1,2]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [2,3],
+                    [],
+                    [],
+                    [],
+                    [0,1,2,3],
+                    [2,3]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial7/allwait_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Defend"
+                }
+            ]
+        },
+        "tutorial7u_gamepad": {
+            "sign": [
+                "Разумно приказывать",
+                "последователям [Ждать],",
+                "пока вы разведываете путь.",
+                "",
+                "Удерживайте$, отдавая",
+                "некоторые команды, чтобы управлять",
+                "всеми последователями",
+                "одним приказом."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [4],
+                    [2],
+                    [],
+                    [],
+                    [0,1,2],
+                    [1]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [2,3],
+                    [],
+                    [],
+                    [3],
+                    [0,3],
+                    [0,1,2,3]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial7/allwait_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Defend"
+                }
+            ]
+        },
+        "tutorial7up": {
+            "sign": [
+                "Эти врата откроются,",
+                "только когда все",
+                "враги будут",
+                "побеждены."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+                    [],
+                    [3],
+                    [],
+                    [0]
+                ]
+            },
+            "variables": []
+        }
+    }
+}
