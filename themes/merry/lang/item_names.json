@@ -1,0 +1,81 @@
+{
+    "version": 1,
+    "items": {
+        "leather_helm": {
+            "name_identified": "головной убор эльфа",
+            "name_unidentified": "головной убор эльфа"
+        },
+        "steel_helm": {
+            "name_identified": "праздничный головной убор",
+            "name_unidentified": "праздничный головной убор"
+        },
+        "food_bread": {
+            "name_identified": "фруктовый кекс",
+            "name_unidentified": "фруктовый кекс"
+        },
+        "food_cheese": {
+            "name_identified": "леденец",
+            "name_unidentified": "леденец"
+        },
+        "food_apple": {
+            "name_identified": "кусок пирога",
+            "name_unidentified": "кусок пирога"
+        },
+        "food_meat": {
+            "name_identified": "индейка",
+            "name_unidentified": "индейка"
+        },
+        "food_fish": {
+            "name_identified": "печенье",
+            "name_unidentified": "печенье"
+        },
+        "artifact_breastpiece": {
+            "name_identified": "Кольчуга Санты",
+            "name_unidentified": "артефактный доспех"
+        },
+        "artifact_helm": {
+            "name_identified": "Шлем Санты",
+            "name_unidentified": "артефактный шлем"
+        },
+        "artifact_boots": {
+            "name_identified": "Сапоги Санты",
+            "name_unidentified": "артефактные сапоги"
+        },
+        "artifact_cloak": {
+            "name_identified": "Мантия Санты",
+            "name_unidentified": "артефактный плащ"
+        },
+        "artifact_gloves": {
+            "name_identified": "Наручи Санты",
+            "name_unidentified": "артефактные перчатки"
+        },
+        "food_tomalley": {
+            "name_identified": "клюквенный соус",
+            "name_unidentified": "клюквенный соус"
+        },
+        "artifact_orb_blue": {
+            "name_identified": "синий подарок",
+            "name_unidentified": "синий подарок"
+        },
+        "artifact_orb_red": {
+            "name_identified": "красный чулок",
+            "name_unidentified": "красный чулок"
+        },
+        "artifact_orb_purple": {
+            "name_identified": "фиолетовое украшение",
+            "name_unidentified": "фиолетовое украшение"
+        },
+        "artifact_orb_green": {
+            "name_identified": "зеленая елочка",
+            "name_unidentified": "зеленая елочка"
+        },
+        "hat_fez": {
+            "name_identified": "шапка эльфа",
+            "name_unidentified": "шапка эльфа"
+        },
+        "cloak_backpack": {
+            "name_identified": "мешок для подарков",
+            "name_unidentified": "мешок для подарков"
+        }
+    }
+}

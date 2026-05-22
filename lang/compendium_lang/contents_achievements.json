@@ -1,0 +1,19 @@
+{
+	"version": 1,
+	"contents": [
+		{"    КАТЕГОРИИ": "-"},
+		{"ПРИКЛЮЧЕНИЯ": "adventure"},
+		{"ОПЫТ": "experience"},
+		{"ВЫБОР ШУТА": "joker"},
+		{"КОМАНДНАЯ РАБОТА": "teamwork"},
+		{"МАСТЕРСТВО": "technique"}
+	],
+	"contents_alphabetical": [
+		{"    КАТЕГОРИИ": "-"},
+		{"ПРИКЛЮЧЕНИЯ": "adventure"},
+		{"ОПЫТ": "experience"},
+		{"ВЫБОР ШУТА": "joker"},
+		{"КОМАНДНАЯ РАБОТА": "teamwork"},
+		{"МАСТЕРСТВО": "technique"}
+	]
+}

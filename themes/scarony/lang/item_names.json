@@ -1,0 +1,166 @@
+{
+    "version": 1,
+    "items": {
+        "bronze_sword": {
+            "name_identified": "тесак мясника",
+            "name_unidentified": "тесак мясника"
+        },
+        "bronze_mace": {
+            "name_identified": "бита",
+            "name_unidentified": "бита"
+        },
+        "bronze_axe": {
+            "name_identified": "секач",
+            "name_unidentified": "секач"
+        },
+        "iron_spear": {
+            "name_identified": "вилы",
+            "name_unidentified": "вилы"
+        },
+        "iron_sword": {
+            "name_identified": "железная абордажная сабля",
+            "name_unidentified": "железная абордажная сабля"
+        },
+        "iron_mace": {
+            "name_identified": "железный молот",
+            "name_unidentified": "железный молот"
+        },
+        "iron_axe": {
+            "name_identified": "железный крюк",
+            "name_unidentified": "железный крюк"
+        },
+        "steel_halberd": {
+            "name_identified": "стальная коса",
+            "name_unidentified": "стальная коса"
+        },
+        "steel_axe": {
+            "name_identified": "топор с крыльями летучей мыши",
+            "name_unidentified": "топор с крыльями летучей мыши"
+        },
+        "cloak": {
+            "name_identified": "костюм (спина)",
+            "name_unidentified": "костюм (спина)"
+        },
+        "cloak_magicreflection": {
+            "name_identified": "костюм отражения магии (спина)",
+            "name_unidentified": "костюм (спина)"
+        },
+        "cloak_invisibility": {
+            "name_identified": "костюм невидимости (спина)",
+            "name_unidentified": "костюм (спина)"
+        },
+        "cloak_protection": {
+            "name_identified": "защитный костюм (спина)",
+            "name_unidentified": "костюм (спина)"
+        },
+        "hat_phrygian": {
+            "name_identified": "головной убор фараона",
+            "name_unidentified": "головной убор фараона"
+        },
+        "hat_hood": {
+            "name_identified": "костюм (голова)",
+            "name_unidentified": "костюм (голова)"
+        },
+		"mask_steel_visor": {
+			"name_identified": "страшная маска",
+			"name_unidentified": "страшная маска"
+		},
+        "hat_wizard": {
+            "name_identified": "ведьмина шляпа",
+            "name_unidentified": "ведьмина шляпа"
+        },
+        "hat_jester": {
+            "name_identified": "клоунский парик",
+            "name_unidentified": "клоунский парик"
+        },
+        "leather_helm": {
+            "name_identified": "комедийная повязка на голову",
+            "name_unidentified": "комедийная повязка на голову"
+        },
+        "iron_helm": {
+            "name_identified": "шлем колдуна",
+            "name_unidentified": "шлем колдуна"
+        },
+        "steel_helm": {
+            "name_identified": "карнавальный шлем",
+            "name_unidentified": "карнавальный шлем"
+        },
+        "scroll_food": {
+            "name_identified": "свиток конфет",
+            "name_unidentified": "свиток"
+        },
+        "tool_tinopener": {
+            "name_identified": "ножницы",
+            "name_unidentified": "ножницы"
+        },
+        "tool_torch": {
+            "name_identified": "пламя духа",
+            "name_unidentified": "пламя духа"
+        },
+        "tool_lantern": {
+            "name_identified": "светильник Джека",
+            "name_unidentified": "светильник Джека"
+        },
+        "tool_glasses": {
+            "name_identified": "очки для маскировки",
+            "name_unidentified": "очки для маскировки"
+        },
+        "food_bread": {
+            "name_identified": "леденец на палочке",
+            "name_unidentified": "леденец на палочке"
+        },
+        "food_cheese": {
+            "name_identified": "шоколадная жевачка",
+            "name_unidentified": "шоколадная жевачка"
+        },
+        "food_apple": {
+            "name_identified": "карамелизованное яблоко",
+            "name_unidentified": "карамелизованное яблоко"
+        },
+        "food_meat": {
+            "name_identified": "большущий шоколадный батончик",
+            "name_unidentified": "большущий шоколадный батончик"
+        },
+        "food_fish": {
+            "name_identified": "сахарный череп",
+            "name_unidentified": "сахарный череп"
+        },
+        "food_tin": {
+            "name_identified": "мешочек с ассорти",
+            "name_unidentified": "мешочек с ассорти"
+        },
+        "artifact_orb_blue": {
+            "name_identified": "синий символ летучей мыши",
+            "name_unidentified": "синий символ летучей мыши"
+        },
+        "artifact_orb_red": {
+            "name_identified": "оранжевый символ тыковки",
+            "name_unidentified": "оранжевый символ тыковки"
+        },
+        "artifact_orb_purple": {
+            "name_identified": "фиолетовый символ призрака",
+            "name_unidentified": "фиолетовый символ призрака"
+        },
+        "artifact_orb_green": {
+            "name_identified": "зеленый символ черепа",
+            "name_unidentified": "зеленый символ черепа"
+        },
+        "hat_fez": {
+            "name_identified": "кошачьи ушки",
+            "name_unidentified": "кошачьи ушки"
+        },
+        "cloak_backpack": {
+            "name_identified": "наволочка",
+            "name_unidentified": "наволочка"
+        },
+        "spellbook_detect_food": {
+            "name_identified": "книга заклинаний обнаружения конфет",
+            "name_unidentified": "книга заклинаний"
+        }
+    },
+	"spell_names": {
+        "spell_detect_food": {
+            "name": "Обнаружение конфет"
+        }
+    }
+}

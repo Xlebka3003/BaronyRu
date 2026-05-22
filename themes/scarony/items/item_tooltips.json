@@ -1,0 +1,12 @@
+{
+    "version": 1,
+    "adjectives": {
+        "food_status": {
+            "broken": "С лезвиями",
+            "decrepit": "Просроченное",
+            "worn": "Черствое",
+            "serviceable": "Немного черствое",
+            "excellent": "Свежее"
+        }
+    }
+}
