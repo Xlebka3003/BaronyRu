@@ -1,5 +1,5 @@
 # BaronyRu
-Русификатор для игры barony
+Русификатор для игры barony v5.0.2
 
 ИГРА БУДЕТ ВЫЛЕТАТЬ, ЕСЛИ НЕ СДЕЛАТЬ:
 В файлах игры в свойствах файла compiled_books.json по пути "C:\Program Files (x86)\Steam\steamapps\common\Barony\books\compiled_books.json" надо поставить галочку - только для чтения! ИНАЧЕ ИГРА БУДЕТ КРАШИТСЯ!!!
