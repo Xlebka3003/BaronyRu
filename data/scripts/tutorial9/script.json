@@ -1,75 +1,75 @@
 {
     "version": 1,
-    "default_attributes": {
-        "font_color": {
-            "r": 239,
-            "g": 237,
-            "b": 235,
-            "a": 255
-        },
-        "font_outline_color": {
-            "r": 50,
-            "g": 29,
-            "b": 25,
-            "a": 255
-        },
-        "font_highlight_color": {
-            "r": 18,
-            "g": 196,
-            "b": 131,
-            "a": 255
-        },
-        "font_highlight2_color": {
-            "r": 64,
-            "g": 192,
-            "b": 255,
-            "a": 255
-        }
-    },
+	"default_attributes": {
+		"font_color": {
+			"r": 239,
+			"g": 237,
+			"b": 235,
+			"a": 255
+		},
+		"font_outline_color": {
+			"r": 50,
+			"g": 29,
+			"b": 25,
+			"a": 255
+		},
+		"font_highlight_color": {
+			"r": 18,
+			"g": 196,
+			"b": 131,
+			"a": 255
+		},
+		"font_highlight2_color": {
+			"r": 64,
+			"g": 192,
+			"b": 255,
+			"a": 255
+		}
+	},	
     "script_entries": {
         "tutorial9a": {
             "sign": [
-                "Эти предметы все",
-                "сломаны и бесполезны.",
-                "",
-                "$"
+                "Все эти предметы",
+				"сломаны и бесполезны.",
+				"",
+				"$"
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-                "font_highlight_color": {
-                    "r": 255,
-                    "g": 64,
-                    "b": 64,
-                    "a": 255
-                },
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-                    [],
-                    [0,2]
-                ],
+					[],
+					[0,2]
+				],
                 "word_highlights2": []
             },
             "variables": [
-                {
-                    "type": "image",
-                    "value": "*#items/images/spells/recycle.png",
-                    "sizex": 32,
-                    "sizey": 32
-                }
-            ]
+				{
+				"type": "image",
+				"value": "*#items/images/spells/recycle.png",
+				"sizex": 32,
+				"sizey": 32
+				}						
+			]
         },
         "tutorial9b": {
             "sign": [
-                "$",
-                "Гироробот — это",
-                "мобильный помощник механика.",
-                "После развертывания используйте",
-                "его команды для выполнения",
-                "различных задач."
+				"$",
+                "Гиробот — это",
+				"мобильный помощник механика.",
+				"После развертывания используйте",
+				"его команды для выполнения",
+				"различных задач."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -80,191 +80,191 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-                    [],
-                    [1],
-                    [],
-                    [],
-                    [],
-                    [1,2,3]
-                ],
-                "video": {
-                    "background_img": "data/scripts/video_frame_half_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial9/gyrobotdeploy.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
+					[],
+					[1],
+					[],
+					[],
+					[],
+					[1,2,3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/gyrobotdeploy.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
             },
             "variables": [
-                {
-                    "type": "image",
-                    "value": "*#data/scripts/tutorial9/sign_gyrobot.png",
-                    "sizex": 0,
-                    "sizey": 0
-                }
-            ]
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial9/sign_gyrobot.png",
+				"sizex": 0,
+				"sizey": 0
+				}				
+			]
         },
         "tutorial9c": {
             "sign": [
-                "Болванчик, предоставленный",
-                "ранее, был поврежден.",
-                "",
+                "Предоставленный ранее",
+				"манекенобот был поврежден.",
+				"",
                 "Почините его, чтобы",
-                "пережить эту ловушку.",
-                "Если он сломан, вам",
-                "нужно [Создать] нового",
-                "в меню механики."
+				"пережить эту ловушку.",
+				"Если он сломан, вы",
+				"должны [Создать] нового",
+				"в меню механика."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-                "font_highlight2_color": {
-                    "r": 255,
-                    "g": 64,
-                    "b": 64,
-                    "a": 255
-                },
+				"font_highlight2_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},	
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [1]
-                ],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[1]
+				],
                 "word_highlights2": [
-                    [],
-                    [2],
-                    [],
-                    [0,1]
-                ]
+					[],
+					[2],
+					[],
+					[0,1]
+				]
             },
             "variables": []
         },
         "tutorial9d": {
             "sign": [
-                "Набор механика можно",
-                "использовать для ремонта.",
-                "",
+                "Набор для механики можно",
+				"использовать для ремонта.",
+				"",
                 "Это необходимо для",
-                "поддержания созданных машин",
-                "и самого набора в",
-                "рабочем состоянии.",
+				"поддержания механизмов",
+				"и самого набора в",
+				"рабочем состоянии.",
                 "Если ваш набор сломается,",
-                "вы можете не найти другой."
+				"вы можете не найти другой."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-                "font_highlight_color": {
-                    "r": 255,
-                    "g": 64,
-                    "b": 64,
-                    "a": 255
-                },
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [0,1,2,3]
-                ],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2,3]
+				],
                 "word_highlights2": [
-                    [],
-                    [3],
-                    [],
-                    [2],
-                    [],
-                    [],
-                    [0,1]
-                ]
+					[],
+					[3],
+					[],
+					[2],
+					[],
+					[],
+					[0,1]
+				]
             },
             "variables": []
         },
         "tutorial9e": {
             "sign": [
-                "УВЕДОМЛЕНИЕ:",
-                "Вы в ловушке.",
-                "",
+                "ВНИМАНИЕ:",
+				"Вы в ловушке.",
+				"",
                 "Рычаг откроет",
-                "ворота, но также",
-                "выпустит валун, чтобы",
-                "уничтожить вас.",
-                "",
-                "Вы должны заняться механикой,",
-                "чтобы продолжить."
+				"ворота, но также",
+				"высвободит валун,",
+				"чтобы уничтожить вас.",
+				"",
+                "Вы должны использовать",
+				"механику, чтобы продолжить."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-                "font_highlight_color": {
-                    "r": 255,
-                    "g": 64,
-                    "b": 64,
-                    "a": 255
-                },
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},	
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-                    [],
-                    [0,1,2],
-                    [],
-                    [],
-                    [],
-                    [0,1,2,3],
-                    [0,1]
-                ],
+					[],
+					[0,1,2],
+					[],
+					[],
+					[],
+					[0,1,2,3],
+					[0,1]
+				],
                 "word_highlights2": [
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [1,2]
-                ],
-                "video": {
-                    "background_img": "data/scripts/video_frame_half_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial9/boulder_block.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/boulder_block.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
             },
             "variables": []
         },
         "tutorial9f": {
             "sign": [
-                "Созданные ловушки, такие как",
-                "эта, могут быть брошены",
-                "на пол, стены или",
-                "даже двери и сундуки.",
-                "",
+                "Созданные ловушки, такие",
+				"как эта, можно бросать",
+				"на пол, стены или",
+				"даже на двери и сундуки.",
+				"",
                 "Развернутые ловушки не",
-                "сработают против союзников,",
-                "если не модифицированы",
-                "отмычкой."
+				"сработают против союзников,",
+                "если только не изменены",
+				"с помощью отмычки."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -275,36 +275,36 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [1]
-                ],
-                "video": {
-                    "background_img": "data/scripts/video_frame_half_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial9/firetrap.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/firetrap.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
             },
             "variables": []
         },
         "tutorial9g": {
             "sign": [
-                "Используйте набор механика,",
-                "чтобы открыть меню механики,",
-                "и выберите вкладку ремонта.",
-                "Затем выбирайте предметы для улучшения.",
-                "",
-                "Поддерживайте свои машины",
-                "в исправном и улучшенном состоянии."
+                "Используйте набор для механики,",
+				"чтобы открыть меню механика,",
+				"и выберите вкладку ремонта.",
+				"Затем выберите предметы для улучшения.",
+				"",
+				"Поддерживайте свои механизмы",
+				"в исправности и улучшайте их."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -314,31 +314,31 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-                    [0],
-                    [],
-                    [3,4],
-                    [1,2]
-                ],
+					[0],
+					[],
+					[3,4],
+					[1,2]
+				],
                 "word_highlights2": [
-                    [],
-                    [],
-                    [],
-                    [4],
-                    [],
-                    [],
-                    [0,2]
-                ]
+					[],
+					[],
+					[],
+					[4],
+					[],
+					[],
+					[0,2]
+				]
             },
             "variables": []
         },
         "tutorial9h": {
             "sign": [
                 "Ваша стратегия и",
-                "находчивость в",
-                "механике сейчас будут",
-                "проверены.",
-                "",
-                "Убедитесь, что вы готовы."
+				"находчивость в",
+				"механике теперь будут",
+				"проверены.",
+				"",
+				"Убедитесь, что вы готовы."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -349,22 +349,22 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-                    [1],
-                    [0]
-                ]
+					[1],
+					[0]
+				]
             },
             "variables": []
         },
         "tutorial9i": {
             "sign": [
-                "Количество машин,",
-                "которые вы можете развернуть одновременно,",
+                "Количество механизмов,",
+				"которые вы можете развернуть одновременно,",
                 "зависит от вашего",
-                "навыка механики.",
-                "",
-                "Выбирайте с умом и",
-                "следите за своими",
-                "механическими союзниками."
+				"навыка механики.",
+				"",
+				"Выбирайте с умом и",
+				"следите за своими",
+				"механическими союзниками."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -375,28 +375,28 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-                    [1,2,3],
-                    [],
-                    [],
-                    [0,1],
-                    [],
-                    [],
-                    [0,1]
-                ]
-            },
+					[1,2,3],
+					[],
+					[],
+					[0,1],
+					[],
+					[],
+					[0,1]
+				]
+            },			
             "variables": []
-        },
+		},
         "tutorial9is": {
             "sign": [
                 "Вы можете утилизировать предметы",
-                "в своем инвентаре через",
-                "меню механики.",
-                "",
-                "Нажмите$ на вашем наборе",
-                "и выберите [Механика].",
-                "Используйте вкладку [Утилизация],",
-                "чтобы начать выбирать предметы",
-                "для превращения в лом."
+				"в своем инвентаре через",
+				"меню механики.",
+				"",
+				"Нажмите$ на своем наборе",
+				"и выберите [Механика].",
+				"Используйте вкладку [Утилизация]",
+				"чтобы начать выбирать предметы",
+				"для превращения в лом."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -406,47 +406,47 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-                    [],
-                    [],
-                    [],
-                    [],
-                    [0],
-                    [1,2],
-                    [2,3]
-                ],
+					[],
+					[],
+					[],
+					[],
+					[0],
+					[1,2],
+					[2,3]
+				],
                 "word_highlights2": [
-                    [],
-                    [],
-                    [1,2]
-                ],
-                "video": {
-                    "background_img": "data/scripts/video_frame_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial9/salvage.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
+					[],
+					[],
+					[1,2]				
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/salvage.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
             },
             "variables": [
-                {
-                    "type": "input_glyph",
-                    "value": "MenuRightClick"
-                }
-            ]
+				{
+					"type": "input_glyph",
+					"value": "MenuRightClick"
+				}				
+			]			
         },
-        "tutorial9is_gamepad": {
+		"tutorial9is_gamepad": {
             "sign": [
                 "Вы можете утилизировать предметы",
-                "в своем инвентаре через",
-                "меню механики.",
-                "",
-                "Нажмите$ на вашем наборе",
-                "и выберите [Механика].",
-                "Используйте вкладку [Утилизация],",
-                "чтобы начать выбирать предметы",
-                "для превращения в лом."
+				"в своем инвентаре через",
+				"меню механики.",
+				"",
+				"Нажмите$ на своем наборе",
+				"и выберите [Механика].",
+				"Используйте вкладку [Утилизация]",
+				"чтобы начать выбирать предметы",
+				"для превращения в лом."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -456,47 +456,47 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-                    [],
-                    [],
-                    [],
-                    [],
-                    [0],
-                    [1,2],
-                    [2,3]
-                ],
+					[],
+					[],
+					[],
+					[],
+					[0],
+					[1,2],
+					[2,3]
+				],
                 "word_highlights2": [
-                    [],
-                    [],
-                    [1,2]
-                ],
-                "video": {
-                    "background_img": "data/scripts/video_frame_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial9/salvage.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
+					[],
+					[],
+					[1,2]				
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/salvage.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
             },
             "variables": [
-                {
-                    "type": "input_glyph",
-                    "value": "MenuConfirm"
-                }
-            ]
+				{
+					"type": "input_glyph",
+					"value": "MenuConfirm"
+				}				
+			]			
         },
         "tutorial9j": {
             "sign": [
                 "Выбирайте предметы для создания",
-                "на вкладке создания",
-                "в меню механики.",
-                "Смотрите стоимость в ломе, наводя",
-                "курсор на каждый предмет.",
-                "",
-                "Вас ждет испытание",
-                "на выживание с использованием",
-                "созданных вами предметов."
+				"из вкладки создания",
+				"в меню механики.",
+				"Смотрите стоимость в ломе при",
+				"наведении на каждый предмет.",
+				"",
+                "Вы столкнетесь с испытанием",
+				"на выживание, используя",
+				"предметы, которые вы создадите."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -506,33 +506,33 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-                    [3],
-                    [],
-                    [0,1]
-                ],
+					[3],
+					[],
+					[0,1]
+				],
                 "word_highlights2": [
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [0,1,2]
-                ]
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2]
+				]
             },
             "variables": []
-        },
+        },		
         "tutorial9k": {
             "sign": [
-                "С экипированным набором механика",
-                "удерживайте$, чтобы",
-                "включить авто-утилизацию.",
-                "",
-                "Предметы, которые вы затем подберете",
-                "с помощью$, будут утилизированы",
-                "в полезный лом."
+                "С экипированным набором",
+				"для механики удерживайте$,",
+				"чтобы включить авто-утилизацию.",
+				"",
+				"Предметы, которые вы затем подберете",
+                "с помощью$, будут превращены",
+				"в полезный лом."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -542,49 +542,49 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-                    [],
-                    [1],
-                    [1],
-                    [],
-                    [],
-                    [0]
-                ],
+					[],
+					[1],
+					[1],
+					[],
+					[],
+					[0]
+				],
                 "word_highlights2": [
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [2]
-                ],
-                "video": {
-                    "background_img": "data/scripts/video_frame_half_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial9/autoscrap.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/autoscrap.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
             },
             "variables": [
-                {
-                    "type": "input_glyph",
-                    "value": "Defend"
-                },
-                {
-                    "type": "input_glyph",
-                    "value": "Use"
-                }
-            ]
+				{
+					"type": "input_glyph",
+					"value": "Defend"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Use"
+				}					
+			]
         },
         "tutorial9l": {
             "sign": [
-                "Чтобы быстро открыть",
-                "меню механики с",
-                "экипированным набором механика,",
-                "удерживайте$ и нажмите$."
+                "Для быстрого доступа к",
+				"меню механики с экипированным",
+				"набором для механики,",
+				"удерживайте$и нажмите$."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -594,42 +594,42 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-                    [],
-                    [],
-                    [],
-                    [0,2]
-                ],
+					[],
+					[],
+					[],
+					[0,2]
+				],
                 "word_highlights2": [
-                    [],
-                    [0,1]
-                ],
-                "video": {
-                    "background_img": "data/scripts/video_frame_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial9/repair_mk.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
+					[],
+					[0,1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/repair_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
             },
             "variables": [
-                {
-                    "type": "input_glyph",
-                    "value": "Defend"
-                },
-                {
-                    "type": "input_glyph",
-                    "value": "Attack"
-                }
-            ]
+				{
+					"type": "input_glyph",
+					"value": "Defend"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Attack"
+				}				
+			]
         },
         "tutorial9l_gamepad": {
             "sign": [
-                "Чтобы быстро открыть",
-                "меню механики с",
-                "экипированным набором механика,",
-                "удерживайте$ и нажмите$."
+                "Для быстрого доступа к",
+				"меню механики с экипированным",
+				"набором для механики,",
+				"удерживайте$и нажмите$."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -639,45 +639,45 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-                    [],
-                    [],
-                    [],
-                    [0,2]
-                ],
+					[],
+					[],
+					[],
+					[0,2]
+				],
                 "word_highlights2": [
-                    [],
-                    [0,1]
-                ],
-                "video": {
-                    "background_img": "data/scripts/video_frame_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial9/repair_gamepad.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
+					[],
+					[0,1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/repair_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
             },
             "variables": [
-                {
-                    "type": "input_glyph",
-                    "value": "Defend"
-                },
-                {
-                    "type": "input_glyph",
-                    "value": "Attack"
-                }
-            ]
-        },
+				{
+					"type": "input_glyph",
+					"value": "Defend"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Attack"
+				}				
+			]
+        },		
         "tutorial9m": {
             "sign": [
-                "Внемлите!",
-                "$",
-                "С набором механика",
-                "вы можете получать доступ к машинам,",
-                "ловушкам и полезным предметам,",
-                "при условии, что у вас есть",
-                "навык и запас лома."
+                " Взгляните!",
+				"$",
+				"С набором для механики",
+				"вы можете создавать механизмы,",
+				"ловушки и полезные предметы,",
+				"при условии, что у вас есть",
+				"навык и запас лома."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -688,35 +688,35 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-                    [],
-                    [],
-                    [2,3],
-                    [],
-                    [],
-                    [],
-                    [2]
-                ]
+					[],
+					[],
+					[2,3],
+					[],
+					[],
+					[],
+					[2]
+				]
             },
             "variables": [
-                {
-                    "type": "image",
-                    "value": "*#data/scripts/tutorial9/sign_tinkerkit.png",
-                    "sizex": 0,
-                    "sizey": 0
-                }
-            ]
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial9/sign_tinkerkit.png",
+				"sizex": 0,
+				"sizey": 0
+				}				
+			]
         },
         "tutorial9n": {
             "sign": [
-                "Созданные машины",
-                "и ловушки могут выдерживать",
-                "удары в бою.",
-                "Если не сломаны, их можно",
-                "отремонтировать и использовать повторно.",
-                "",
+                "Созданные механизмы",
+				"и ловушки могут выдерживать",
+				"удары в бою.",
+                "Если они не сломаны, их можно",
+				"отремонтировать и использовать снова.",
+				"",
                 "Но даже сломанный",
-                "хлам может представлять ценность",
-                "для механика."
+				"хлам может иметь ценность",
+				"для механика."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -727,121 +727,121 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-                    [],
-                    [],
-                    [0],
-                    [],
-                    [1,2,3],
-                    [],
-                    [],
-                    [3]
-                ]
+					[],
+					[],
+					[0],
+					[],
+					[1,2,3],
+					[],
+					[],
+					[3]
+				]
             },
             "variables": []
         },
         "tutorial9o": {
             "sign": [
                 "Стражники уязвимы",
-                "и могут быть быстро",
-                "уничтожены врагами.",
-                "",
-                "Другие инструменты могут помочь",
-                "вам держать врагов",
-                "на расстоянии, позволяя стражникам",
-                "атаковать беспрепятственно."
+				"и могут быть быстро",
+				"уничтожены врагами.",
+				"",
+				"Другие инструменты могут помочь",
+				"вам держать врагов на",
+                "расстоянии, позволяя стражникам",
+				"свободно атаковать."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-                "font_highlight_color": {
-                    "r": 255,
-                    "g": 64,
-                    "b": 64,
-                    "a": 255
-                },
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},	
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-                    [2],
-                    [],
-                    [0,1,2]
-                ],
+					[2],
+					[],
+					[0,1,2]
+				],
                 "word_highlights2": [
-                    [],
-                    [],
-                    [],
-                    [],
-                    [0,1,2,3],
-                    [],
-                    [],
-                    [1,2]
-                ]
+					[],
+					[],
+					[],
+					[],
+					[0,1,2,3],
+					[],
+					[],
+					[1,2]
+				]
             },
             "variables": []
         },
         "tutorial9p": {
             "sign": [
-                "$",
-                "Болванчики прочны",
-                "и хороши для удержания",
-                "внимания врагов.",
-                "",
+				"$",
+                "Манекеноботы прочны",
+				"и хорошо удерживают",
+				"внимание врагов.",
+				"",
                 "Имейте в виду, вы не можете",
-                "стрелять сквозь них."
+				"стрелять сквозь них."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-                "font_highlight_color": {
-                    "r": 255,
-                    "g": 64,
-                    "b": 64,
-                    "a": 255
-                },
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [3]
-                ],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[3]
+				],
                 "word_highlights2": [
-                    [],
-                    [0,1,2],
-                    [],
-                    [0,1]
-                ],
-                "video": {
-                    "background_img": "data/scripts/video_frame_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial9/dummybot.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
+					[],
+					[0,1,2],
+					[],
+					[0,1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/dummybot.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
             },
             "variables": [
-                {
-                    "type": "image",
-                    "value": "*#data/scripts/tutorial9/sign_dummy.png",
-                    "sizex": 0,
-                    "sizey": 0
-                }
-            ]
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial9/sign_dummy.png",
+				"sizex": 0,
+				"sizey": 0
+				}				
+			]
         },
         "tutorial9q": {
             "sign": [
                 "Вы можете получить немного",
-                "лома, взломав замок",
-                "запертого сундука."
+				"лома, взламывая",
+				"запертый сундук."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -852,26 +852,26 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-                    [],
-                    [0]
-                ],
-                "video": {
-                    "background_img": "data/scripts/video_frame_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial9/chest_mk.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
+					[],
+					[0]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/chest_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
             },
             "variables": []
         },
         "tutorial9q_gamepad": {
             "sign": [
                 "Вы можете получить немного",
-                "лома, взломав замок",
-                "запертого сундука."
+				"лома, взламывая",
+				"запертый сундук."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -882,32 +882,32 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-                    [],
-                    [0]
-                ],
-                "video": {
-                    "background_img": "data/scripts/video_frame_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial9/chest_gamepad.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
+					[],
+					[0]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/chest_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
             },
             "variables": []
-        },
+        },		
         "tutorial9r": {
             "sign": [
                 "Факелы могут обеспечить",
-                "постоянный источник",
+				"постоянный источник",
                 "металлического лома.",
-                "",
-                "Некоторый навык механики",
-                "может быть получен",
-                "при постоянной утилизации.",
-                "",
-                "$"
+				"",
+				"Некоторый навык механики",
+				"можно получить от",
+				"постоянной утилизации.",
+				"",
+				"$"
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -918,39 +918,39 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-                    [],
-                    [],
-                    [0,1],
-                    [],
-                    [1,2],
-                    [],
-                    [0,1]
-                ],
-                "video": {
-                    "background_img": "data/scripts/video_frame_half_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial9/torcher.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
+					[],
+					[],
+					[0,1],
+					[],
+					[1,2],
+					[],
+					[0,1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/torcher.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
             },
             "variables": [
-                {
-                    "type": "image",
-                    "value": "*#images/ui/SkillSheet/Icons/Tinkering02_32.png",
-                    "sizex": 32,
-                    "sizey": 32
-                }
-            ]
+				{
+				"type": "image",
+				"value": "*#images/ui/SkillSheet/Icons/Tinkering02_32.png",
+				"sizex": 32,
+				"sizey": 32
+				}					
+			]
         },
         "tutorial9re": {
             "sign": [
                 "Опытные механики",
-                "иногда могут получать",
-                "дополнительный лом при",
-                "утилизации предметов."
+				"могут иногда получать",
+				"дополнительный лом при",
+				"утилизации предметов."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -961,20 +961,20 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-                    [],
-                    [],
-                    [0,1]
-                ]
+					[],
+					[],
+					[0,1]
+				]
             },
             "variables": []
-        },
+        },		
         "tutorial9s": {
             "sign": [
-                "$",
+				"$",
                 "У вас нет дальнобойного",
-                "или метательного оружия.",
+				"или метательного оружия.",
                 "Но стражник может сражаться",
-                "с врагами за вас."
+				"с врагами от вашего имени."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -985,39 +985,39 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-                    [],
-                    [],
-                    [],
-                    [2]
-                ],
-                "video": {
-                    "background_img": "data/scripts/video_frame_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial9/sentry.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
+					[],
+					[],
+					[],
+					[2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/sentry.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
             },
             "variables": [
-                {
-                    "type": "image",
-                    "value": "*#data/scripts/tutorial9/sign_sentry.png",
-                    "sizex": 0,
-                    "sizey": 0
-                }
-            ]
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial9/sign_sentry.png",
+				"sizex": 0,
+				"sizey": 0
+				}				
+			]
         },
         "tutorial9t": {
             "sign": [
-                "$",
+				"$",
                 "Капканы размещаются",
-                "на полу с помощью$.",
-                "Враги, наступившие на",
-                "них, обездвиживаются,",
-                "становясь легкими мишенями",
-                "на некоторое время."
+				"на полу с помощью$.",
+                "Враги, наступившие на них,",
+				"обездвиживаются,",
+				"становясь легкими целями",
+				"на некоторое время."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1027,42 +1027,42 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-                    [],
-                    [],
-                    [3]
-                ],
+					[],
+					[],
+					[3]
+				],
                 "word_highlights2": [
-                    [],
-                    [0],
-                    [],
-                    [],
-                    [],
-                    [0,1,2,3]
-                ]
+					[],
+					[0],
+					[],
+					[],
+					[],
+					[0,1,2,3]
+				]
             },
             "variables": [
-                {
-                    "type": "image",
-                    "value": "*#data/scripts/tutorial9/sign_beartrap.png",
-                    "sizex": 0,
-                    "sizey": 0
-                },
-                {
-                    "type": "input_glyph",
-                    "value": "Attack"
-                }
-            ]
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial9/sign_beartrap.png",
+				"sizex": 0,
+				"sizey": 0
+				},
+				{
+					"type": "input_glyph",
+					"value": "Attack"
+				}						
+			]
         },
         "tutorial9u": {
             "sign": [
                 "Эта дверь заперта.",
-                "",
-                "$ ",
-                "Запертые двери и сундуки",
-                "можно взломать силой, но",
-                "их открытие отмычкой обычно",
-                "быстрее, если вы преуспеваете",
-                "в механике."
+				"",
+				"$ ",
+				"Запертые двери и сундуки",
+				"можно взломать силой, но",
+                "взлом отмычкой обычно",
+				"быстрее, если вы преуспеваете",
+				"в механике."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1073,44 +1073,44 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [0],
-                    [],
-                    [0]
-                ],
-                "video": {
-                    "background_img": "data/scripts/video_frame_half_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial9/lockpick.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0],
+					[],
+					[0]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/lockpick.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
             },
             "variables": [
-                {
-                    "type": "image",
-                    "value": "*#items/images/spells/locking.png",
-                    "sizex": 32,
-                    "sizey": 32
-                }
-            ]
+				{
+				"type": "image",
+				"value": "*#items/images/spells/locking.png",
+				"sizex": 32,
+				"sizey": 32
+				}				
+			]
         },
         "tutorial9v": {
             "sign": [
-                "$  $",
-                "",
+				"$  $",
+				"",
                 "Утилизированные предметы дают",
-                "металлический лом и магический лом.",
-                "",
-                "Магический лом более редок",
-                "и нужен для более",
-                "сложных задач."
+				"металлический лом и магический лом.",
+				"",
+                "Магический лом встречается реже",
+				"и требуется для более",
+				"сложных работ."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1121,34 +1121,34 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-                    [],
-                    [],
-                    [],
-                    [0,1,3,4]
-                ]
+					[],
+					[],
+					[],
+					[0,1,3,4]
+				]
             },
             "variables": [
-                {
-                    "type": "image",
-                    "value": "*#items/images/metal_scrap.png",
-                    "sizex": 32,
-                    "sizey": 32
-                },
-                {
-                    "type": "image",
-                    "value": "*#items/images/magic_scrap.png",
-                    "sizex": 32,
-                    "sizey": 32
-                }
-            ]
+				{
+				"type": "image",
+				"value": "*#items/images/metal_scrap.png",
+				"sizex": 32,
+				"sizey": 32
+				},
+				{
+				"type": "image",
+				"value": "*#items/images/magic_scrap.png",
+				"sizex": 32,
+				"sizey": 32
+				}						
+			]
         },
         "tutorial9w": {
             "sign": [
-                "$",
-                "Используйте$, чтобы управлять машинами.",
-                "Деактивируйте, собирайте",
-                "и берите их с собой",
-                "для дальнейшего использования."
+				"$",
+				"Используйте$ для управления механизмами.",
+				"Деактивируйте, собирайте",
+				"и берите их с собой",
+				"для дальнейшего использования."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1158,45 +1158,45 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-                    [],
-                    [0,1,2]
-                ],
+					[],
+					[0,1,2]
+				],
                 "word_highlights2": [
-                    [],
-                    [],
-                    [],
-                    [1,2]
-                ],
-                "video": {
-                    "background_img": "data/scripts/video_frame_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial9/deactivate_mk.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
+					[],
+					[],
+					[],
+					[1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/deactivate_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
             },
             "variables": [
-                {
-                    "type": "image",
-                    "value": "*#data/scripts/tutorial9/sign_deactivate.png",
-                    "sizex": 0,
-                    "sizey": 0
-                },
-                {
-                    "type": "input_glyph",
-                    "value": "Use"
-                }
-            ]
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial9/sign_deactivate.png",
+				"sizex": 0,
+				"sizey": 0
+				},
+				{
+					"type": "input_glyph",
+					"value": "Use"
+				}				
+			]
         },
         "tutorial9w_gamepad": {
             "sign": [
-                "$",
-                "Используйте$, чтобы управлять машинами.",
-                "Деактивируйте, собирайте",
-                "и берите их с собой",
-                "для дальнейшего использования."
+				"$",
+				"Используйте$ для управления механизмами.",
+				"Деактивируйте, собирайте",
+				"и берите их с собой",
+				"для дальнейшего использования."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1206,46 +1206,46 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-                    [],
-                    [0,1,2]
-                ],
+					[],
+					[0,1,2]
+				],
                 "word_highlights2": [
-                    [],
-                    [],
-                    [],
-                    [1,2]
-                ],
-                "video": {
-                    "background_img": "data/scripts/video_frame_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial9/deactivate_gamepad.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
+					[],
+					[],
+					[],
+					[1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/deactivate_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
             },
             "variables": [
-                {
-                    "type": "image",
-                    "value": "*#data/scripts/tutorial9/sign_deactivate.png",
-                    "sizex": 0,
-                    "sizey": 0
-                },
-                {
-                    "type": "input_glyph",
-                    "value": "Use"
-                }
-            ]
-        },
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial9/sign_deactivate.png",
+				"sizex": 0,
+				"sizey": 0
+				},
+				{
+					"type": "input_glyph",
+					"value": "Use"
+				}				
+			]
+        },		
         "tutorial9x": {
             "sign": [
-                "$",
-                "Шумомер — это",
-                "простое, но полезное устройство,",
+				"$",
+                "Шумелка — это",
+				"простое, но полезное устройство,",
                 "создаваемое механиками.",
-                "Используйте его, чтобы привлекать монстров",
-                "туда, куда вы хотите."
+				"Используйте её, чтобы привлекать монстров",
+                "туда, куда вам нужно."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1256,31 +1256,31 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-                    [],
-                    [1],
-                    [],
-                    [],
-                    [],
-                    [1,2,3,4]
-                ]
+					[],
+					[1],
+					[],
+					[],
+					[],
+					[1,2,3,4]
+				]
             },
             "variables": [
-                {
-                    "type": "image",
-                    "value": "*#data/scripts/tutorial9/sign_noisemaker.png",
-                    "sizex": 0,
-                    "sizey": 0
-                }
-            ]
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial9/sign_noisemaker.png",
+				"sizex": 0,
+				"sizey": 0
+				}					
+			]
         },
         "tutorial9y": {
             "sign": [
-                "Большинство созданных машин",
-                "и ловушек экипируются",
-                "как оружие.",
-                "",
+                "Большинство созданных механизмов",
+				"и ловушек экипируются",
+				"как оружие.",
+				"",
                 "Используйте$, чтобы развернуть их",
-                "перед собой."
+				"перед собой."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1290,88 +1290,88 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-                    [],
-                    [3],
-                    [],
-                    [],
-                    [0,2]
-                ],
+					[],
+					[3],
+					[],
+					[],
+					[0,2]
+				],
                 "word_highlights2": [],
-                "video": {
-                    "background_img": "data/scripts/video_frame_half_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial9/deploy.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/deploy.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
             },
             "variables": [
-                {
-                    "type": "input_glyph",
-                    "value": "Attack"
-                }
-            ]
+				{
+					"type": "input_glyph",
+					"value": "Attack"
+				}				
+			]
         },
         "tutorial9z": {
             "sign": [
                 "За этими воротами",
-                "находится тролль, с которым",
-                "вы не готовы",
-                "сражаться.",
-                "",
-                "Используйте все, что можете,",
-                "чтобы обойти его.",
-                "Помните держаться",
-                "на расстоянии."
+				"находится тролль,",
+				"с которым вы не",
+                "готовы сражаться.",
+				"",
+				"Используйте то, что можете,",
+				"чтобы обойти его.",
+				"Не забывайте держать",
+				"дистанцию."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-                "font_highlight_color": {
-                    "r": 255,
-                    "g": 64,
-                    "b": 64,
-                    "a": 255
-                },
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-                    [3]
-                ],
+					[3]
+				],
                 "word_highlights2": [
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [1,2]
-                ],
-                "video": {
-                    "background_img": "data/scripts/video_frame_half_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial9/noisemaker.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/noisemaker.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
             },
             "variables": []
         },
         "tutorial9ab": {
             "sign": [
                 "Этот рычаг нужно",
-                "поворачивать до упора,",
-                "чтобы полностью активировать.",
-                "",
+				"повернуть до конца,",
+				"чтобы полностью активировать.",
+				"",
                 "Он деактивируется",
-                "сам по себе через",
-                "некоторое время."
+				"сам по себе через",
+				"некоторое время."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1382,34 +1382,36 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-                    [],
-                    [1,2],
-                    [],
-                    [],
-                    [],
-                    [0,1,2]
-                ],
-                "video": {
-                    "background_img": "data/scripts/video_frame_half_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial9/timedlever.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
+					[],
+					[1,2],
+					[],
+					[],
+					[],
+					[0,1,2]
+					
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/timedlever.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
             },
             "variables": []
         },
         "tutorial9ac": {
             "sign": [
-                "Собранные вами машины и ловушки",
-                "можно использовать для защиты",
-                "от врагов.",
-                "",
-                "Задерживайте их и",
-                "заманивайте",
-                "на верную гибель."
+                "Механизмы и ловушки,",
+				"которые вы собрали, можно",
+                "использовать для защиты от",
+				"врагов.",
+				"",
+				"Задерживайте их и",
+				"заманивайте их",
+				"на смерть."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1420,25 +1422,25 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-                    [],
-                    [],
-                    [2],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [0,1]
-                ]
+					[],
+					[],
+					[2],
+					[],
+					[],
+					[],
+					[],
+					[0,1]
+				]
             },
             "variables": []
         },
         "tutorial9ace": {
             "sign": [
-                "$",
-                "Прикажите своему гиророботу",
-                "[Вернуться и Приземлиться], если",
-                "вам больше не нужна",
-                "его помощь."
+				"$",
+                "Скомандуйте своему гироботу",
+				"[Вернуться и приземлиться], если",
+				"вам больше не нужна",
+				"его помощь."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1448,38 +1450,38 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-                    [],
-                    [],
-                    [1,2,3]
-                ],
+					[],
+					[],
+					[1,2,3]
+				],
                 "word_highlights2": [],
-                "video": {
-                    "background_img": "data/scripts/video_frame_half_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial9/land.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/land.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
             },
             "variables": [
-                {
-                    "type": "image",
-                    "value": "*#data/scripts/tutorial9/sign_land.png",
-                    "sizex": 0,
-                    "sizey": 0
-                }
-            ]
-        },
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial9/sign_land.png",
+				"sizex": 0,
+				"sizey": 0
+				}				
+			]
+        },		
         "tutorial9ad": {
             "sign": [
                 "Нежить внутри",
-                "этих клеток",
-                "должна быть убита, прежде чем",
-                "вы сможете продолжить.",
-                "",
-                "Дерните рычаг, когда",
+				"этих камер здесь",
+				"должна быть уничтожена, прежде чем",
+				"вы сможете продолжить.",
+				"",
+				"Дерните рычаг, когда",
                 "будете готовы."
             ],
             "attributes": {
@@ -1491,25 +1493,25 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-                    [1],
-                    [],
-                    [0,1,2],
-                    [],
-                    [],
-                    [],
-                    [2]
-                ]
+					[1],
+					[],
+					[0,1,2],
+					[],
+					[],
+					[],
+					[2]
+				]
             },
             "variables": []
         },
         "tutorial9ae": {
             "sign": [
                 "Стражники созданы для",
-                "случайного сканирования в поисках врагов.",
-                "$",
-                "Прикажите им",
-                "[Смотреть На...] и нажмите$,",
-                "чтобы задать направление."
+				"случайного сканирования врагов.",
+				"$",
+				"Скомандуйте им",
+                "[Смотреть на...] и нажмите$,",
+				"чтобы задать направление прицела."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1519,45 +1521,45 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-                    [],
-                    [],
-                    [],
-                    [0],
-                    [0,1,3],
-                    [1,2,3]
-                ],
+					[],
+					[],
+					[],
+					[0],
+					[0,1,3],
+					[1,2,3]
+				],
                 "word_highlights2": [],
-                "video": {
-                    "background_img": "data/scripts/video_frame_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial9/lookat_mk.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/lookat_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
             },
             "variables": [
-                {
-                    "type": "image",
-                    "value": "*#data/scripts/tutorial9/sign_lookat.png",
-                    "sizex": 0,
-                    "sizey": 0
-                },
-                {
-                    "type": "input_glyph",
-                    "value": "Use"
-                }
-            ]
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial9/sign_lookat.png",
+				"sizex": 0,
+				"sizey": 0
+				},
+				{
+					"type": "input_glyph",
+					"value": "Use"
+				}						
+			]
         },
         "tutorial9ae_gamepad": {
             "sign": [
                 "Стражники созданы для",
-                "случайного сканирования в поисках врагов.",
-                "$",
-                "Прикажите им",
-                "[Смотреть На...] и нажмите$,",
-                "чтобы задать направление."
+				"случайного сканирования врагов.",
+				"$",
+				"Скомандуйте им",
+                "[Смотреть на...] и нажмите$,",
+				"чтобы задать направление прицела."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1567,46 +1569,46 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-                    [],
-                    [],
-                    [],
-                    [0],
-                    [0,1,3],
-                    [1,2,3]
-                ],
+					[],
+					[],
+					[],
+					[0],
+					[0,1,3],
+					[1,2,3]
+				],
                 "word_highlights2": [],
-                "video": {
-                    "background_img": "data/scripts/video_frame_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial9/lookat_gamepad.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/lookat_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
             },
             "variables": [
-                {
-                    "type": "image",
-                    "value": "*#data/scripts/tutorial9/sign_lookat.png",
-                    "sizex": 0,
-                    "sizey": 0
-                },
-                {
-                    "type": "input_glyph",
-                    "value": "Use"
-                }
-            ]
-        },
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial9/sign_lookat.png",
+				"sizex": 0,
+				"sizey": 0
+				},
+				{
+					"type": "input_glyph",
+					"value": "Use"
+				}						
+			]
+        },		
         "tutorial9af": {
             "sign": [
-                "$ $ $",
-                "Ваш гироробот может подбирать",
-                "предметы командой [Взаимодействовать].",
-                "",
-                "Используйте [Двигаться к], чтобы",
-                "заставить гироробота [Бросать] предметы,",
-                "где вы сможете их достать."
+				"$ $ $",
+                "Ваш гиробот может подбирать",
+				"предметы с помощью [Взаимодействовать].",
+				"",
+                "Используйте [Переместить к], чтобы",
+				"гиробот [Бросил] предметы,",
+				"туда, где вы можете их достать."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1616,62 +1618,62 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-                    [],
-                    [],
-                    [1,2],
-                    [],
-                    [1,2],
-                    [2]
-                ],
+					[],
+					[],
+					[1,2],
+					[],
+					[1,2],
+					[2]
+				],
                 "word_highlights2": [
-                    [],
-                    [3,4],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [3]
-                ],
-                "video": {
-                    "background_img": "data/scripts/video_frame_half_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial9/retrieve.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
+					[],
+					[3,4],
+					[],
+					[],
+					[],
+					[],
+					[3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/retrieve.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
             },
             "variables": [
-                {
-                    "type": "image",
-                    "value": "*#data/scripts/tutorial9/sign_interact.png",
-                    "sizex": 0,
-                    "sizey": 0
-                },
-                {
-                    "type": "image",
-                    "value": "*#data/scripts/tutorial9/sign_move.png",
-                    "sizex": 0,
-                    "sizey": 0
-                },
-                {
-                    "type": "image",
-                    "value": "*#data/scripts/tutorial9/sign_drop.png",
-                    "sizex": 0,
-                    "sizey": 0
-                }
-            ]
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial9/sign_interact.png",
+				"sizex": 0,
+				"sizey": 0
+				},
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial9/sign_move.png",
+				"sizex": 0,
+				"sizey": 0
+				},
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial9/sign_drop.png",
+				"sizex": 0,
+				"sizey": 0
+				}				
+			]
         },
         "tutorial9ag": {
             "sign": [
-                "Продвинутые гиророботы могут",
-                "развертывать ловушки с помощью",
-                "команды бросить.",
-                "",
+                "Продвинутые гироботы могут",
+				"размещать ловушки, используя",
+				"команду бросить.",
+				"",
                 "Они также могут управлять",
-                "рычагами и возиться с",
-                "развернутыми ловушками."
+				"рычагами и взаимодействовать с",
+				"размещенными ловушками."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1682,196 +1684,198 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-                    [],
-                    [0,1],
-                    [],
-                    [],
-                    [],
-                    [2]
-                ]
+					[],
+					[0,1],
+					[],
+					[],
+					[],
+					[2]
+					
+				]
             },
             "variables": []
         },
         "tutorial9ah": {
             "sign": [
-                "Развернутые гиророботы",
-                "узнают свои союзные",
-                "машины и перенесут их",
-                "на следующий уровень,",
-                "если их оставить позади.",
-                "",
-                "В то время как враги игнорируют",
-                "гиророботов, они могут быть",
-                "убиты некоторыми ловушками."
+                "Развернутые гироботы",
+				"узнают свои союзные",
+				"механизмы и перенесут",
+				"их на следующий уровень,",
+				"если их оставить.",
+				"",
+                "Хотя враги игнорируют",
+				"гироботов, они могут быть",
+				"убиты некоторыми ловушками."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-                "font_highlight_color": {
-                    "r": 255,
-                    "g": 64,
-                    "b": 64,
-                    "a": 255
-                },
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [0,1,2,3]
-                ],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2,3]
+				],
                 "word_highlights2": [
-                    [],
-                    [],
-                    [],
-                    [3,4]
-                ]
+					[],
+					[],
+					[],
+					[3,4]
+				]
             },
             "variables": []
         },
         "tutorial9ai": {
             "sign": [
                 "ПРЕДУПРЕЖДЕНИЕ:",
-                "",
-                "Развернутые машины не",
-                "последуют за вами через",
-                "этот портал. Соберите все,",
-                "что у вас есть, чтобы взять их",
-                "с собой. Вы не сможете",
-                "вернуться обратно."
+				"",
+				"Развернутые механизмы не",
+				"последуют за вами через",
+                "этот портал. Соберите всех,",
+				"кого у вас есть, чтобы взять",
+				"их с собой. Вы не сможете",
+				"вернуться обратно."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-                "font_highlight_color": {
-                    "r": 255,
-                    "g": 64,
-                    "b": 64,
-                    "a": 255
-                },
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-                    [0]
-                ],
+					[0]
+				],
                 "word_highlights2": [
-                    [],
-                    [],
-                    [],
-                    [],
-                    [2]
-                ]
+					[],
+					[],
+					[],
+					[],
+					[2]
+				]
             },
             "variables": []
         },
         "tutorial9aj": {
             "sign": [
                 "Активируйте рычаг",
-                "в конце платформы, и монстры",
-                "начнут атаковать.",
-                "Используйте знания механики,",
-                "чтобы пережить натиск,",
-                "и врата откроются."
+				"в конце платформы,",
+				"и монстры начнут",
+				"атаковать.",
+				"Используйте знания механики,",
+				"чтобы пережить натиск,",
+				"и ворота откроются."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-                "font_highlight_color": {
-                    "r": 255,
-                    "g": 64,
-                    "b": 64,
-                    "a": 255
-                },
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-                    [],
-                    [],
-                    [],
-                    [1,2,3]
-                ],
+					[],
+					[],
+					[],
+					[1,2,3]
+				],
                 "word_highlights2": [
-                    [0,1,2],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [1,2,3]
-                ],
-                "video": {
-                    "background_img": "data/scripts/video_frame_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial9/necrotron.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
+					[0,1,2],
+					[],
+					[],
+					[],
+					[],
+					[1,2,3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/necrotron.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
             },
             "variables": []
         },
         "tutorial9ajz": {
             "sign": [
-                "УВЕДОМЛЕНИЕ:",
+				"ВНИМАНИЕ:",
                 "Ваши стражники будут",
-                "стрелять во врагов, которых",
-                "заметят, даже если союзники",
-                "стоят на пути.",
-                "",
-                "Размещайте болванчиков",
-                "и себя",
-                "соответственно."
+				"стрелять по врагам, которых",
+				"заметят, даже если союзники",
+				"находятся на пути.",
+				"",
+				"Размещайте манекеноботов",
+				"и себя",
+				"соответственно."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-                "font_highlight_color": {
-                    "r": 255,
-                    "g": 64,
-                    "b": 64,
-                    "a": 255
-                },
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-                    [],
-                    [],
-                    [],
-                    [],
-                    [1,2,3]
-                ],
+					[],
+					[],
+					[],
+					[],
+					[1,2,3]
+				],
                 "word_highlights2": [
-                    [0],
-                    [],
-                    [0],
-                    [],
-                    [],
-                    [],
-                    [1]
-                ]
+					[0],
+					[],
+					[0],
+					[],
+					[],
+					[],
+					[1]
+				]
             },
             "variables": []
-        },
+        },		
         "tutorial9ak": {
             "sign": [
-                "Искатели приключений, сосредоточенные на",
-                "механике, будут иметь множество",
-                "стратегических преимуществ в",
-                "подземельях."
+                "Искатели приключений, которые",
+				"сосредотачиваются на механике,",
+				"будут иметь много стратегических",
+				"преимуществ в подземельях."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1882,10 +1886,10 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-                    [],
-                    [],
-                    [0,1]
-                ]
+					[],
+					[],
+					[0,1]
+				]
             },
             "variables": []
         }
