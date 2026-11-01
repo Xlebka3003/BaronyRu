@@ -1,1192 +1,1436 @@
 {
-    "version": 1,
-    "default_attributes": {
-        "font_color": {
-            "r": 239,
-            "g": 237,
-            "b": 235,
-            "a": 255
-        },
-        "font_outline_color": {
-            "r": 50,
-            "g": 29,
-            "b": 25,
-            "a": 255
-        },
-        "font_highlight_color": {
-            "r": 18,
-            "g": 196,
-            "b": 131,
-            "a": 255
-        },
-        "font_highlight2_color": {
-            "r": 64,
-            "g": 192,
-            "b": 255,
-            "a": 255
-        }
+  "version": 1,
+  "default_attributes": {
+    "font_color": {
+      "r": 239,
+      "g": 237,
+      "b": 235,
+      "a": 255
     },
-    "script_entries": {
-        "tutorial10a": {
-            "sign": [
-                "Враг в следующей",
-                "комнате способен",
-                "отравить вас своими",
-                "атаками.",
-                "",
-                "Некоторые искатели носят",
-                "противоядие. Другие",
-                "просто терпят или",
-                "стараются не получать ударов."
-            ],
-            "attributes": {
-                "font": "fonts/pixelmix.ttf#16#2",
-                "font_highlight_color": {
-                    "r": 255,
-                    "g": 64,
-                    "b": 64,
-                    "a": 255
-                },
-                "horizontal_justify": "center",
-                "vertical_justify": "center",
-                "line_padding": 0,
-                "top_padding": 0,
-                "inline_img_adjust_x": 0,
-                "word_highlights": [
-                    [],
-                    [],
-                    [0]
-                ],
-                "word_highlights2": [
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [0],
-                    [],
-                    [1,2,3]
-                ],
-                "video": {
-                    "background_img": "data/scripts/video_frame_half_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial10/blockcrab.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
-            },
-            "variables": []
-        },
-        "tutorial10b": {
-            "sign": [
-                "$",
-                "Относить найденные",
-                "вещи на рынок может",
-                "повысить ваши шансы",
-                "на успех."
-            ],
-            "attributes": {
-                "font": "fonts/pixelmix.ttf#16#2",
-                "horizontal_justify": "center",
-                "vertical_justify": "center",
-                "line_padding": 0,
-                "top_padding": 0,
-                "inline_img_adjust_x": 0,
-                "word_highlights": [],
-                "word_highlights2": [
-                    [],
-                    [],
-                    [1,2,3,4]
-                ]
-            },
-            "variables": [
-                {
-                    "type": "image",
-                    "value": "*#images/system/shopkeeper.png",
-                    "sizex": 74,
-                    "sizey": 74
-                }
-            ]
-        },
-        "tutorial10c": {
-            "sign": [
-                "Торговцы по-разному",
-                "относятся к вам, если",
-                "вы находитесь под",
-                "эффектом полиморфа.",
-                "",
-                "Большинство монстров",
-                "ведут себя иначе, если",
-                "бросить в них зелье",
-                "полиморфа."
-            ],
-            "attributes": {
-                "font": "fonts/pixelmix.ttf#16#2",
-                "font_highlight_color": {
-                    "r": 255,
-                    "g": 64,
-                    "b": 64,
-                    "a": 255
-                },
-                "horizontal_justify": "center",
-                "vertical_justify": "center",
-                "line_padding": 0,
-                "top_padding": 0,
-                "inline_img_adjust_x": 0,
-                "word_highlights": [
-                    [],
-                    [1]
-                ],
-                "word_highlights2": [
-                    [],
-                    [],
-                    [],
-                    [1],
-                    [],
-                    [1],
-                    [],
-                    [0,1,2,3]
-                ],
-                "video": {
-                    "background_img": "data/scripts/video_frame_half_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial10/polythrow.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
-            },
-            "variables": []
-        },
-        "tutorial10d": {
-            "sign": [
-                "Искатели всех",
-                "классов должны уметь",
-                "находчиво использовать вещи.",
-                "",
-                "Умные покупки могут",
-                "стать разницей",
-                "между готовностью",
-                "и смертью."
-            ],
-            "attributes": {
-                "font": "fonts/pixelmix.ttf#16#2",
-                "horizontal_justify": "center",
-                "vertical_justify": "center",
-                "line_padding": 0,
-                "top_padding": 0,
-                "inline_img_adjust_x": 0,
-                "word_highlights": [],
-                "word_highlights2": []
-            },
-            "variables": []
-        },
-        "tutorial10e": {
-            "sign": [
-                "Торговцы не дадут",
-                "хорошую цену за",
-                "неопознанный самоцвет:",
-                "это может быть стекло!",
-                "",
-                "Используйте свиток",
-                "опознания, если ваш",
-                "навык оценки недостаточен."
-            ],
-            "attributes": {
-                "font": "fonts/pixelmix.ttf#16#2",
-                "font_highlight_color": {
-                    "r": 255,
-                    "g": 64,
-                    "b": 64,
-                    "a": 255
-                },
-                "horizontal_justify": "center",
-                "vertical_justify": "center",
-                "line_padding": 0,
-                "top_padding": 0,
-                "inline_img_adjust_x": 0,
-                "word_highlights": [
-                    [],
-                    [0,1,2],
-                    [],
-                    [2,3]
-                ],
-                "word_highlights2": [
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [2,3,4]
-                ]
-            },
-            "variables": []
-        },
-        "tutorial10f": {
-            "sign": [
-                "Если торговец убит,",
-                "он роняет все,",
-                "что продавал.",
-                "Но слухи быстро",
-                "разносятся по подземельям.",
-                "",
-                "Врагов Гильдии",
-                "Торговцев атакуют",
-                "при первой же встрече."
-            ],
-            "attributes": {
-                "font": "fonts/pixelmix.ttf#16#2",
-                "font_highlight_color": {
-                    "r": 255,
-                    "g": 64,
-                    "b": 64,
-                    "a": 255
-                },
-                "horizontal_justify": "center",
-                "vertical_justify": "center",
-                "line_padding": 0,
-                "top_padding": 0,
-                "inline_img_adjust_x": 0,
-                "word_highlights": [
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [0,1,2]
-                ],
-                "word_highlights2": [
-                    [],
-                    [1,2]
-                ]
-            },
-            "variables": []
-        },
-        "tutorial10g": {
-            "sign": [
-                "Торговцы отлично",
-                "обучены самообороне",
-                "и попытаются",
-                "уничтожить всех нападающих",
-                "с крайней жестокостью."
-            ],
-            "attributes": {
-                "font": "fonts/pixelmix.ttf#16#2",
-                "font_highlight_color": {
-                    "r": 255,
-                    "g": 64,
-                    "b": 64,
-                    "a": 255
-                },
-                "horizontal_justify": "center",
-                "vertical_justify": "center",
-                "line_padding": 0,
-                "top_padding": 0,
-                "inline_img_adjust_x": 0,
-                "word_highlights": [
-                    [],
-                    [],
-                    [],
-                    [],
-                    [1,2]
-                ],
-                "word_highlights2": []
-            },
-            "variables": []
-        },
-        "tutorial10h": {
-            "sign": [
-                "Каждый торговец",
-                "специализируется на",
-                "определенной категории товаров.",
-                "",
-                "Этот торгует только шляпами,",
-                "поэтому он не купит",
-                "ваш самоцвет.",
-				"",
-                "Используйте этот рычаг,",
-                "чтобы открыть путь",
-                "к другим торговцам."
-            ],
-            "attributes": {
-                "font": "fonts/pixelmix.ttf#16#2",
-                "font_highlight_color": {
-                    "r": 255,
-                    "g": 64,
-                    "b": 64,
-                    "a": 255
-                },
-                "horizontal_justify": "center",
-                "vertical_justify": "center",
-                "line_padding": 0,
-                "top_padding": 0,
-                "inline_img_adjust_x": 0,
-                "word_highlights": [
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [2,3,4,5]
-                ],
-                "word_highlights2": [
-                    [],
-                    [2,3],
-                    [],
-                    [],
-                    [2,3,4],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [0,1]
-                ],
-                "video": {
-                    "background_img": "data/scripts/video_frame_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial10/nosale_mk.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
-            },
-            "variables": []
-        },
-        "tutorial10h_gamepad": {
-            "sign": [
-                "Каждый торговец",
-                "специализируется на",
-                "определенной категории товаров.",
-                "",
-                "Этот торгует только шляпами,",
-                "поэтому он не купит ваш самоцвет.",
-                "",
-                "Используйте этот рычаг,",
-                "чтобы открыть путь",
-                "к другим покупателям."
-            ],
-            "attributes": {
-                "font": "fonts/pixelmix.ttf#16#2",
-                "font_highlight_color": {
-                    "r": 255,
-                    "g": 64,
-                    "b": 64,
-                    "a": 255
-                },
-                "horizontal_justify": "center",
-                "vertical_justify": "center",
-                "line_padding": 0,
-                "top_padding": 0,
-                "inline_img_adjust_x": 0,
-                "word_highlights": [
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [2,3,4,5]
-                ],
-                "word_highlights2": [
-                    [],
-                    [2,3],
-                    [],
-                    [],
-                    [2,3,4],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [0,1]
-                ],
-                "video": {
-                    "background_img": "data/scripts/video_frame_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial10/nosale_gamepad.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
-            },
-            "variables": []
-        },
-        "tutorial10i": {
-            "sign": [
-                "Когда меню магазина открыто,",
-                "нажмите$ на своих вещах,",
-                "чтобы продать их.",
-                "",
-                "Нажмите$ на вещах",
-                "в инвентаре торговца,",
-                "чтобы купить."
-            ],
-            "attributes": {
-                "font": "fonts/pixelmix.ttf#16#2",
-                "horizontal_justify": "center",
-                "vertical_justify": "center",
-                "line_padding": 0,
-                "top_padding": 0,
-                "inline_img_adjust_x": 0,
-                "word_highlights": [
-                    [],
-                    [0,1,2,3],
-                    [],
-                    [],
-                    [0,1,2],
-                    [0,1]
-                ],
-                "word_highlights2": [],
-                "video": {
-                    "background_img": "data/scripts/video_frame_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial10/buysell_mk.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
-            },
-            "variables": [
-                {
-                    "type": "input_glyph",
-                    "value": "MenuRightClick"
-                },
-                {
-                    "type": "input_glyph",
-                    "value": "MenuRightClick"
-                }
-            ]
-        },
-        "tutorial10i_gamepad": {
-            "sign": [
-                "Когда меню магазина открыто,",
-                "нажмите$ на своих вещах,",
-                "чтобы продать их.",
-                "",
-                "Нажмите$ на вещах",
-                "в инвентаре торговца,",
-                "чтобы купить."
-            ],
-            "attributes": {
-                "font": "fonts/pixelmix.ttf#16#2",
-                "horizontal_justify": "center",
-                "vertical_justify": "center",
-                "line_padding": 0,
-                "top_padding": 0,
-                "inline_img_adjust_x": 0,
-                "word_highlights": [
-                    [],
-                    [0,1,2,3],
-                    [],
-                    [],
-                    [0,1,2],
-                    [0,1]
-                ],
-                "word_highlights2": [],
-                "video": {
-                    "background_img": "data/scripts/video_frame_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial10/buysell_gamepad.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
-            },
-            "variables": [
-                {
-                    "type": "input_glyph",
-                    "value": "MenuConfirm"
-                },
-                {
-                    "type": "input_glyph",
-                    "value": "MenuConfirm"
-                }
-            ]
-        },
-        "tutorial10j": {
-            "sign": [
-                "Вы можете начать торговлю,",
-                "подойдя к торговцу",
-                "и нажав$.",
-                "",
-                "Чтобы закрыть меню",
-                "магазина, нажмите$."
-            ],
-            "attributes": {
-                "font": "fonts/pixelmix.ttf#16#2",
-                "horizontal_justify": "center",
-                "vertical_justify": "center",
-                "line_padding": 0,
-                "top_padding": 0,
-                "inline_img_adjust_x": 0,
-                "word_highlights": [
-                    [],
-                    [],
-                    [1],
-                    [],
-                    [1],
-                    [1]
-                ],
-                "word_highlights2": []
-            },
-            "variables": [
-                {
-                    "type": "input_glyph",
-                    "value": "Use"
-                },
-                {
-                    "type": "input_glyph",
-                    "value": "Character Status"
-                }
-            ]
-        },
-        "tutorial10j_gamepad": {
-            "sign": [
-                "Вы можете начать торговлю,",
-                "подойдя к торговцу",
-                "и нажав$.",
-                "",
-                "Чтобы закрыть меню",
-                "магазина, нажмите$."
-            ],
-            "attributes": {
-                "font": "fonts/pixelmix.ttf#16#2",
-                "horizontal_justify": "center",
-                "vertical_justify": "center",
-                "line_padding": 0,
-                "top_padding": 0,
-                "inline_img_adjust_x": 0,
-                "word_highlights": [
-                    [],
-                    [],
-                    [1],
-                    [],
-                    [1],
-                    [1]
-                ],
-                "word_highlights2": []
-            },
-            "variables": [
-                {
-                    "type": "input_glyph",
-                    "value": "Use"
-                },
-                {
-                    "type": "input_glyph",
-                    "value": "MenuCancel"
-                }
-            ]
-        },
-        "tutorial10k": {
-            "sign": [
-                "Магазины всегда",
-                "выглядят по-особенному,",
-                "где бы они ни находились.",
-                "$",
-                "Ищите вывески у входа",
-                "в магазины, чтобы увидеть,",
-                "что там продают и покупают."
-            ],
-            "attributes": {
-                "font": "fonts/pixelmix.ttf#16#2",
-                "horizontal_justify": "center",
-                "vertical_justify": "center",
-                "line_padding": 0,
-                "top_padding": 0,
-                "inline_img_adjust_x": 0,
-                "word_highlights": [],
-                "word_highlights2": []
-            },
-            "variables": [
-                {
-                    "type": "image",
-                    "value": "*#data/scripts/tutorial10/sign_shophat.png",
-                    "sizex": 0,
-                    "sizey": 0
-                }
-            ]
-        },
-        "tutorial10l": {
-            "sign": [
-                "Этот самоцвет можно",
-                "бросить как камень,",
-                "но его настоящая ценность",
-                "в том, сколько он стоит.",
-                "$",
-                "Максимальную выгоду",
-                "даст высокий навык торговли."
-            ],
-            "attributes": {
-                "font": "fonts/pixelmix.ttf#16#2",
-                "horizontal_justify": "center",
-                "vertical_justify": "center",
-                "line_padding": 0,
-                "top_padding": 0,
-                "inline_img_adjust_x": 0,
-                "word_highlights": [],
-                "word_highlights2": [
-                    [],
-                    [],
-                    [0,1],
-                    [0,1]
-                ]
-            },
-            "variables": [
-                {
-                    "type": "image",
-                    "value": "*#data/scripts/tutorial10/sign_gem.png",
-                    "sizex": 0,
-                    "sizey": 0
-                }
-            ]
-        },
-        "tutorial10m": {
-            "sign": [
-                "У каждого предмета",
-                "отображается цена в золоте,",
-                "если навести на него",
-                "курсор в инвентаре.",
-                "",
-                "Цена предмета может",
-                "измениться после опознания."
-            ],
-            "attributes": {
-                "font": "fonts/pixelmix.ttf#16#2",
-                "horizontal_justify": "center",
-                "vertical_justify": "center",
-                "line_padding": 0,
-                "top_padding": 0,
-                "inline_img_adjust_x": 0,
-                "word_highlights": [
-                    [],
-                    [],
-                    [2]
-                ],
-                "word_highlights2": [
-                    [],
-                    [0,1],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [0,1,2,3]
-                ],
-                "video": {
-                    "background_img": "data/scripts/video_frame_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial10/value_mk.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
-            },
-            "variables": []
-        },
-        "tutorial10m_gamepad": {
-            "sign": [
-                "У каждого предмета",
-                "отображается цена в золоте,",
-                "если навести на него",
-                "курсор в инвентаре.",
-                "",
-                "Цена предмета может",
-                "измениться после опознания."
-            ],
-            "attributes": {
-                "font": "fonts/pixelmix.ttf#16#2",
-                "horizontal_justify": "center",
-                "vertical_justify": "center",
-                "line_padding": 0,
-                "top_padding": 0,
-                "inline_img_adjust_x": 0,
-                "word_highlights": [
-                    [],
-                    [],
-                    [2]
-                ],
-                "word_highlights2": [
-                    [],
-                    [0,1],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [0,1,2,3]
-                ],
-                "video": {
-                    "background_img": "data/scripts/video_frame_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial10/value_gamepad.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
-            },
-            "variables": []
-        },
-        "tutorial10n": {
-            "sign": [
-                "Золото не убивает",
-                "монстров и не кормит вас.",
-                "$",
-                "Однако оно позволяет",
-                "вам торговать с торговцами."
-            ],
-            "attributes": {
-                "font": "fonts/pixelmix.ttf#16#2",
-                "horizontal_justify": "center",
-                "vertical_justify": "center",
-                "line_padding": 0,
-                "top_padding": 0,
-                "inline_img_adjust_x": 0,
-                "word_highlights": [],
-                "word_highlights2": [
-                    [0],
-                    [],
-                    [],
-                    [],
-                    [1,2,3]
-                ]
-            },
-            "variables": [
-                {
-                    "type": "image",
-                    "value": "*#data/scripts/tutorial10/sign_gold.png",
-                    "sizex": 0,
-                    "sizey": 0
-                }
-            ]
-        },
-        "tutorial10o": {
-            "sign": [
-                "Ювелиры покупают",
-                "и продают амулеты,",
-                "кольца и самоцветы.",
-                "$",
-                "Здесь вы можете продать",
-                "свой самоцвет за много золота!"
-            ],
-            "attributes": {
-                "font": "fonts/pixelmix.ttf#16#2",
-                "horizontal_justify": "center",
-                "vertical_justify": "center",
-                "line_padding": 0,
-                "top_padding": 0,
-                "inline_img_adjust_x": 0,
-                "word_highlights": [],
-                "word_highlights2": [
-                    [],
-                    [],
-                    [],
-                    [0,1,2,3,4],
-                    [0,1,2,3,4,5]
-                ]
-            },
-            "variables": [
-                {
-                    "type": "image",
-                    "value": "*#data/scripts/tutorial10/sign_jeweler.png",
-                    "sizex": 0,
-                    "sizey": 0
-                }
-            ]
-        },
-        "tutorial10p": {
-            "sign": [
-                "Если вы копите",
-                "много вещей на продажу,",
-                "Генеральный магазин",
-                "будет удачной находкой.",
-                "$",
-                "Там купят что угодно",
-                "и продают случайные вещи."
-            ],
-            "attributes": {
-                "font": "fonts/pixelmix.ttf#16#2",
-                "horizontal_justify": "center",
-                "vertical_justify": "center",
-                "line_padding": 0,
-                "top_padding": 0,
-                "inline_img_adjust_x": 0,
-                "word_highlights": [],
-                "word_highlights2": [
-                    [],
-                    [],
-                    [0,1],
-                    [],
-                    [],
-                    [2,3]
-                ]
-            },
-            "variables": [
-                {
-                    "type": "image",
-                    "value": "*#data/scripts/tutorial10/sign_general.png",
-                    "sizex": 0,
-                    "sizey": 0
-                }
-            ]
-        },
-        "tutorial10q": {
-            "sign": [
-                "Посмотрите, сколько",
-                "золота вы накопили,",
-                "в листе персонажа."
-            ],
-            "attributes": {
-                "font": "fonts/pixelmix.ttf#16#2",
-                "horizontal_justify": "center",
-                "vertical_justify": "center",
-                "line_padding": 0,
-                "top_padding": 0,
-                "inline_img_adjust_x": 0,
-                "word_highlights": [
-                    [],
-                    [],
-                    [0,1]
-                ],
-                "word_highlights2": []
-            },
-            "variables": []
-        },
-        "tutorial10r": {
-            "sign": [
-                "Чтобы выбросить золото,",
-                "наведите на счетчик,",
-                "зажмите$ и выберите сумму.",
-                "",
-                "Если у вас много золота,",
-                "его вес может нагрузить",
-                "и замедлить вас."
-            ],
-            "attributes": {
-                "font": "fonts/pixelmix.ttf#16#2",
-                "font_highlight2_color": {
-                    "r": 255,
-                    "g": 64,
-                    "b": 64,
-                    "a": 255
-                },
-                "horizontal_justify": "center",
-                "vertical_justify": "center",
-                "line_padding": 0,
-                "top_padding": 0,
-                "inline_img_adjust_x": 0,
-                "word_highlights": [
-                    [3],
-                    [3],
-                    [1,2,3,4,5]
-                ],
-                "word_highlights2": [
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [3,4],
-                    [3,4,5]
-                ],
-                "video": {
-                    "background_img": "data/scripts/video_frame_half_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial10/dropgold_mk.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
-            },
-            "variables": [
-                {
-                    "type": "input_glyph",
-                    "value": "MenuRightClick"
-                }
-            ]
-        },
-        "tutorial10r_gamepad": {
-            "sign": [
-                "Чтобы выбросить золото,",
-                "наведите на счетчик,",
-                "нажмите$ и выберите сумму.",
-                "",
-                "Если у вас много золота,",
-                "его вес может нагрузить",
-                "и замедлить вас."
-            ],
-            "attributes": {
-                "font": "fonts/pixelmix.ttf#16#2",
-                "font_highlight2_color": {
-                    "r": 255,
-                    "g": 64,
-                    "b": 64,
-                    "a": 255
-                },
-                "horizontal_justify": "center",
-                "vertical_justify": "center",
-                "line_padding": 0,
-                "top_padding": 0,
-                "inline_img_adjust_x": 0,
-                "word_highlights": [
-                    [3],
-                    [3],
-                    [1,2,3,4,5]
-                ],
-                "word_highlights2": [
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [3,4],
-                    [3,4,5]
-                ],
-                "video": {
-                    "background_img": "data/scripts/video_frame_half_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial10/dropgold_gamepad.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
-            },
-            "variables": [
-                {
-                    "type": "input_glyph",
-                    "value": "MenuConfirm"
-                }
-            ]
-        },
-        "tutorial10s": {
-            "sign": [
-                "В подземельях вам",
-                "может не повезти",
-                "найти покупателя",
-                "для ваших товаров.",
-                "",
-                "Вам придется решать,",
-                "стоит ли носить",
-                "громоздкие вещи",
-                "ради их торговой ценности."
-            ],
-            "attributes": {
-                "font": "fonts/pixelmix.ttf#16#2",
-                "font_highlight_color": {
-                    "r": 255,
-                    "g": 64,
-                    "b": 64,
-                    "a": 255
-                },
-                "horizontal_justify": "center",
-                "vertical_justify": "center",
-                "line_padding": 0,
-                "top_padding": 0,
-                "inline_img_adjust_x": 0,
-                "word_highlights": [
-                    [],
-                    [1,2,3],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [0,1]
-                ],
-                "word_highlights2": []
-            },
-            "variables": []
-        },
-        "tutorial10t": {
-            "sign": [
-                "Торговцы на этом",
-                "рынке — ваш единственный",
-                "способ правильно",
-                "экипироваться для",
-                "испытания.",
-                "",
-                "Покупайте и продавайте,",
-                "чтобы подготовиться",
-                "как вам угодно."
-            ],
-            "attributes": {
-                "font": "fonts/pixelmix.ttf#16#2",
-                "horizontal_justify": "center",
-                "vertical_justify": "center",
-                "line_padding": 0,
-                "top_padding": 0,
-                "inline_img_adjust_x": 0,
-                "word_highlights": [],
-                "word_highlights2": [
-                    [],
-                    [],
-                    [],
-                    [0,1,2],
-                    [],
-                    [],
-                    [0,1,2],
-                    [],
-                    [0,1,2]
-                ]
-            },
-            "variables": []
-        },
-        "tutorial10u": {
-            "sign": [
-                "За этим порталом",
-                "находятся все более",
-                "сложные сражения.",
-                "Купите все, что поможет",
-                "вам преуспеть.",
-                "",
-                "Ваша находчивость",
-                "будет проверена."
-            ],
-            "attributes": {
-                "font": "fonts/pixelmix.ttf#16#2",
-                "horizontal_justify": "center",
-                "vertical_justify": "center",
-                "line_padding": 0,
-                "top_padding": 0,
-                "inline_img_adjust_x": 0,
-                "word_highlights": [],
-                "word_highlights2": []
-            },
-            "variables": []
-        },
-        "tutorial10v": {
-            "sign": [
-                "Вещи в магазинах,",
-                "которые лежат на",
-                "столах или в сундуках,",
-                "можно забирать.",
-                "",
-                "Торговцев волнуют",
-                "только те вещи, которые",
-                "находятся в их инвентаре."
-            ],
-            "attributes": {
-                "font": "fonts/pixelmix.ttf#16#2",
-                "horizontal_justify": "center",
-                "vertical_justify": "center",
-                "line_padding": 0,
-                "top_padding": 0,
-                "inline_img_adjust_x": 0,
-                "word_highlights": [],
-                "word_highlights2": [
-                    [],
-                    [],
-                    [],
-                    [1,2,3],
-                    [],
-                    [],
-                    []
-                ]
-            },
-            "variables": []
-        },
-        "tutorial10w": {
-            "sign": [
-                "Бой с двумя врагами",
-                "одновременно может",
-                "сильно усложнить схватку.",
-                "",
-                "Все искатели должны",
-                "быть готовы встретить",
-                "как дальних, так и",
-                "ближних бойцов."
-            ],
-            "attributes": {
-                "font": "fonts/pixelmix.ttf#16#2",
-                "horizontal_justify": "center",
-                "vertical_justify": "center",
-                "line_padding": 0,
-                "top_padding": 0,
-                "inline_img_adjust_x": 0,
-                "word_highlights": [],
-                "word_highlights2": [
-                    [1,2],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [0,1,2]
-                ],
-                "video": {
-                    "background_img": "data/scripts/video_frame_half_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial10/killtwo.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
-            },
-            "variables": []
-        },
-        "tutorial10x": {
-            "sign": [
-                "Следующий враг владеет",
-                "магическим посохом,",
-                "который может замедлить",
-                "и нанести урон, игнорируя броню.",
-                "",
-                "Предметы могут снижать",
-                "магические эффекты.",
-                "Используйте засады, чтобы",
-                "избегать магических снарядов."
-            ],
-            "attributes": {
-                "font": "fonts/pixelmix.ttf#16#2",
-                "font_highlight_color": {
-                    "r": 255,
-                    "g": 64,
-                    "b": 64,
-                    "a": 255
-                },
-                "horizontal_justify": "center",
-                "vertical_justify": "center",
-                "line_padding": 0,
-                "top_padding": 0,
-                "inline_img_adjust_x": 0,
-                "word_highlights": [
-                    [],
-                    [],
-                    [0,1,2,3],
-                    [0,1,2]
-                ],
-                "word_highlights2": [
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [0,1,2,3],
-                    [],
-                    [0,1]
-                ],
-                "video": {
-                    "background_img": "data/scripts/video_frame_half_noalpha.png",
-                    "background_border": 8,
-                    "path": "data/scripts/tutorial10/staffambush.ogv",
-                    "x": 0,
-                    "y": 0,
-                    "w": 0,
-                    "h": 0
-                }
-            },
-            "variables": []
-        }
+    "font_outline_color": {
+      "r": 50,
+      "g": 29,
+      "b": 25,
+      "a": 255
+    },
+    "font_highlight_color": {
+      "r": 18,
+      "g": 196,
+      "b": 131,
+      "a": 255
+    },
+    "font_highlight2_color": {
+      "r": 64,
+      "g": 192,
+      "b": 255,
+      "a": 255
     }
+  },
+  "script_entries": {
+    "tutorial10a": {
+      "sign": [
+        "Враг в следующей",
+        "комнате может",
+        "отравить вас",
+        "своими атаками.",
+        "",
+        "Одни искатели носят",
+        "с собой противоядия.",
+        "Другие терпят",
+        "или избегают ударов."
+      ],
+      "attributes": {
+        "font": "fonts/pixelmix.ttf#16#2",
+        "font_highlight_color": {
+          "r": 255,
+          "g": 64,
+          "b": 64,
+          "a": 255
+        },
+        "horizontal_justify": "center",
+        "vertical_justify": "center",
+        "line_padding": 0,
+        "top_padding": 0,
+        "inline_img_adjust_x": 0,
+        "word_highlights": [
+          [],
+          [],
+          [
+            0
+          ]
+        ],
+        "word_highlights2": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            0
+          ],
+          [],
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "video": {
+          "background_img": "data/scripts/video_frame_half_noalpha.png",
+          "background_border": 8,
+          "path": "data/scripts/tutorial10/blockcrab.ogv",
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      "variables": []
+    },
+    "tutorial10b": {
+      "sign": [
+        "$",
+        "Отнесите найденные",
+        "предметы на рынок:",
+        "это повысит ваши",
+        "шансы на успех."
+      ],
+      "attributes": {
+        "font": "fonts/pixelmix.ttf#16#2",
+        "horizontal_justify": "center",
+        "vertical_justify": "center",
+        "line_padding": 0,
+        "top_padding": 0,
+        "inline_img_adjust_x": 0,
+        "word_highlights": [],
+        "word_highlights2": [
+          [],
+          [],
+          [
+            1,
+            2,
+            3,
+            4
+          ]
+        ]
+      },
+      "variables": [
+        {
+          "type": "image",
+          "value": "*#images/system/shopkeeper.png",
+          "sizex": 74,
+          "sizey": 74
+        }
+      ]
+    },
+    "tutorial10c": {
+      "sign": [
+        "Торговцы относятся",
+        "к вам иначе, если",
+        "вы находитесь",
+        "под чарами превращения.",
+        "",
+        "Большинство чудовищ",
+        "сильно меняет поведение,",
+        "если бросить в них",
+        "зелье превращения."
+      ],
+      "attributes": {
+        "font": "fonts/pixelmix.ttf#16#2",
+        "font_highlight_color": {
+          "r": 255,
+          "g": 64,
+          "b": 64,
+          "a": 255
+        },
+        "horizontal_justify": "center",
+        "vertical_justify": "center",
+        "line_padding": 0,
+        "top_padding": 0,
+        "inline_img_adjust_x": 0,
+        "word_highlights": [
+          [],
+          [
+            1
+          ]
+        ],
+        "word_highlights2": [
+          [],
+          [],
+          [],
+          [
+            1
+          ],
+          [],
+          [
+            1
+          ],
+          [],
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "video": {
+          "background_img": "data/scripts/video_frame_half_noalpha.png",
+          "background_border": 8,
+          "path": "data/scripts/tutorial10/polythrow.ogv",
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      "variables": []
+    },
+    "tutorial10d": {
+      "sign": [
+        "Искателям любых",
+        "классов нужна",
+        "находчивость с вещами.",
+        "",
+        "Умелые покупки могут",
+        "оказаться границей",
+        "между готовностью",
+        "и гибелью."
+      ],
+      "attributes": {
+        "font": "fonts/pixelmix.ttf#16#2",
+        "horizontal_justify": "center",
+        "vertical_justify": "center",
+        "line_padding": 0,
+        "top_padding": 0,
+        "inline_img_adjust_x": 0,
+        "word_highlights": [],
+        "word_highlights2": []
+      },
+      "variables": []
+    },
+    "tutorial10e": {
+      "sign": [
+        "За неопознанный",
+        "самоцвет торговец",
+        "много не заплатит: вдруг",
+        "это простая стекляшка!",
+        "",
+        "Возьмите свиток опознания,",
+        "если для оценки",
+        "не хватает навыка."
+      ],
+      "attributes": {
+        "font": "fonts/pixelmix.ttf#16#2",
+        "font_highlight_color": {
+          "r": 255,
+          "g": 64,
+          "b": 64,
+          "a": 255
+        },
+        "horizontal_justify": "center",
+        "vertical_justify": "center",
+        "line_padding": 0,
+        "top_padding": 0,
+        "inline_img_adjust_x": 0,
+        "word_highlights": [
+          [],
+          [
+            0,
+            1,
+            2
+          ],
+          [],
+          [
+            2,
+            3
+          ]
+        ],
+        "word_highlights2": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            2,
+            3,
+            4
+          ]
+        ]
+      },
+      "variables": []
+    },
+    "tutorial10f": {
+      "sign": [
+        "Убитый торговец",
+        "роняет все товары",
+        "из своей лавки.",
+        "Но слухи в подземельях",
+        "разлетаются быстро.",
+        "",
+        "Врагов Гильдии",
+        "торговцев атакуют",
+        "при первой встрече."
+      ],
+      "attributes": {
+        "font": "fonts/pixelmix.ttf#16#2",
+        "font_highlight_color": {
+          "r": 255,
+          "g": 64,
+          "b": 64,
+          "a": 255
+        },
+        "horizontal_justify": "center",
+        "vertical_justify": "center",
+        "line_padding": 0,
+        "top_padding": 0,
+        "inline_img_adjust_x": 0,
+        "word_highlights": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "word_highlights2": [
+          [],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "variables": []
+    },
+    "tutorial10g": {
+      "sign": [
+        "Торговцы отлично",
+        "обучены самообороне",
+        "и постараются",
+        "истребить нападающих",
+        "с особой жестокостью."
+      ],
+      "attributes": {
+        "font": "fonts/pixelmix.ttf#16#2",
+        "font_highlight_color": {
+          "r": 255,
+          "g": 64,
+          "b": 64,
+          "a": 255
+        },
+        "horizontal_justify": "center",
+        "vertical_justify": "center",
+        "line_padding": 0,
+        "top_padding": 0,
+        "inline_img_adjust_x": 0,
+        "word_highlights": [
+          [],
+          [],
+          [],
+          [],
+          [
+            1,
+            2
+          ]
+        ],
+        "word_highlights2": []
+      },
+      "variables": []
+    },
+    "tutorial10h": {
+      "sign": [
+        "Каждый торговец",
+        "покупает и продаёт",
+        "особый вид товаров.",
+        "",
+        "Этот торгует лишь шляпами",
+        "и не купит ваш самоцвет.",
+        "",
+        "Нажмите переключатель,",
+        "чтобы открыть путь",
+        "к другим покупателям."
+      ],
+      "attributes": {
+        "font": "fonts/pixelmix.ttf#16#2",
+        "font_highlight_color": {
+          "r": 255,
+          "g": 64,
+          "b": 64,
+          "a": 255
+        },
+        "horizontal_justify": "center",
+        "vertical_justify": "center",
+        "line_padding": 0,
+        "top_padding": 0,
+        "inline_img_adjust_x": 0,
+        "word_highlights": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            2,
+            3,
+            4,
+            5
+          ]
+        ],
+        "word_highlights2": [
+          [],
+          [
+            2,
+            3
+          ],
+          [],
+          [],
+          [
+            2,
+            3,
+            4
+          ],
+          [],
+          [],
+          [],
+          [],
+          [
+            0,
+            1
+          ]
+        ],
+        "video": {
+          "background_img": "data/scripts/video_frame_noalpha.png",
+          "background_border": 8,
+          "path": "data/scripts/tutorial10/nosale_mk.ogv",
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      "variables": []
+    },
+    "tutorial10h_gamepad": {
+      "sign": [
+        "Каждый торговец",
+        "покупает и продаёт",
+        "особый вид товаров.",
+        "",
+        "Этот торгует лишь шляпами",
+        "и не купит ваш самоцвет.",
+        "",
+        "Нажмите переключатель,",
+        "чтобы открыть путь",
+        "к другим покупателям."
+      ],
+      "attributes": {
+        "font": "fonts/pixelmix.ttf#16#2",
+        "font_highlight_color": {
+          "r": 255,
+          "g": 64,
+          "b": 64,
+          "a": 255
+        },
+        "horizontal_justify": "center",
+        "vertical_justify": "center",
+        "line_padding": 0,
+        "top_padding": 0,
+        "inline_img_adjust_x": 0,
+        "word_highlights": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            2,
+            3,
+            4,
+            5
+          ]
+        ],
+        "word_highlights2": [
+          [],
+          [
+            2,
+            3
+          ],
+          [],
+          [],
+          [
+            2,
+            3,
+            4
+          ],
+          [],
+          [],
+          [],
+          [],
+          [
+            0,
+            1
+          ]
+        ],
+        "video": {
+          "background_img": "data/scripts/video_frame_noalpha.png",
+          "background_border": 8,
+          "path": "data/scripts/tutorial10/nosale_gamepad.ogv",
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      "variables": []
+    },
+    "tutorial10i": {
+      "sign": [
+        "Открыв меню торговли,",
+        "нажмите $ на своей вещи,",
+        "чтобы продать её.",
+        "",
+        "Нажмите $ на товаре",
+        "в инвентаре торговца,",
+        "чтобы купить его."
+      ],
+      "attributes": {
+        "font": "fonts/pixelmix.ttf#16#2",
+        "horizontal_justify": "center",
+        "vertical_justify": "center",
+        "line_padding": 0,
+        "top_padding": 0,
+        "inline_img_adjust_x": 0,
+        "word_highlights": [
+          [],
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [],
+          [],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "word_highlights2": [],
+        "video": {
+          "background_img": "data/scripts/video_frame_noalpha.png",
+          "background_border": 8,
+          "path": "data/scripts/tutorial10/buysell_mk.ogv",
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      "variables": [
+        {
+          "type": "input_glyph",
+          "value": "MenuRightClick"
+        },
+        {
+          "type": "input_glyph",
+          "value": "MenuRightClick"
+        }
+      ]
+    },
+    "tutorial10i_gamepad": {
+      "sign": [
+        "Открыв меню торговли,",
+        "нажмите $ на своей вещи,",
+        "чтобы продать её.",
+        "",
+        "Нажмите $ на товаре",
+        "в инвентаре торговца,",
+        "чтобы купить его."
+      ],
+      "attributes": {
+        "font": "fonts/pixelmix.ttf#16#2",
+        "horizontal_justify": "center",
+        "vertical_justify": "center",
+        "line_padding": 0,
+        "top_padding": 0,
+        "inline_img_adjust_x": 0,
+        "word_highlights": [
+          [],
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [],
+          [],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "word_highlights2": [],
+        "video": {
+          "background_img": "data/scripts/video_frame_noalpha.png",
+          "background_border": 8,
+          "path": "data/scripts/tutorial10/buysell_gamepad.ogv",
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      "variables": [
+        {
+          "type": "input_glyph",
+          "value": "MenuConfirm"
+        },
+        {
+          "type": "input_glyph",
+          "value": "MenuConfirm"
+        }
+      ]
+    },
+    "tutorial10j": {
+      "sign": [
+        "Чтобы начать торговлю,",
+        "подойдите к торговцу",
+        "и нажмите$ .",
+        "",
+        "Чтобы закрыть",
+        "меню лавки, нажмите$ ."
+      ],
+      "attributes": {
+        "font": "fonts/pixelmix.ttf#16#2",
+        "horizontal_justify": "center",
+        "vertical_justify": "center",
+        "line_padding": 0,
+        "top_padding": 0,
+        "inline_img_adjust_x": 0,
+        "word_highlights": [
+          [],
+          [],
+          [
+            1
+          ],
+          [],
+          [
+            1
+          ],
+          [
+            1
+          ]
+        ],
+        "word_highlights2": []
+      },
+      "variables": [
+        {
+          "type": "input_glyph",
+          "value": "Use"
+        },
+        {
+          "type": "input_glyph",
+          "value": "Character Status"
+        }
+      ]
+    },
+    "tutorial10j_gamepad": {
+      "sign": [
+        "Чтобы начать торговлю,",
+        "подойдите к торговцу",
+        "и нажмите$ .",
+        "",
+        "Чтобы закрыть",
+        "меню лавки, нажмите$ ."
+      ],
+      "attributes": {
+        "font": "fonts/pixelmix.ttf#16#2",
+        "horizontal_justify": "center",
+        "vertical_justify": "center",
+        "line_padding": 0,
+        "top_padding": 0,
+        "inline_img_adjust_x": 0,
+        "word_highlights": [
+          [],
+          [],
+          [
+            1
+          ],
+          [],
+          [
+            1
+          ],
+          [
+            1
+          ]
+        ],
+        "word_highlights2": []
+      },
+      "variables": [
+        {
+          "type": "input_glyph",
+          "value": "Use"
+        },
+        {
+          "type": "input_glyph",
+          "value": "MenuCancel"
+        }
+      ]
+    },
+    "tutorial10k": {
+      "sign": [
+        "Лавку всегда легко",
+        "узнать, где бы",
+        "она ни находилась.",
+        "$",
+        "Вывеска снаружи",
+        "подскажет, чем",
+        "здесь торгуют."
+      ],
+      "attributes": {
+        "font": "fonts/pixelmix.ttf#16#2",
+        "horizontal_justify": "center",
+        "vertical_justify": "center",
+        "line_padding": 0,
+        "top_padding": 0,
+        "inline_img_adjust_x": 0,
+        "word_highlights": [],
+        "word_highlights2": []
+      },
+      "variables": [
+        {
+          "type": "image",
+          "value": "*#data/scripts/tutorial10/sign_shophat.png",
+          "sizex": 0,
+          "sizey": 0
+        }
+      ]
+    },
+    "tutorial10l": {
+      "sign": [
+        "Самоцвет можно метнуть,",
+        "как любой камень. Но он",
+        "ценен тем, сколько",
+        "за него даст торговец.",
+        "$",
+        "Высокий навык торговли",
+        "даёт лучшую цену."
+      ],
+      "attributes": {
+        "font": "fonts/pixelmix.ttf#16#2",
+        "horizontal_justify": "center",
+        "vertical_justify": "center",
+        "line_padding": 0,
+        "top_padding": 0,
+        "inline_img_adjust_x": 0,
+        "word_highlights": [],
+        "word_highlights2": [
+          [],
+          [],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      "variables": [
+        {
+          "type": "image",
+          "value": "*#data/scripts/tutorial10/sign_gem.png",
+          "sizex": 0,
+          "sizey": 0
+        }
+      ]
+    },
+    "tutorial10m": {
+      "sign": [
+        "Стоимость предмета",
+        "в золоте видна,",
+        "если навести на него",
+        "курсор в инвентаре.",
+        "",
+        "После оценки стоимость",
+        "вещи может измениться."
+      ],
+      "attributes": {
+        "font": "fonts/pixelmix.ttf#16#2",
+        "horizontal_justify": "center",
+        "vertical_justify": "center",
+        "line_padding": 0,
+        "top_padding": 0,
+        "inline_img_adjust_x": 0,
+        "word_highlights": [
+          [],
+          [],
+          [
+            2
+          ]
+        ],
+        "word_highlights2": [
+          [],
+          [
+            0,
+            1
+          ],
+          [],
+          [],
+          [],
+          [],
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "video": {
+          "background_img": "data/scripts/video_frame_noalpha.png",
+          "background_border": 8,
+          "path": "data/scripts/tutorial10/value_mk.ogv",
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      "variables": []
+    },
+    "tutorial10m_gamepad": {
+      "sign": [
+        "Стоимость предмета",
+        "в золоте видна,",
+        "если навести на него",
+        "курсор в инвентаре.",
+        "",
+        "После оценки стоимость",
+        "вещи может измениться."
+      ],
+      "attributes": {
+        "font": "fonts/pixelmix.ttf#16#2",
+        "horizontal_justify": "center",
+        "vertical_justify": "center",
+        "line_padding": 0,
+        "top_padding": 0,
+        "inline_img_adjust_x": 0,
+        "word_highlights": [
+          [],
+          [],
+          [
+            2
+          ]
+        ],
+        "word_highlights2": [
+          [],
+          [
+            0,
+            1
+          ],
+          [],
+          [],
+          [],
+          [],
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "video": {
+          "background_img": "data/scripts/video_frame_noalpha.png",
+          "background_border": 8,
+          "path": "data/scripts/tutorial10/value_gamepad.ogv",
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      "variables": []
+    },
+    "tutorial10n": {
+      "sign": [
+        "Золото не убьёт чудовищ",
+        "и не накормит вас.",
+        "$",
+        "Зато за него можно",
+        "торговать с лавочниками."
+      ],
+      "attributes": {
+        "font": "fonts/pixelmix.ttf#16#2",
+        "horizontal_justify": "center",
+        "vertical_justify": "center",
+        "line_padding": 0,
+        "top_padding": 0,
+        "inline_img_adjust_x": 0,
+        "word_highlights": [],
+        "word_highlights2": [
+          [
+            0
+          ],
+          [],
+          [],
+          [],
+          [
+            1,
+            2,
+            3
+          ]
+        ]
+      },
+      "variables": [
+        {
+          "type": "image",
+          "value": "*#data/scripts/tutorial10/sign_gold.png",
+          "sizex": 0,
+          "sizey": 0
+        }
+      ]
+    },
+    "tutorial10o": {
+      "sign": [
+        "Ювелиры покупают и продают",
+        "самоцветы, кольца, амулеты",
+        "$",
+        "Здесь ваш самоцвет",
+        "принесёт много золота!"
+      ],
+      "attributes": {
+        "font": "fonts/pixelmix.ttf#16#2",
+        "horizontal_justify": "center",
+        "vertical_justify": "center",
+        "line_padding": 0,
+        "top_padding": 0,
+        "inline_img_adjust_x": 0,
+        "word_highlights": [],
+        "word_highlights2": [
+          [],
+          [],
+          [],
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        ]
+      },
+      "variables": [
+        {
+          "type": "image",
+          "value": "*#data/scripts/tutorial10/sign_jeweler.png",
+          "sizex": 0,
+          "sizey": 0
+        }
+      ]
+    },
+    "tutorial10p": {
+      "sign": [
+        "Если копите много",
+        "вещей на продажу,",
+        "универсальная лавка —",
+        "большая удача.",
+        "$",
+        "Там купят всё",
+        "и продадут разное."
+      ],
+      "attributes": {
+        "font": "fonts/pixelmix.ttf#16#2",
+        "horizontal_justify": "center",
+        "vertical_justify": "center",
+        "line_padding": 0,
+        "top_padding": 0,
+        "inline_img_adjust_x": 0,
+        "word_highlights": [],
+        "word_highlights2": [
+          [],
+          [],
+          [
+            0,
+            1
+          ],
+          [],
+          [],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      "variables": [
+        {
+          "type": "image",
+          "value": "*#data/scripts/tutorial10/sign_general.png",
+          "sizex": 0,
+          "sizey": 0
+        }
+      ]
+    },
+    "tutorial10q": {
+      "sign": [
+        "Накопленное золото",
+        "указано в вашем",
+        "листе персонажа."
+      ],
+      "attributes": {
+        "font": "fonts/pixelmix.ttf#16#2",
+        "horizontal_justify": "center",
+        "vertical_justify": "center",
+        "line_padding": 0,
+        "top_padding": 0,
+        "inline_img_adjust_x": 0,
+        "word_highlights": [
+          [],
+          [],
+          [
+            0,
+            1
+          ]
+        ],
+        "word_highlights2": []
+      },
+      "variables": []
+    },
+    "tutorial10r": {
+      "sign": [
+        "Чтобы бросить золото,",
+        "наведите на сумму, держите$",
+        "и выберите количество.",
+        "",
+        "Большой запас",
+        "золота тяжёл",
+        "и может замедлить вас."
+      ],
+      "attributes": {
+        "font": "fonts/pixelmix.ttf#16#2",
+        "font_highlight2_color": {
+          "r": 255,
+          "g": 64,
+          "b": 64,
+          "a": 255
+        },
+        "horizontal_justify": "center",
+        "vertical_justify": "center",
+        "line_padding": 0,
+        "top_padding": 0,
+        "inline_img_adjust_x": 0,
+        "word_highlights": [
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        ],
+        "word_highlights2": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            4,
+            5
+          ]
+        ],
+        "video": {
+          "background_img": "data/scripts/video_frame_half_noalpha.png",
+          "background_border": 8,
+          "path": "data/scripts/tutorial10/dropgold_mk.ogv",
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      "variables": [
+        {
+          "type": "input_glyph",
+          "value": "MenuRightClick"
+        }
+      ]
+    },
+    "tutorial10r_gamepad": {
+      "sign": [
+        "Чтобы бросить золото,",
+        "наведите на сумму, жмите$",
+        "и выберите количество.",
+        "",
+        "Большой запас",
+        "золота тяжёл",
+        "и может замедлить вас."
+      ],
+      "attributes": {
+        "font": "fonts/pixelmix.ttf#16#2",
+        "font_highlight2_color": {
+          "r": 255,
+          "g": 64,
+          "b": 64,
+          "a": 255
+        },
+        "horizontal_justify": "center",
+        "vertical_justify": "center",
+        "line_padding": 0,
+        "top_padding": 0,
+        "inline_img_adjust_x": 0,
+        "word_highlights": [
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        ],
+        "word_highlights2": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            4,
+            5
+          ]
+        ],
+        "video": {
+          "background_img": "data/scripts/video_frame_half_noalpha.png",
+          "background_border": 8,
+          "path": "data/scripts/tutorial10/dropgold_gamepad.ogv",
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      "variables": [
+        {
+          "type": "input_glyph",
+          "value": "MenuConfirm"
+        }
+      ]
+    },
+    "tutorial10s": {
+      "sign": [
+        "В подземелье",
+        "можно так и не найти",
+        "покупателя",
+        "для ваших товаров.",
+        "",
+        "Придётся решить,",
+        "разумно ли таскать",
+        "тяжёлые вещи",
+        "ради их цены."
+      ],
+      "attributes": {
+        "font": "fonts/pixelmix.ttf#16#2",
+        "font_highlight_color": {
+          "r": 255,
+          "g": 64,
+          "b": 64,
+          "a": 255
+        },
+        "horizontal_justify": "center",
+        "vertical_justify": "center",
+        "line_padding": 0,
+        "top_padding": 0,
+        "inline_img_adjust_x": 0,
+        "word_highlights": [
+          [],
+          [
+            1,
+            2,
+            3
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            0,
+            1
+          ]
+        ],
+        "word_highlights2": []
+      },
+      "variables": []
+    },
+    "tutorial10t": {
+      "sign": [
+        "Торговцы",
+        "этого рынка —",
+        "ваша единственная",
+        "возможность снарядиться",
+        "для проверки в испытании.",
+        "",
+        "Покупайте и продавайте,",
+        "чтобы приготовиться",
+        "так, как вам хочется."
+      ],
+      "attributes": {
+        "font": "fonts/pixelmix.ttf#16#2",
+        "horizontal_justify": "center",
+        "vertical_justify": "center",
+        "line_padding": 0,
+        "top_padding": 0,
+        "inline_img_adjust_x": 0,
+        "word_highlights": [],
+        "word_highlights2": [
+          [],
+          [],
+          [],
+          [
+            0,
+            1,
+            2
+          ],
+          [],
+          [],
+          [
+            0,
+            1,
+            2
+          ],
+          [],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      },
+      "variables": []
+    },
+    "tutorial10u": {
+      "sign": [
+        "За порталом ждёт",
+        "череда всё более",
+        "трудных схваток.",
+        "Купите всё, что",
+        "поможет победить.",
+        "",
+        "Здесь проверят",
+        "вашу находчивость."
+      ],
+      "attributes": {
+        "font": "fonts/pixelmix.ttf#16#2",
+        "horizontal_justify": "center",
+        "vertical_justify": "center",
+        "line_padding": 0,
+        "top_padding": 0,
+        "inline_img_adjust_x": 0,
+        "word_highlights": [],
+        "word_highlights2": []
+      },
+      "variables": []
+    },
+    "tutorial10v": {
+      "sign": [
+        "Вещи в лавках,",
+        "лежащие на столах",
+        "или в сундуках,",
+        "можно брать себе.",
+        "",
+        "Торговцу важны лишь",
+        "те вещи, что хранятся",
+        "в его инвентаре."
+      ],
+      "attributes": {
+        "font": "fonts/pixelmix.ttf#16#2",
+        "horizontal_justify": "center",
+        "vertical_justify": "center",
+        "line_padding": 0,
+        "top_padding": 0,
+        "inline_img_adjust_x": 0,
+        "word_highlights": [],
+        "word_highlights2": [
+          [],
+          [],
+          [],
+          [
+            1,
+            2,
+            3
+          ],
+          [],
+          [],
+          []
+        ]
+      },
+      "variables": []
+    },
+    "tutorial10w": {
+      "sign": [
+        "Бой сразу с двумя",
+        "врагами может",
+        "сильно осложниться.",
+        "",
+        "Любой искатель должен",
+        "быть готов и к стрелкам,",
+        "и к бойцам",
+        "ближнего боя."
+      ],
+      "attributes": {
+        "font": "fonts/pixelmix.ttf#16#2",
+        "horizontal_justify": "center",
+        "vertical_justify": "center",
+        "line_padding": 0,
+        "top_padding": 0,
+        "inline_img_adjust_x": 0,
+        "word_highlights": [],
+        "word_highlights2": [
+          [
+            1,
+            2
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "video": {
+          "background_img": "data/scripts/video_frame_half_noalpha.png",
+          "background_border": 8,
+          "path": "data/scripts/tutorial10/killtwo.ogv",
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      "variables": []
+    },
+    "tutorial10x": {
+      "sign": [
+        "Следующий враг носит",
+        "посох, который",
+        "замедляет и наносит",
+        "большой урон мимо БРН.",
+        "",
+        "Вещи ослабляют действие",
+        "магии. Атакуйте из",
+        "засады, чтобы избегать",
+        "магических снарядов."
+      ],
+      "attributes": {
+        "font": "fonts/pixelmix.ttf#16#2",
+        "font_highlight_color": {
+          "r": 255,
+          "g": 64,
+          "b": 64,
+          "a": 255
+        },
+        "horizontal_justify": "center",
+        "vertical_justify": "center",
+        "line_padding": 0,
+        "top_padding": 0,
+        "inline_img_adjust_x": 0,
+        "word_highlights": [
+          [],
+          [],
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "word_highlights2": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [],
+          [
+            0,
+            1
+          ]
+        ],
+        "video": {
+          "background_img": "data/scripts/video_frame_half_noalpha.png",
+          "background_border": 8,
+          "path": "data/scripts/tutorial10/staffambush.ogv",
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      "variables": []
+    }
+  }
 }

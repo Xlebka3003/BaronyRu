@@ -1,0 +1,7 @@
+# Игровые тексты сохраняются побайтно: переносы и пробелы значимы для загрузчиков.
+*.txt -text
+*.json -text
+*.ttf binary
+*.png binary
+*.md text eol=lf
+.gitattributes text eol=lf

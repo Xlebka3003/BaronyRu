@@ -3,57 +3,57 @@
   "tags": [
     {
       "BLOCKED_ATTACKS": {
-        "default": "Атаки полностью заблокированы:",
-        "format": "%d попаданий"
+        "default": "Полностью блокировано атак:",
+        "format": "Попадания: %d"
       }
     },
     {
       "BROKEN_BY_BLOCKING": {
         "default": "Сломано при блокировании:",
-        "format_crystal shard": "%d осколков",
-        "format_torch and lantern": "%d раз",
-        "format": "%d щитов"
+        "format_crystal shard": "Осколки: %d",
+        "format_torch and lantern": "Раз: %d",
+        "format": "Щиты: %d"
       }
     },
     {
       "BROKEN": {
         "default": "Всего сломано:",
-        "magicstaffs": "Посохов сгорело:",
-        "format_mirrors": "%d лет несчастья"
+        "magicstaffs": "Посохов выгорело:",
+        "format_mirrors": "Невезение, лет: %d"
       }
     },
     {
       "BLESSED_MAX": {
-        "default": "Макс. благословение:",
+        "default": "Максимум благословения:",
         "format": "(%p)"
       }
     },
     {
       "ATTACKS": {
-        "default": "Попаданий атак:",
-        "format": "%d попаданий"
+        "default": "Попадания:",
+        "format": "Попадания: %d"
       }
     },
     {
       "THROWN": {
-        "default": "РАЗ БРОШЕНО:",
+        "default": "БРОСКОВ:",
         "defensive potions": "Бутылок брошено:",
         "booze": "Бутылок брошено:",
         "offensive potions": "Бутылок брошено:",
         "water": "Бутылок брошено:",
         "cream pie": "Пирогов брошено:",
         "rocks & gems": "Самоцветов брошено:",
-        "format_defensive potions": "%d зелий",
-        "format_booze": "%d зелий",
-        "format_offensive potions": "%d зелий",
-        "format_water": "%d бутылок",
-        "format_cream pie": "%d раз",
-        "format_rocks & gems": "%d раз"
+        "format_defensive potions": "Зелья: %d",
+        "format_booze": "Зелья: %d",
+        "format_offensive potions": "Зелья: %d",
+        "format_water": "Бутылки: %d",
+        "format_cream pie": "Раз: %d",
+        "format_rocks & gems": "Раз: %d"
       }
     },
     {
       "SHOTS_FIRED": {
-        "default": "ВЫСТРЕЛОВ СДЕЛАНО:"
+        "default": "ВЫСТРЕЛОВ:"
       }
     },
     {
@@ -63,60 +63,60 @@
     },
     {
       "CONSUMED": {
-        "default": "Использовано:",
-        "scrolls": "Свитков прочитано (опознано):",
+        "default": "Употреблено:",
+        "scrolls": "Свитков прочитано (опознаны):",
         "defensive potions": "Бутылок выпито:",
         "booze": "Бутылок выпито:",
         "offensive potions": "Бутылок выпито:",
         "blood vials": "Крови выпито:",
         "water": "Бутылок выпито:",
         "food_tin": "Консервов съедено:",
-        "meat, fish, and bread": "Блюд съедено:",
+        "meat, fish, and bread": "Порций съедено:",
         "tomalley": "Останков съедено:",
         "cheese and apples": "Кусочков съедено:",
         "rations": "Пайков съедено:",
         "cream pie": "Пирогов съедено:",
-        "format_tin and tin opener": "%d раз",
-        "format_defensive potions": "%d зелий",
-        "format_booze": "%d зелий",
-        "format_offensive potions": "%d зелий",
-        "format_water": "%d бутылок",
-        "format_blood vials": "%d флаконов",
-        "format": "%d раз"
+        "format_tin and tin opener": "Раз: %d",
+        "format_defensive potions": "Зелья: %d",
+        "format_booze": "Зелья: %d",
+        "format_offensive potions": "Зелья: %d",
+        "format_water": "Бутылки: %d",
+        "format_blood vials": "Пузырьки: %d",
+        "format": "Раз: %d"
       }
     },
     {
       "TOWEL_USES": {
-        "default": "ИСПОЛЬЗОВАНИЙ ПОЛОТЕНЦА:"
+        "default": "ПРИМЕНЕНИЙ ПОЛОТЕНЦА:"
       }
     },
     {
       "PICKAXE_WALLS_DUG": {
-        "default": "Стен добыто:"
+        "default": "Стен пробито:"
       }
     },
     {
       "SINKS_TAPPED": {
-        "default": "Раковин использовано:",
-        "format": "%d освежений"
+        "default": "Раковин опробовано:",
+        "format": "Освежений: %d"
       }
     },
     {
       "ALEMBIC_BREWED": {
-        "default": "ЗЕЛИЙ СВАРЕНО:"
+        "default": "Зелий сварено:"
       }
     },
     {
       "TINKERKIT_CRAFTS": {
         "default": "Всего предметов создано:",
-        "format": "%d предметов"
+        "format": "Предметы: %d"
       }
     },
     {
       "TORCH_WALLS": {
         "default": "Собрано со стен:",
-        "format": "%d факелов",
-        "format_crystal shard": "%d осколков"
+        "format": "Факелы: %d",
+        "format_crystal shard": "Осколки: %d"
       }
     },
     {
@@ -126,8 +126,8 @@
     },
     {
       "BLESSED_TOTAL": {
-        "default": "Раз благословлено:",
-        "format": "%d раз"
+        "default": "Благословений получено:",
+        "format": "Раз: %d"
       }
     },
     {
@@ -136,79 +136,79 @@
         "boomerang": "Максимальный урон:",
         "tomahawks & daggers": "Максимальный урон:",
         "chakrams and shurikens": "Максимальный урон:",
-        "rocks & gems": "Макс. урон метанием:",
-        "defensive potions": "Макс. урон метанием:",
-        "booze": "Макс. урон метанием:",
-        "offensive potions": "Макс. урон метанием:",
-        "format": "%d DMG"
+        "rocks & gems": "Макс. урон броском:",
+        "defensive potions": "Макс. урон броском:",
+        "booze": "Макс. урон броском:",
+        "offensive potions": "Макс. урон броском:",
+        "format": "Урон: %d"
       }
     },
     {
       "TRADING_GOLD_EARNED": {
         "default": "Золота заработано продажей:",
-        "format": "%dG"
+        "format": "Золото: %d"
       }
     },
     {
       "FOUNTAINS_TAPPED": {
-        "default": "Фонтанов использовано:",
-        "format": "%d освежений"
+        "default": "Фонтанов опробовано:",
+        "format": "Освежений: %d"
       }
     },
     {
       "ALEMBIC_DECANTED": {
         "default": "Зелий перелито:",
-        "format": "%d переливаний"
+        "format": "Переливания: %d"
       }
     },
     {
       "TINKERKIT_REPAIRS": {
         "default": "Всего предметов починено:",
-        "format": "%d предметов"
+        "format": "Предметы: %d"
       }
     },
     {
       "MIRROR_TELEPORTS": {
-        "default": "Телепортаций через зеркало:",
-        "format": "%d раз"
+        "default": "Телепортаций зеркалом:",
+        "format": "Раз: %d"
       }
     },
     {
       "BLOCKED_HIGHEST_DMG": {
-        "default": "Наибольший урон заблокирован:",
-        "format": "%d DMG"
+        "default": "Макс. заблокированный урон:",
+        "format": "Урон: %d"
       }
     },
     {
       "TRADING_SOLD": {
-        "default": "Количество продано в магазины:",
-        "format": "%d предметов"
+        "default": "Предметов продано в лавки:",
+        "format": "Предметы: %d"
       }
     },
     {
       "DMG_0": {
         "default": "Попаданий с 0 урона:",
-        "format": "%d *звяков*"
+        "format": "%d *Дзынь*"
       }
     },
     {
       "BOTTLE_FROM_BREWING": {
-        "default": "ПУСТЫХ БУТЫЛОК ВОССТАНОВЛЕНО:"
+        "default": "ПУСТЫХ БУТЫЛОК ПОЛУЧЕНО:"
       }
     },
     {
       "ALEMBIC_DUPLICATED": {
-        "default": "ЗЕЛИЙ ПРОДУБЛИРОВАНО:"
+        "default": "Зелий размножено:"
       }
     },
     {
       "TINKERKIT_METAL_SCRAPPED": {
-        "default": "МЕТАЛЛОЛОМА ДОБЫТО:"
+        "default": "МЕТАЛЛОЛОМА ПОЛУЧЕНО:"
       }
     },
     {
       "INSPIRATION_XP": {
-        "default": "ОПЫТА ВДОХНОВЕНИЯ ДЛЯ СОЮЗНИКОВ:"
+        "default": "ОПЫТА СОЮЗНИКАМ ОТ ВДОХНОВЕНИЯ:"
       }
     },
     {
@@ -218,17 +218,17 @@
     },
     {
       "BOTTLES_FROM_CONSUME": {
-        "default": "ПУСТЫХ БУТЫЛОК ВОССТАНОВЛЕНО ОТ ПИТЬЯ:"
+        "default": "БУТЫЛОК ПОЛУЧЕНО ПОСЛЕ ПИТЬЯ:"
       }
     },
     {
       "ALEMBIC_BROKEN": {
-        "default": "АЛЕМБИКОВ СЛОМАНО:"
+        "default": "ПЕРЕГОННЫХ КУБОВ СЛОМАНО:"
       }
     },
     {
       "TINKERKIT_MAGIC_SCRAPPED": {
-        "default": "МАГИЧЕСКОГО ЛОМА ДОБЫТО:"
+        "default": "МАГИЧЕСКОГО ЛОМА ПОЛУЧЕНО:"
       }
     },
     {
@@ -238,164 +238,164 @@
     },
     {
       "APPRAISED": {
-        "default": "Раз оценено:",
+        "default": "Оценок выполнено:",
         "rocks & gems": "Самоцветов оценено:",
-        "format_rocks & gems": "%d самоцветов"
+        "format_rocks & gems": "Самоцветы: %d"
       }
     },
     {
       "TOWEL_BLEEDING": {
-        "default": "Кровотечение вылечено:",
-        "format": "%d раз"
+        "default": "Кровотечений остановлено:",
+        "format": "Раз: %d"
       }
     },
     {
       "TOWEL_MESSY": {
-        "default": "Грязь вылечена:",
-        "format": "%d раз"
+        "default": "Очищений лица:",
+        "format": "Раз: %d"
       }
     },
     {
       "TOWEL_GREASY": {
-        "default": "Жир вылечен:",
-        "format": "%d раз"
+        "default": "Очищений рук от жира:",
+        "format": "Раз: %d"
       }
     },
     {
       "RUNS_COLLECTED": {
-        "default": "Забегов собрано:",
-        "spells": "Заклинаний изучено:",
-        "format": "%d забегов"
+        "default": "Найдено в забегах:",
+        "spells": "Заклинание изучено:",
+        "format": "Забеги: %d"
       }
     },
     {
       "ATTACKS_MISSES": {
-        "default": "АТАК ПРОМАХНУЛОСЬ:"
+        "default": "ПРОМАХОВ:"
       }
     },
     {
       "THROWN_HITS": {
-        "default": "Попаданий метанием:",
-        "defensive potions": "Попаданий метанием:",
-        "booze": "Попаданий метанием:",
-        "offensive potions": "Попаданий метанием:",
-        "water": "Попаданий метанием:",
-        "cream pie": "Попаданий метанием:",
-        "format": "%d попаданий",
-        "format_cream pie": "%d клоунов"
+        "default": "Целей поражено броском:",
+        "defensive potions": "Целей поражено броском:",
+        "booze": "Целей поражено броском:",
+        "offensive potions": "Целей поражено броском:",
+        "water": "Целей поражено броском:",
+        "cream pie": "Целей поражено броском:",
+        "format": "Попадания: %d",
+        "format_cream pie": "Клоуны: %d"
       }
     },
     {
       "SHOTS_HIT": {
-        "default": "Попаданий по целям:",
-        "format": "%d попаданий"
+        "default": "Целей поражено:",
+        "format": "Попадания: %d"
       }
     },
     {
       "AMMO_HIT": {
-        "default": "Попаданий по целям:",
-        "format": "%d попаданий"
+        "default": "Целей поражено:",
+        "format": "Попадания: %d"
       }
     },
     {
       "MAGICSTAFF_RECHARGED": {
-        "default": "Магических посохов перезаряжено:",
-        "format": "%d раз"
+        "default": "Посохов перезаряжено:",
+        "format": "Раз: %d"
       }
     },
     {
       "MAGICSTAFF_CASTS": {
-        "default": "Раз использовано:",
-        "format": "%d разрядов"
+        "default": "Применений:",
+        "format": "Разряды: %d"
       }
     },
     {
       "FEATHER_ENSCRIBED": {
-        "default": "Чистых свитков начертано:",
-        "format": "%d свитков"
+        "default": "Чистых свитков исписано:",
+        "format": "Свитки: %d"
       }
     },
     {
       "FEATHER_CHARGE_USED": {
-        "default": "Всего заряда использовано:",
+        "default": "Всего заряда потрачено:",
         "format": "%d%"
       }
     },
     {
       "FEATHER_SPELLBOOKS": {
-        "default": "Книг заклинаний починено:",
-        "format": "%d книг"
+        "default": "Книг заклинаний восстановлено:",
+        "format": "Книги заклинаний: %d"
       }
     },
     {
       "CONSUMED_UNIDENTIFIED": {
-        "default": "Свитков прочитано (неопознано):",
-        "format": "%d раз"
+        "default": "Свитков прочитано (не опознаны):",
+        "format": "Раз: %d"
       }
     },
     {
       "SPELL_CASTS": {
-        "default": "Всего применений:",
-        "format": "%d раз"
+        "default": "Всего заклинаний сотворено:",
+        "format": "Раз: %d"
       }
     },
     {
       "SPELL_FAILURES": {
-        "default": "Применений провалено:",
-        "format": "%d провалов"
+        "default": "Заклинаний сорвалось:",
+        "format": "Неудачи: %d"
       }
     },
     {
       "SPELLBOOK_CASTS": {
-        "default": "Всего применений из книги:",
-        "format": "%d раз"
+        "default": "Всего заклинаний из книг:",
+        "format": "Раз: %d"
       }
     },
     {
       "SPELLBOOK_LEARNT": {
-        "default": "Изучено из книги заклинаний:",
-        "format": "%d заклинаний"
+        "default": "Изучено по книге:",
+        "format": "Заклинания: %d"
       }
     },
     {
       "KILLED_SOLO": {
         "default": "Всего убито:",
-        "format": "%d %s"
+        "format": "%d (%s)"
       }
     },
     {
       "KILLED_PARTY": {
-        "default": "Убито (в группе):"
+        "default": "Убито отрядом:"
       }
     },
     {
       "KILLED_BY": {
-        "default": "Убит кем:"
+        "default": "Погибло от:"
       }
     },
     {
       "GHOST_SPAWNED": {
-        "default": "Призраков появилось как:"
+        "default": "Превращений в призрака:"
       }
     },
     {
       "GHOST_TELEPORTS": {
-        "default": "Телепортаций применено:"
+        "default": "Телепортаций выполнено:"
       }
     },
     {
       "GHOST_PINGS": {
-        "default": "Сигналов отправлено:"
+        "default": "Окликов отправлено:"
       }
     },
     {
       "GHOST_PUSHES": {
-        "default": "Предметов толкнуто:"
+        "default": "Предметов сдвинуто:"
       }
     },
     {
       "MINEHEAD_ENTER": {
-        "default": "Экспедиций в подземелье:"
+        "default": "Походов в подземелье:"
       }
     },
     {
@@ -415,12 +415,12 @@
     },
     {
       "LEVER_PULLED": {
-        "default": "Рычагов потянуто:"
+        "default": "Рычагов переключено:"
       }
     },
     {
       "LEVER_FOLLOWER_PULLED": {
-        "default": "Рычагов потянуто спутниками:"
+        "default": "Рычагов переключено спутниками:"
       }
     },
     {
@@ -440,24 +440,24 @@
     },
     {
       "LEVELS_ENTERED": {
-        "default": "Раз достигнуто:",
+        "default": "Посещений:",
         "transition floor": "Переходных этажей достигнуто:",
         "format": "%d"
       }
     },
     {
       "LEVELS_EXITED": {
-        "default": "УРОВНЕЙ ПОКИНУТО"
+        "default": "Этажей покинуто:"
       }
     },
     {
       "LEVELS_MAX_LVL": {
-        "default": "Максимальный LVL при выходе:"
+        "default": "Макс. уровень при выходе:"
       }
     },
     {
       "LEVELS_MAX_GOLD": {
-        "default": "Максимум золота при выходе:"
+        "default": "Макс. золота при выходе:"
       }
     },
     {
@@ -477,7 +477,7 @@
     },
     {
       "FOUNTAIN_FOOCUBI": {
-        "default": "Фукубов появилось:"
+        "default": "Инкубов и суккубов появилось:"
       }
     },
     {
@@ -487,12 +487,12 @@
     },
     {
       "FOUNTAIN_BLESS": {
-        "default": "Снаряжения благословлено (одно):"
+        "default": "Благословений одной вещи:"
       }
     },
     {
       "FOUNTAIN_BLESS_ALL": {
-        "default": "Снаряжения благословлено (всё):"
+        "default": "Благословений всего снаряжения:"
       }
     },
     {
@@ -502,7 +502,7 @@
     },
     {
       "CHESTS_MIMICS_AWAKENED": {
-        "default": "Мимиков разбужено:"
+        "default": "Мимиков пробуждено:"
       }
     },
     {
@@ -517,7 +517,7 @@
     },
     {
       "BARRIER_DESTROYED": {
-        "default": "Барьеров уничтожено:"
+        "default": "Преград разрушено:"
       }
     },
     {
@@ -552,22 +552,22 @@
     },
     {
       "SHOP_GOLD_EARNED": {
-        "default": "Золота получено от продажи:",
-        "format": "%dG"
+        "default": "Золота получено от продаж:",
+        "format": "Золото: %d"
       }
     },
     {
       "TRAP_KILLED_BY": {
         "default": "Смертей от ловушек:",
-        "boulder trap": "Смертей от валунных ловушек:",
-        "arrow trap": "Смертей от стреляющих ловушек:",
-        "spike trap": "Смертей от шипованных ловушек:",
+        "boulder trap": "Смертей от ловушек с валунами:",
+        "arrow trap": "Смертей от ловушек со стрелами:",
+        "spike trap": "Смертей от ловушек с шипами:",
         "magic trap": "Смертей от магических ловушек:"
       }
     },
     {
       "TRAP_DAMAGE": {
-        "default": "Всего урона получено от ловушек:"
+        "default": "Всего урона от ловушек:"
       }
     },
     {
@@ -577,17 +577,17 @@
     },
     {
       "BOULDERS_PUSHED": {
-        "default": "Валунов толкнуто:"
+        "default": "Валунов сдвинуто:"
       }
     },
     {
       "ARROWS_PILFERED": {
-        "default": "Раз стрел украдено:"
+        "default": "Извлечений стрел из ловушек:"
       }
     },
     {
       "SWIM_TIME": {
-        "default": "Время плескания:",
+        "default": "Времени на плескание:",
         "format": "%t",
         "format_time": "%02d:%02d:%02d"
       }
@@ -595,13 +595,13 @@
     {
       "SWIM_KILLED_WHILE": {
         "default": "Несчастных случаев при плавании:",
-        "format": "%d смертей"
+        "format": "Смерти: %d"
       }
     },
     {
       "SWIM_BURN_CURED": {
-        "default": "Горения вылечено плаванием:",
-        "format": "%d раз"
+        "default": "Пожаров потушено плаванием:",
+        "format": "Раз: %d"
       }
     },
     {
@@ -616,32 +616,32 @@
     },
     {
       "SOKOBAN_SOLVES": {
-        "default": "Раз решено:"
+        "default": "Решений найдено:"
       }
     },
     {
       "SOKOBAN_FASTEST_SOLVE": {
-        "default": "Быстрейшее решение:"
+        "default": "Самое быстрое решение:"
       }
     },
     {
       "TRAP_MAGIC_STATUSED": {
-        "default": "Раз поражён заклинанием эффекта:"
+        "default": "Попаданий заклинаниями эффектов:"
       }
     },
     {
       "OBELISK_USES": {
-        "default": "Обелисков коснулось:"
+        "default": "Касаний обелисков:"
       }
     },
     {
       "OBELISK_FOLLOWER_USES": {
-        "default": "Обелисков коснулось (спутники):"
+        "default": "Касаний обелисков спутниками:"
       }
     },
     {
       "TRIALS_ATTEMPTS": {
-        "default": "Испытаний попыток:"
+        "default": "Попыток пройти испытания:"
       }
     },
     {
@@ -651,12 +651,12 @@
     },
     {
       "TRIALS_DEATHS": {
-        "default": "СМЕРТЕЙ В ИСПЫТАНИЯХ:"
+        "default": "Смертей в испытаниях:"
       }
     },
     {
       "LEVELS_BIOME_CLEAR": {
-        "default": "УРОВНЕЙ_БИОМ_ОЧИЩЕН:"
+        "default": "Областей пройдено:"
       }
     },
     {
@@ -666,8 +666,8 @@
     },
     {
       "SINKS_HEALTH_RESTORED": {
-        "default": "Чистое здоровье восстановлено:",
-        "format": "%d HP"
+        "default": "Чистый прирост ОЗ:",
+        "format": "%d ОЗ"
       }
     },
     {
@@ -682,8 +682,8 @@
     },
     {
       "SHOP_SPENT": {
-        "default": "Золота потрачено в магазине:",
-        "format": "%dG"
+        "default": "Золота потрачено в лавках:",
+        "format": "Золото: %d"
       }
     },
     {
@@ -693,59 +693,59 @@
     },
     {
       "PITS_ITEMS_LOST": {
-        "default": "Предметов потеряно в глубинах:"
+        "default": "Предметов потеряно в пропастях:"
       }
     },
     {
       "PITS_LEVITATED": {
-        "default": "Время левитации над ямами:",
+        "default": "Времени парения над пропастями:",
         "format": "%t",
         "format_time": "%02d:%02d:%02d"
       }
     },
     {
       "PITS_DEATHS": {
-        "default": "Смертей в ямах:"
+        "default": "Смертей в пропастях:"
       }
     },
     {
       "PITS_ITEMS_VALUE_LOST": {
-        "default": "Стоимость предметов потеряно в глубинах:",
-        "format": "%dG"
+        "default": "Стоимость вещей в пропастях:",
+        "format": "Золото: %d"
       }
     },
     {
       "KILLED_MULTIPLAYER": {
         "default": "Всего убито:",
-        "format": "%d (Мультиплеер)"
+        "format": "%d (сетевая игра)"
       }
     },
     {
       "RECRUITED": {
-        "default": "Рекрутировано:"
+        "default": "Нанято:"
       }
     },
     {
       "RACE_GAMES_STARTED": {
         "default": "Любимая раса:",
-        "format": "%s (%d игр)"
+        "format": "%s (игр: %d)"
       }
     },
     {
       "RACE_RECRUITS": {
-        "default": "Наиболее влиятельный:",
-        "format": "%s (%d рекрутов)"
+        "default": "Больше всего нанято:",
+        "format": "%s (нанято: %d)"
       }
     },
     {
       "RACE_GAMES_WON": {
-        "default": "Больше побед:",
-        "format": "%s (%d побед)"
+        "default": "Больше всего побед:",
+        "format": "%s (побед: %d)"
       }
     },
     {
       "DISTANCE_TRAVELLED": {
-        "default": "Общее пройденное расстояние:",
+        "default": "Всего пройдено:",
         "format": "%m"
       }
     },
@@ -757,283 +757,283 @@
     },
     {
       "XP_KILLS": {
-        "default": "XP получено за убийства:",
-        "format": "%d XP"
+        "default": "Опыта за убийства:",
+        "format": "%d ОП"
       }
     },
     {
       "XP_SKILLS": {
-        "default": "XP получено за навыки:",
-        "format": "%d XP"
+        "default": "Опыта за навыки:",
+        "format": "%d ОП"
       }
     },
     {
       "XP_MAX_IN_FLOOR": {
-        "default": "Макс. XP получено на этаже:",
-        "format": "%d XP"
+        "default": "Макс. опыта за этаж:",
+        "format": "%d ОП"
       }
     },
     {
       "XP_MAX_INSTANCE": {
-        "default": "Макс. XP за одно убийство:",
-        "format": "%d XP"
+        "default": "Макс. опыта за одно убийство:",
+        "format": "%d ОП"
       }
     },
     {
       "CLASS_LVL_MAX": {
-        "default": "Макс. LVL:",
-        "format": "LVL %d (%s)"
+        "default": "Наивысший уровень:",
+        "format": "Ур. %d (%s)"
       }
     },
     {
       "CLASS_LVL_GAINED": {
-        "default": "Больше LVL получено:",
+        "default": "Больше всего уровней получено:",
         "format": "%d (%s)"
       }
     },
     {
       "CLASS_GAMES_STARTED": {
-        "default": "Чаще используемый:",
-        "classes list": "Раз сыграно:",
-        "format": "%s (%d игр)"
+        "default": "Чаще всего использовано:",
+        "classes list": "Игр сыграно:",
+        "format": "%s (игр: %d)"
       }
     },
     {
       "CLASS_GAMES_WON": {
-        "default": "Больше побед:",
-        "format": "%s (%d побед)"
+        "default": "Больше всего побед:",
+        "format": "%s (побед: %d)"
       }
     },
     {
       "CLASS_GAMES_SOLO": {
-        "default": "КЛАСС_ИГР_СОЛО"
+        "default": "Одиночных игр:"
       }
     },
     {
       "CLASS_GAMES_MULTI": {
-        "default": "КЛАСС_ИГР_МУЛЬТИ"
+        "default": "Совместных игр:"
       }
     },
     {
       "STAT_MAX": {
-        "default": "STAT_MAX",
-        "str": "Макс. STR от снаряжения/эффектов:",
-        "dex": "Макс. DEX от снаряжения/эффектов:",
-        "con": "Макс. CON от снаряжения/эффектов:",
-        "int": "Макс. INT от снаряжения/эффектов:",
-        "per": "Макс. PER от снаряжения/эффектов:",
-        "chr": "Макс. CHR от снаряжения/эффектов:",
+        "default": "Максимум характеристики:",
+        "str": "Макс. СИЛ от вещей/эффектов:",
+        "dex": "Макс. ЛОВ от вещей/эффектов:",
+        "con": "Макс. СТК от вещей/эффектов:",
+        "int": "Макс. ИНТ от вещей/эффектов:",
+        "per": "Макс. ВОС от вещей/эффектов:",
+        "chr": "Макс. ХАР от вещей/эффектов:",
         "format": "+%d %s"
       }
     },
     {
       "CLASS_STAT_STR_MAX": {
-        "default": "CLASS_STAT_STR_MAX",
-        "str": "Макс. базовый STR:",
-        "format": "%d STR (%s)"
+        "default": "Наивысшая базовая СИЛ:",
+        "str": "Наивысшая базовая СИЛ:",
+        "format": "%d СИЛ (%s)"
       }
     },
     {
       "STAT_INCREASES": {
-        "default": "STAT_INCREASES",
-        "str": "Всего STR очков получено:",
-        "dex": "Всего DEX очков получено:",
-        "con": "Всего CON очков получено:",
-        "int": "Всего INT очков получено:",
-        "per": "Всего PER очков получено:",
-        "chr": "Всего CHR очков получено:",
-        "format": "%d очков"
+        "default": "Прирост характеристик:",
+        "str": "Всего СИЛ получено:",
+        "dex": "Всего ЛОВ получено:",
+        "con": "Всего СТК получено:",
+        "int": "Всего ИНТ получено:",
+        "per": "Всего ВОС получено:",
+        "chr": "Всего ХАР получено:",
+        "format": "Очки: %d"
       }
     },
     {
       "STAT_DOUBLED": {
-        "default": "STAT_DOUBLED",
-        "str": "+2 STR бросков мастерства:",
-        "con": "+2 CON бросков мастерства:",
-        "dex": "+2 DEX бросков мастерства:",
-        "int": "+2 INT бросков мастерства:",
-        "per": "+2 PER бросков мастерства:",
-        "chr": "+2 CHR бросков мастерства:",
-        "format": "%d бонусов"
+        "default": "Удвоенных приростов:",
+        "str": "Бонусов умелости +2 СИЛ:",
+        "con": "Бонусов умелости +2 СТК:",
+        "dex": "Бонусов умелости +2 ЛОВ:",
+        "int": "Бонусов умелости +2 ИНТ:",
+        "per": "Бонусов умелости +2 ВОС:",
+        "chr": "Бонусов умелости +2 ХАР:",
+        "format": "Бонусы: %d"
       }
     },
     {
       "HP_MAX": {
-        "default": "Макс. HP всего:",
-        "format": "%d HP"
+        "default": "Наибольший запас ОЗ:",
+        "format": "%d ОЗ"
       }
     },
     {
       "CLASS_HP_MAX": {
-        "default": "Макс. HP всего:",
-        "format": "%d HP (%s)"
+        "default": "Наибольший запас ОЗ:",
+        "format": "%d ОЗ (%s)"
       }
     },
     {
       "MP_MAX": {
-        "default": "Макс. MP всего:",
-        "format": "%d MP"
+        "default": "Наибольший запас ОМ:",
+        "format": "%d ОМ"
       }
     },
     {
       "CLASS_MP_MAX": {
-        "default": "Макс. MP всего:",
-        "format": "%d MP (%s)"
+        "default": "Наибольший запас ОМ:",
+        "format": "%d ОМ (%s)"
       }
     },
     {
       "CLASS_SKILL_UPS": {
-        "default": "КЛАСС_ПОВЫШЕНИЙ_НАВЫКОВ"
+        "default": "Повышений навыков:"
       }
     },
     {
       "CLASS_SKILL_MAX": {
-        "default": "Макс. навык достигнут:",
+        "default": "Наивысший навык:",
         "format": "%d (%s)"
       }
     },
     {
       "CLASS_SKILL_UPS_RUN_MAX": {
-        "default": "Больше повышений навыков за 1 забег:",
+        "default": "Макс. прирост навыков за 1 забег:",
         "format": "%d (%s)"
       }
     },
     {
       "CLASS_STAT_DEX_MAX": {
-        "default": "CLASS_STAT_DEX_MAX",
-        "dex": "Макс. базовый DEX:",
-        "format": "%d DEX (%s)"
+        "default": "Наивысшая базовая ЛОВ:",
+        "dex": "Наивысшая базовая ЛОВ:",
+        "format": "%d ЛОВ (%s)"
       }
     },
     {
       "CLASS_STAT_CON_MAX": {
-        "default": "CLASS_STAT_CON_MAX",
-        "con": "Макс. базовый CON:",
-        "format": "%d CON (%s)"
+        "default": "Наивысшая базовая СТК:",
+        "con": "Наивысшая базовая СТК:",
+        "format": "%d СТК (%s)"
       }
     },
     {
       "CLASS_STAT_INT_MAX": {
-        "default": "CLASS_STAT_INT_MAX",
-        "int": "Макс. базовый INT:",
-        "format": "%d INT (%s)"
+        "default": "Наивысший базовый ИНТ:",
+        "int": "Наивысший базовый ИНТ:",
+        "format": "%d ИНТ (%s)"
       }
     },
     {
       "CLASS_STAT_PER_MAX": {
-        "default": "CLASS_STAT_PER_MAX",
-        "per": "Макс. базовый PER:",
-        "format": "%d PER (%s)"
+        "default": "Наивысшее базовое ВОС:",
+        "per": "Наивысшее базовое ВОС:",
+        "format": "%d ВОС (%s)"
       }
     },
     {
       "CLASS_STAT_CHR_MAX": {
-        "default": "CLASS_STAT_CHR_MAX",
-        "chr": "Макс. базовый CHR:",
-        "format": "%d CHR (%s)"
+        "default": "Наивысшая базовая ХАР:",
+        "chr": "Наивысшая базовая ХАР:",
+        "format": "%d ХАР (%s)"
       }
     },
     {
       "RES_MAX": {
-        "default": "RES_MAX"
+        "default": "Максимальное сопротивление:"
       }
     },
     {
       "CLASS_RES_MAX": {
-        "default": "Макс. магическое сопротивление:",
-        "format": "+%d%% RES"
+        "default": "Максимальная защита от магии:",
+        "format": "+%d%% СОП"
       }
     },
     {
       "RES_DMG_RESISTED": {
-        "default": "Здоровья сохранено сопротивлением:",
-        "format": "+%d HP"
+        "default": "Здоровья сбережено защитой:",
+        "format": "+%d ОЗ"
       }
     },
     {
       "RES_DMG_RESISTED_RUN": {
-        "default": "RES_DMG_RESISTED_RUN"
+        "default": "Здоровья сбережено за забег:"
       }
     },
     {
       "AC_MAX": {
-        "default": "AC_MAX"
+        "default": "Максимальная броня:"
       }
     },
     {
       "CLASS_AC_MAX": {
-        "default": "Макс. общий AC:",
-        "format": "%d AC (%s)"
+        "default": "Наибольшая суммарная БРН:",
+        "format": "%d БРН (%s)"
       }
     },
     {
       "AC_MAX_FROM_BLESS": {
-        "default": "Больше благословений надето одновременно:",
-        "format": "+%d благословений"
+        "default": "Макс. надетых благословений:",
+        "format": "Благословение: +%d"
       }
     },
     {
       "HP_LOST_RUN": {
-        "default": "Больше HP потеряно за 1 забег:",
-        "format": "%d HP"
+        "default": "Больше всего ОЗ потеряно за 1 забег:",
+        "format": "%d ОЗ"
       }
     },
     {
       "MP_SPENT_RUN": {
-        "default": "Больше MP потрачено за 1 забег:",
-        "format": "%d MP"
+        "default": "Больше всего ОМ потрачено за 1 забег:",
+        "format": "%d ОМ"
       }
     },
     {
       "MP_SPENT_TOTAL": {
-        "default": "Всего MP потрачено:",
-        "format": "%d MP"
+        "default": "Всего ОМ потрачено:",
+        "format": "%d ОМ"
       }
     },
     {
       "CLASS_LVL_WON_MAX": {
-        "default": "Макс. LVL победы:",
-        "format": "LVL %d (%s)"
+        "default": "Наивысший уровень при победе:",
+        "format": "Ур. %d (%s)"
       }
     },
     {
       "CLASS_LVL_WON_MIN": {
-        "default": "Мин. LVL победы:",
-        "format": "LVL %d (%s)"
+        "default": "Наименьший уровень при победе:",
+        "format": "Ур. %d (%s)"
       }
     },
     {
       "CLASS_GAMES_WON_CLASSIC": {
-        "default": "КЛАСС_ИГР_ПОБЕД_КЛАССИК",
-        "format": "%s (%d побед в классике)"
+        "default": "Побед в классике:",
+        "format": "%s (побед в классике: %d)"
       }
     },
     {
       "CLASS_GAMES_WON_HELL": {
-        "default": "КЛАСС_ИГР_ПОБЕД_АД",
-        "format": "%s (%d побед в аду)"
+        "default": "Побед в Аду:",
+        "format": "%s (побед в Аду: %d)"
       }
     },
     {
       "CLASS_LVL_WON_CLASSIC_MAX": {
-        "default": "CLASS_LVL_WON_CLASSIC_MAX"
+        "default": "Макс. уровень победы в классике:"
       }
     },
     {
       "CLASS_LVL_WON_HELL_MIN": {
-        "default": "CLASS_LVL_WON_HELL_MIN"
+        "default": "Мин. уровень победы в Аду:"
       }
     },
     {
       "RACE_GAMES_WON_CLASSIC": {
-        "default": "РАСА_ИГР_ПОБЕД_КЛАССИК",
-        "format": "%s (%d побед в классике)"
+        "default": "Побед расы в классике:",
+        "format": "%s (побед в классике: %d)"
       }
     },
     {
       "RACE_GAMES_WON_HELL": {
-        "default": "РАСА_ИГР_ПОБЕД_АД",
-        "format": "%s (%d побед в аду)"
+        "default": "Побед расы в Аду:",
+        "format": "%s (побед в Аду: %d)"
       }
     },
     {
@@ -1044,216 +1044,216 @@
     },
     {
       "PWR_MAX": {
-        "default": "PWR_MAX"
+        "default": "Максимальная МОЩ:"
       }
     },
     {
       "CLASS_PWR_MAX": {
-        "default": "Макс. PWR от INT:",
+        "default": "Макс. МОЩ от ИНТ:",
         "format": "+%d%% (%s)"
       }
     },
     {
       "RGN_HP_SUM": {
-        "default": "RGN_HP_SUM"
+        "default": "Всего ОЗ восстановлено:"
       }
     },
     {
       "RGN_HP_RUN": {
-        "default": "RGN_HP_RUN"
+        "default": "ОЗ восстановлено за забег:"
       }
     },
     {
       "RGN_MP_SUM": {
-        "default": "RGN_MP_SUM"
+        "default": "Всего ОМ восстановлено:"
       }
     },
     {
       "RGN_MP_RUN": {
-        "default": "RGN_MP_RUN"
+        "default": "ОМ восстановлено за забег:"
       }
     },
     {
       "RGN_HP_RATE_MAX": {
-        "default": "Макс. скорость регена HP:",
-        "format": "%h%% HP RGN"
+        "default": "Макс. скорость регенерации ОЗ:",
+        "format": "%h%% РЕГ ОЗ"
       }
     },
     {
       "RGN_MP_RATE_MAX": {
-        "default": "Макс. скорость регена MP:",
-        "format": "%e%% MP RGN"
+        "default": "Макс. скорость регенерации ОМ:",
+        "format": "%e%% РЕГ ОМ"
       }
     },
     {
       "CLASS_WGT_MAX": {
-        "default": "Макс. WGT перенесено:",
+        "default": "Максимальный переносимый вес:",
         "format": "%d (%s)"
       }
     },
     {
       "CLASS_WGT_MAX_MOVE_100": {
-        "default": "Макс. WGT на макс. скорости:",
+        "default": "Макс. вес без потери скорости:",
         "format": "%d (%s)"
       }
     },
     {
       "MELEE_HITS": {
-        "default": "Всего ударов в ближнем бою:",
-        "format": "%d попаданий"
+        "default": "Всего попаданий в ближнем бою:",
+        "format": "Попадания: %d"
       }
     },
     {
       "MELEE_DMG_TOTAL": {
-        "default": "Всего DMG нанесено:",
-        "melee": "Всего DMG в ближнем бою:",
-        "format": "%d DMG"
+        "default": "Всего урона нанесено:",
+        "melee": "Всего урона в ближнем бою:",
+        "format": "Урон: %d"
       }
     },
     {
       "CLASS_MELEE_HITS_RUN": {
-        "default": "Больше попаданий за 1 забег:",
+        "default": "Больше всего попаданий за 1 забег:",
         "format": "%d (%s)"
       }
     },
     {
       "MELEE_KILLS": {
         "default": "Убийств в ближнем бою:",
-        "format": "%d убийств"
+        "format": "Убийства: %d"
       }
     },
     {
       "CRIT_HITS": {
         "default": "Всего критических ударов:",
-        "format": "%d ударов"
+        "format": "Удары: %d"
       }
     },
     {
       "CRITS_DMG_TOTAL": {
-        "default": "Всего критического DMG:",
-        "format": "%d HP"
+        "default": "Всего критического урона:",
+        "format": "%d ОЗ"
       }
     },
     {
       "CLASS_CRITS_HITS_RUN": {
-        "default": "Больше критов за 1 забег:",
+        "default": "Больше всего критов за 1 забег:",
         "format": "%d (%s)"
       }
     },
     {
       "CRIT_KILLS": {
-        "default": "Убийств критическими ударами:",
-        "format": "%d убийств"
+        "default": "Убийств критическим ударом:",
+        "format": "Убийства: %d"
       }
     },
     {
       "CLASS_WGT_SLOWEST": {
-        "default": "Больше WGT при смерти:",
+        "default": "Наибольший вес при гибели:",
         "format": "%d (%s)"
       }
     },
     {
       "CLASS_SKILL_LEGENDS": {
-        "default": "Легендарный навык достигнут:",
-        "format": "%d раз"
+        "default": "Достигнуто легендарное мастерство:",
+        "format": "Раз: %d"
       }
     },
     {
       "SKILL_LEGENDARY_PROCS": {
-        "default": "SKILL_LEGENDARY_PROCS"
+        "default": "Легендарных срабатываний:"
       }
     },
     {
       "DEGRADED": {
-        "default": "DEGRADED"
+        "default": "Повреждений:"
       }
     },
     {
       "REPAIRS": {
-        "default": "REPAIRS"
+        "default": "Починок:"
       }
     },
     {
       "RANGED_HITS": {
-        "default": "Всего дальних попаданий:",
-        "format": "%d попаданий"
+        "default": "Всего попаданий дальним оружием:",
+        "format": "Попадания: %d"
       }
     },
     {
       "RANGED_DMG_TOTAL": {
-        "missiles": "Всего дальнего DMG:",
+        "missiles": "Всего урона дальним оружием:",
         "default": "Всего урона нанесено:",
-        "format": "%d DMG"
+        "format": "Урон: %d"
       }
     },
     {
       "CLASS_RANGED_HITS_RUN": {
-        "default": "Больше попаданий за 1 забег:",
+        "default": "Больше всего попаданий за 1 забег:",
         "format": "%d (%s)"
       }
     },
     {
       "RANGED_KILLS": {
-        "default": "Дальних убийств:",
-        "format": "%d убийств"
+        "default": "Убийств дальним оружием:",
+        "format": "Убийства: %d"
       }
     },
     {
       "THROWN_TOTAL_HITS": {
         "default": "Всего попаданий метательным оружием:",
-        "format": "%d попаданий"
+        "format": "Попадания: %d"
       }
     },
     {
       "THROWN_DMG_TOTAL": {
-        "default": "Всего DMG метательным оружием:",
+        "default": "Всего урона метательным оружием:",
         "gem_rock": "Всего урона нанесено:",
         "boomerang": "Всего урона нанесено:",
         "tomahawks & daggers": "Всего урона нанесено:",
         "chakrams and shurikens": "Всего урона нанесено:",
-        "format": "%d DMG"
+        "format": "Урон: %d"
       }
     },
     {
       "CLASS_THROWN_HITS_RUN": {
-        "default": "Больше попаданий за 1 забег:",
+        "default": "Больше всего попаданий за 1 забег:",
         "format": "%d (%s)"
       }
     },
     {
       "THROWN_KILLS": {
         "default": "Убийств метательным оружием:",
-        "format": "%d убийств"
+        "format": "Убийства: %d"
       }
     },
     {
       "FLANK_HITS": {
         "default": "Всего фланговых ударов:",
-        "format": "%d попаданий"
+        "format": "Попадания: %d"
       }
     },
     {
       "FLANK_DMG": {
-        "default": "Всего флангового DMG:",
-        "format": "%d DMG"
+        "default": "Всего урона с фланга:",
+        "format": "Урон: %d"
       }
     },
     {
       "CLASS_FLANK_HITS_RUN": {
-        "default": "Больше флангов за 1 забег:",
+        "default": "Больше всего фланговых ударов за 1 забег:",
         "format": "%d (%s)"
       }
     },
     {
       "CLASS_FLANK_DMG_RUN": {
-        "default": "Больше флангового DMG за 1 забег:",
-        "format": "%d DMG"
+        "default": "Макс. урон с фланга за 1 забег:",
+        "format": "Урон: %d"
       }
     },
     {
       "BACKSTAB_HITS": {
         "default": "Всего ударов в спину:",
-        "format": "%d попаданий"
+        "format": "Попадания: %d"
       }
     },
     {
@@ -1270,48 +1270,48 @@
     },
     {
       "BACKSTAB_KILLS": {
-        "default": "Ударов в спину приведших к убийству:",
+        "default": "Смертельных ударов в спину:",
         "format": "%d"
       }
     },
     {
       "CLASS_BACKSTAB_DMG_RUN": {
-        "default": "CLASS_BACKSTAB_DMG_RUN"
+        "default": "Урона в спину за забег:"
       }
     },
     {
       "CLASS_BLOCK_DEFENDED": {
-        "default": "Больше ударов защищено:",
+        "default": "Макс. попаданий в защиту:",
         "format": "%d (%s)"
       }
     },
     {
       "CLASS_BLOCK_UNDEFENDED": {
-        "default": "Больше ударов не защищено:",
+        "default": "Макс. попаданий без защиты:",
         "format": "%d (%s)"
       }
     },
     {
       "CLASS_BLOCK_DEFENDED_RUN": {
-        "default": "Больше ударов защищено за 1 забег:",
+        "default": "Макс. попаданий в защиту за 1 забег:",
         "format": "%d"
       }
     },
     {
       "CLASS_BLOCK_UNDEFENDED_RUN": {
-        "default": "Больше ударов не защищено за 1 забег:",
+        "default": "Макс. попаданий без защиты за 1 забег:",
         "format": "%d"
       }
     },
     {
       "CLASS_SPELL_CASTS_RUN": {
-        "default": "Больше применений за 1 забег:",
+        "default": "Больше всего заклинаний за 1 забег:",
         "format": "%d (%s)"
       }
     },
     {
       "CLASS_SPELL_FIZZLES_RUN": {
-        "default": "Больше провалов за 1 забег:",
+        "default": "Больше всего срывов чар за 1 забег:",
         "format": "%d (%s)"
       }
     },
@@ -1324,261 +1324,261 @@
     },
     {
       "CLASS_SNEAK_SKILLUP_FLOOR": {
-        "default": "Макс. повышений навыков за 1 этаж:",
+        "default": "Макс. прирост навыков за 1 этаж:",
         "format": "%d (%s)"
       }
     },
     {
       "WANTED_RUNS": {
-        "default": "Забегов в розыске:",
-        "format": "%d забегов"
+        "default": "Забегов с розыском:",
+        "format": "Забеги: %d"
       }
     },
     {
       "WANTED_TIMES_RUN": {
-        "default": "Больше в розыске за 1 забег:",
-        "format": "%d личностей"
+        "default": "Больше всего обликов в розыске за 1 забег:",
+        "format": "Облики: %d"
       }
     },
     {
       "WANTED_INFLUENCE": {
-        "default": "Союзников сделано разыскиваемыми:",
-        "format": "%d раз"
+        "default": "Союзников вовлечено в розыск:",
+        "format": "Раз: %d"
       }
     },
     {
       "WANTED_CRIMES_RUN": {
-        "default": "Больше преступлений за 1 забег:",
-        "format": "%d преступлений"
+        "default": "Больше всего преступлений за 1 забег:",
+        "format": "Преступления: %d"
       }
     },
     {
       "CUSTOM_TAG": {
-        "default": "CUSTOM_TAG"
+        "default": "Особая статистика:"
       }
     },
     {
       "SPELLBOOK_CAST_DEGRADES": {
-        "default": "Изношено при использовании:",
-        "format": "%d раз"
+        "default": "Повреждено при использовании:",
+        "format": "Раз: %d"
       }
     },
     {
       "CLASS_SPELLBOOK_CASTS_RUN": {
-        "default": "Больше применений за 1 забег:",
+        "default": "Больше всего заклинаний за 1 забег:",
         "format": "%d (%s)"
       }
     },
     {
       "CLASS_SPELLBOOK_FIZZLES_RUN": {
-        "default": "Больше провалов за 1 забег:",
+        "default": "Больше всего срывов чар за 1 забег:",
         "format": "%d (%s)"
       }
     },
     {
       "CLASS_MOVING_TIME": {
-        "default": "КЛАСС_ВРЕМЯ_ДВИЖЕНИЯ:",
+        "default": "Времени в движении:",
         "format": "%d (%s)"
       }
     },
     {
       "CLASS_IDLING_TIME": {
-        "default": "КЛАСС_ВРЕМЯ_ПРОСТОЯ:",
+        "default": "Времени без движения:",
         "format": "%d (%s)"
       }
     },
     {
       "CLASS_SKILL_UPS_ALL_RUN": {
-        "default": "Больше повышений навыков за 1 забег:",
+        "default": "Макс. прирост навыков за 1 забег:",
         "format": "%d (%s)"
       }
     },
     {
       "CLASS_WGT_EQUIPPED_MAX": {
-        "default": "Больше WGT экипировано:",
+        "default": "Макс. вес надетого снаряжения:",
         "format": "%d (%s)"
       }
     },
     {
       "CLASS_PWR_MAX_CASTED": {
-        "default": "Макс. PWR заклинания применено:",
+        "default": "Макс. МОЩ сотворённых чар:",
         "format": "%d%% (%s)"
       }
     },
     {
       "PWR_MAX_EQUIP": {
-        "default": "Макс. PWR от снаряжения/эффектов:",
+        "default": "Макс. МОЩ от вещей/эффектов:",
         "format": "+%d%%"
       }
     },
     {
       "PWR_MAX_SPELLBOOK": {
-        "default": "Макс. PWR от книги заклинаний:",
+        "default": "Макс. МОЩ от книги:",
         "format": "+%d%%"
       }
     },
     {
       "RES_DMG_TAKEN": {
-        "default": "Всего здоровья потеряно от заклинаний:",
-        "format": "%d HP"
+        "default": "Всего здоровья потеряно от чар:",
+        "format": "%d ОЗ"
       }
     },
     {
       "RES_SPELLS_HIT": {
-        "default": "Всего уроновых заклинаний попало:",
+        "default": "Всего попаданий боевых чар:",
         "format": "%d"
       }
     },
     {
       "HP_MOST_DMG_LOST_ONE_HIT": {
-        "default": "Больше HP потеряно от 1 атаки:",
-        "format": "%d HP"
+        "default": "Больше всего ОЗ потеряно за 1 удар:",
+        "format": "%d ОЗ"
       }
     },
     {
       "HP_LOST_TOTAL": {
-        "default": "Всего HP потеряно:",
-        "format": "%d HP"
+        "default": "Всего ОЗ потеряно:",
+        "format": "%d ОЗ"
       }
     },
     {
       "AC_EFFECTIVENESS_MAX": {
-        "default": "Макс. AC % блока от благословений:",
+        "default": "Макс. % блока от благословений БРН:",
         "format": "%d%%"
       }
     },
     {
       "AC_EQUIPMENT_MAX": {
-        "default": "Макс. AC от снаряжения:",
-        "format": "+%d AC"
+        "default": "Макс. БРН от снаряжения:",
+        "format": "+%d БРН"
       }
     },
     {
       "LEVELS_MIN_COMPLETION": {
-        "default": "УРОВНЕЙ_МИН_ЗАВЕРШЕНИЕ:"
+        "default": "Самое быстрое прохождение этажа:"
       }
     },
     {
       "LEVELS_MAX_COMPLETION": {
-        "default": "УРОВНЕЙ_МАКС_ЗАВЕРШЕНИЕ:"
+        "default": "Самое долгое прохождение этажа:"
       }
     },
     {
       "LEVELS_DEATHS": {
-        "default": "УРОВНЕЙ_СМЕРТЕЙ:"
+        "default": "Смертей на этаже:"
       }
     },
     {
       "LEVELS_DEATHS_FASTEST": {
-        "default": "УРОВНЕЙ_СМЕРТЕЙ_БЫСТРЕЙШАЯ:"
+        "default": "Самая быстрая смерть:"
       }
     },
     {
       "LEVELS_DEATHS_SLOWEST": {
-        "default": "УРОВНЕЙ_СМЕРТЕЙ_МЕДЛЕННЕЙШАЯ:"
+        "default": "Самая поздняя смерть:"
       }
     },
     {
       "LEVELS_MIN_LVL": {
-        "default": "УРОВНЕЙ_МИН_LVL:"
+        "default": "Наименьший уровень:"
       }
     },
     {
       "BIOMES_MIN_COMPLETION": {
-        "default": "БИОМОВ_МИН_ЗАВЕРШЕНИЕ:"
+        "default": "Самое быстрое прохождение области:"
       }
     },
     {
       "BIOMES_MAX_COMPLETION": {
-        "default": "БИОМОВ_МАКС_ЗАВЕРШЕНИЕ:"
+        "default": "Самое долгое прохождение области:"
       }
     },
     {
       "LEVELS_TIME_SPENT": {
-        "default": "УРОВНЕЙ_ВРЕМЯ_ПРОВЕДЕНО:"
+        "default": "Времени на этаже:"
       }
     },
     {
       "MINEHEAD_ENTER_SOLO": {
-        "default": "ВХОД_В_ШАХТУ_СОЛО:"
+        "default": "Одиночных походов:"
       }
     },
     {
       "MINEHEAD_ENTER_ONLINE_MP": {
-        "default": "ВХОД_В_ШАХТУ_ОНЛАЙН_MP:"
+        "default": "Походов через интернет:"
       }
     },
     {
       "MINEHEAD_ENTER_LAN_MP": {
-        "default": "ВХОД_В_ШАХТУ_LAN_MP:"
+        "default": "Походов по локальной сети:"
       }
     },
     {
       "MINEHEAD_TOTAL_PLAYTIME": {
-        "default": "В_ШАХТЕ_ВСЕГО_ВРЕМЕНИ_ИГРЫ:"
+        "default": "Общее время игры:"
       }
     },
     {
       "MINEHEAD_ENTER_SPLIT_MP": {
-        "default": "ВХОД_В_ШАХТУ_РАЗДЕЛ_MP:"
+        "default": "Походов на разделённом экране:"
       }
     },
     {
       "TOTAL_TIME_SPENT": {
-        "default": "ВСЕГО_ВРЕМЕНИ_ПРОВЕДЕНО:"
+        "default": "Всего времени:"
       }
     },
     {
       "TRAP_SUMMONED_MONSTERS": {
-        "default": "Монстров призвано:"
+        "default": "Чудовищ призвано:"
       }
     },
     {
       "LORE_READ": {
-        "default": "ЛОРА_ПРОЧИТАНО:",
-        "scroll_mail": "Почты открыто:",
+        "default": "Текстов прочитано:",
+        "scroll_mail": "Писем открыто:",
         "readable_book": "Книг прочитано:"
       }
     },
     {
       "LORE_BURNT": {
-        "default": "ЛОРА_СОЖЖЕНО:",
+        "default": "Текстов сожжено:",
         "scroll_mail": "Скормлено котлам автоматонов:",
         "readable_book": "Скормлено котлам автоматонов:"
       }
     },
     {
       "LORE_PERCENT_READ": {
-        "default": "ЛОРА_ПРОЦЕНТ_ПРОЧИТАНО:",
+        "default": "Доля прочитанного:",
         "format": "%d%%",
         "scroll_mail": "Сообщений найдено (%):",
-        "readable_book": "Завершение чтения (%):"
+        "readable_book": "Прочитано (%):"
       }
     },
     {
       "LORE_PERCENT_READ_2": {
-        "default": "ЛОРА_ПРОЦЕНТ_ПРОЧИТАНО_2:",
+        "default": "Доля прочитанного:",
         "format": "%d%%",
         "scroll_mail": "Сообщений найдено (%):",
-        "readable_book": "Завершение чтения (%):"
+        "readable_book": "Прочитано (%):"
       }
     },
     {
       "MERCHANT_ORBS": {
-        "default": "Мистических сфер дано:",
-        "format": "%d сфер"
+        "default": "Мистических сфер отдано:",
+        "format": "Сферы: %d"
       }
     },
     {
       "SPELL_DMG": {
-        "default": "Урона нанесено:",
-        "format": "%d DMG"
+        "default": "Нанесённый урон:",
+        "format": "Урон: %d"
       }
     },
     {
       "SPELL_HEAL": {
-        "default": "Здоровья восстановлено:",
-        "format": "%d HP"
+        "default": "Восстановленное здоровье:",
+        "format": "%d ОЗ"
       }
     },
     {
@@ -1590,246 +1590,246 @@
     },
     {
       "LOCKPICK_DOOR_UNLOCK": {
-        "default": "ОТМЫЧКА_ДВЕРЬ_ОТПЕРЕТЬ:",
+        "default": "Дверей отперто отмычкой:",
         "format": "%d"
       }
     },
     {
       "LOCKPICK_DOOR_LOCK": {
-        "default": "ОТМЫЧКА_ДВЕРЬ_ЗАПЕРЕТЬ:",
+        "default": "Дверей заперто отмычкой:",
         "format": "%d"
       }
     },
     {
       "LOCKPICK_ARROWTRAPS": {
-        "default": "Arrow Traps Disarmed:",
-        "format": "%d Disarmed"
+        "default": "Стрелковых ловушек обезврежено:",
+        "format": "Обезврежено: %d"
       }
     },
     {
       "LOCKPICK_TINKERTRAPS": {
-        "default": "Tinkered Traps Toggled:",
-        "format": "%d Toggles"
+        "default": "Механических ловушек переключено:",
+        "format": "Переключения: %d"
       }
     },
     {
       "LOCKPICK_CHESTS_UNLOCK": {
-        "default": "LOCKPICK_CHESTS_UNLOCK:",
+        "default": "Сундуков отперто отмычкой:",
         "format": "%d"
       }
     },
     {
       "LOCKPICK_MIMICS_LOCKED": {
-        "default": "Mimics Stunned:",
-        "format": "%d Mimics"
+        "default": "Мимиков оглушено:",
+        "format": "Мимики: %d"
       }
     },
     {
       "LOCKPICK_CHESTS_LOCK": {
-        "default": "LOCKPICK_CHESTS_LOCK:",
+        "default": "Сундуков заперто отмычкой:",
         "format": "%d"
       }
     },
     {
       "ALEMBIC_DUPLICATION_FAIL": {
-        "default": "ALEMBIC_DUPLICATION_FAIL:",
+        "default": "Неудач размножения зелий:",
         "format": "%d"
       }
     },
     {
       "ALEMBIC_EXPLOSIONS": {
-        "default": "ALEMBIC_EXPLOSIONS:",
+        "default": "Перегонных кубов взорвалось:",
         "format": "%d"
       }
     },
     {
       "BEARTRAP_DEPLOYED": {
-        "default": "Deployed:",
-        "format": "%d Times"
+        "default": "Установлено:",
+        "format": "Раз: %d"
       }
     },
     {
       "BEARTRAP_TRAPPED": {
-        "default": "Enemies Trapped:",
+        "default": "Врагов поймано в ловушки:",
         "format": "%d"
       }
     },
     {
       "BEARTRAP_DMG": {
-        "default": "Damage Dealt:",
-        "format": "%d DMG"
+        "default": "Нанесённый урон:",
+        "format": "Урон: %d"
       }
     },
     {
       "GADGET_CRAFTED": {
-        "default": "Crafted:",
-        "format": "%d Times"
+        "default": "Создано:",
+        "format": "Раз: %d"
       }
     },
     {
       "GADGET_DEPLOYED": {
-        "default": "Deployed:",
-        "format": "%d Times"
+        "default": "Установлено:",
+        "format": "Раз: %d"
       }
     },
     {
       "NOISEMAKER_LURED": {
-        "default": "Enemies Lured:",
+        "default": "Врагов приманено:",
         "format": "%d"
       }
     },
     {
       "NOISEMAKER_MOST_LURED": {
-        "default": "Most Enemies Lured At Once:",
+        "default": "Макс. врагов приманено за раз:",
         "format": "%d"
       }
     },
     {
       "DUMMY_HITS_TAKEN": {
-        "default": "Total Hits Taken:",
-        "format": "%d Hits"
+        "default": "Всего попаданий получено:",
+        "format": "Попадания: %d"
       }
     },
     {
       "DUMMY_DMG_TAKEN": {
-        "default": "Total DMG Taken:",
-        "format": "%d DMG"
+        "default": "Всего урона получено:",
+        "format": "Урон: %d"
       }
     },
     {
       "SENTRY_DEPLOY_KILLS": {
-        "default": "Врагов убито используя:",
+        "default": "Врагов убито с помощью:",
         "format": "%d"
       }
     },
     {
       "SENTRY_DEPLOY_DMG": {
-        "default": "Урона нанесено:",
-        "format": "%d DMG"
+        "default": "Нанесённый урон:",
+        "format": "Урон: %d"
       }
     },
     {
       "GYROBOT_BOULDERS": {
-        "default": "Потеряно от валунов:",
-        "format": "%d гироботов"
+        "default": "Погибло от валунов:",
+        "format": "Гироботы: %d"
       }
     },
     {
       "GYROBOT_TIME_SPENT": {
-        "default": "Качественное время вместе:",
-        "duck": "Время обнимашек:",
+        "default": "Времени приятно проведено вместе:",
+        "duck": "Времени на обнимашки:",
         "format": "%t",
         "format_time": "%02d:%02d:%02d"
       }
     },
     {
       "BOMB_DMG": {
-        "default": "Урона нанесено:",
-        "format": "%d DMG"
+        "default": "Нанесённый урон:",
+        "format": "Урон: %d"
       }
     },
     {
       "BOMB_DETONATED": {
         "default": "Врагов поражено:",
-        "format": "%d раз"
+        "format": "Раз: %d"
       }
     },
     {
       "BOMB_DETONATED_ALLY": {
-        "default": "Себя/Союзников поражено:",
-        "format": "%d раз"
+        "default": "Попаданий в себя/союзников:",
+        "format": "Раз: %d"
       }
     },
     {
       "DETONATOR_SCRAPPED": {
-        "default": "Детонаторов утилизировано:",
-        "format": "%d штук"
+        "default": "Детонаторов возвращено:",
+        "format": "Штуки: %d"
       }
     },
     {
       "DETONATOR_SCRAPPED_METAL": {
-        "default": "Металлолома с утилизации:",
+        "default": "Металлолома от разборки:",
         "format": "%d"
       }
     },
     {
       "DETONATOR_SCRAPPED_MAGIC": {
-        "default": "Магического лома с утилизации:",
+        "default": "Магического лома от разборки:",
         "format": "%d"
       }
     },
     {
       "DEATHBOX_OPEN_OWN": {
         "default": "Своих ящиков открыто:",
-        "format": "%d открытий"
+        "format": "Открытия: %d"
       }
     },
     {
       "DEATHBOX_OPEN_OTHERS": {
         "default": "Чужих ящиков открыто:",
-        "format": "%d открытий"
+        "format": "Открытия: %d"
       }
     },
     {
       "DEATHBOX_TO_EXIT": {
         "default": "Всего донесено до выходов:",
-        "format": "%d ящиков"
+        "format": "Ящики: %d"
       }
     },
     {
       "DEATHBOX_MOST_CARRIED": {
-        "default": "Больше несено одновременно:",
-        "format": "%d ящиков"
+        "default": "Макс. переносимых за раз:",
+        "format": "Ящики: %d"
       }
     },
     {
       "PICKAXE_BOULDERS_DUG": {
-        "default": "Валунов уничтожено:",
+        "default": "Валунов разрушено:",
         "format": "%d"
       }
     },
     {
       "TIN_GREASY": {
-        "default": "Жирные руки:",
-        "format": "%d раз"
+        "default": "Загрязнений рук жиром:",
+        "format": "Раз: %d"
       }
     },
     {
       "TIN_REGEN_HP": {
-        "default": "TIN_REGEN_HP:",
+        "default": "Регенераций ОЗ от консервов:",
         "format": "%d"
       }
     },
     {
       "TIN_REGEN_MP": {
-        "default": "TIN_REGEN_MP:",
+        "default": "Регенераций ОМ от консервов:",
         "format": "%d"
       }
     },
     {
       "SPELL_TARGETS": {
-        "default": "Целей задето:",
+        "default": "Целей под эффектом:",
         "dark_icons": "Целей проклято:",
-        "duck": "Врагов задирали:",
-        "format": "%d попаданий",
-        "format_duck": "%d раз"
+        "duck": "Врагов запугано:",
+        "format": "Попадания: %d",
+        "format_duck": "Раз: %d"
       }
     },
     {
       "GYROBOT_FLIPS": {
-        "default": "Крутых сальто союзников:",
-        "format": "%d сальто"
+        "default": "Крутых кульбитов союзников:",
+        "format": "Кульбиты: %d"
       }
     },
     {
       "KILL_XP": {
-        "default": "XP за убийства получено:",
-        "format": "%d XP"
+        "default": "Опыта за убийства:",
+        "format": "%d ОП"
       }
     },
     {
       "CONTAINER_BROKEN": {
-        "default": "Контейнеров разбито:",
+        "default": "Вместилищ разбито:",
         "format": "%d"
       }
     },
@@ -1842,18 +1842,18 @@
     {
       "CONTAINER_GOLD": {
         "default": "Золота найдено:",
-        "format": "%dG"
+        "format": "Золото: %d"
       }
     },
     {
       "CONTAINER_MONSTERS": {
-        "default": "Монстров найдено:",
+        "default": "Чудовищ найдено:",
         "format": "%d"
       }
     },
     {
       "DAED_USES": {
-        "default": "Святилищ коснулись:",
+        "default": "Касаний святилищ:",
         "format": "%d"
       }
     },
@@ -1865,559 +1865,559 @@
     },
     {
       "DAED_SPEED_BUFFS": {
-        "default": "Благословений скорости дано:",
+        "default": "Благословений скорости даровано:",
         "format": "%d"
       }
     },
     {
       "DAED_KILLED_MINO": {
-        "default": "DAED_KILLED_MINO:",
+        "default": "Минотавров убито святилищем:",
         "format": "%d"
       }
     },
     {
       "BELL_RUNG_TIMES": {
-        "default": "Колоколов прозвонено:",
-        "format": "%d раз"
+        "default": "Колокольный звон:",
+        "format": "Раз: %d"
       }
     },
     {
       "BELL_LOOT_ITEMS": {
-        "default": "КОЛОКОЛ_ДОБЫЧА_ПРЕДМЕТЫ:",
+        "default": "Предметов из колоколов:",
         "format": "%d"
       }
     },
     {
       "BELL_BROKEN": {
-        "default": "КОЛОКОЛ_СЛОМАН:",
+        "default": "Колоколов сломано:",
         "format": "%d"
       }
     },
     {
       "BELL_BUFFS_AGILITY": {
-        "default": "КОЛОКОЛ_БУФЫ_ЛОВКОСТЬ:",
+        "default": "Даров проворства:",
         "format": "%d"
       }
     },
     {
       "BELL_BUFFS_STAMINA": {
-        "default": "КОЛОКОЛ_БУФЫ_ВЫНОСЛИВОСТЬ:",
+        "default": "Даров стойкости:",
         "format": "%d"
       }
     },
     {
       "BELL_BUFFS_STRENGTH": {
-        "default": "КОЛОКОЛ_БУФЫ_СИЛА:",
+        "default": "Даров силы:",
         "format": "%d"
       }
     },
     {
       "BELL_BUFFS_MENTALITY": {
-        "default": "КОЛОКОЛ_БУФЫ_РАЗУМ:",
+        "default": "Даров ясности ума:",
         "format": "%d"
       }
     },
     {
       "BELL_BUFFS_HEALS": {
-        "default": "КОЛОКОЛ_БУФЫ_ИСЦЕЛЕНИЯ:",
+        "default": "Даров исцеления:",
         "format": "%d"
       }
     },
     {
       "BELL_LOOT_GOLD": {
-        "default": "КОЛОКОЛ_ДОБЫЧА_ЗОЛОТО:",
+        "default": "Золота из колоколов:",
         "format": "%d"
       }
     },
     {
       "BELL_LOOT_BATS": {
-        "default": "КОЛОКОЛ_ДОБЫЧА_ЛЕТУЧИЕ_МЫШИ:",
+        "default": "Летучих мышей из колоколов:",
         "format": "%d"
       }
     },
     {
       "BELL_CLAPPER_BROKEN": {
-        "default": "КОЛОКОЛ_ЯЗЫК_СЛОМАН:"
+        "default": "Языков колоколов сломано:"
       }
     },
     {
       "SKILL_NOVICES": {
-        "default": "НАВЫК_НОВИЧКИ:"
+        "default": "Новичков обучено:"
       }
     },
     {
       "FOLLOWER_KILLS": {
-        "default": "Убийств последователями:",
-        "format": "%d убийств"
+        "default": "Убийств спутниками:",
+        "format": "Убийства: %d"
       }
     },
     {
       "COMBAT_MASONRY_BOULDERS": {
-        "default": "БОЕВАЯ_КАМЕНКА_ВАЛУНЫ:",
+        "default": "Убийств валунами:",
         "format": "%d"
       }
     },
     {
       "MERLINS": {
-        "default": "Мерлинов подружилось:",
-        "format": "%d раз"
+        "default": "Мерлин стал другом:",
+        "format": "Раз: %d"
       }
     },
     {
       "RITUALS_COMPLETED": {
         "default": "Ритуалов завершено:",
-        "format": "%d сфер активировано"
+        "format": "Сфер активировано: %d"
       }
     },
     {
       "HUMANS_SAVED": {
         "default": "Людей спасено:",
-        "format": "%d вернувшихся в деревню"
+        "format": "Вернувшиеся в Гамлет: %d"
       }
     },
     {
       "SPELLS_LEARNED": {
         "default": "Всего заклинаний изучено:",
-        "format": "%d заклинаний"
+        "format": "Заклинания: %d"
       }
     },
     {
       "ALLIES_FED": {
         "default": "Нуждающихся накормлено:",
-        "format": "%d порций союзникам"
+        "format": "Союзникам выдано порций: %d"
       }
     },
     {
       "COMBAT_MASONRY_GEMS": {
-        "default": "БОЕВАЯ_КАМЕНКА_ДРАГОЦЕННЫЕ_КАМНИ:",
+        "default": "Убийств самоцветами:",
         "format": "%d"
       }
     },
     {
       "COMBAT_MASONRY_ROCKS": {
-        "default": "БОЕВАЯ_КАМЕНКА_КАМНИ:",
+        "default": "Убийств камнями:",
         "format": "%d"
       }
     },
     {
       "GOLD_LEFT_BEHIND": {
-        "default": "Gold Left Uncollected:",
-        "format": "%dG"
+        "default": "Золота оставлено:",
+        "format": "Золото: %d"
       }
     },
     {
       "MONSTERS_LEFT_BEHIND": {
-        "default": "Enemies Spared:",
-        "format": "%d Left Alive"
+        "default": "Врагов пощажено:",
+        "format": "Осталось в живых: %d"
       }
     },
     {
       "ITEMS_LEFT_BEHIND": {
-        "default": "Items Left Uncollected:",
+        "default": "Предметов оставлено:",
         "format": "%d"
       }
     },
     {
       "ITEM_VALUE_LEFT_BEHIND": {
-        "default": "Item Value Uncollected:",
-        "format": "%dG"
+        "default": "Стоимость оставленных вещей:",
+        "format": "Золото: %d"
       }
     },
     {
       "OFFHAND_CASTING_MP": {
-        "default": "Total MP Spent Casting:",
-        "format": "%d MP"
+        "default": "Всего ОМ потрачено на чары:",
+        "format": "%d ОМ"
       }
     },
     {
       "OFFHAND_CHARGING_TIME": {
-        "default": "Time Spent Casting:",
+        "default": "Времени на колдовство:",
         "format": "%t",
         "format_time": "%02d:%02d:%02d"
       }
     },
     {
       "OFFHAND_CHARGING_TIME_RUN": {
-        "default": "Most Time Casting In 1 Run:",
+        "default": "Макс. времени колдовства за 1 забег:",
         "format": "%t",
         "format_time": "%02d:%02d:%02d"
       }
     },
     {
       "OFFHAND_CHR_MAX": {
-        "default": "Most CHR Casted With:",
-        "format": "%d CHR"
+        "default": "Макс. ХАР при колдовстве:",
+        "format": "%d ХАР"
       }
     },
     {
       "GOLD_COLLECTED": {
-        "default": "Total Gold Picked Up:",
-        "format": "%dG"
+        "default": "Всего золота подобрано:",
+        "format": "Золото: %d"
       }
     },
     {
       "GOLD_COLLECTED_RUN": {
-        "default": "Most Gold Picked Up In 1 Run:",
-        "format": "%dG"
+        "default": "Больше всего золота за 1 забег:",
+        "format": "Золото: %d"
       }
     },
     {
       "GOLD_CASTED": {
-        "default": "Gold Consumed By Magic:",
-        "format": "%dG"
+        "default": "Золота потрачено на магию:",
+        "format": "Золото: %d"
       }
     },
     {
       "GOLD_CASTED_RUN": {
-        "default": "Most Gold Consumed In 1 Run:",
-        "format": "%dG"
+        "default": "Макс. золота потрачено за 1 забег:",
+        "format": "Золото: %d"
       }
     },
     {
       "BUTTON_PRESSED": {
-        "default": "Buttons Pressed:"
+        "default": "Кнопок нажато:"
       }
     },
     {
       "BUTTON_FOLLOWER_PRESSED": {
-        "default": "Buttons Pressed By Followers:"
+        "default": "Кнопок нажато спутниками:"
       }
     },
     {
       "BUTTON_SHOT": {
-        "default": "Buttons Pressed By Projectiles:"
+        "default": "Кнопок нажато снарядами:"
       }
     },
     {
       "KEYLOCK_UNLOCKED_KEY": {
-        "default": "Keys Used:"
+        "default": "Ключей использовано:"
       }
     },
     {
       "KEYLOCK_PICKED": {
-        "default": "Unlocked With Lockpicking:"
+        "default": "Открыто взломом:"
       }
     },
     {
       "KEYLOCK_SKELETON_KEY": {
-        "default": "Отперто отмычками-скелетами:"
+        "default": "Открыто универсальными ключами:"
       }
     },
     {
       "ASSIST_MASKS": {
         "default": "Аксессуаров получено:",
-        "format": "%d предметов"
+        "format": "Предметы: %d"
       }
     },
     {
       "ASSIST_CLOAKS": {
         "default": "Плащей получено:",
-        "format": "%d предметов"
+        "format": "Предметы: %d"
       }
     },
     {
       "ASSIST_AMULETS": {
         "default": "Амулетов получено:",
-        "format": "%d предметов"
+        "format": "Предметы: %d"
       }
     },
     {
       "ASSIST_RINGS": {
         "default": "Колец получено:",
-        "format": "%d предметов"
+        "format": "Предметы: %d"
       }
     },
     {
       "CAULDRON_INTERACTS": {
-        "default": "КОТЕЛ_ВЗАИМОДЕЙСТВИЙ"
+        "default": "Использований котла:"
       }
     },
     {
       "WORKBENCH_INTERACTS": {
-        "default": "ВЕРСТАК_ВЗАИМОДЕЙСТВИЙ"
+        "default": "Использований верстака:"
       }
     },
     {
       "WORKBENCH_SALVAGE": {
-        "default": "Всего предметов утилизировано:",
-        "format": "%d предметов"
+        "default": "Всего предметов разобрано:",
+        "format": "Предметы: %d"
       }
     },
     {
       "WORKBENCH_CRAFTS": {
         "default": "Всего предметов создано:",
-        "format": "%d предметов"
+        "format": "Предметы: %d"
       }
     },
     {
       "WORKBENCH_REPAIRED": {
-        "default": "Всего предметов отремонтировано:",
-        "format": "%d предметов"
+        "default": "Всего предметов починено:",
+        "format": "Предметы: %d"
       }
     },
     {
       "WORKBENCH_SKILLUPS": {
-        "default": "Повышений навыка мастерства:",
-        "format": "%d очков"
+        "default": "Повышений навыка механики:",
+        "format": "Очки: %d"
       }
     },
     {
       "COOK_MEALS": {
-        "default": "Рационов приготовлено:",
-        "format_rations": "%d порций"
+        "default": "Пайков приготовлено:",
+        "format_rations": "Порции: %d"
       }
     },
     {
       "COOK_FLAVORED_MEALS": {
-        "default": "ПРИГОТОВЛЕНО_ВКУСНЫХ_РАЦИОНОВ"
+        "default": "Вкусных пайков приготовлено:"
       }
     },
     {
       "CAULDRON_SKILLUPS": {
         "default": "Повышений навыка алхимии:",
-        "format": "%d очков"
+        "format": "Очки: %d"
       }
     },
     {
       "COOK_SLOP_BALLS": {
-        "default": "ПРИГОТОВЛЕНО_ПОМОЙНЫХ_ШАРОВ:"
+        "default": "Комьев жижи приготовлено:"
       }
     },
     {
       "COOK_GREASE_BALLS": {
-        "default": "ПРИГОТОВЛЕНО_ЖИРНЫХ_ШАРОВ:"
+        "default": "Комьев жира приготовлено:"
       }
     },
     {
       "PARRIES": {
-        "default": "ПАРИРОВАНИЯ:"
+        "default": "Парирований:"
       }
     },
     {
       "PARRIES_DMG": {
-        "default": "ПАРИРОВАНИЯ_DMG:"
+        "default": "Урон парированием:"
       }
     },
     {
       "ARCHON_SPELLS_FORGOTTEN": {
         "default": "Заклинаний забыто:",
-        "format": "%d заклинаний"
+        "format": "Заклинания: %d"
       }
     },
     {
       "MULTI_HITS": {
-        "default": "Нескольких врагов поражено:",
-        "format": "%d раз"
+        "default": "Попаданий по нескольким врагам:",
+        "format": "Раз: %d"
       }
     },
     {
       "MAGIC_KILLS": {
-        "default": "МАГИЧЕСКИХ_УБИЙСТВ:"
+        "default": "Убийств магией:"
       }
     },
     {
       "EFFECT_DURATION": {
-        "default": "ДЛИТЕЛЬНОСТЬ_ЭФФЕКТА:",
-        "holy_symbols": "Всего времени защищено:",
-        "instruments": "Всего времени вдохновлено:",
-        "bolas": "Всего времени опутано:",
+        "default": "Длительность эффектов:",
+        "holy_symbols": "Всего времени под защитой:",
+        "instruments": "Всего времени воодушевления:",
+        "bolas": "Всего времени в путах:",
         "format": "%t",
         "format_time": "%02d:%02d:%02d"
       }
     },
     {
       "JEWEL_RECRUIT_DECREPIT": {
-        "default": "ДРАГОЦЕННОСТЬ_РЕКРУТ_ВЕТХИЙ:"
+        "default": "Наймов за треснувшие камни:"
       }
     },
     {
       "JEWEL_RECRUIT_WORN": {
-        "default": "ДРАГОЦЕННОСТЬ_РЕКРУТ_ИЗНОШЕННЫЙ:"
+        "default": "Наймов за грубо огранённые камни:"
       }
     },
     {
       "JEWEL_RECRUIT_SERVICABLE": {
-        "default": "ДРАГОЦЕННОСТЬ_РЕКРУТ_ПРИГОДНЫЙ:"
+        "default": "Наймов за камни с изъянами:"
       }
     },
     {
       "JEWEL_RECRUIT_EXCELLENT": {
-        "default": "ДРАГОЦЕННОСТЬ_РЕКРУТ_ОТЛИЧНЫЙ:"
+        "default": "Наймов за безупречные камни:"
       }
     },
     {
       "FORGED": {
-        "default": "Драгоценностей выковано:",
-        "format_jewels": "%d раз"
+        "default": "Самоцветов создано:",
+        "format_jewels": "Раз: %d"
       }
     },
     {
       "UPGRADED": {
-        "default": "Драгоценностей улучшено:",
-        "format_jewels": "%d раз"
+        "default": "Самоцветов улучшено:",
+        "format_jewels": "Раз: %d"
       }
     },
     {
       "SHILLELAGH_DEBUFFS_MAX": {
-        "default": "SHILLELAGH_DEBUFFS_MAX:"
+        "default": "Макс. ослаблений для дубинки:"
       }
     },
     {
       "DUCK_DODGE": {
-        "default": "Опасностей избежано:",
-        "format": "%d опасностей"
+        "default": "Опасностей избегнуто:",
+        "format": "Опасности: %d"
       }
     },
     {
       "DUCK_CAUGHT": {
         "default": "Рыбы поймано:",
-        "format": "%d рыб"
+        "format": "Рыба: %d"
       }
     }
   ],
   "custom_tags": {
     "CUSTOM_MOST_STAT_GAINS": {
-      "default": "Больше прироста характеристик:",
-      "format": "%d %s"
+      "default": "Наибольший прирост параметра:",
+      "format": "%d (%s)"
     },
     "CUSTOM_LEAST_STAT_GAINS": {
-      "default": "Меньше прироста характеристик:",
-      "format": "%d %s"
+      "default": "Наименьший прирост параметра:",
+      "format": "%d (%s)"
     },
     "CUSTOM_HIGHEST_STAT": {
-      "default": "Высшая характеристика:",
-      "format": "%d %s"
+      "default": "Наивысшая характеристика:",
+      "format": "%d (%s)"
     },
     "CUSTOM_STAT_TOTAL_INCREASES": {
-      "default": "Всего прироста характеристик:",
+      "default": "Общий прирост характеристик:",
       "format": "%d"
     },
     "CUSTOM_CLASS_LEAST_GAMES": {
-      "default": "Меньше использован:",
-      "format": "%s (%d игр)"
+      "default": "Реже всего использовано:",
+      "format": "%s (игр: %d)"
     },
     "CUSTOM_CLASS_LEAST_GAMES_WON": {
-      "default": "Меньше побед:",
-      "format": "%s (%d побед)"
+      "default": "Меньше всего побед:",
+      "format": "%s (побед: %d)"
     },
     "CUSTOM_CLASS_LEAST_GAMES_WON_CLASSIC": {
-      "default": "Меньше побед:",
-      "format": "%s (%d побед в классике)"
+      "default": "Меньше всего побед:",
+      "format": "%s (побед в классике: %d)"
     },
     "CUSTOM_CLASS_LEAST_GAMES_WON_HELL": {
-      "default": "Меньше побед:",
-      "format": "%s (%d побед в аду)"
+      "default": "Меньше всего побед:",
+      "format": "%s (побед в Аду: %d)"
     },
     "CUSTOM_SKILL_TOTAL_LVLS_SWORD": {
-      "default": "Очков навыка меча получено:",
-      "format": "%d очков"
+      "default": "Очков навыка мечей получено:",
+      "format": "Очки: %d"
     },
     "CUSTOM_SKILL_TOTAL_LVLS_AXE": {
-      "default": "Очков навыка топора получено:",
-      "format": "%d очков"
+      "default": "Очков навыка топоров получено:",
+      "format": "Очки: %d"
     },
     "CUSTOM_SKILL_TOTAL_LVLS_POLEARM": {
-      "default": "Очков навыка древкового получено:",
-      "format": "%d очков"
+      "default": "Очков древкового оружия получено:",
+      "format": "Очки: %d"
     },
     "CUSTOM_SKILL_TOTAL_LVLS_MACE": {
-      "default": "Очков навыка булавы получено:",
-      "format": "%d очков"
+      "default": "Очков навыка булав получено:",
+      "format": "Очки: %d"
     },
     "CUSTOM_SKILL_TOTAL_LVLS_UNARMED": {
-      "default": "Очков навыка безоружного боя получено:",
-      "format": "%d очков"
+      "default": "Очков боя без оружия получено:",
+      "format": "Очки: %d"
     },
     "CUSTOM_SKILL_TOTAL_LVLS_STEALTH": {
-      "default": "Очков навыка скрытности получено:",
-      "format": "%d очков"
+      "default": "Очков скрытности получено:",
+      "format": "Очки: %d"
     },
     "CUSTOM_SKILL_TOTAL_LVLS_BLOCKING": {
-      "default": "Очков навыка блокирования получено:",
-      "format": "%d очков"
+      "default": "Очков блокирования получено:",
+      "format": "Очки: %d"
     },
     "CUSTOM_SKILL_TOTAL_LVLS_RANGED": {
-      "default": "Очков навыка дальнего боя получено:",
-      "format": "%d очков"
+      "default": "Очков дальнего боя получено:",
+      "format": "Очки: %d"
     },
     "CUSTOM_SKILL_TOTAL_LVLS_MAGIC": {
-      "default": "Очков навыка магии получено:",
-      "format": "%d очков"
+      "default": "Очков магии получено:",
+      "format": "Очки: %d"
     },
     "CUSTOM_SKILL_TOTAL_LVLS_CASTING": {
-      "default": "Очков навыка колдовства получено:",
-      "format": "%d очков"
+      "default": "Очков сотворения чар получено:",
+      "format": "Очки: %d"
     },
     "CUSTOM_SKILL_TOTAL_LVLS_SORCERY": {
-      "default": "Очков навыка чародейства получено:",
-      "format": "%d очков"
+      "default": "Очков колдовства получено:",
+      "format": "Очки: %d"
     },
     "CUSTOM_SKILL_TOTAL_LVLS_MYSTICISM": {
-      "default": "Очков навыка мистицизма получено:",
-      "format": "%d очков"
+      "default": "Очков мистицизма получено:",
+      "format": "Очки: %d"
     },
     "CUSTOM_SKILL_TOTAL_LVLS_THAUMATURGY": {
-      "default": "Очков навыка тауматургии получено:",
-      "format": "%d очков"
+      "default": "Очков чудотворства получено:",
+      "format": "Очки: %d"
     },
     "CUSTOM_SKILL_TOTAL_LVLS_APPRAISAL": {
-      "default": "Очков навыка знаний получено:",
-      "format": "%d очков"
+      "default": "Очков знаний получено:",
+      "format": "Очки: %d"
     },
     "CUSTOM_SKILL_TOTAL_LVLS_SWIMMING": {
-      "default": "Очков навыка плавания получено:",
-      "format": "%d очков"
+      "default": "Очков плавания получено:",
+      "format": "Очки: %d"
     },
     "CUSTOM_SKILL_TOTAL_LVLS_LEADERSHIP": {
-      "default": "Очков навыка лидерства получено:",
-      "format": "%d очков"
+      "default": "Очков лидерства получено:",
+      "format": "Очки: %d"
     },
     "CUSTOM_SKILL_TOTAL_LVLS_TRADING": {
-      "default": "Очков навыка торговли получено:",
-      "format": "%d очков"
+      "default": "Очков торговли получено:",
+      "format": "Очки: %d"
     },
     "CUSTOM_SKILL_TOTAL_LVLS_ALCHEMY": {
-      "default": "Очков навыка алхимии получено:",
-      "format": "%d очков"
+      "default": "Очков алхимии получено:",
+      "format": "Очки: %d"
     },
     "CUSTOM_SKILL_TOTAL_LVLS_TINKERING": {
-      "default": "Очков навыка мастерства получено:",
-      "format": "%d очков"
+      "default": "Очков механики получено:",
+      "format": "Очки: %d"
     },
     "CUSTOM_LEGEND_SKILL_MELEE_100": {
-      "default": "Чаще достигнут легендарный навык:",
+      "default": "Навык, чаще достигавший легенды:",
       "format": "%s (%d)"
     },
     "CUSTOM_LEGEND_TOTAL_PROCS": {
       "default": "Всего легендарных ударов:",
-      "format": "%d попаданий"
+      "format": "Попадания: %d"
     },
     "CUSTOM_LEGEND_MOST_SKILL_PROCS": {
-      "default": "Больше ударов навык:",
+      "default": "Навык с наибольшим числом ударов:",
       "format": "%s (%d)"
     },
     "CUSTOM_CLASS_MOST_LEGEND_MELEES": {
-      "default": "Больше ударов класс:",
+      "default": "Класс с наибольшим числом ударов:",
       "format": "%s (%d)"
     },
     "CUSTOM_SPELL_ITEM_CASTS": {
-      "default": "Всего запомненных применений:",
+      "default": "Всего заученных чар сотворено:",
       "format": "%d"
     },
     "CUSTOM_SPELL_ITEM_FIZZLES": {
-      "default": "Всего запомненных провалов:",
+      "default": "Срывов заученных чар:",
       "format": "%d"
     },
     "CUSTOM_SPELLBOOK_ITEM_CASTS": {
-      "default": "Всего применений из книги:",
+      "default": "Всего заклинаний из книг:",
       "format": "%d"
     },
     "CUSTOM_SPELLBOOK_ITEM_FIZZLES": {
-      "default": "Всего провалов из книги:",
+      "default": "Срывов чар из книг:",
       "format": "%d"
     },
     "CUSTOM_SPELLBOOK_CAST_DEGRADES": {
-      "default": "Книг заклинаний изношено:",
+      "default": "Книг заклинаний повреждено:",
       "format": "%d"
     },
     "CUSTOM_SNEAK_TOTAL_TIME": {
@@ -2426,39 +2426,39 @@
       "format_time": "%02d:%02d:%02d"
     },
     "CUSTOM_LVL_GAINED_FOR_CLASS": {
-      "default": "Всего LVL получено:",
-      "format": "%d LVL"
+      "default": "Всего уровней получено:",
+      "format": "Уровни: %d"
     },
     "CUSTOM_CLASS_GAMES_STARTED": {
       "default": "Всего забегов начато:",
-      "format": "%d игр"
+      "format": "Игры: %d"
     },
     "CUSTOM_CLASS_GAMES_WON": {
       "default": "Всего побед:",
-      "format": "%d побед"
+      "format": "Победы: %d"
     },
     "CUSTOM_CLASS_GAMES_WON_CLASSIC": {
       "default": "Всего побед:",
-      "format": "%d побед в классике"
+      "format": "Победы в классике: %d"
     },
     "CUSTOM_CLASS_GAMES_WON_HELL": {
       "default": "Всего побед:",
-      "format": "%d побед в аду"
+      "format": "Победы в Аду: %d"
     },
     "CUSTOM_SKILLS_GAINED_FOR_CLASS": {
       "default": "Всего очков навыков получено:",
-      "format": "%d очков"
+      "format": "Очки: %d"
     },
     "CUSTOM_CLASS_PLAYTIME": {
       "default": "Время игры:",
-      "format": "Ранг: #"
+      "format": "Место: #"
     },
     "CUSTOM_ITEMS_DEGRADED": {
       "default": "Снаряжения повреждено:",
       "format": "%d"
     },
     "CUSTOM_ITEMS_REPAIRED": {
-      "default": "Снаряжения отремонтировано:",
+      "default": "Снаряжения починено:",
       "format": "%d"
     },
     "CUSTOM_ITEMS_BROKEN": {
@@ -2471,80 +2471,80 @@
     },
     "CUSTOM_MOST_SKILL_GAINS": {
       "default": "Любимый навык:",
-      "format": "%s (%d очков)"
+      "format": "%s (очки: %d)"
     },
     "CUSTOM_LEAST_SKILL_GAINS": {
       "default": "Забытый навык:",
-      "format": "%s (%d очков)"
+      "format": "%s (очки: %d)"
     },
     "CUSTOM_LEGEND_SKILL_SUM": {
-      "default": "Легендарный навык достигнут:",
-      "format": "%d раз"
+      "default": "Достигнуто легендарное мастерство:",
+      "format": "Раз: %d"
     },
     "CUSTOM_HP_MP_RGN": {
-      "default": "Всего регена:",
-      "format": "%s HP / %s MP"
+      "default": "Всего восстановлено:",
+      "format": "%s ОЗ / %s ОМ"
     },
     "CUSTOM_HP_MP_RGN_RUN": {
-      "default": "Больше регена за 1 забег:",
-      "format": "%s HP / %s MP"
+      "default": "Больше всего восстановлено за 1 забег:",
+      "format": "%s ОЗ / %s ОМ"
     },
     "CUSTOM_BIOME_COMPLETIONS": {
       "default": "Область:",
-      "format0": "Завершений биома: %d",
+      "format0": "Прохождений области: %d",
       "format1": "Быстрейшее прохождение: %t",
-      "format2": "Медленнейшее прохождение: %t",
+      "format2": "Самое долгое прохождение: %t",
       "format_time": "%02d:%02d:%02d"
     },
     "CUSTOM_LEVEL_COMPLETIONS": {
       "default": "Область:",
-      "format0": "Завершений: %d",
-      "format1": "Быстрейший выход: %t",
-      "format2": "Медленнейший выход: %t",
+      "format0": "Прохождений: %d",
+      "format1": "Самый быстрый выход: %t",
+      "format2": "Самый поздний выход: %t",
       "format_time": "%02d:%02d:%02d"
     },
     "CUSTOM_MINEHEAD_COMPLETIONS": {
       "default": "Область:",
-      "format0": "Быстрейший выход: %t",
-      "format1": "Быстрейший выход: %t",
-      "format2": "Медленнейший выход: %t",
+      "format0": "Самый быстрый выход: %t",
+      "format1": "Самый быстрый выход: %t",
+      "format2": "Самый поздний выход: %t",
       "format_time": "%02d:%02d:%02d"
     },
     "CUSTOM_LEVEL_DEATHS": {
-      "default": "Смертей:",
-      "minehead": "Ложных стартов:",
+      "default": "Смерти:",
+      "minehead": "Неудачных стартов:",
       "format0": "Всего смертей: %d",
-      "format1": "Быстрейшая смерть: %t",
-      "format2": "Медленнейшая смерть: %t",
+      "format1": "Самая быстрая смерть: %t",
+      "format2": "Самая поздняя смерть: %t",
       "format_time": "%02d:%02d:%02d"
     },
     "CUSTOM_LEVEL_PLAYTIME": {
       "default": "Время игры:",
-      "format0": "Раз посещено: %d",
-      "format1": "Времени проведено: %t",
-      "format2": "Времени проведено: %t",
+      "format0": "Посещений: %d",
+      "format1": "Времени потрачено: %t",
+      "format2": "Времени потрачено: %t",
       "format_time": "%02d:%02d:%02d"
     },
     "CUSTOM_MINEHEAD_PLAYTIME": {
       "default": "Подготовка:",
-      "format0": "Времени проведено: %t",
+      "format0": "Времени потрачено: %t",
       "format_time": "%02d:%02d:%02d"
     },
     "CUSTOM_BIOME_PLAYTIME": {
       "default": "Время игры:",
-      "format0": "Этажей зайдено: %d",
-      "format1": "Этажей завершено: %d",
-      "format2": "Времени проведено: %t",
+      "format0": "Посещено этажей: %d",
+      "format1": "Пройдено этажей: %d",
+      "format2": "Времени потрачено: %t",
       "format_time": "%02d:%02d:%02d"
     },
     "CUSTOM_LEVEL_STATS": {
       "default": "Персонаж:",
-      "format0": "Высший уровень: LVL %d",
-      "format1": "Низший уровень: LVL %d",
-      "format2": "Больше золота: %dG"
+      "format0": "Наивысший уровень: %d",
+      "format1": "Наименьший уровень: %d",
+      "format2": "Максимум золота: %d"
     },
     "CUSTOM_SOKOBAN": {
-      "default": "Головоломка Сокобан:",
+      "default": "Головоломка Сокобана:",
       "format0": "Всего решений: %d",
       "format2": "Идеальных решений: %d",
       "format1": "Быстрейшее решение: %t",
@@ -2552,163 +2552,163 @@
     },
     "CUSTOM_HALLOFTRIALS_TIME": {
       "default": "Время игры:",
-      "format0": "Времени проведено: %t",
+      "format0": "Времени потрачено: %t",
       "format_time": "%02d:%02d:%02d"
     },
     "CUSTOM_MINEHEAD_GAMES": {
-      "default": "Забеги в подземелье:",
-      "format0": "Игр начато: %d",
+      "default": "Походы в подземелье:",
+      "format0": "Начато игр: %d",
       "format1": "Время игры: %t",
-      "format2": "Соло забегов: %d",
-      "format3": "Онлайн забегов: %d",
-      "format4": "LAN забегов: %d",
-      "format5": "Разделенный экран забегов: %d",
+      "format2": "Одиночных забегов: %d",
+      "format3": "Забегов через интернет: %d",
+      "format4": "Забегов по локальной сети: %d",
+      "format5": "Забегов на разделённом экране: %d",
       "format_time": "%02d:%02d:%02d"
     },
     "CUSTOM_RACE_LEAST_GAMES_WON": {
-      "default": "Меньше побед:",
-      "format": "%s (%d побед)"
+      "default": "Меньше всего побед:",
+      "format": "%s (побед: %d)"
     },
     "CUSTOM_RACE_LEAST_GAMES_WON_CLASSIC": {
-      "default": "Меньше побед:",
-      "format": "%s (%d побед в классике)"
+      "default": "Меньше всего побед:",
+      "format": "%s (побед в классике: %d)"
     },
     "CUSTOM_RACE_LEAST_GAMES_WON_HELL": {
-      "default": "Меньше побед:",
-      "format": "%s (%d побед в аду)"
+      "default": "Меньше всего побед:",
+      "format": "%s (побед в Аду: %d)"
     },
     "CUSTOM_TINKERKIT_SCRAPS": {
-      "default": "Лома утилизировано:",
-      "format0": "%d металлолома",
-      "format1": "%d магического лома"
+      "default": "Лома извлечено:",
+      "format0": "Металлолом: %d",
+      "format1": "Магический лом: %d"
     },
     "CUSTOM_LOCKPICK_UNLOCKS": {
-      "default": "Объектов отперто:",
-      "format0": "%d дверей",
-      "format1": "%d сундуков"
+      "default": "Замков отперто:",
+      "format0": "Двери: %d",
+      "format1": "Сундуки: %d"
     },
     "CUSTOM_LOCKPICK_LOCKS": {
-      "default": "Объектов заперто:",
-      "format0": "%d дверей",
-      "format1": "%d сундуков"
+      "default": "Замков заперто:",
+      "format0": "Двери: %d",
+      "format1": "Сундуки: %d"
     },
     "CUSTOM_ALEMBIC_DUPLICATED": {
-      "default": "Зелий продублировано:",
-      "format0": "%d успехов",
-      "format1": "%d провалов"
+      "default": "Зелий размножено:",
+      "format0": "Успехи: %d",
+      "format1": "Неудачи: %d"
     },
     "CUSTOM_ALEMBIC_BREWED": {
       "default": "Зелий сварено:",
-      "format0": "%d смесей",
-      "format1": "%d взрывов"
+      "format0": "Смешивания: %d",
+      "format1": "Взрывы: %d"
     },
     "CUSTOM_BOTTLE_RECOVERY": {
-      "default": "Бутылок восстановлено:",
-      "format0": "%d (варка)",
+      "default": "Бутылок возвращено:",
+      "format0": "%d (варка зелий)",
       "format1": "%d (питьё)"
     },
     "CUSTOM_TIN_REGEN": {
-      "default": "Регена получено:",
-      "format0": "%d раз (HP регена)",
-      "format1": "%d раз (MP регена)"
+      "default": "Регенераций получено:",
+      "format0": "Раз: %d (РЕГ ОЗ)",
+      "format1": "Раз: %d (РЕГ ОМ)"
     },
     "CUSTOM_BELL_LOOT": {
       "default": "Добычи найдено:",
-      "format0": "%d предметов",
-      "format1": "%d золота",
-      "format2": "%d летучих мышей"
+      "format0": "Предметы: %d",
+      "format1": "Золото: %d",
+      "format2": "Летучие мыши: %d"
     },
     "CUSTOM_BELL_BUFFS": {
-      "default": "Бафов получено:",
-      "format0": "%d раз (ловкость)",
-      "format1": "%d раз (выносливость)",
-      "format2": "%d раз (сила)",
-      "format3": "%d раз (разум)",
-      "format4": "%d раз (восстановление)"
+      "default": "Усилений получено:",
+      "format0": "Раз: %d (проворство)",
+      "format1": "Раз: %d (стойкость)",
+      "format2": "Раз: %d (сила)",
+      "format3": "Раз: %d (ясность ума)",
+      "format4": "Раз: %d (восстановление)"
     },
     "CUSTOM_BELL_BROKEN": {
       "default": "Вандализм:",
-      "format1": "%d языков сломано",
-      "format0": "%d колоколов уронено"
+      "format1": "Сломано языков колоколов: %d",
+      "format0": "Колоколов обрушено: %d"
     },
     "CUSTOM_LEADER_NOVICES": {
       "default": "Капитанов обучено:",
-      "format": "%d %s новичков"
+      "format": "Новички: %d (%s)"
     },
     "CUSTOM_COMBAT_NOVICES": {
       "default": "Солдат обучено:",
-      "format": "%d %s новичков"
+      "format": "Новички: %d (%s)"
     },
     "CUSTOM_STEALTH_NOVICES": {
-      "default": "Ассасинов обучено:",
-      "format": "%d %s новичков"
+      "default": "Убийц обучено:",
+      "format": "Новички: %d (%s)"
     },
     "CUSTOM_RANGED_NOVICES": {
       "default": "Стрелков обучено:",
-      "format": "%d %s новичков"
+      "format": "Новички: %d (%s)"
     },
     "CUSTOM_MAGIC_NOVICES": {
       "default": "Учеников обучено:",
-      "format": "%d %s новичков"
+      "format": "Новички: %d (%s)"
     },
     "CUSTOM_CRAFTSMEN_NOVICES": {
       "default": "Ремесленников обучено:",
-      "format": "%d %s новичков"
+      "format": "Новички: %d (%s)"
     },
     "CUSTOM_SALESMEN_NOVICES": {
-      "default": "Торговцев обучено:",
-      "format": "%d %s новичков"
+      "default": "Продавцов обучено:",
+      "format": "Новички: %d (%s)"
     },
     "CUSTOM_COMBAT_MASONRY": {
-      "default": "Боевая каменка:",
-      "format0": "%d убийств валунами",
-      "format1": "%d убийств драгоценными камнями",
-      "format2": "%d убийств камнями"
+      "default": "Боевая кладка:",
+      "format0": "Убийств валунами: %d",
+      "format1": "Убийств самоцветами: %d",
+      "format2": "Убийств камнями: %d"
     },
     "CUSTOM_UNDEAD_KILLED": {
       "default": "Нежити убито:",
-      "format": "%d убийств"
+      "format": "Убийства: %d"
     },
     "CUSTOM_BEASTS_KILLED": {
       "default": "Зверей убито:",
-      "format": "%d убийств"
+      "format": "Убийства: %d"
     },
     "CUSTOM_DEMONS_KILLED": {
       "default": "Демонов изгнано:",
-      "format": "%d убийств"
+      "format": "Убийства: %d"
     },
     "CUSTOM_KEYLOCK_ALLKEYS": {
       "default": "Ключей использовано:",
-      "format0": "%d всего ключей",
-      "format1": "%d железных ключей",
-      "format2": "%d бронзовых ключей",
-      "format3": "%d серебряных ключей",
-      "format4": "%d золотых ключей"
+      "format0": "Всего ключей: %d",
+      "format1": "Железные ключи: %d",
+      "format2": "Бронзовые ключи: %d",
+      "format3": "Серебряные ключи: %d",
+      "format4": "Золотые ключи: %d"
     },
     "CUSTOM_COOK_MEALS": {
       "default": "Кулинарные творения:",
-      "format0": "%d рационов",
-      "format1": "%d вкусных рационов",
-      "format2": "%d жирных шаров",
-      "format3": "%d помойных шаров"
+      "format0": "Пайки: %d",
+      "format1": "Вкусные пайки: %d",
+      "format2": "Комья жира: %d",
+      "format3": "Комья жижи: %d"
     },
     "CUSTOM_ATTACKS_PARRIES": {
-      "default": "Атак попало:",
-      "format0": "%d попаданий",
-      "format1": "%d парирований"
+      "default": "Попадания:",
+      "format0": "Попадания: %d",
+      "format1": "Парирования: %d"
     },
     "CUSTOM_DMG_PARRIES": {
-      "default": "Всего DMG нанесено:",
-      "format0": "%d DMG попаданиями",
-      "format1": "%d DMG парированиями"
+      "default": "Всего урона нанесено:",
+      "format0": "Урон попаданий: %d",
+      "format1": "Урон парирований: %d"
     },
     "CUSTOM_JEWEL_RECRUITS": {
-      "default": "Плата за рекрутов:",
-      "format0": "%d всего драгоценностей",
-      "format1": "%d треснутых драгоценностей",
-      "format2": "%d грубых драгоценностей",
-      "format3": "%d дефектных драгоценностей",
-      "format4": "%d безупречных драгоценностей"
+      "default": "Плата за найм:",
+      "format0": "Всего самоцветов: %d",
+      "format1": "Треснувшие самоцветы: %d",
+      "format2": "Грубо огранённые самоцветы: %d",
+      "format3": "Самоцветы с изъянами: %d",
+      "format4": "Безупречные самоцветы: %d"
     }
   }
 }

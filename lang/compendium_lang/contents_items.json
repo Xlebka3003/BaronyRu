@@ -1,178 +1,520 @@
 {
-	"version": 1,
-	"contents": [
-		{"    БРОНЯ": "-"},
-		{"ЩИТЫ": "shields"},		
-		{"КОЖАНАЯ БРОНЯ": "leather armor"},
-		{"СТЁГАНАЯ БРОНЯ": "quilted armor"},
-		{"КОЛЬЧУГА": "chain armor"},	
-		{"ЖЕЛЕЗНАЯ БРОНЯ": "iron armor"},
-		{"СТАЛЬНАЯ БРОНЯ": "steel armor"},
-		{"ХРУСТАЛЬНАЯ БРОНЯ": "crystal armor"},
-		{"ШЛЕМ СФИНКСА": "sphinxs casque"},
-		{"САНДАЛИИ ОРАКУЛА": "oracles treads"},
-		{"БРАСЛЕТ ДЖИННА": "djinnis brace"},
-		{"ДРАКОНЬЯ БРОНЯ": "dragons mail"},
-		{"ОДЕЯНИЕ ПРИЗРАКА": "wraiths gown"},
-		{"    ОДЕЖДА": "-"},
-		{"ШАПКИ И КАПЮШОНЫ": "hats & hoods"},
-		{"КОРОНЫ И ГОЛОВНЫЕ УБОРЫ": "crowns & headdresses"},
-		{"ЛИЦЕВЫЕ АКСЕССУАРЫ": "face accessories"},
-		{"МАСКИ И ЗАБРАЛА": "masks & visors"},
-		{"ПЛАЩИ И ОДЕЖДА": "cloaks & clothing"},
-		{"РЮКЗАКИ": "backpacks"},
-		{"    ОРУЖИЕ БЛИЖНЕГО БОЯ": "-"},
-		{"МЕЧИ": "swords"},
-		{"ДВУРУЧНЫЕ МЕЧИ": "greatswords"},
-		{"РАПИРА": "rapier"},
-		{"ТОПОРЫ": "axes"},
-		{"БУЛАВЫ": "maces"},
-		{"КИСТЕНИ": "flails"},
-		{"ШИЛЛЕЛА": "shillelagh"},
-		{"ДРЕВКОВОЕ ОРУЖИЕ": "polearms"},
-		{"ДИРНВИН": "dyrnwyn"},
-		{"ПАРАШУ": "parashu"},
-		{"ШАРУР": "sharur"},
-		{"ГУНГНИР": "gungnir"},
-		{"КАСТЕТЫ": "fist weapons"},
-		{"ХЛЫСТ": "whip"},
-		{"    МЕТАТЕЛЬНОЕ ОРУЖИЕ": "-"},
-		{"ПРАЩА": "slingshot"},
-		{"ЛУКИ": "bows"},
-		{"АРБАЛЕТ": "crossbow"},
-		{"ТЯЖЁЛЫЙ АРБАЛЕТ": "arbalest"},
-		{"ХРИСЕЛАКАТОС": "khryselakatos"},
-		{"БЫСТРЫЕ И ПРУЖИННЫЕ БОЕПРИПАСЫ": "swift and springshot ammo"},
-		{"СЕРЕБРЯНЫЕ И БРОНЕБОЙНЫЕ БОЕПРИПАСЫ": "silver and piercing ammo"},
-		{"ЗАЖИГАТЕЛЬНЫЕ И ОХОТНИЧЬИ БОЕПРИПАСЫ": "fire and hunting ammo"},
-		{"ХРУСТАЛЬНЫЕ БОЕПРИПАСЫ": "crystal ammo"},
-		{"    МЕТАТЕЛЬНОЕ ОРУЖИЕ": "-"},
-		{"ТОМАГАВКИ И КИНЖАЛЫ": "tomahawks & daggers"},
-		{"ЧАКРАМЫ И СЮРИКЕНЫ": "chakrams and shurikens"},
-		{"БУМЕРАНГ": "boomerang"},
-		{"БОЛАС": "bolas"},
-		{"ГРЯЗЕВЫЕ ШАРЫ": "sludge balls"},
-		{"    КРИСТАЛЛЫ": "-"},		
-		{"КАМНИ И САМОЦВЕТЫ": "rocks & gems"},
-		{"ОСКОЛОК КРИСТАЛЛА": "crystal shard"},
-		{"МИСТИЧЕСКАЯ СФЕРА": "mystic orb"},	
-		{"    ЕДА": "-"},
-		{"КУСОЧКИ": "cheese and apples"},
-		{"КРЕМОВЫЙ ПИРОГ": "cream pie"},
-		{"ТОМАЛЛИ": "tomalley"},
-		{"ТРАПЕЗЫ": "meat, fish, and bread"},
-		{"ПАЙКИ": "rations"},
-		{"КОНСЕРВЫ И ОТКРЫВАШКА": "tin and tin opener"},
-		{"ФЛАКОНЫ КРОВИ": "blood vials"},
-		{"    ЗЕЛЬЯ И НАПИТКИ": "-"},
-		{"ВОДА": "water"},
-		{"ПУСТАЯ БУТЫЛКА": "empty bottle"},
-		{"ЗАЩИТНЫЕ ЗЕЛЬЯ": "defensive potions"},
-		{"НАСТУПАТЕЛЬНЫЕ ЗЕЛЬЯ": "offensive potions"},
-		{"АЛЕМБИК": "alembic"},
-		{"    ИНСТРУМЕНТЫ": "-"},
-		{"ФАКЕЛЫ И ФОНАРИ": "torch and lantern"},
-		{"ЗЕРКАЛА": "mirrors"},		
-		{"ПОЛОТЕНЦЕ": "towel"},
-		{"КАЙЛО": "mining pick"},
-		{"НАБОР МЕХАНИКА": "tinkering kit"},
-		{"СКОВОРОДА": "frypan"},
-		{"ОТМЫЧКА": "lockpick"},
-		{"КЛЮЧИ": "keys"},
-		{"ОТМЫЧКА-СКЕЛЕТ": "skeleton key"},
-		{"    ГАДЖЕТЫ": "-"},		
-		{"КАПКАН": "beartrap"},
-		{"ШУМОВКА": "noisemaker"},
-		{"БОТ-ПРИМАНКА": "dummybot"},
-		{"СТОРОЖЕВОЙ БОТ И МАГО-ЧАСОВОЙ": "sentrybot and magic sentry"},
-		{"ГИРОБОТ": "gyrobot"},
-		{"САМОДЕЛЬНЫЕ ЛОВУШКИ": "tinkered traps"},
-		{"ЛОВУШКА-ТЕЛЕПОРТ": "teleportation trap"},
-		{"    ПРОЧЕЕ": "-"},
-		{"ПИСЬМА И КНИГИ ЗНАНИЙ": "mail & lore books"},
-		{"СМЕРТНАЯ КОРОБКА": "death box"},
-		{"УТКА": "duck"}
-	],
-	"contents_alphabetical": [
-		{"АЛЕМБИК": "alembic"},
-		{"ТЯЖЁЛЫЙ АРБАЛЕТ": "arbalest"},
-		{"ТОПОРЫ": "axes"},
-		{"РЮКЗАКИ": "backpacks"},
-		{"КАПКАН": "beartrap"},	
-		{"ФЛАКОНЫ КРОВИ": "blood vials"},	
-		{"БОЛАС": "bolas"},
-		{"БУМЕРАНГ": "boomerang"},
-		{"ЛУКИ": "bows"},
-		{"КОЛЬЧУГА": "chain armor"},		
-		{"ЧАКРАМЫ И СЮРИКЕНЫ": "chakrams and shurikens"},
-		{"ПЛАЩИ И ОДЕЖДА": "cloaks & clothing"},
-		{"КРЕМОВЫЙ ПИРОГ": "cream pie"},
-		{"АРБАЛЕТ": "crossbow"},
-		{"КОРОНЫ И ГОЛОВНЫЕ УБОРЫ": "crowns & headdresses"},
-		{"ХРУСТАЛЬНЫЕ БОЕПРИПАСЫ": "crystal ammo"},
-		{"ХРУСТАЛЬНАЯ БРОНЯ": "crystal armor"},
-		{"ОСКОЛОК КРИСТАЛЛА": "crystal shard"},
-		{"ДРОТИКИ И ПЛУМБАТЫ": "darts and plumbata"},
-		{"СМЕРТНАЯ КОРОБКА": "death box"},
-		{"ЗАЩИТНЫЕ ЗЕЛЬЯ": "defensive potions"},
-		{"БРАСЛЕТ ДЖИННА": "djinnis brace"},
-		{"ДРАКОНЬЯ БРОНЯ": "dragons mail"},
-		{"УТКА": "duck"},
-		{"БОТ-ПРИМАНКА": "dummybot"},
-		{"ДИРНВИН": "dyrnwyn"},
-		{"ПУСТАЯ БУТЫЛКА": "empty bottle"},
-		{"ЛИЦЕВЫЕ АКСЕССУАРЫ": "face accessories"},
-		{"ЗАЖИГАТЕЛЬНЫЕ И ОХОТНИЧЬИ БОЕПРИПАСЫ": "fire and hunting ammo"},
-		{"КАСТЕТЫ": "fist weapons"},
-		{"КИСТЕНИ": "flails"},
-		{"СКОВОРОДА": "frypan"},
-		{"ДВУРУЧНЫЕ МЕЧИ": "greatswords"},
-		{"ГУНГНИР": "gungnir"},
-		{"ГИРОБОТ": "gyrobot"},
-		{"ШАПКИ И КАПЮШОНЫ": "hats & hoods"},
-		{"ЖЕЛЕЗНАЯ БРОНЯ": "iron armor"},
-		{"КЛЮЧИ": "keys"},
-		{"ХРИСЕЛАКАТОС": "khryselakatos"},
-		{"КОЖАНАЯ БРОНЯ": "leather armor"},
-		{"ОТМЫЧКА": "lockpick"},
-		{"БУЛАВЫ": "maces"},
-		{"ПИСЬМА И КНИГИ ЗНАНИЙ": "mail & lore books"},
-		{"МАСКИ И ЗАБРАЛА": "masks & visors"},
-		{"ТРАПЕЗЫ": "meat, fish, and bread"},
-		{"КАЙЛО": "mining pick"},
-		{"ЗЕРКАЛА": "mirrors"},
-		{"КУСОЧКИ": "cheese and apples"},
-		{"МИСТИЧЕСКАЯ СФЕРА": "mystic orb"},
-		{"ШУМОВКА": "noisemaker"},
-		{"НАСТУПАТЕЛЬНЫЕ ЗЕЛЬЯ": "offensive potions"},
-		{"САНДАЛИИ ОРАКУЛА": "oracles treads"},
-		{"ПАРАШУ": "parashu"},
-		{"ДРЕВКОВОЕ ОРУЖИЕ": "polearms"},
-		{"СТЁГАНАЯ БРОНЯ": "quilted armor"},
-		{"РАПИРА": "rapier"},
-		{"ПАЙКИ": "rations"},		
-		{"КАМНИ И САМОЦВЕТЫ": "rocks & gems"},
-		{"СТОРОЖЕВОЙ БОТ И МАГО-ЧАСОВОЙ": "sentrybot and magic sentry"},
-		{"ШАРУР": "sharur"},
-		{"ЩИТЫ": "shields"},
-		{"ШИЛЛЕЛА": "shillelagh"},
-		{"СЕРЕБРЯНЫЕ И БРОНЕБОЙНЫЕ БОЕПРИПАСЫ": "silver and piercing ammo"},	
-		{"ОТМЫЧКА-СКЕЛЕТ": "skeleton key"},
-		{"ПРАЩА": "slingshot"},
-		{"ШЛЕМ СФИНКСА": "sphinxs casque"},
-		{"СТАЛЬНАЯ БРОНЯ": "steel armor"},
-		{"БЫСТРЫЕ И ПРУЖИННЫЕ БОЕПРИПАСЫ": "swift and springshot ammo"},
-		{"МЕЧИ": "swords"},
-		{"ЛОВУШКА-ТЕЛЕПОРТ": "teleportation trap"},
-		{"КОНСЕРВЫ И ОТКРЫВАШКА": "tin and tin opener"},
-		{"САМОДЕЛЬНЫЕ ЛОВУШКИ": "tinkered traps"},
-		{"НАБОР МЕХАНИКА": "tinkering kit"},
-		{"ТОМАГАВКИ И КИНЖАЛЫ": "tomahawks & daggers"},
-		{"ТОМАЛЛИ": "tomalley"},
-		{"ФАКЕЛЫ И ФОНАРИ": "torch and lantern"},
-		{"ПОЛОТЕНЦЕ": "towel"},
-		{"ВОДА": "water"},
-		{"ХЛЫСТ": "whip"},
-		{"ОДЕЯНИЕ ПРИЗРАКА": "wraiths gown"}
-	]
+  "version": 1,
+  "contents": [
+    {
+      "    ДОСПЕХИ": "-"
+    },
+    {
+      "ЩИТЫ": "shields"
+    },
+    {
+      "КОЖАНЫЕ ДОСПЕХИ": "leather armor"
+    },
+    {
+      "СТЁГАНЫЕ ДОСПЕХИ": "quilted armor"
+    },
+    {
+      "КОЛЬЧУЖНЫЕ ДОСПЕХИ": "chain armor"
+    },
+    {
+      "ЖЕЛЕЗНЫЕ ДОСПЕХИ": "iron armor"
+    },
+    {
+      "СТАЛЬНЫЕ ДОСПЕХИ": "steel armor"
+    },
+    {
+      "КРИСТАЛЬНЫЕ ДОСПЕХИ": "crystal armor"
+    },
+    {
+      "ШЛЕМ СФИНКСА": "sphinxs casque"
+    },
+    {
+      "САПОГИ ОРАКУЛА": "oracles treads"
+    },
+    {
+      "НАРУЧИ ДЖИННА": "djinnis brace"
+    },
+    {
+      "КОЛЬЧУГА ДРАКОНА": "dragons mail"
+    },
+    {
+      "ОДЕЯНИЕ ПРИЗРАКА": "wraiths gown"
+    },
+    {
+      "    ОДЕЖДА": "-"
+    },
+    {
+      "ШЛЯПЫ И КАПЮШОНЫ": "hats & hoods"
+    },
+    {
+      "КОРОНЫ И ГОЛОВНЫЕ УБОРЫ": "crowns & headdresses"
+    },
+    {
+      "ЛИЦЕВЫЕ АКСЕССУАРЫ": "face accessories"
+    },
+    {
+      "МАСКИ И ЗАБРАЛА": "masks & visors"
+    },
+    {
+      "ПЛАЩИ И ОДЕЖДА": "cloaks & clothing"
+    },
+    {
+      "РЮКЗАКИ": "backpacks"
+    },
+    {
+      "    ОРУЖИЕ БЛИЖНЕГО БОЯ": "-"
+    },
+    {
+      "МЕЧИ": "swords"
+    },
+    {
+      "ДВУРУЧНЫЕ МЕЧИ": "greatswords"
+    },
+    {
+      "РАПИРА": "rapier"
+    },
+    {
+      "ТОПОРЫ": "axes"
+    },
+    {
+      "БУЛАВЫ": "maces"
+    },
+    {
+      "ЦЕПЫ": "flails"
+    },
+    {
+      "ДУБИНКА": "shillelagh"
+    },
+    {
+      "ДРЕВКОВОЕ ОРУЖИЕ": "polearms"
+    },
+    {
+      "ДИРНВИН": "dyrnwyn"
+    },
+    {
+      "ПАРАШУ": "parashu"
+    },
+    {
+      "ШАРУР": "sharur"
+    },
+    {
+      "ГУНГНИР": "gungnir"
+    },
+    {
+      "КИСТЕВОЕ ОРУЖИЕ": "fist weapons"
+    },
+    {
+      "КНУТ": "whip"
+    },
+    {
+      "    ДАЛЬНОБОЙНОЕ ОРУЖИЕ": "-"
+    },
+    {
+      "РОГАТКА": "slingshot"
+    },
+    {
+      "ЛУКИ": "bows"
+    },
+    {
+      "АРБАЛЕТ": "crossbow"
+    },
+    {
+      "ТЯЖЁЛЫЙ АРБАЛЕТ": "arbalest"
+    },
+    {
+      "ХРИСЕЛАКАТОС": "khryselakatos"
+    },
+    {
+      "СТРЕМИТЕЛЬНЫЕ И ОТТАЛКИВАЮЩИЕ СТРЕЛЫ": "swift and springshot ammo"
+    },
+    {
+      "СЕРЕБРЯНЫЕ И ПРОБИВНЫЕ СТРЕЛЫ": "silver and piercing ammo"
+    },
+    {
+      "ОГНЕННЫЕ И ОХОТНИЧЬИ СТРЕЛЫ": "fire and hunting ammo"
+    },
+    {
+      "КРИСТАЛЬНЫЕ СТРЕЛЫ": "crystal ammo"
+    },
+    {
+      "    МЕТАТЕЛЬНОЕ ОРУЖИЕ": "-"
+    },
+    {
+      "ТОМАГАВКИ И КИНЖАЛЫ": "tomahawks & daggers"
+    },
+    {
+      "ЧАКРАМЫ И СЮРИКЕНЫ": "chakrams and shurikens"
+    },
+    {
+      "БУМЕРАНГ": "boomerang"
+    },
+    {
+      "БОЛАС": "bolas"
+    },
+    {
+      "КОМКИ ЖИЖИ": "sludge balls"
+    },
+    {
+      "    КРИСТАЛЛЫ": "-"
+    },
+    {
+      "КАМНИ И САМОЦВЕТЫ": "rocks & gems"
+    },
+    {
+      "ОСКОЛОК КРИСТАЛЛА": "crystal shard"
+    },
+    {
+      "МИСТИЧЕСКАЯ СФЕРА": "mystic orb"
+    },
+    {
+      "    ЕДА": "-"
+    },
+    {
+      "ПЕРЕКУС": "cheese and apples"
+    },
+    {
+      "КРЕМОВЫЙ ПИРОГ": "cream pie"
+    },
+    {
+      "ТОМАЛЛИ": "tomalley"
+    },
+    {
+      "СЫТНАЯ ЕДА": "meat, fish, and bread"
+    },
+    {
+      "ПАЙКИ": "rations"
+    },
+    {
+      "КОНСЕРВЫ И ОТКРЫВАЛКА": "tin and tin opener"
+    },
+    {
+      "ПУЗЫРЬКИ КРОВИ": "blood vials"
+    },
+    {
+      "    ЗЕЛЬЯ И НАПИТКИ": "-"
+    },
+    {
+      "ВОДА": "water"
+    },
+    {
+      "ПУСТАЯ БУТЫЛКА": "empty bottle"
+    },
+    {
+      "ЗАЩИТНЫЕ ЗЕЛЬЯ": "defensive potions"
+    },
+    {
+      "БОЕВЫЕ ЗЕЛЬЯ": "offensive potions"
+    },
+    {
+      "ПЕРЕГОННЫЙ КУБ": "alembic"
+    },
+    {
+      "    ИНСТРУМЕНТЫ": "-"
+    },
+    {
+      "ФАКЕЛЫ И ФОНАРИ": "torch and lantern"
+    },
+    {
+      "ЗЕРКАЛА": "mirrors"
+    },
+    {
+      "ПОЛОТЕНЦЕ": "towel"
+    },
+    {
+      "КИРКА": "mining pick"
+    },
+    {
+      "НАБОР МЕХАНИКА": "tinkering kit"
+    },
+    {
+      "СКОВОРОДА": "frypan"
+    },
+    {
+      "ОТМЫЧКА": "lockpick"
+    },
+    {
+      "КЛЮЧИ": "keys"
+    },
+    {
+      "УНИВЕРСАЛЬНЫЙ КЛЮЧ": "skeleton key"
+    },
+    {
+      "    УСТРОЙСТВА": "-"
+    },
+    {
+      "КАПКАН": "beartrap"
+    },
+    {
+      "ШУМОВАЯ ПРИМАНКА": "noisemaker"
+    },
+    {
+      "БОТ-МАНЕКЕН": "dummybot"
+    },
+    {
+      "СТОРОЖЕВОЙ БОТ И МАГОБОТ": "sentrybot and magic sentry"
+    },
+    {
+      "ГИРОБОТ": "gyrobot"
+    },
+    {
+      "САМОДЕЛЬНЫЕ ЛОВУШКИ": "tinkered traps"
+    },
+    {
+      "ЛОВУШКА ТЕЛЕПОРТАЦИИ": "teleportation trap"
+    },
+    {
+      "    ПРОЧЕЕ": "-"
+    },
+    {
+      "ПИСЬМА И КНИГИ": "mail & lore books"
+    },
+    {
+      "ПОСМЕРТНЫЙ ЯЩИК": "death box"
+    },
+    {
+      "УТКА": "duck"
+    }
+  ],
+  "contents_alphabetical": [
+    {
+      "АРБАЛЕТ": "crossbow"
+    },
+    {
+      "БОЕВЫЕ ЗЕЛЬЯ": "offensive potions"
+    },
+    {
+      "БОЛАС": "bolas"
+    },
+    {
+      "БОТ-МАНЕКЕН": "dummybot"
+    },
+    {
+      "БУЛАВЫ": "maces"
+    },
+    {
+      "БУМЕРАНГ": "boomerang"
+    },
+    {
+      "ВОДА": "water"
+    },
+    {
+      "ГИРОБОТ": "gyrobot"
+    },
+    {
+      "ГУНГНИР": "gungnir"
+    },
+    {
+      "ДВУРУЧНЫЕ МЕЧИ": "greatswords"
+    },
+    {
+      "ДИРНВИН": "dyrnwyn"
+    },
+    {
+      "ДРЕВКОВОЕ ОРУЖИЕ": "polearms"
+    },
+    {
+      "ДРОТИКИ И ПЛЮМБАТЫ": "darts and plumbata"
+    },
+    {
+      "ДУБИНКА": "shillelagh"
+    },
+    {
+      "ЖЕЛЕЗНЫЕ ДОСПЕХИ": "iron armor"
+    },
+    {
+      "ЗАЩИТНЫЕ ЗЕЛЬЯ": "defensive potions"
+    },
+    {
+      "ЗЕРКАЛА": "mirrors"
+    },
+    {
+      "КАМНИ И САМОЦВЕТЫ": "rocks & gems"
+    },
+    {
+      "КАПКАН": "beartrap"
+    },
+    {
+      "КИРКА": "mining pick"
+    },
+    {
+      "КИСТЕВОЕ ОРУЖИЕ": "fist weapons"
+    },
+    {
+      "КЛЮЧИ": "keys"
+    },
+    {
+      "КНУТ": "whip"
+    },
+    {
+      "КОЖАНЫЕ ДОСПЕХИ": "leather armor"
+    },
+    {
+      "КОЛЬЧУГА ДРАКОНА": "dragons mail"
+    },
+    {
+      "КОЛЬЧУЖНЫЕ ДОСПЕХИ": "chain armor"
+    },
+    {
+      "КОНСЕРВЫ И ОТКРЫВАЛКА": "tin and tin opener"
+    },
+    {
+      "КОРОНЫ И ГОЛОВНЫЕ УБОРЫ": "crowns & headdresses"
+    },
+    {
+      "КРЕМОВЫЙ ПИРОГ": "cream pie"
+    },
+    {
+      "КРИСТАЛЬНЫЕ ДОСПЕХИ": "crystal armor"
+    },
+    {
+      "КРИСТАЛЬНЫЕ СТРЕЛЫ": "crystal ammo"
+    },
+    {
+      "ЛИЦЕВЫЕ АКСЕССУАРЫ": "face accessories"
+    },
+    {
+      "ЛОВУШКА ТЕЛЕПОРТАЦИИ": "teleportation trap"
+    },
+    {
+      "ЛУКИ": "bows"
+    },
+    {
+      "МАСКИ И ЗАБРАЛА": "masks & visors"
+    },
+    {
+      "МЕЧИ": "swords"
+    },
+    {
+      "МИСТИЧЕСКАЯ СФЕРА": "mystic orb"
+    },
+    {
+      "НАБОР МЕХАНИКА": "tinkering kit"
+    },
+    {
+      "НАРУЧИ ДЖИННА": "djinnis brace"
+    },
+    {
+      "ОГНЕННЫЕ И ОХОТНИЧЬИ СТРЕЛЫ": "fire and hunting ammo"
+    },
+    {
+      "ОДЕЯНИЕ ПРИЗРАКА": "wraiths gown"
+    },
+    {
+      "ОСКОЛОК КРИСТАЛЛА": "crystal shard"
+    },
+    {
+      "ОТМЫЧКА": "lockpick"
+    },
+    {
+      "ПАЙКИ": "rations"
+    },
+    {
+      "ПАРАШУ": "parashu"
+    },
+    {
+      "ПЕРЕГОННЫЙ КУБ": "alembic"
+    },
+    {
+      "ПЕРЕКУС": "cheese and apples"
+    },
+    {
+      "ПИСЬМА И КНИГИ": "mail & lore books"
+    },
+    {
+      "ПЛАЩИ И ОДЕЖДА": "cloaks & clothing"
+    },
+    {
+      "ПОЛОТЕНЦЕ": "towel"
+    },
+    {
+      "ПОСМЕРТНЫЙ ЯЩИК": "death box"
+    },
+    {
+      "ПУЗЫРЬКИ КРОВИ": "blood vials"
+    },
+    {
+      "ПУСТАЯ БУТЫЛКА": "empty bottle"
+    },
+    {
+      "РАПИРА": "rapier"
+    },
+    {
+      "РОГАТКА": "slingshot"
+    },
+    {
+      "РЮКЗАКИ": "backpacks"
+    },
+    {
+      "САМОДЕЛЬНЫЕ ЛОВУШКИ": "tinkered traps"
+    },
+    {
+      "САПОГИ ОРАКУЛА": "oracles treads"
+    },
+    {
+      "СЕРЕБРЯНЫЕ И ПРОБИВНЫЕ СТРЕЛЫ": "silver and piercing ammo"
+    },
+    {
+      "СКОВОРОДА": "frypan"
+    },
+    {
+      "СТАЛЬНЫЕ ДОСПЕХИ": "steel armor"
+    },
+    {
+      "СТЁГАНЫЕ ДОСПЕХИ": "quilted armor"
+    },
+    {
+      "СТОРОЖЕВОЙ БОТ И МАГОБОТ": "sentrybot and magic sentry"
+    },
+    {
+      "СТРЕМИТЕЛЬНЫЕ И ОТТАЛКИВАЮЩИЕ СТРЕЛЫ": "swift and springshot ammo"
+    },
+    {
+      "СЫТНАЯ ЕДА": "meat, fish, and bread"
+    },
+    {
+      "ТОМАГАВКИ И КИНЖАЛЫ": "tomahawks & daggers"
+    },
+    {
+      "ТОМАЛЛИ": "tomalley"
+    },
+    {
+      "ТОПОРЫ": "axes"
+    },
+    {
+      "ТЯЖЁЛЫЙ АРБАЛЕТ": "arbalest"
+    },
+    {
+      "УНИВЕРСАЛЬНЫЙ КЛЮЧ": "skeleton key"
+    },
+    {
+      "УТКА": "duck"
+    },
+    {
+      "ФАКЕЛЫ И ФОНАРИ": "torch and lantern"
+    },
+    {
+      "ХРИСЕЛАКАТОС": "khryselakatos"
+    },
+    {
+      "ЦЕПЫ": "flails"
+    },
+    {
+      "ЧАКРАМЫ И СЮРИКЕНЫ": "chakrams and shurikens"
+    },
+    {
+      "ШАРУР": "sharur"
+    },
+    {
+      "ШЛЕМ СФИНКСА": "sphinxs casque"
+    },
+    {
+      "ШЛЯПЫ И КАПЮШОНЫ": "hats & hoods"
+    },
+    {
+      "ШУМОВАЯ ПРИМАНКА": "noisemaker"
+    },
+    {
+      "ЩИТЫ": "shields"
+    }
+  ]
 }
