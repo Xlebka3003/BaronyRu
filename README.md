@@ -2,7 +2,7 @@
 
 Переведён доступный для локализации текст игры, включая книги и все DLC. Достижения работают.
 
-[Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3673951398) · [Поддержать проект на Boosty](https://boosty.to/xlebka)
+[Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3673951398)
 
 ## Установка
 
